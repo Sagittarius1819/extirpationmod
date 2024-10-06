@@ -14,7 +14,7 @@ unitType: Clot
 health: 1300
 itemCapacity: 4500
 unitCapModifier: 8
-category: effect
+//category: effect
 research: {
   planet: varelin
   root: true
