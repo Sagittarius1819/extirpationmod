@@ -104,7 +104,6 @@ allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
-defaultCore: CapillaryCore
 parent: erekir
 solarSystem: sun
 launchCandidates: []
