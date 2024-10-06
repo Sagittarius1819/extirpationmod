@@ -2,7 +2,6 @@ localizedName: Varelin
 description: A dangerous, uninhabited wasteland. Filled with precious minerals and resources.
 alwaysUnlocked: true
 mesh: [
- {
   {
     //wasteland
     type: NoiseMesh
@@ -15,7 +14,6 @@ mesh: [
     octaves: 5.1
     persistence: 0.8
   }
-
   {
     //sand
     type: NoiseMesh
