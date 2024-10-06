@@ -166,7 +166,7 @@ allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
-defaultCore: INSERTCOREHERE
+defaultCore: tin-conveyor
 parent: sun
 solarSystem: sun
 launchCandidates: []
