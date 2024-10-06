@@ -3,17 +3,6 @@ description: A dangerous, uninhabited wasteland. Filled with precious minerals a
 alwaysUnlocked: true
 mesh: [
  {
-    //magma
-    type: NoiseMesh
-    planet: varelin
-    divisions: 5
-    seed: 7
-    radius: 1.229
-    color1: ffb84d
-    color2: ffa64d
-    octaves: 3.7
-    persistence: 1.1
-  }
   {
     //wasteland
     type: NoiseMesh
@@ -26,24 +15,11 @@ mesh: [
     octaves: 5.1
     persistence: 0.8
   }
-  {
-    //demetite
-    type: NoiseMesh
-    planet: varelin
-    seed: 69
-    divisions: 5
-    color1: efffff
-    color2: e6ffff
-    radius: 1.212
-    octaves: 4
-    persistence: 1
-    scale: 0.75
-    mag: 1
-  }
+
   {
     //sand
     type: NoiseMesh
-    planet: asthosus
+    planet: varelin
     divisions: 6
     seed: 17
     radius: 1.2514
