@@ -87,7 +87,7 @@ allowLaunchLoadout: false
 allowSectorInvasion: false
 startSector: 0
 orbitSpacing: 0.6
-radius: 1.2
+radius: 0.1
 minZoom: 1.5
 drawOrbit: true
 atmosphereRadIn: 0
@@ -105,7 +105,7 @@ clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
 defaultCore: Core: Capillary
-parent: sun
+parent: erekir
 solarSystem: sun
 launchCandidates: []
 itemWhitelist: [
