@@ -25,3 +25,4 @@ requirements: [
 ambientSound: grinding
 ambientSoundVolume: 0.08
 researchCostMultiplier: 0.5
+}
