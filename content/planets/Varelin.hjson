@@ -104,7 +104,7 @@ allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
-defaultCore: tin-conveyor
+defaultCore: CoreCapillary
 parent: sun
 solarSystem: sun
 launchCandidates: []
