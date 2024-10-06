@@ -5,6 +5,7 @@ speed: 0.5
 flying: true
 health: 90
 engineOffset: 5.5
+contructor = UnitEntity::new
 range: 160
 weapon: {
   name: chrome-blaster
@@ -12,5 +13,4 @@ weapon: {
   reload: 10
   alternate: true
   bullet: lightning
-Contructor = UnitEntity::New
 }
