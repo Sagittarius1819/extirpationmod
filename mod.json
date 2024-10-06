@@ -1,7 +1,6 @@
 name: Extirpation Mod
-displayName: Mod [red]EXTIRPATION[]
+displayName: Mod EXTIRPATION
 author: Orion & Roj
 description: Upcoming mod that adds units, blocks, and possibly a planet.
 version: "1.0"
 minGameVersion: "100.3"
-dependencies: [ ]
