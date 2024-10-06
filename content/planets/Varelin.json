@@ -29,7 +29,7 @@ mesh: [
   {
     //sand
     type: NoiseMesh
-    planet: asthosus
+    planet: varelin
     divisions: 6
     seed: 101
     radius: 1.2441
