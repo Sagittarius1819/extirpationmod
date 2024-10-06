@@ -2,7 +2,7 @@ type: Conveyor
 name: Tin Conveyor
 description: A soft, Weak conveyor. Perfect for transporting light items.
 requirements: [
-  tin/1
+  Tin/1
 ]
 category: distribution
 speed: 0.1
