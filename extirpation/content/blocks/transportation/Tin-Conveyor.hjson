@@ -1,6 +1,6 @@
 type: Conveyor
-name: Electrum conveyor
-description: Example conveyor.
+name: Tin Conveyor
+description: A soft, Weak conveyor. Perfect for transporting light items.
 requirements: [
   tin/1
 ]
