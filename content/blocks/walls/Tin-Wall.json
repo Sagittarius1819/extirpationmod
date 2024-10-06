@@ -1,6 +1,6 @@
 type: Wall
-name: Ferrinite Wall
-description: Protects structures from incoming damage.
+name: Tin Wall
+description: A soft, cheap wall to protect your structures.
 size: 1
 health: 300
 squareSprite: false
