@@ -12,4 +12,5 @@ weapon: {
   reload: 10
   alternate: true
   bullet: lightning
+Contructor = UnitEntity::New
 }
