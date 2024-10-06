@@ -1,5 +1,6 @@
 type: CoreBlock
 name: Core: Capillary
+localizedName: CapillaryCore
 description: Core of the base. Armored and stores a medium amount of items.
 requirements: [
  Tin/50
