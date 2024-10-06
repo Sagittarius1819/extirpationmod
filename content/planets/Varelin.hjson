@@ -104,7 +104,7 @@ allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
-defaultCore: CapillaryCore
+defaultCore: Core: Capillary
 parent: sun
 solarSystem: sun
 launchCandidates: []
