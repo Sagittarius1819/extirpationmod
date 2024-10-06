@@ -1,1 +1,9 @@
-
+type: Conveyor
+name: Electrum conveyor
+description: Example conveyor.
+requirements: [
+  tin/1
+]
+category: distribution
+speed: 0.1
+research: Tin
