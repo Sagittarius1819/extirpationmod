@@ -3,31 +3,19 @@ description: A dangerous, uninhabited wasteland. Filled with precious minerals a
 alwaysUnlocked: true
 mesh: [
  {
-    //water
+    //magma
     type: NoiseMesh
     planet: varelin
     divisions: 5
     seed: 7
     radius: 1.229
-    color1: 587d89
-    color2: 5e95a8
+    color1: ffb84d
+    color2: ffa64d
     octaves: 3.7
     persistence: 1.1
   }
   {
-    //ferrinite
-    type: NoiseMesh
-    planet: varelin
-    divisions: 5
-    radius: 1.22
-    seed: 94
-    color1: e9e9de
-    color2: c2c1b4
-    octaves: 3.7
-    persistence: 0.6
-  }
-  {
-    //sand
+    //wasteland
     type: NoiseMesh
     planet: varelin
     divisions: 6
@@ -44,8 +32,8 @@ mesh: [
     planet: varelin
     seed: 69
     divisions: 5
-    color1: d5c995
-    color2: 666359
+    color1: efffff
+    color2: e6ffff
     radius: 1.212
     octaves: 4
     persistence: 1
@@ -53,31 +41,7 @@ mesh: [
     mag: 1
   }
   {
-    //barite
-    type: NoiseMesh
-    planet: varelin
-    divisions: 5
-    seed: 19
-    radius: 1.247
-    color1: f8efe6
-    color2: bab4ae
-    octaves: 4.5
-    persistence: 1.1
-  }
-  {
-    //radian barite
-    type: NoiseMesh
-    planet: varelin
-    divisions: 6
-    seed: 61
-    radius: 1.248
-    color1: 6b9388
-    color2: 425b54
-    octaves: 4.5
-    persistence: 1.1
-  }
-  {
-    //red sand
+    //sand
     type: NoiseMesh
     planet: asthosus
     divisions: 6
@@ -148,7 +112,7 @@ allowLaunchToNumbered: false
 allowLaunchLoadout: false
 allowSectorInvasion: false
 startSector: 0
-orbitSpacing: 1
+orbitSpacing: 0.6
 radius: 1.2
 minZoom: 1.5
 drawOrbit: true
