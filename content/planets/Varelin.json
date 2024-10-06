@@ -22,7 +22,7 @@ mesh: [
     seed: 17
     radius: 1.2514
     color1: 4d4d4d
-    color2: 404040
+    color2: 240f0f
     octaves: 5.7
     persistence: 0.9
   }
