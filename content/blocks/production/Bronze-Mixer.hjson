@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: Bronze Mixer
+description: Melts and Mixes Copper and Tin, to make Bronze.
+size: 2
+scaledHealth: 60
+squareSprite: false
+craftEffect: smeltsmoke
+outputItems: [
+  Bronze/1
+]
+consumes: {
+  items: [
+    Copper/2
+    Tin/1
+  ]
+}
+craftTime: 90
+category: crafting
+research: {
+  parent: tin-conveyor
+requirements: [
+ Copper/50
+  Tin/90
+]
+ambientSound: grinding
+ambientSoundVolume: 0.08
+researchCostMultiplier: 0.5
