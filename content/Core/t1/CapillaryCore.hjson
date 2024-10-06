@@ -9,7 +9,7 @@ isFirstTier: true
 size: 3
 squareSprite: false
 alwaysUnlocked: true
-unitType: 17q-01-zeta
+unitType: Clot
 health: 1300
 itemCapacity: 4500
 unitCapModifier: 8
