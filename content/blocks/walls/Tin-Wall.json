@@ -1,0 +1,12 @@
+type: Wall
+name: Ferrinite Wall
+description: Protects structures from incoming damage.
+size: 1
+health: 300
+squareSprite: false
+requirements: [
+  Tin/5
+]
+research: Tin
+category: defense
+researchCostMultiplier: 0.05
