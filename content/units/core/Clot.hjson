@@ -11,6 +11,10 @@ build: true
 rotateSpeed: 17.5
 health: 175
 engineOffset: 7.5
+itemCapacity: 30
+alwaysUnlocked: true
+outlineColor: 1c0202
+buildSpeed: 1
 range: 160
 weapon: {
   name: Vessel
