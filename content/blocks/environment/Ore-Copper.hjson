@@ -1,2 +1,4 @@
-
+type: OreBlock
+name: Copper
+itemDrop: Copper
 variants: 3
