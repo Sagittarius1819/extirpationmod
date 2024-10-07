@@ -1,9 +1,10 @@
 type: flying
 name: Clot
 description: A quick, Light-weight air unit to protect the Capillary Core.
-speed: 0.5
+speed: 1.5
 flying: true
-health: 90
+mineFloor: true
+health: 175
 engineOffset: 5.5
 range: 160
 weapon: {
