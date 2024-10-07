@@ -1,4 +1,4 @@
-type: flyingUnit
+type: flying
 name: Clot
 description: A quick, Light-weight air unit to protect the Capillary Core.
 speed: 0.5
