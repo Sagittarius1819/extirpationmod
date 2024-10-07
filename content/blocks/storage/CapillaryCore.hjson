@@ -1,10 +1,10 @@
 type: CoreBlock
 name: Core: Capillary
 localizedName: CapillaryCore
-description: Core of the base. Armored and stores a medium amount of items.
+description: An advanced core, fit for toxic, dry environments. Stores a medium amount of items.
 requirements: [
- Tin/50
- Copper/50
+ Tin/150
+ Copper/250
 ]
 isFirstTier: true
 size: 3
@@ -16,8 +16,8 @@ itemCapacity: 4500
 unitCapModifier: 8
 category: effect
 research: {
-  planet: varelin
+  planet: Varelin
   root: true
-  name: Varelin
+  name: varelin
   requiresUnlock: false
 }
