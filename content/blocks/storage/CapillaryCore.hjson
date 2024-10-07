@@ -1,15 +1,15 @@
 type: CoreBlock
 name: Core: Capillary
-localizedName: CapillaryCore
+//localizedName: CapillaryCore
 description: An advanced core, fit for toxic, dry environments. Stores a medium amount of items.
 requirements: [
  Tin/150
  Copper/250
 ]
 isFirstTier: true
-size: 3
+size: 4
 squareSprite: false
-alwaysUnlocked: true
+alwaysUnlocked: false
 unitType: Clot
 health: 1300
 itemCapacity: 4500

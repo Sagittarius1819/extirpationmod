@@ -4,6 +4,10 @@ description: A quick, Light-weight air unit to protect the Capillary Core.
 speed: 1.5
 flying: true
 mineFloor: true
+mineWalls: true
+mineSpeed: 4.5
+mineTier: 1
+rotateSpeed: 6
 health: 175
 engineOffset: 5.5
 range: 160
