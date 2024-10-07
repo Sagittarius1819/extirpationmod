@@ -1,19 +1,19 @@
 type: flying
 name: Clot
 description: A quick, Light-weight air unit to protect the Capillary Core.
-speed: 2.75
+speed: 3
 flying: true
 mineFloor: true
 mineWalls: true
 mineSpeed: 4.5
 mineTier: 1
 build: true
-rotateSpeed: 10
+rotateSpeed: 17.5
 health: 175
 engineOffset: 7.5
 range: 160
 weapon: {
-  name: chrome-blaster
+  name: Vessel
   length: 1.5
   reload: 10
   alternate: true
