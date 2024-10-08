@@ -5,12 +5,8 @@ size: 2
 scaledHealth: 60
 hasLiquids: true
 squareSprite: false
-craftEffect: smeltsmoke
 liquidCapacity: 80
-outputLiquid: slag/0.1
-outputItems: [
-  Bronze/1
-]
+outputLiquid: slag/0.33
 consumes: {
   items: [
     Copper/2
@@ -44,12 +40,6 @@ drawer: {
     }
     {
       type: DrawDefault
-    }
-    {
-      type: DrawRegion
-      suffix: -spinner
-      spinSprite: true
-      rotateSpeed: 0.6
     }
   ]
 }
