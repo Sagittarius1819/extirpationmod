@@ -17,9 +17,24 @@ outlineColor: 1c0202
 buildSpeed: 1
 range: 160
 weapon: {
-  name: Vessel
-  length: 1.5
-  reload: 10
-  alternate: true
-  bullet: lightning
+"range": 170,
+name: Vessel
+    "shootCone": 90,
+    "engineOffset": 5,
+    "engineSize": 2.7,
+    "rotateWeapon": true,
+    "attackLength": 90,
+    "weapon": {
+        "reload": 10,
+        "rotate": "true",
+        "shootSound": "bang",
+        "bullet": {
+            "length": 100,
+            "damage": 20,
+            "shootEffect": "shootSmall",
+            "width": 0.55,
+            "lifetime":15,
+            "knockback": -1,
+        }
+    }
 }
