@@ -11,7 +11,7 @@ research: {
   ]
 }
 researchCostMultiplier: 0.05
-shootSound: artillery
+shootSound: bang
 requirements: [
   Tin/55
 ]
@@ -27,7 +27,7 @@ targetGround: true
 reload: 15
 range: 160
 velocityRnd: 0.33
-inaccuracy: 20
+inaccuracy: 10
 shoot: {
   shots: 1
   shotDelay: 0.4
