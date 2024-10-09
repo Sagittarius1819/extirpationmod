@@ -24,13 +24,13 @@ coolant: {
 outlineColor: 42413e
 targetAir: false
 targetGround: true
-reload: 72
+reload: 50
 range: 160
 velocityRnd: 0.12
 inaccuracy: 5
 shoot: {
   shots: 1
-  shotDelay: 0.25
+  shotDelay: 0.03
 }
 ammoTypes: {
   Tin: {
