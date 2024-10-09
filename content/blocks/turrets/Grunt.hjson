@@ -1,0 +1,58 @@
+type: ItemTurret
+name: Grunt
+description: Launches small pieces of scrap metal at enemies.
+size: 1
+category: turret
+research: {
+  parent: CapillaryCore
+  requirements: [
+    Tin/150
+    Copper/80
+  ]
+}
+researchCostMultiplier: 0.05
+shootSound: artillery
+requirements: [
+  Tin/55
+]
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.1
+}
+outlineColor: 42413e
+targetAir: false
+targetGround: true
+reload: 72
+range: 160
+velocityRnd: 0.12
+inaccuracy: 5
+shoot: {
+  shots: 3
+  shotDelay: 0.78
+}
+ammoTypes: {
+  Tin: {
+    type: ArtilleryBulletType
+    width: 7
+    height: 9
+    speed: 2
+    lifetime: 80
+    splashDamage: 28
+    splashDamageRadius: 8
+  }
+  Copper: {
+    type: ArtilleryBulletType
+    width: 7
+    height: 9
+    speed: 2
+    lifetime: 80
+    splashDamage: 38
+    splashDamageRadius: 12
+  }
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: blocky-
+}

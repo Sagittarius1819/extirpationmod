@@ -7,3 +7,10 @@ requirements: [
 category: distribution
 speed: 0.1
 research: Tin
+research: {
+  parent: CapillaryCore
+  requirements: [
+    Tin/5
+  ]
+}
+researchCostMultiplier: 0.05

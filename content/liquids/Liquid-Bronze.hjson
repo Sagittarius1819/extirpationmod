@@ -1,0 +1,8 @@
+name: Liquid Bronze
+description: A liquid made by melting Copper and Tin.
+effect: burning
+boilPoint: 0.5
+color: ffc73a
+heatCapacity: 0.35
+gasColor: d9fff3da
+research: Bronze-Mixer

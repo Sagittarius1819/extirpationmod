@@ -6,7 +6,7 @@ scaledHealth: 60
 hasLiquids: true
 squareSprite: false
 liquidCapacity: 80
-outputLiquid: slag/0.33
+outputLiquid: Liquid-Bronze/0.33
 consumes: {
   items: [
     Copper/2
@@ -21,8 +21,6 @@ requirements: [
  Copper/50
   Tin/90
 ]
-ambientSound: grinding
-ambientSoundVolume: 0.08
 researchCostMultiplier: 0.5
 }
 
@@ -35,7 +33,7 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      drawLiquid: slag
+      drawLiquid: Liquid-Bronze
       padding: 1.5
     }
     {
