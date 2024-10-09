@@ -24,17 +24,18 @@ coolant: {
 outlineColor: 42413e
 targetAir: false
 targetGround: true
-reload: 50
+reload: 15
 range: 160
-velocityRnd: 0.12
-inaccuracy: 5
+velocityRnd: 0.33
+inaccuracy: 20
 shoot: {
   shots: 1
-  shotDelay: 0.03
+  shotDelay: 0.4
 }
 ammoTypes: {
   Tin: {
     type: ArtilleryBulletType
+    damage: 2
     width: 7
     height: 9
     speed: 6
@@ -44,6 +45,7 @@ ammoTypes: {
     type: ArtilleryBulletType
     width: 7
     height: 9
+    damage: 2
     speed: 7
     lifetime: 80
     splashDamage: 3
