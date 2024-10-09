@@ -2,3 +2,4 @@ type: material
 name: Copper
 description: Used in all types of construction and ammunition.
 cost: 1
+color: d2a272

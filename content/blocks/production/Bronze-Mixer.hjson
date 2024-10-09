@@ -6,7 +6,7 @@ scaledHealth: 60
 hasLiquids: true
 squareSprite: false
 liquidCapacity: 80
-outputLiquid: Liquid-Bronze/0.33
+outputLiquid: Liquid-Bronze/0.5
 consumes: {
   items: [
     Copper/2

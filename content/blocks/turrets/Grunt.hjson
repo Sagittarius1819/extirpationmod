@@ -11,7 +11,7 @@ research: {
   ]
 }
 researchCostMultiplier: 0.05
-shootSound: bang
+shootSound: shoot
 requirements: [
   Tin/55
 ]
@@ -22,6 +22,7 @@ coolant: {
   amount: 0.1
 }
 outlineColor: 42413e
+damage: 10
 targetAir: false
 targetGround: true
 reload: 15
@@ -34,18 +35,18 @@ shoot: {
 }
 ammoTypes: {
   Tin: {
-    type: ArtilleryBulletType
-    damage: 2
+    type: FlakBulletType
+    damage: 10
     width: 7
     height: 9
     speed: 6
     lifetime: 80
   }
   Copper: {
-    type: ArtilleryBulletType
+    type: FlakBulletType
     width: 7
     height: 9
-    damage: 2
+    damage: 10
     speed: 7
     lifetime: 80
     splashDamage: 3

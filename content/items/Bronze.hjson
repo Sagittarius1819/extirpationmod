@@ -2,3 +2,4 @@ type: material
 name: Bronze
 description: Used in all types of construction and ammunition.
 cost: 2
+color: bb7c3c
