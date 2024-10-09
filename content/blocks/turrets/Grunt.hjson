@@ -21,7 +21,7 @@ coolant: {
   allowLiquid: true
   amount: 0.1
 }
-outlineColor: 42413e
+outlineColor: 4e3737
 damage: 10
 targetAir: false
 targetGround: true
@@ -36,7 +36,7 @@ shoot: {
 ammoTypes: {
   Tin: {
     type: FlakBulletType
-    damage: 10
+    damage: 9
     width: 7
     height: 9
     speed: 6
@@ -46,11 +46,11 @@ ammoTypes: {
     type: FlakBulletType
     width: 7
     height: 9
-    damage: 10
+    damage: 9
     speed: 7
     lifetime: 30
     splashDamage: 3
-    splashDamageRadius: 10
+    splashDamageRadius: 5
   }
 }
 drawer: {
