@@ -48,10 +48,10 @@ shoot: {
 }
 ammoTypes: {
   CopperAlt: {
-    TrailColor: ed4c4c
-    TrailInterval: 2
+    trailColor: ed4c4c
+    trailInterval: 2
     TrailRotation: true
-    TrailLength: 5
+    trailLength: 5
     type: FlakBulletType
     width: 5
     height: 8
@@ -61,10 +61,10 @@ ammoTypes: {
     speed: 5
   }
     Bronze: {
-    TrailColor: 992929
-    TrailInterval: 4
+    trailColor: 992929
+    trailInterval: 4
     TrailRotation: true
-    TrailLength: 10
+    trailLength: 10
     type: FlakBulletType
     width: 5
     speed: 6
