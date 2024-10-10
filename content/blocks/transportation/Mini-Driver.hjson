@@ -1,0 +1,31 @@
+type: MassDriver
+name: Mini-Driver
+description: Fires batches of items over tiny distances. Connects to other Mini-Drivers. Requires power.
+size: 1
+squareSprite: false
+itemCapacity: 10
+reload: 50
+range: 5
+consumes: {
+  power: 3
+}
+category: distribution
+research: tin-conveyor
+requirements: [
+  01a-01-item-ferrinite/120
+  01a-07-item-lithium/40
+  01a-09-item-obsidian/60
+  01a-11-item-barite/30
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
