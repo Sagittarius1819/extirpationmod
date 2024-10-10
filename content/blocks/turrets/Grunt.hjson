@@ -24,7 +24,7 @@ coolant: {
 outlineColor: 4e3737
 damage: 10
 targetAir: false
-targetGround: false
+targetGround: true
 collidesGround: true
 collidesAir: false
 reload: 15
@@ -41,6 +41,7 @@ ammoTypes: {
     type: FlakBulletType
     damage: 9
     width: 7
+    collidesGround: true
     height: 9
     speed: 3
   }
@@ -50,6 +51,7 @@ ammoTypes: {
     height: 9
     damage: 9
     speed: 3.5
+    collidesGround: true
     splashDamage: 3
     splashDamageRadius: 5
   }
