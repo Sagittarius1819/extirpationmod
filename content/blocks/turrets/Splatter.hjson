@@ -61,13 +61,44 @@ drawer: {
     parts: [
     {
       type: RegionPart
-      suffix: -barrel
+      suffix: -heat
       progress: recoil
       heatProgress: recoil
       under: true
       moveY: -2
       growX: 0.1
       growY: 0.1
+    }
+        {  
+      type: RegionPart
+      suffix: -barrel-1
+      mirror: false
+      under: true
+      progress: recoil
+      moveY: -2
+      growX: 0.1
+      growY: 0.1
+      recoilIndex: 0
+    }
+    {
+      type: RegionPart
+      suffix: -barrel-2
+      under: false
+      moveY: -2
+      growX: 0.1
+      growY: 0.1
+      progress: recoil
+    }
+    {  
+      type: RegionPart
+      suffix: -barrel-3
+      mirror: false
+      under: true
+      progress: recoil
+      moveY: -2
+      growX: 0.1
+      growY: 0.1
+      recoilIndex: 1
     }
     ]
 }
