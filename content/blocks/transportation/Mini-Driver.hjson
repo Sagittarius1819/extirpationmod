@@ -5,9 +5,9 @@ size: 1
 squareSprite: false
 itemCapacity: 10
 reload: 50
-range: 5
+range: 40
 consumes: {
-  power: 3
+  power: 1
 }
 category: distribution
 research: tin-conveyor
