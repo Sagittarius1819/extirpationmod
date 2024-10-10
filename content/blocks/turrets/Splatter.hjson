@@ -28,7 +28,7 @@ targetGround: false
 recoils: 3
 collidesGround: false
 collidesAir: true
-reload: 20
+reload: 7
 range: 200
 velocityRnd: 0.4
 inaccuracy: 20
@@ -38,7 +38,7 @@ shoot: {
   barrels: 3
   shots: 1
   recoils: 3
-  shotDelay: 20
+  shotDelay: 7
   barrelOffset: 1
   barrels: [
     0, 0, 0
@@ -52,7 +52,6 @@ ammoTypes: {
     trailInterval: 1
     trailRotation: true
     trailLength: 1
-    trailWidth: 0.1  
     type: FlakBulletType
     width: 5
     height: 8
@@ -66,7 +65,6 @@ ammoTypes: {
     trailInterval: 0.1
     trailRotation: true
     trailLength: 10
-    trailWidth: 0.05   
     type: FlakBulletType
     width: 5
     height: 10
