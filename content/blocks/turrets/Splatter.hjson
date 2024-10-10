@@ -50,7 +50,7 @@ ammoTypes: {
   CopperAlt: {
     trailColor: ed4c4c
     trailInterval: 1
-    trailRotation: true
+    TrailRotation: true
     trailLength: 1
     type: FlakBulletType
     width: 5
@@ -63,7 +63,7 @@ ammoTypes: {
     Bronze: {
     trailColor: ed4c4c
     trailInterval: 0.1
-    trailRotation: true
+    TrailRotation: true
     trailLength: 10
     type: FlakBulletType
     width: 5
