@@ -28,7 +28,7 @@ targetGround: false
 recoils: 3
 collidesGround: false
 collidesAir: true
-reload: 50
+reload: 20
 range: 200
 velocityRnd: 0.4
 inaccuracy: 20
@@ -38,7 +38,7 @@ shoot: {
   barrels: 3
   shots: 1
   recoils: 3
-  shotDelay: 50
+  shotDelay: 20
   barrelOffset: 1
   barrels: [
     0, 0, 0
@@ -48,14 +48,25 @@ shoot: {
 }
 ammoTypes: {
   CopperAlt: {
+    trailColor: b56d23
+    trailInterval: 3.5
+    trailRotation: true
+    trailLength: 10
+    trailWidth: 1   
     type: FlakBulletType
     width: 5
     height: 8
     damage: 4
     speed: 3.5
     collidesAir: true
+    reloadMultiplier: 0.75
   }
     Bronze: {
+    trailColor: b56d23
+    trailInterval: 3.5
+    trailRotation: true
+    trailLength: 20
+    trailWidth: 2   
     type: FlakBulletType
     width: 5
     height: 10
@@ -63,6 +74,7 @@ ammoTypes: {
     speed: 4
     collidesAir: true
     ShootSpeed: 10
+    
   }
 }
 drawer: {
@@ -76,8 +88,6 @@ drawer: {
       under: true
       progress: recoil
       moveY: -2
-      growX: 0.1
-      growY: 0.1
       recoilIndex: 0
     }
     {
@@ -85,8 +95,6 @@ drawer: {
       suffix: -barrel-middle
       under: false
       moveY: -2
-      growX: 0.1
-      growY: 0.1
       progress: recoil
         recoilIndex: 1
     }
@@ -97,8 +105,6 @@ drawer: {
       under: true
       progress: recoil
       moveY: -2
-      growX: 0.1
-      growY: 0.1
       recoilIndex: 2
     }
     ]
