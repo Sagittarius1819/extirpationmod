@@ -49,7 +49,7 @@ shoot: {
 ammoTypes: {
   CopperAlt: {
     trailColor: ed4c4c
-    trailInterval: 100
+    trailInterval: 1
     trailRotation: true
     trailLength: 1
     trailWidth: 1  
