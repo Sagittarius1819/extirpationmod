@@ -3,3 +3,9 @@ name: Copper
 description: Used in all types of construction and ammunition.
 cost: 1
 color: d2a272
+research: {
+  parent: CapillaryCore
+  requirements: [
+    CopperAlt/1
+  ]
+}

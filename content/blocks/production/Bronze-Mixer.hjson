@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Bronze Mixer
-description: Melts and Mixes Copper and Tin, to make Bronze.
+description: Melts and Mixes CopperAlt and Tin, to make Bronze.
 size: 2
 scaledHealth: 60
 hasLiquids: true
@@ -9,16 +9,16 @@ liquidCapacity: 80
 outputLiquid: Liquid-Bronze/0.5
 consumes: {
   items: [
-    Copper/2
+    CopperAlt/2
     Tin/1
   ]
 }
 craftTime: 90
 category: crafting
 research: {
-  parent: Copper
+  parent: CopperAlt
 requirements: [
- Copper/50
+ CopperAlt/50
   Tin/90
 ]
 researchCostMultiplier: 0.5

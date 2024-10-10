@@ -1,4 +1,4 @@
 type: OreBlock
-name: Copper (Varelin)
-itemDrop: Copper
+name: CopperAlt (Varelin)
+itemDrop: CopperAlt
 variants: 3

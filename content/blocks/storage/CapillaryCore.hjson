@@ -4,7 +4,7 @@ name: Core: Capillary
 description: An advanced core, fit for toxic, dry environments. Stores a medium amount of items.
 requirements: [
  Tin/150
- Copper/250
+ CopperAlt/250
 ]
 isFirstTier: true
 size: 4

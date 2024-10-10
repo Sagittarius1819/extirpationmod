@@ -3,3 +3,9 @@ name: Tin
 description: A simple, Malleable, Silver-like metal used for construction and machines.
 cost: 1
 color: e3e7e9 
+research: {
+  parent: CapillaryCore
+  requirements: [
+    Tin/1
+  ]
+}

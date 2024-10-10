@@ -7,7 +7,7 @@ research: {
   parent: CapillaryCore
   requirements: [
     Tin/150
-    Copper/80
+    CopperAlt/80
   ]
 }
 researchCostMultiplier: 0.05
@@ -42,7 +42,7 @@ ammoTypes: {
     speed: 6
     lifetime: 30
   }
-  Copper: {
+  CopperAlt: {
     type: FlakBulletType
     width: 7
     height: 9
