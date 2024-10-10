@@ -1,0 +1,73 @@
+type: ItemTurret
+name: Splatter
+description: Sprays accurate bullets at flying targets. Less effective against crowds.
+size: 2
+category: turret
+research: {
+  parent: Grunt
+  requirements: [
+    Tin/300
+    CopperAlt/500
+  ]
+}
+researchCostMultiplier: 0.05
+shootSound: shootAlt
+requirements: [
+  Tin/55
+]
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.1
+}
+outlineColor: 361818
+damage: 4
+targetAir: true
+targetGround: false
+collidesGround: false
+collidesAir: true
+reload: 5
+range: 200
+velocityRnd: 0.4
+inaccuracy: 20
+scaleLife: true
+shoot: {
+  shots: 1
+  shotDelay: 0.4
+}
+ammoTypes: {
+  CopperAlt: {
+    type: FlakBulletType
+    width: 5
+    height: 8
+    damage: 4
+    speed: 3.5
+    collidesAir: true
+  }
+    Bronze: {
+    type: FlakBulletType
+    width: 5
+    height: 10
+    damage: 5
+    speed: 4
+    collidesAir: true
+    ShootSpeed: 10
+  }
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: Rusted-
+    parts: [
+    {
+      type: RegionPart
+      suffix: -barrel
+      progress: recoil
+      heatProgress: recoil
+      under: true
+      moveY: -2
+      growX: 0.1
+      growY: 0.1
+    }
+    ]
+}

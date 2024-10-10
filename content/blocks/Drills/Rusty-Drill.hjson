@@ -4,7 +4,7 @@
 	"type": "Drill",
 	"size": 2,
 	"tier": 1,
-	"drillTime": 340,
+	"drillTime": 500,
 	"rotateSpeed": 1,
 	"warmupSpeed": 0.5,
 	"liquidBoostIntensity": 1.5,
@@ -18,13 +18,13 @@
 		},
 	},
 	"requirements": [
-		"Tin/30"
+		"Tin/19"
 	],
 	"category": "production",
 	research: {
   parent: CapillaryCore
   requirements: [
-    Tin/40
+    Tin/30
   ]
 }
 researchCostMultiplier: 0.05
