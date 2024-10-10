@@ -36,12 +36,12 @@ shoot: {
   type: ShootBarrel
   barrels: 3
   shots: 3
-  shotDelay: 4
+  shotDelay: 9
   barrelOffset: 1
   barrels: [
-    0, 0.5, 0
-    -6, 0, 0,
-    6, 0, 0
+    0, 0, 0
+    -2, 0, 0,
+    2, 0, 0
   ]
 }
 ammoTypes: {
@@ -79,7 +79,7 @@ drawer: {
     }
         {  
       type: RegionPart
-      suffix: -barrel-1
+      suffix: -barrel-left
       mirror: false
       under: true
       progress: recoil
@@ -90,7 +90,7 @@ drawer: {
     }
     {
       type: RegionPart
-      suffix: -barrel-2
+      suffix: -barrel-middle
       under: false
       moveY: -2
       growX: 0.1
@@ -99,7 +99,7 @@ drawer: {
     }
     {  
       type: RegionPart
-      suffix: -barrel-3
+      suffix: -barrel-right
       mirror: false
       under: true
       progress: recoil
