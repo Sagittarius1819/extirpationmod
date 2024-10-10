@@ -29,6 +29,7 @@ reload: 15
 range: 160
 velocityRnd: 0.2
 inaccuracy: 10
+scaleLife: true
 shoot: {
   shots: 1
   shotDelay: 0.4
