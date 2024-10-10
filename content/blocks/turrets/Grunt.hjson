@@ -24,7 +24,9 @@ coolant: {
 outlineColor: 4e3737
 damage: 10
 targetAir: false
-targetGround: true
+targetGround: false
+collidesGround: true
+collidesAir: false
 reload: 15
 range: 160
 velocityRnd: 0.2
