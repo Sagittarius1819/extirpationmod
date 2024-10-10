@@ -39,16 +39,16 @@ ammoTypes: {
     damage: 9
     width: 7
     height: 9
-    speed: 6
-    lifetime: 30
+    speed: 3
+    lifetime: 40
   }
   CopperAlt: {
     type: FlakBulletType
     width: 7
     height: 9
     damage: 9
-    speed: 7
-    lifetime: 30
+    speed: 3.5
+    lifetime: 40
     splashDamage: 3
     splashDamageRadius: 5
   }
