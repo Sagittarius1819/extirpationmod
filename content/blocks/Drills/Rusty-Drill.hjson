@@ -1,0 +1,34 @@
+{
+	"name": "Rusty Drill",
+	"description": "Extracts basic resources from the ground.",
+	"type": "Drill",
+	"size": 2,
+	"tier": 1,
+	"drillTime": 220,
+	"rotateSpeed": 1,
+	"warmupSpeed": 0.5,
+	"liquidBoostIntensity": 1.5,
+	"liquidCapacity": 10,
+	"consumes": {
+		"liquid": {
+			"liquid": "water", 
+			"amount": 0.075,
+			"optional": true,
+			"booster": true
+		},
+	},
+	"requirements": [
+		"Tin/30"
+	],
+	"category": "production",
+	research: {
+  parent: CapillaryCore
+  requirements: [
+    Tin/40
+  ]
+}
+researchCostMultiplier: 0.05
+
+
+
+}
