@@ -39,17 +39,19 @@ shoot: {
 ammoTypes: {
   Tin: {
     type: FlakBulletType
-    damage: 9
+    damage: 13
     width: 7
     collidesGround: true
     height: 9
     speed: 3
+        splashDamage: 0
+    splashDamageRadius: 0
   }
   CopperAlt: {
     type: FlakBulletType
     width: 7
     height: 9
-    damage: 9
+    damage: 14
     speed: 3.5
     collidesGround: true
     splashDamage: 3
@@ -67,7 +69,7 @@ drawer: {
       heatProgress: recoil
       under: true
       moveY: -1
-      growX: 0.1
+      growX: 0.2
       growY: 0.1
     }
     ]
