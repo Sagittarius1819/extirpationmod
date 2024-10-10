@@ -51,7 +51,7 @@ ammoTypes: {
     trailColor: ed4c4c
     trailInterval: 1
     trailRotation: true
-    trailLength: 5
+    trailLength: 1
     trailWidth: 50  
     type: FlakBulletType
     width: 5
