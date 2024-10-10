@@ -49,7 +49,7 @@ shoot: {
 ammoTypes: {
   CopperAlt: {
     trailColor: ed4c4c
-    trailInterval: 1
+    trailInterval: 100
     trailRotation: true
     trailLength: 1
     trailWidth: 50  
@@ -63,7 +63,7 @@ ammoTypes: {
   }
     Bronze: {
     trailColor: ed4c4c
-    trailInterval: 1
+    trailInterval: 0.1
     trailRotation: true
     trailLength: 10
     trailWidth: 0.05   
