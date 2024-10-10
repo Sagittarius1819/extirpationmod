@@ -49,14 +49,13 @@ shoot: {
 ammoTypes: {
   CopperAlt: {
     trailColor: ed4c4c
-    trailInterval: 1
+    TrailInterval: 2
     TrailRotation: true
     trailLength: 1
     type: FlakBulletType
     width: 5
     height: 8
     damage: 4
-    speed: 3.5
     collidesAir: true
     reloadMultiplier: 0.75
   }
@@ -69,7 +68,6 @@ ammoTypes: {
     width: 5
     height: 10
     damage: 5
-    speed: 4
     collidesAir: true
     ShootSpeed: 10
     
