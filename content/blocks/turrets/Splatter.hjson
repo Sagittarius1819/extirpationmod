@@ -25,6 +25,7 @@ outlineColor: 361818
 damage: 4
 targetAir: true
 targetGround: false
+recoils: 3
 collidesGround: false
 collidesAir: true
 reload: 5
@@ -36,7 +37,8 @@ shoot: {
   type: ShootBarrel
   barrels: 3
   shots: 3
-  shotDelay: 9
+  recoils: 3
+  shotDelay: 30
   barrelOffset: 1
   barrels: [
     0, 0, 0
@@ -96,6 +98,7 @@ drawer: {
       growX: 0.1
       growY: 0.1
       progress: recoil
+        recoilIndex: 1
     }
     {  
       type: RegionPart
@@ -106,7 +109,7 @@ drawer: {
       moveY: -2
       growX: 0.1
       growY: 0.1
-      recoilIndex: 1
+      recoilIndex: 2
     }
     ]
 }
