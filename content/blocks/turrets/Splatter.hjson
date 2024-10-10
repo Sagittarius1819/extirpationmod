@@ -28,7 +28,7 @@ targetGround: false
 recoils: 3
 collidesGround: false
 collidesAir: true
-reload: 5
+reload: 50
 range: 200
 velocityRnd: 0.4
 inaccuracy: 20
@@ -36,9 +36,9 @@ scaleLife: true
 shoot: {
   type: ShootBarrel
   barrels: 3
-  shots: 3
+  shots: 1
   recoils: 3
-  shotDelay: 30
+  shotDelay: 50
   barrelOffset: 1
   barrels: [
     0, 0, 0
@@ -69,16 +69,6 @@ drawer: {
   type: DrawTurret
   basePrefix: Rusted-
     parts: [
-    {
-      type: RegionPart
-      suffix: -heat
-      progress: recoil
-      heatProgress: recoil
-      under: true
-      moveY: -2
-      growX: 0.1
-      growY: 0.1
-    }
         {  
       type: RegionPart
       suffix: -barrel-left
