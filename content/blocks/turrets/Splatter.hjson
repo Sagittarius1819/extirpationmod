@@ -52,7 +52,7 @@ ammoTypes: {
     trailInterval: 100
     trailRotation: true
     trailLength: 1
-    trailWidth: 50  
+    trailWidth: 1  
     type: FlakBulletType
     width: 5
     height: 8
