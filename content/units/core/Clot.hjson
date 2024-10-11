@@ -25,18 +25,20 @@ weapons: [
   reload: 25
   ejectEffect: casing1
   rotate: true
-  inaccuracy: 20
+      buildingdamagemultiplier : -1
+  inaccuracy: 7.5
   shoot:
   {
   shots: 3
-  shotDelay: 7
+  shotDelay: 3.5
   }
   bullet: {
     lifetime: 75
     speed: 3
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    damage: 4
+    damage: 3.5
     bulletWidth: 9
     bulletHeight: 12
+    buildingdamagemultiplier : -1
 }}]
