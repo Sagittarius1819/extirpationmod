@@ -39,5 +39,5 @@ weapons: [
     damage: 3.5
     bulletWidth: 9
     bulletHeight: 12
-    buildingdamagemultiplier : -1
+    buildingdamageMultiplier : -1
 }}]
