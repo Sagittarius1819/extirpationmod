@@ -12,7 +12,7 @@ research: Grunt
   weapons: [
     {
       top: true
-      x: 5
+      x: 4
       name: Demolition
       recoil: 0.4
       shootCone: 45
@@ -21,10 +21,10 @@ research: Grunt
         rotate: false
         mirror: true
         alternate: true
-        accuracy: 25
+        inaccuracy: 25
         shoot: {
           shots: 5
-          shotDelay: 3
+          shotDelay: 2.5
         }
         shootSound: Shotgun
         bullet: {
