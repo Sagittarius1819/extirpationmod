@@ -27,7 +27,11 @@ weapons: [
   rotate: true
   shoot: {
   shots: 2
+  inaccuracy: 7.5
+  recoils: 2
   shotDelay: 2
+  buildingdamagemultiplier: 0.1
+    BuildingDamageMultiplier: 0.1
 }
   bullet: {
     type: BasicBulletType
