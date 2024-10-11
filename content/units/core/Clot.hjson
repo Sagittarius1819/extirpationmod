@@ -19,20 +19,20 @@ range: 160
 weapons: [
   {
   name: Vessel
-  x: 10
-  y: 20
-  reload: 25
+  x: 3
+  y: 6
+  reload: 15
   ejectEffect: casing1
   alternate: false
   rotate: true
   shoot: {
   shots: 2
-  shotDelay: 0.5
+  shotDelay: 2
 }
   bullet: {
     type: BasicBulletType
     lifetime: 75
-    speed: 1.5
+    speed: 5
     shootEffect: shootSmall
     damage: 24
     width: 7
