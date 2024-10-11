@@ -25,14 +25,14 @@ weapons: [
   ejectEffect: casing1
   rotate: true
   shoot: 
-shots: 3
 { 
-   inaccuracy: 7.5
-   recoils: 1
-   shotDelay: 6
-   buildingdamagemultiplier: 0.1
-   BuildingDamageMultiplier: 0.1
-   buildingdamagemultiplier: 0.1
+    shots: 3
+    inaccuracy: 7.5
+    recoils: 1
+    shotDelay: 6
+    buildingdamagemultiplier: 0.1
+    BuildingDamageMultiplier: 0.1
+    buildingdamagemultiplier: 0.1
 }
   bullet:
   {
