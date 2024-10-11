@@ -19,17 +19,17 @@ range: 160
 weapons: [
   {
   name: Vessel
-  x: 20
-  y: 10
+  x: -1
+  y: -2
   reload: 25
   ejectEffect: casing1
   alternate: false
   rotate: true
   bullet: {
-    type: FlakBulletType
+    type: BasicBulletType
     lifetime: 75
     speed: 3
-    shootEffect: shootsmall
+    shootEffect: shootSmall
     damage: 24
     width: 7
     height: 9
