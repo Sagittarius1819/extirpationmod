@@ -19,6 +19,7 @@ range: 160
 weapons: [
   {
   name: Vessel
+  under = true
   x: 5
   y: 3.5
   reload: 25
