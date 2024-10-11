@@ -16,32 +16,22 @@ alwaysUnlocked: true
 outlineColor: 1c0202
 buildSpeed: 1
 range: 160
-weapon: {
-"range": 170,
-name: Vessel
- x: -1
- y: -2
-"shootCone": 90,
-"engineOffset": 5,
-"engineSize": 2.7,
- "rotateWeapon": true,
- "attackLength": 90,
- "weapon": {
-"reload": 10,
-"rotate": "true",
- "shootSound": "bang",
-"bullet": {
-            "length": 100,
-            "damage": 20,
-            "shootEffect": "shootSmall",
-            "width": 0.55,
-            "lifetime":15,
-            "knockback": -1,
-                type: BasicBulletType
+weapons: [
+  {
+  name: Vessel
+  x: -1
+  y: -2
+  reload: 25
+  ejectEffect: casing1
+  alternate: false
+  rotate: true
+  bullet: {
+    type: BasicBulletType
     lifetime: 75
     speed: 3
     shootEffect: shootBig
     damage: 24
-        }
-    }
-}
+    width: 7
+    height: 9
+  }}
+]
