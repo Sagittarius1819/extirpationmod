@@ -13,7 +13,7 @@ research: {
 researchCostMultiplier: 0.05
 shootSound: shoot
 requirements: [
-  Tin/55
+  Tin/35
 ]
 coolant: {
   type: ConsumeCoolant

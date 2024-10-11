@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Bronze Mixer
-description: Melts and Mixes CopperAlt and Tin, to make Bronze.
+description: Melts and Mixes Copper and Tin, to make Bronze.
 size: 2
 scaledHealth: 60
 hasLiquids: true

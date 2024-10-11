@@ -5,7 +5,7 @@ requirements: [
   Tin/1
 ]
 category: distribution
-speed: 0.1
+speed: 0.5
 research: Tin
 research: {
   parent: CapillaryCore
