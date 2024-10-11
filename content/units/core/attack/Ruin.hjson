@@ -21,6 +21,7 @@ research: Grunt
         rotate: false
         mirror: true
         alternate: true
+        accuracy: 25
         shoot: {
           shots: 5
           shotDelay: 3
