@@ -25,7 +25,6 @@ weapons: [
   reload: 25
   ejectEffect: casing1
   rotate: true
-      buildingdamagemultiplier : -1
   inaccuracy: 7.5
   shoot:
   {
