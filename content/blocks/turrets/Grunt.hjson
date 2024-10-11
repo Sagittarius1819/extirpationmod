@@ -23,6 +23,7 @@ coolant: {
 }
 outlineColor: 4e3737
 damage: 10
+health: 260
 targetAir: false
 targetGround: true
 collidesGround: true

@@ -26,6 +26,7 @@ outlineColor: 361818
 damage: 4
 targetAir: true
 targetGround: false
+health: 430
 recoils: 3
 collidesGround: false
 collidesAir: true

@@ -7,6 +7,7 @@ outlineColor: 4c3939
 itemCapacity: 10
 reload: 50
 range: 50
+  health: 60
 consumes: {
   power: 1
 }
