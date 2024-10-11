@@ -32,7 +32,7 @@ research: Grunt
           speed: 4
           lifetime: 32
           pierce: false
-          damage: 6
+          damage: 9
           pierce: true
           pierceCap: 2
           width: 6
