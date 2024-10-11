@@ -21,27 +21,15 @@ weapons: [
   name: Vessel
   x: 5
   y: 3.5
-  reload: 15
+  reload: 25
   ejectEffect: casing1
   rotate: true
-shoot: {
-  shots: 3
-  shotDelay: 6
-  innacuracy: 7.5
-}
-  bullet:
-  {
-    smokeEffect: shootSmallSmoke
-    type: BasicBulletType
-    buildingdamagemultiplier: 0.1
-    Buildingdamagemultiplier: 0.1
-    BuildingDamagemultiplier: 0.1
-    lifetime: 55
-    speed: 3.75
-    smokeEffect: shootSmallSmoke
+  bullet: {
+    lifetime: 75
+    speed: 3
     shootEffect: shootSmall
-    damage: 
-    width: 7
-    height: 9
-  }}
-]
+    smokeEffect: shootSmallSmoke
+    damage: 5
+    bulletWidth: 9
+    bulletHeight: 12
+}}]
