@@ -20,8 +20,8 @@ weapons: [
   {
   name: Vessel
   under = true
-  x: 5
-  y: 3.5
+  x: "5"
+  y: "3.5"s
   reload: 25
   ejectEffect: casing1
   rotate: true
