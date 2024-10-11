@@ -31,8 +31,8 @@ weapons: [
   buildingdamagemultiplier: 0.1
 BuildingDamageMultiplier: 0.1
 buildingdamagemultiplier }
-
-  bullet: {
+  bullet:
+  {
     smokeEffect: shootSmallSmoke
     type: BasicBulletType
     buildingdamagemultiplier: 0.1
