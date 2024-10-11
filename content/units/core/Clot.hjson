@@ -23,22 +23,27 @@ weapons: [
   y: 3.5
   reload: 15
   ejectEffect: casing1
-  alternate: false
   rotate: true
   shoot: {
-  shots: 2
+  shots: 3
   inaccuracy: 7.5
-  recoils: 2
-  shotDelay: 2
-
+  recoils: 1
+  shotDelay: 6
+  buildingdamagemultiplier: 0.1
+    BuildingDamageMultiplier: 0.1
+    buildingdamagemultiplier 
 }
   bullet: {
+    smokeEffect: shootSmallSmoke
     type: BasicBulletType
     buildingdamagemultiplier: 0.1
-    lifetime: 75
-    speed: 5
+    Buildingdamagemultiplier: 0.1
+    BuildingDamagemultiplier: 0.1
+    lifetime: 55
+    speed: 3.75
+    smokeEffect: shootSmallSmoke
     shootEffect: shootSmall
-    damage: 24
+    damage: 10
     width: 7
     height: 9
   }}
