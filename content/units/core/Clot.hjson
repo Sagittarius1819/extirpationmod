@@ -19,8 +19,8 @@ range: 160
 weapons: [
   {
   name: Vessel
-  x: 3
-  y: 6
+  x: 4
+  y: 4
   reload: 15
   ejectEffect: casing1
   alternate: false
