@@ -34,7 +34,6 @@ weapons: [
   bullet: {
     lifetime: 55
     speed: 3
-    homing = true
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     damage: 5
