@@ -1,0 +1,41 @@
+type: mech
+name: Ruin
+description: Fires a spreading shotgun blast that decimates close foes.
+speed: 0.8
+flying: false
+health: 135
+hitSize: 10
+outlineColor: 643b3b
+mechLegColor: 513030
+  weapons: [
+    {
+      top: false
+      x: -6.1
+      name: Vessel
+      recoil: 0.4
+      shootCone: 45
+        y: 1.25
+        reload: 72
+        rotate: false
+        mirror: true
+        alternate: true
+        shoot: {
+          shots: 2
+          shotDelay: 12
+        }
+        shootSound: Shotgun
+        bullet: {
+          type: BasicBulletType
+          speed: 4
+          lifetime: 32
+          pierce: false
+          damage: 22
+          pierce: true
+          pierceCap: 2
+          width: 28
+          height: 12
+        }
+    }
+]
+researchCostMultiplier: 1.5
+research: Grunt
