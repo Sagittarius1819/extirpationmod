@@ -21,7 +21,7 @@ weapons: [
   name: Vessel
   under = true
   x: "5"
-  y: "3.5"s
+  y: "3.5"
   reload: 25
   ejectEffect: casing1
   rotate: true
@@ -39,4 +39,5 @@ weapons: [
     damage: 3.5
     bulletWidth: 9
     bulletHeight: 12
+    buildingdamagemultiplier = -1
 }}]
