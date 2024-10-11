@@ -33,7 +33,8 @@ weapons: [
   rotate: true
   bullet: {
     lifetime: 55
-    homing: true
+    homingPower: 3
+    homingRange: 50
     speed: 3
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
