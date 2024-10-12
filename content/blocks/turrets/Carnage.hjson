@@ -27,7 +27,7 @@ outlineColor: 342222
 liquidConsumed: 1
 targetInterval: 5
 targetUnderBlocks: true
-range: 250
+range: 235
 targetAir: true
 targetGround: true
 shootY: 7.5
