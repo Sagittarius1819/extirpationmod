@@ -1,4 +1,5 @@
 type: Floor
-localizedName: Bloodgrit Floor
+name: Bloodgrit Floor
 itemDrop: Bloodgrit
 variants: 3
+sprite: Bloodgrit-Floor
