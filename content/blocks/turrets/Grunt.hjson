@@ -45,7 +45,7 @@ ammoTypes: {
     width: 7
     collidesGround: true
     height: 9
-        lifetime: 80
+        lifetime: 60
     speed: 3
         splashDamage: 0
     splashDamageRadius: 0
@@ -54,7 +54,7 @@ ammoTypes: {
     type: FlakBulletType
     width: 7
     height: 9
-        lifetime: 80
+        lifetime: 60
     damage: 14
     speed: 3.5
     collidesGround: true
