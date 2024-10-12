@@ -14,7 +14,7 @@ research: Grunt
       top: true
       x: 4
       name: Demolition
-      recoil: 0.4
+      recoil: 2
       shootCone: 45
         y: 1.25
         reload: 72
