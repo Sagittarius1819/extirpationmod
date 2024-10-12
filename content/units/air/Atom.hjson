@@ -24,7 +24,7 @@ reload: 55
 alternate: true
 shootCone: 180
 ejectEffect: none
-minShootVelocity: 0.15f
+minShootVelocity: 0.75f
 velocityRnd: 1
 inaccuracy: 15
 ignoreRotation: true
