@@ -110,6 +110,8 @@ launchCandidates: []
 itemWhitelist: [
   "Tin",
   "CopperAlt",
-  "sand",
-  "scrap",
+  "slag",
+  "Bloodgrit",
+  "Bronze",
+  "Liquid-Bronze"
 ]
