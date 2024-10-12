@@ -32,7 +32,7 @@ collidesAir: false
 reload: 15
 range: 160
 velocityRnd: 0.2
-inaccuracy: 10
+inaccuracy: 5
 scaleLife: true
 shoot: {
   shots: 1
@@ -45,6 +45,7 @@ ammoTypes: {
     width: 7
     collidesGround: true
     height: 9
+        lifetime: 80
     speed: 3
         splashDamage: 0
     splashDamageRadius: 0
@@ -53,6 +54,7 @@ ammoTypes: {
     type: FlakBulletType
     width: 7
     height: 9
+        lifetime: 80
     damage: 14
     speed: 3.5
     collidesGround: true

@@ -1,0 +1,13 @@
+type: Junction
+name: Blue Junction
+description: Allows Conveyor Crossing
+health: 65
+size: 1
+speed: 22
+requirements: [
+  Tin/2
+]
+squareSprite: false
+category: distribution
+research: tin-conveyor
+researchCostMultiplier: 0.5
