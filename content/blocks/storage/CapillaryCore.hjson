@@ -12,7 +12,7 @@ squareSprite: false
 alwaysUnlocked: true
 unitType: Clot
 health: 1300
-landMusic:
+landMusic: VarelinLand
 itemCapacity: 4500
 unitCapModifier: 10
 category: effect
