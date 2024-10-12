@@ -1,7 +1,7 @@
 type: ContinuousLiquidTurret
 name: Carnage
-description: Fires small beams of plasma at targets.
-size: 2
+description: Fires a giant beam of plasma at foes.
+size: 3
 category: turret
 research: {
   parent: Splatter
@@ -35,7 +35,7 @@ targetInterval: 10
 targetUnderBlocks: true
 range: 350
 targetAir: true
-shootY: 7
+shootY: 7.5
 loopSound: BigLaserLoop
 loopSoundVolume: 1
 drawer: {
@@ -66,12 +66,12 @@ drawer: {
 }
 ammoTypes: {
 slag: {
-    width: 4
+    width: 5.5
     drawFlare: false
     hitColor: ffffffCC
     type: ContinuousFlameBulletType
     damage: 5
-    length: 400
+    length: 200
     knockback: 2
     pierceCap: 8
     colors: [cd2727, dd6666, f0a4a4, ffdcdc]
