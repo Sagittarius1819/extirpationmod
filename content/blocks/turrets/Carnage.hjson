@@ -15,26 +15,21 @@ researchCostMultiplier: 0.05
 shootSound: BigLaserShoot
 chargeSound: BigLaserCharge
 requirements: [
-  Tin/90
-  CopperAlt/60
-  Bronze/50
+  Tin/900
+  CopperAlt/860
+  Bronze/550
 ]
-coolant: {
-  type: ConsumeCoolant
-  allowGas: true
-  allowLiquid: true
-  amount: 0.1
-}
 consumes: {
-  power: 2.5
+  power: 14
 }
 chargeEffect: lightningCharge
 outlineColor: 342222
 liquidConsumed: 3
-targetInterval: 10
+targetInterval: 5
 targetUnderBlocks: true
 range: 350
 targetAir: true
+targetGround: true
 shootY: 7.5
 loopSound: BigLaserLoop
 loopSoundVolume: 1
@@ -70,7 +65,7 @@ slag: {
     drawFlare: false
     hitColor: ffffffCC
     type: ContinuousFlameBulletType
-    damage: 5
+    damage: 33
     length: 200
     knockback: 2
     pierceCap: 8
