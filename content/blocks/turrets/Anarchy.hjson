@@ -42,12 +42,22 @@ drawer: {
   parts: [
     {
       type: RegionPart
-      mirror: true
-      suffix: -wing
+      mirror: false
+      suffix: -wing-l
       under: true
       progress: warmup
       moveRot: -24
       moveX: 2
+      moveY: 1
+    }
+        {
+      type: RegionPart
+      mirror: false
+      suffix: -wing-r
+      under: true
+      progress: warmup
+      moveRot: 24
+      moveX: -2
       moveY: 1
     }
   ]
