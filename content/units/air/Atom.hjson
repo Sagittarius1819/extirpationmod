@@ -4,6 +4,7 @@ flying: true
 speed: 2
 rotateSpeed: 2
 drag: 0.025
+outlineColor: 342222
 armor: 3
 faceTarget: false
 lowAltitude: false
@@ -14,7 +15,7 @@ targetAir: false
 health: 1500
 
 weapons: [{
-name: bquadbombs
+name: Atombomb
 x: 0
 y: -2
 reload: 60
@@ -26,13 +27,12 @@ velocityRnd: 1
 inaccuracy: 15
 ignoreRotation: true
 bullet: {
-sprite: bbunit-bquadbomb
+sprite: none
 type: BombBulletType
-despawnEffect: greenBomb
+despawnEffect: reactorExplosion
 damage: 0
-healPercent: 6
-splashDamage: 120
-splashDamageRadius: 40
+splashDamage: 9.5
+splashDamageRadius: 10
 width: 7
 height: 10
 spin: 2
@@ -40,5 +40,5 @@ lifetime: 60
 }
 shootSound: plasmadrop
 hitSound: plasmaboom
-hitEffect: massiveExplosion
+hitEffect: impactReactorExplosion
 }]
