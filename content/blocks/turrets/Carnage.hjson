@@ -28,10 +28,11 @@ coolant: {
 consumes: {
   power: 2.5
 }
+chargeEffect: lightningCharge
 outlineColor: 342222
-liquidConsumed: 0.05
-targetInterval: 5
-targetUnderBlocks: false
+liquidConsumed: 3
+targetInterval: 10
+targetUnderBlocks: true
 range: 350
 targetAir: true
 shootY: 7
@@ -65,14 +66,14 @@ drawer: {
 }
 ammoTypes: {
 slag: {
-    width: 1.7
+    width: 4
     drawFlare: false
     hitColor: ffffffCC
     type: ContinuousFlameBulletType
-    damage: 1
-    length: 144
+    damage: 5
+    length: 400
     knockback: 2
-    pierceCap: 3
-    colors: [ff9456, ffb68c, fde1d1, fff8f4]
+    pierceCap: 8
+    colors: [cd2727, dd6666, f0a4a4, ffdcdc]
     lightColor: ffffffCC
   }}
