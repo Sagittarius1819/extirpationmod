@@ -47,7 +47,7 @@ drawer: {
       under: true
       progress: warmup
       moveRot: 24
-      moveX: 10
+      moveX: -3
       moveY: 1
     }
         {
@@ -57,7 +57,7 @@ drawer: {
       under: true
       progress: warmup
       moveRot: -24
-      moveX: -10
+      moveX: 3
       moveY: 1
     }
   ]
