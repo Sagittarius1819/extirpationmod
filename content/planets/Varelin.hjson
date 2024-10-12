@@ -111,6 +111,5 @@ itemWhitelist: [
   "Tin",
   "CopperAlt",
   "Bloodgrit",
-  "Bronze",
-  "Liquid-Bronze"
+  "Bronze"
 ]
