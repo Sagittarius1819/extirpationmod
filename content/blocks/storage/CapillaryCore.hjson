@@ -12,8 +12,9 @@ squareSprite: false
 alwaysUnlocked: true
 unitType: Clot
 health: 1300
+landMusic:
 itemCapacity: 4500
-unitCapModifier: 8
+unitCapModifier: 10
 category: effect
 hiddenOnPlanets: [serpulo, erekir]
 research: {
