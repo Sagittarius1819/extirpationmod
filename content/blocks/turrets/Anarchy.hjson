@@ -1,0 +1,67 @@
+type: ContinuousLiquidTurret
+name: Anarchy
+description: Fires small beams of plasma at targets.
+size: 2
+category: turret
+research: {
+  parent: Splatter
+  requirements: [
+    Tin/1250
+    CopperAlt/1000
+    Bronze/500
+  ]
+}
+researchCostMultiplier: 0.05
+shootSound: none
+requirements: [
+  Tin/90
+  CopperAlt/60
+  Bronze/50
+]
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.1
+}
+consumes: {
+  power: 2.5
+}
+outlineColor: 342222
+liquidConsumed: 0.05
+targetInterval: 5
+targetUnderBlocks: false
+range: 144
+targetAir: false
+shootY: 4
+loopSound: PlasmaLoop
+loopSoundVolume: 0.6
+drawer: {
+  type: DrawTurret
+  basePrefix: Rusted-
+  parts: [
+    {
+      type: RegionPart
+      mirror: true
+      suffix: -wing
+      under: true
+      progress: warmup
+      moveRot: -24
+      moveX: 2
+      moveY: 1
+    }
+  ]
+}
+ammoTypes: {
+slag: {
+    width: 1.7
+    drawFlare: false
+    hitColor: ffffffCC
+    type: ContinuousFlameBulletType
+    damage: 1
+    length: 144
+    knockback: 2
+    pierceCap: 3
+    colors: [ffffff80, ffffffB3, ffffffCC, ffffff]
+    lightColor: ffffffCC
+  }}
