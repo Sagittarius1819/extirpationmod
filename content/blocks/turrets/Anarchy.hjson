@@ -35,7 +35,7 @@ range: 144
 targetAir: false
 shootY: 4
 loopSound: PlasmaLoop
-loopSoundVolume: 0.6
+loopSoundVolume: 1
 drawer: {
   type: DrawTurret
   basePrefix: Rusted-
@@ -72,6 +72,6 @@ slag: {
     length: 144
     knockback: 2
     pierceCap: 3
-    colors: [ffffff80, ffffffB3, ffffffCC, ffffff]
+    colors: [ff9456, ffb68c, fde1d1, fff8f4]
     lightColor: ffffffCC
   }}
