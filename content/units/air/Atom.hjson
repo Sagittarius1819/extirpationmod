@@ -26,6 +26,7 @@ shootCone: 180
 ejectEffect: none
 minShootVelocity: 0.75f
 velocityRnd: 1
+shootSoundVolume: 0.6
 inaccuracy: 15
 ignoreRotation: true
 bullet: {
