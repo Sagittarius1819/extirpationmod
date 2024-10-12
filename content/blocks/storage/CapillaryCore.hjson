@@ -15,6 +15,7 @@ health: 1300
 itemCapacity: 4500
 unitCapModifier: 8
 category: effect
+hiddenOnPlanets: [serpulo, erekir]
 research: {
   planet: Varelin
   root: true

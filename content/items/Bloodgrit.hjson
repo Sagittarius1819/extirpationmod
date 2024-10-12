@@ -1,0 +1,8 @@
+name: Bloodgrit
+description: A fine, pink, sand-like material used in production.
+hardness: 2
+cost: 0.2
+lowPriority: true
+research: CopperAlt
+color: e78989
+hiddenOnPlanets: [serpulo, erekir]

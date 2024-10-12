@@ -34,6 +34,7 @@ reload: 7
 range: 200
 velocityRnd: 0.4
 inaccuracy: 20
+hiddenOnPlanets: [serpulo, erekir]
 scaleLife: true
 shoot: {
   type: ShootBarrel

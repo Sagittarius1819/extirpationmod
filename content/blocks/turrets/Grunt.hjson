@@ -21,6 +21,7 @@ coolant: {
   allowLiquid: true
   amount: 0.1
 }
+hiddenOnPlanets: [serpulo, erekir]
 outlineColor: 4e3737
 damage: 10
 health: 260
