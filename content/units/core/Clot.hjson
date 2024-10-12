@@ -15,6 +15,7 @@ itemCapacity: 30
 alwaysUnlocked: true
 outlineColor: 1b1212
 buildSpeed: 1
+lowAltitude: true
 range: 160
 weapons: [
   {
