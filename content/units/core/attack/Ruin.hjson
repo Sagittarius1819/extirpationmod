@@ -24,7 +24,7 @@ research: Grunt
         inaccuracy: 25
         shoot: {
           shots: 5
-          shotDelay: 2.5
+          shotDelay: 0.75
         }
         shootSound: Shotgun
         bullet: {
