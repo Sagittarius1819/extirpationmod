@@ -9,7 +9,7 @@ requirements: [
 isFirstTier: true
 size: 4
 squareSprite: false
-alwaysUnlocked: false
+alwaysUnlocked: true
 unitType: Clot
 health: 1300
 itemCapacity: 4500
