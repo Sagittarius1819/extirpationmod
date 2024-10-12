@@ -1,8 +1,8 @@
 name: Atom
 type: flying
 flying: true
-speed: 1.5
-rotateSpeed: 2.5
+speed: 2
+rotateSpeed: 4
 drag: 0.025
 outlineColor: 342222
 armor: 3
@@ -19,7 +19,7 @@ weapons: [{
 name: Atomitizer
 x: 0
 y: -2
-hitSound: AtomBomb
+hitSound: Atom-Bang
 reload: 55
 alternate: true
 shootCone: 180
@@ -31,9 +31,9 @@ ignoreRotation: true
 bullet: {
 type: BombBulletType
 despawnEffect: flakExplosion
-damage: 0
+damage: 4
 splashDamage: 28
-splashDamageRadius: 20
+splashDamageRadius: 25
 width: 7
 height: 10
 spin: 4
