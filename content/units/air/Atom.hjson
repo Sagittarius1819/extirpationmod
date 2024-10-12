@@ -27,18 +27,18 @@ velocityRnd: 1
 inaccuracy: 15
 ignoreRotation: true
 bullet: {
-sprite: AtomShell
 type: BombBulletType
 despawnEffect: flakExplosion
 damage: 0
+sprite: AtomShell
 splashDamage: 9.5
 splashDamageRadius: 10
 width: 7
 height: 10
-spin: 2
+spin: 4
 lifetime: 60
 }
 shootSound: Eject
 hitSound: AtomBomb
-hitEffect: blastExplosion
+hitEffect: flakExplosionBig 
 }]
