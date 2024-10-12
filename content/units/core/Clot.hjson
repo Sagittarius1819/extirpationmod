@@ -13,15 +13,15 @@ health: 175
 engineOffset: 7.5
 itemCapacity: 30
 alwaysUnlocked: true
-outlineColor: 1c0202
+outlineColor: 2c2323
 buildSpeed: 1
 range: 160
 weapons: [
   {
   name: Vessel
   x: 5
-  top: false
-  y: 4.5
+  top: true
+  y: 4.65
   reload: 25
   inaccuracy: 7.5
   shoot: {
