@@ -1,0 +1,14 @@
+type: Router
+name: Blue Router
+description: A colored router that splits the paths of items.
+size: 1
+speed: 6
+health: 130
+itemCapacity: 5
+requirements: [
+  Tin/3
+]
+squareSprite: false
+category: distribution
+research: tin-conveyor
+researchCostMultiplier: 0.5
