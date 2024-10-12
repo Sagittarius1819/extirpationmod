@@ -28,7 +28,7 @@ consumes: {
   power: 2.5
 }
 outlineColor: 342222
-liquidConsumed: 0.05
+liquidConsumed: 0.35
 targetInterval: 5
 targetUnderBlocks: false
 range: 144
