@@ -23,6 +23,9 @@ drawer: {
   type: DrawTurret
   basePrefix: Rusted-
   parts: [
+        {
+      type: DrawDefault
+    }
     {
       type: RegionPart
       suffix: -barrel-l
