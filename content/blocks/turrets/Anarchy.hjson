@@ -13,8 +13,7 @@ research: {
   ]
   objectives: [
     {
-      type: SectorComplete
-      preset: Inception
+  { type: sector, sector: 2 }
     }
   ]
 }
