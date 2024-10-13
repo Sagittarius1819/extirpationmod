@@ -29,7 +29,7 @@ drawer: {
     {
       type: DrawRegion
       drawLiquid: -rotator
-            spinSprite: true
+    spinSprite: true
       rotateSpeed: 2
     }
     {
