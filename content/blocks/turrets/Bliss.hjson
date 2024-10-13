@@ -24,7 +24,6 @@ drawer: {
   basePrefix: Rusted-
   parts: [
     {
-        top = true
       type: RegionPart
       suffix: -barrel-l
       progress: recoil
@@ -34,7 +33,6 @@ drawer: {
       growY: 0.1
     }
         {
-              top = true
       type: RegionPart
       suffix: -barrel-r
       progress: recoil
