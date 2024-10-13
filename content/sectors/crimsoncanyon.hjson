@@ -5,7 +5,10 @@ difficulty: 1
 alwaysUnlocked: false
 research: {
   parent: Inception
+    objectives: [
+    {
+      type: SectorComplete
+      preset: Inception
+    }
+  ]
 }
-    requirements: [
-      "Inception"
-    ]

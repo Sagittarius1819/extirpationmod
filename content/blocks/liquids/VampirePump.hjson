@@ -12,8 +12,8 @@ squareSprite: false
   ]
   objectives: [
     {
-      { type: sector, sector: 2 }
-       
+      type: SectorComplete
+      preset: Inception
     }
   ]
  }
