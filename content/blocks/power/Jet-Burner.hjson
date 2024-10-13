@@ -1,0 +1,36 @@
+type: ConsumeGenerator
+name: Thermal Plant
+description: Creates a small amount of power from slag.
+size: 2
+category: power
+squareSprite: false
+research: Thermal-Plant
+ solid: true
+requirements: [
+ Tin/150
+ CopperAlt/120
+ Bronze/30
+]
+generateEffect: steam 
+powerProduction: 1.35
+consumes: {
+  item: Jet/2
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawRegion
+      drawLiquid: -spinner
+            spinSprite: true
+      rotateSpeed: 2
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}

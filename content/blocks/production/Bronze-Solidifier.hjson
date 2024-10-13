@@ -1,22 +1,24 @@
 type: GenericCrafter
-name: Bronze Mixer
-description: Melts and Mixes Copper and Tin, to make Bronze liquid..
+name: Bronze Solidifier
+description: Uses power to cool Liquid bronze into a solid form.
 size: 2
-health: 175
+health: 200
 hasLiquids: true
 squareSprite: false
 liquidCapacity: 80
-outputLiquid: Liquid-Bronze/0.25
+itemCapacity: 10
+outputItems: [
+  Bronze/1
+]
 consumes: {
-  items: [
-    CopperAlt/2
-    Tin/1
-  ]
+  liquid: Liquid-Bronze/0.5
+  power: 0.7
 }
-craftTime: 90
+craftTime: 70
+craftEffect: smoke
 category: crafting
 research: {
-  parent: CopperAlt
+  parent: Bronze-Mixer
 requirements: [
  CopperAlt/200
   Tin/150
@@ -24,8 +26,8 @@ requirements: [
 researchCostMultiplier: 0.5
 }
 requirements: [
- Tin/60
- CopperAlt/35
+ CopperAlt/60
+  Tin/105
 ]
 
 drawer: {

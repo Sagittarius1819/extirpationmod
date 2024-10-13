@@ -1,31 +1,34 @@
 type: GenericCrafter
-name: Bronze Mixer
-description: Melts and Mixes Copper and Tin, to make Bronze liquid..
+name: Scrap Solidifier
+description: Uses power to cool Slag into a solid form.
 size: 2
-health: 175
+health: 200
 hasLiquids: true
 squareSprite: false
 liquidCapacity: 80
-outputLiquid: Liquid-Bronze/0.25
+itemCapacity: 10
+outputItems: [
+  scrap/1
+]
 consumes: {
-  items: [
-    CopperAlt/2
-    Tin/1
-  ]
+  liquid: slag/0.1
+  power: 0.75
 }
-craftTime: 90
+craftTime: 85
+craftEffect: smoke
 category: crafting
 research: {
-  parent: CopperAlt
+  parent: Bronze-Solidifier
 requirements: [
- CopperAlt/200
-  Tin/150
+ CopperAlt/270
+  Tin/215
+  Bronze/75
 ]
 researchCostMultiplier: 0.5
 }
 requirements: [
- Tin/60
- CopperAlt/35
+ CopperAlt/200
+  Tin/150
 ]
 
 drawer: {
@@ -37,7 +40,7 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      drawLiquid: Liquid-Bronze
+      drawLiquid: slag
       padding: 1.5
     }
     {

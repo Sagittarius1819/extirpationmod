@@ -1,0 +1,4 @@
+type: OreBlock
+name: Jet
+itemDrop: Jet
+variants: 3

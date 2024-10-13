@@ -1,0 +1,4 @@
+type: OreBlock
+name: Hematite
+itemDrop: Hematite
+variants: 3

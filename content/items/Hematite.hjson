@@ -1,0 +1,6 @@
+type: material
+name: Hematite
+description: A metal found in low quantities in the atmosphere and soil of Varelin.
+cost: 3
+color: a49292
+hiddenOnPlanets: [serpulo, erekir]
