@@ -38,10 +38,10 @@ trailColor: ffb29a
           speed: 3.5
           lifetime: 50
           pierce: false
-          damage: 79
+          damage: 90
           width: 12
           height: 12
-                  splashDamage: 74.5
-    splashDamageRadius: 6
+                  splashDamage: 80
+    splashDamageRadius: 9
         }}
   ]
