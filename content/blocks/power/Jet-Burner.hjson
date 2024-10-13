@@ -1,5 +1,5 @@
 type: ConsumeGenerator
-name: Thermal Plant
+name: Jet Burner
 description: Creates a small amount of power from slag.
 size: 2
 category: power
@@ -12,7 +12,7 @@ requirements: [
  Bronze/30
 ]
 generateEffect: steam 
-effectChance: 0.25
+effectChance: 0.1
 powerProduction: 1.35
 consumes: {
   items:[
@@ -30,7 +30,7 @@ drawer: {
       type: DrawRegion
       suffix: -rotator
     spinSprite: true
-      rotateSpeed: 4.5
+      rotateSpeed: 6
     }
     {
       type: DrawDefault
