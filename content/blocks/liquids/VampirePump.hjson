@@ -13,7 +13,7 @@ squareSprite: false
   objectives: [
     {
       type: SectorComplete
-      preset: inception
+      preset: Inception
     }
   ]
  }
