@@ -2,6 +2,7 @@ type: ContinuousLiquidTurret
 name: Carnage
 description: Fires a giant beam of plasma at foes.
 size: 3
+health: 1260
 category: turret
 research: {
   parent: Splatter
@@ -68,7 +69,7 @@ slag: {
     type: ContinuousFlameBulletType
     damage: 5.5
     length: 200
-    knockback: 2
+    knockback: 1
     pierceCap: 8
     colors: [cd2727, dd6666, f0a4a4, ffdcdc]
     lightColor: ffffffCC

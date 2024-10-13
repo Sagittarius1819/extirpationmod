@@ -2,6 +2,7 @@ type: ContinuousLiquidTurret
 name: Anarchy
 description: Fires small beams of plasma at targets.
 size: 2
+health: 560
 category: turret
 research: {
   parent: Splatter
@@ -71,7 +72,7 @@ slag: {
     type: ContinuousFlameBulletType
     damage: 1
     length: 144
-    knockback: 2
+    knockback: 0.33
     pierceCap: 3
     colors: [ff9456, ffb68c, fde1d1, fff8f4]
     lightColor: ffffffCC
