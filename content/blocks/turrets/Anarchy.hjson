@@ -70,7 +70,7 @@ slag: {
     drawFlare: false
     hitColor: ffffffCC
     type: ContinuousFlameBulletType
-    damage: 1
+    damage: 4.5
     length: 144
     knockback: 0.33
     pierceCap: 3
