@@ -52,19 +52,18 @@ drawer: {
 }
 category: turret
 research: Anarchy
-shootSound: MetalShot
+shootSound: FireShot
 requirements: [
  Tin/320
  CopperAlt/260
  Bronze/150
 ]
 ammoTypes: {
-  CopperAlt: {
+  Jet: {
     hitEffect: flakExplosion
     type: FireBulletType
-    colorFrom:
-    colorMid:
-    colorTo:
-    ammoMultiplier: 2
+    ammoMultiplier: 3
+    velMin: 2.6
+    velMax: 4
   }
 }
