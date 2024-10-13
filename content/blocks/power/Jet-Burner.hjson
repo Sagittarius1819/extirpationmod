@@ -13,7 +13,7 @@ requirements: [
 ]
 generateEffect: steam 
 effectChance: 0.1
-powerProduction: 1.35
+powerProduction: 1.66
 consumes: {
   items:[
 Jet/2
@@ -38,4 +38,4 @@ drawer: {
   ]
 }
 ambientSound: hum
-ambientSoundVolume: 0.05
+ambientSoundVolume: 0.5

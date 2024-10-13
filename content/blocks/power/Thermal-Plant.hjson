@@ -11,9 +11,9 @@ requirements: [
  CopperAlt/125
 ]
 generateEffect: steam 
-powerProduction: 1.15
+powerProduction: 1
 consumes: {
-  liquid: slag/0.125
+  liquid: slag/0.155
 }
 ambientSound: hum
-ambientSoundVolume: 0.05
+ambientSoundVolume: 0.5
