@@ -1,7 +1,6 @@
 captureWave: 16
 planet: Varelin
-sector: 9
-id: "canyonid"
+sector: 4
 difficulty: 1
 alwaysUnlocked: false
 research: {

@@ -27,7 +27,10 @@ requirements: [
     CopperAlt/350
   ]
   objectives: [
-    { type: "sector", sector: "canyonid" }
+    {
+      type: SectorComplete
+      preset: Inception
+    }
   ]
 }
 drawer: {

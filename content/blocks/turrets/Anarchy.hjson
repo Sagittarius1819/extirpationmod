@@ -12,7 +12,10 @@ research: {
     Bronze/500
   ]
   objectives: [
-    { type: "sector", sector: "canyonid" }
+    {
+      type: SectorComplete
+      preset: Inception
+    }
   ]
 }
 
