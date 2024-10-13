@@ -1,0 +1,16 @@
+type: LiquidRouter
+name: Pipe Router
+description: Distributes inputted liquids to three outputs.
+size: 1
+solid: false
+underBullets: true
+health: 65
+liquidCapacity: 20
+category: liquid
+squareSprite: false
+research: Pipe
+requirements: [
+  Tin/6
+  CopperAlt/10
+]
+researchCostMultiplier: 0.5

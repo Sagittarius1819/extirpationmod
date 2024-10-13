@@ -1,0 +1,14 @@
+type: Conduit
+name: Pipe
+description: Transports liquids forward.
+category: liquid
+research: VampirePump
+requirements: [
+  CopperAlt/1
+]
+health: 55
+leaks: true
+junctionReplacement: Pipe-Junction
+bridgeReplacement: Pipe-Router
+underBullets: true
+researchCostMultiplier: 0.5

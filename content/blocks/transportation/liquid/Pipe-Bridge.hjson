@@ -1,0 +1,15 @@
+type: LiquidBridge
+name: Pipe Bridge
+description: Used to bridge Pipes across terrain or machinery.
+fadeIn: false
+moveArrows: false
+arrowSpacing: 6
+range: 4
+hasPower: false
+category: liquid
+research: Pipe-Router
+requirements: [
+  CopperAlt/8
+Tin/8
+]
+researchCostMultiplier: 0.5

@@ -1,0 +1,13 @@
+type: Pump
+name: Vampire Pump
+description: Slowly pumps liquid from slag and other liquid tiles.
+size: 1
+category: liquid
+squareSprite: false
+research: CapillaryCore
+requirements: [
+  Tin/18
+  Copper/12
+]
+pumpAmount: 0.055
+researchCostMultiplier: 0.5

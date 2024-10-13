@@ -1,0 +1,11 @@
+type: LiquidJunction
+name: Pipe Junction
+description: Used for crossing two Pipes.
+solid: false
+category: liquid
+squareSprite: false
+research: Pipe-Router
+requirements: [
+  CopperAlt/8
+]
+researchCostMultiplier: 0.5

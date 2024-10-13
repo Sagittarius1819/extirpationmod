@@ -1,0 +1,15 @@
+type: ConsumeGenerator
+name: Thermal Plant
+description: Creates a small amount of power from slag.
+size: 2
+category: power
+squareSprite: false
+research: VampirePump
+requirements: [
+ Tin/155
+ CopperAlt/125
+]
+powerProduction: 1.25
+consumes: {
+  liquid: slag/0.1
+}
