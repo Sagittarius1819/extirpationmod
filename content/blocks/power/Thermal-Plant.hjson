@@ -15,3 +15,5 @@ powerProduction: 1.15
 consumes: {
   liquid: slag/0.125
 }
+ambientSound: hum
+ambientSoundVolume: 0.05

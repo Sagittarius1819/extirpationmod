@@ -32,3 +32,9 @@ drawer: {
     }
   ]
 }
+knockback: 1.5
+bulletSpeed: 4
+shootEffect: shootSmall
+smokeEffect: shootSmallSmoke 
+receiveEffect: mineSmall
+shootSound: Eject
