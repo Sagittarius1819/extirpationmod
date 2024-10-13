@@ -80,7 +80,7 @@ generator: {
   berylChance: 0
   ferricChance: 0.26
 }
-sectorSize: 1
+sectorSize: 0.6
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
 allowLaunchLoadout: false
@@ -106,6 +106,7 @@ allowWaves: true
 prebuildBase: false
 parent: erekir
 solarSystem: sun
+defaultCore: CoreCapillary
 launchCandidates: []
 itemWhitelist: [
   "Tin",
