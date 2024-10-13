@@ -27,6 +27,7 @@ damage: 4
 targetAir: true
 targetGround: false
 health: 430
+ solid: true
 recoils: 3
 collidesGround: false
 collidesAir: true

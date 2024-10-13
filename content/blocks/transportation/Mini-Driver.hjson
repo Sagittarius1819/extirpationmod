@@ -3,6 +3,7 @@ name: Mini-Driver
 description: Fires batches of items over tiny distances. Connects to other Mini-Drivers. Requires power.
 size: 1
 squareSprite: false
+ solid: true
 outlineColor: 4c3939
 itemCapacity: 10
 reload: 50

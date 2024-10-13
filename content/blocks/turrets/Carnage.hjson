@@ -33,6 +33,7 @@ targetGround: true
 shootY: 7.5
 loopSound: BigLaserLoop
 loopSoundVolume: 1
+ solid: true
 drawer: {
   type: DrawTurret
   basePrefix: Rusted-

@@ -5,6 +5,7 @@ size: 2
 category: power
 squareSprite: false
 research: VampirePump
+ solid: true
 requirements: [
  Tin/155
  CopperAlt/125

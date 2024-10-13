@@ -36,6 +36,7 @@ targetAir: false
 shootY: 4
 loopSound: PlasmaLoop
 loopSoundVolume: 1
+ solid: true
 drawer: {
   type: DrawTurret
   basePrefix: Rusted-

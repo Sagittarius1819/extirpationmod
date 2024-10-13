@@ -9,6 +9,8 @@
   laserColor2:141212
   laserScale: 0.15
   maxNodes: 10,
+  solid: true
+  editorIcon: UtilityPole-preview
 requirements: [
  Tin/35
  CopperAlt/25
@@ -22,7 +24,6 @@ drawer: {
     {
       type: DrawRegion
       suffix: -planks
-      x: 25
     }
     {
       type: DrawDefault

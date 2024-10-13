@@ -2,6 +2,7 @@ type: ItemTurret
 name: Grunt
 description: Launches small pieces of scrap metal at enemies.
 size: 1
+ solid: true
 category: turret
 research: {
   parent: CapillaryCore
