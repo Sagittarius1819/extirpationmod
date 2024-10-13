@@ -33,17 +33,9 @@ drawer: {
       growY: 0.1
     }
     {
+    under: false
       type: RegionPart
-      suffix: -barrel-l
-      progress: recoil
-      under: true
-      moveY: -5
-      growX: 0.1
-      growY: 0.1
-    }
-        {
-      type: RegionPart
-      suffix: -barrel-r
+      suffix: -barrel
       progress: recoil
       under: true
       moveY: -5
