@@ -25,22 +25,25 @@ drawer: {
   parts: [
     {
       type: RegionPart
-      suffix: 
+      suffix: -barrel-l
       progress: recoil
-      under: true
-      moveY: -1
-      growX: 0.1
-      growY: 0.1
-    }
-    {
-    under: false
-      type: RegionPart
-      suffix: -barrel
-      progress: recoil
-      under: true
+      under: false
       moveY: -5
       growX: 0.1
       growY: 0.1
+      mirror: false
+      recoilIndex: 0
+    }
+        {
+      type: RegionPart
+      suffix: -barrel-r
+      progress: recoil
+      under: false
+      moveY: -5
+      growX: 0.1
+      growY: 0.1
+      mirror: false
+      recoilIndex: 1
     }
   ]
 }
