@@ -3,7 +3,7 @@
   name: Transmission Tower
   description: A larger pole to connect power points over large distances
   size: 2
-  health: 1500
+  health: 600
   laserRange: 12
   laserColor1: 312c2c
   laserColor2:141212
