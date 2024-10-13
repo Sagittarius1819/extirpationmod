@@ -59,10 +59,7 @@ research: {
     Bronze/750
   ]
   objectives: [
-    {
-      type: SectorComplete
-      preset: crimsoncanyon
-    }
+    { type: "sector", sector: "canyonid" }
   ]
 }
 shootSound: MetalShot

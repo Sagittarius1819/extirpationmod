@@ -7,10 +7,7 @@ squareSprite: false
 research: {
   parent: CapillaryCore
   objectives: [
-    {
-      type: SectorComplete
-      preset: Inception
-    }
+    { type: "sector", sector: "canyonid" }
   ]
 }
  solid: true

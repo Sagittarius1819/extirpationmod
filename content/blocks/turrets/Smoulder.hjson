@@ -59,10 +59,7 @@ research: {
     Jet/50
   ]
   objectives: [
-    {
-      type: SectorComplete
-      preset: Inception
-    }
+    { type: "sector", sector: "canyonid" }
   ]
 }
 shootSound: FireShot

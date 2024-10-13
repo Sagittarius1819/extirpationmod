@@ -11,10 +11,7 @@ squareSprite: false
     CopperAlt/400
   ]
   objectives: [
-    {
-      type: SectorComplete
-      preset: Inception
-    }
+    { type: "sector", sector: "canyonid" }
   ]
  }
 requirements: [
