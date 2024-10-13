@@ -1,7 +1,7 @@
 type: mech
 name: Ruin
 description: Fires a spreading shotgun blast that decimates close foes.
-speed: 0.6
+speed: 0.8
 flying: false
 health: 525
 hitSize: 10
@@ -13,7 +13,7 @@ research: Ruin
     {
       top: true
       x: 4
-      name: Titan
+      name: Demolition
       recoil: 2
       shootCone: 45
         y: 1.25
@@ -26,7 +26,7 @@ research: Ruin
           shots: 5
           shotDelay: 0.75
         }
-        shootSound: Atom-Bang
+        shootSound: Shotgun
         bullet: {
           type: BasicBulletType
           speed: 4

@@ -1,19 +1,19 @@
 type: mech
 name: Ruin
 description: Fires a spreading shotgun blast that decimates close foes.
-speed: 0.8
+speed: 0.6
 flying: false
-health: 135
+health: 525
 hitSize: 10
 outlineColor: 643b3b
 mechLegColor: 513030
 researchCostMultiplier: 1.5
-research: Grunt
+research: Ruin
   weapons: [
     {
       top: true
-      x: 4
-      name: Demolition
+      x: 6
+      name: Titan
       recoil: 2
       shootCone: 45
         y: 1.25
@@ -21,21 +21,20 @@ research: Grunt
         rotate: false
         mirror: true
         alternate: true
-        inaccuracy: 25
+        inaccuracy: 40
         shoot: {
-          shots: 5
-          shotDelay: 0.75
+          shots: 1
         }
-        shootSound: Shotgun
+        shootSound: Atom-Bang
         bullet: {
           type: BasicBulletType
           speed: 4
           lifetime: 32
           pierce: false
-          damage: 9
-          pierce: true
-          pierceCap: 2
+          damage: 25
           width: 6
           height: 12
+                  splashDamage: 7.5
+    splashDamageRadius: 6
         }}
   ]
