@@ -4,7 +4,19 @@ description: Slowly pumps liquid from slag and other liquid tiles.
 size: 1
 category: liquid
 squareSprite: false
-research: CapillaryCore
+ research: {
+  parent: CapillaryCore
+  requirements: [
+    Tin/400
+    CopperAlt/400
+  ]
+  objectives: [
+    {
+      type: SectorComplete
+      preset: inception
+    }
+  ]
+ }
 requirements: [
   Tin/18
   CopperAlt/12

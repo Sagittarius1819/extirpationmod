@@ -15,4 +15,11 @@ requirements: [
  CopperAlt/25
 ]
   category: power
-  research: Thermal-Plant
+research: {
+  parent: Thermal-Plant
+  requirements: [
+    CopperAlt/370
+    Tin/500
+    Bronze/50
+  ]
+}

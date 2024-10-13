@@ -4,7 +4,15 @@ description: Creates a small amount of power from slag.
 size: 2
 category: power
 squareSprite: false
-research: VampirePump
+research: {
+  parent: CapillaryCore
+  objectives: [
+    {
+      type: SectorComplete
+      preset: inception
+    }
+  ]
+}
  solid: true
 requirements: [
  Tin/155

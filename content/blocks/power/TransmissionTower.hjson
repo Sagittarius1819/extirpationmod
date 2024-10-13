@@ -16,4 +16,11 @@ requirements: [
  Bronze/20
 ]
   category: power
-  research: Thermal-Plant
+research: {
+  parent: UtilityPole
+  requirements: [
+    CopperAlt/370
+    Tin/500
+    Bronze/50
+  ]
+}

@@ -4,7 +4,13 @@ description: Creates a small amount of power from slag.
 size: 2
 category: power
 squareSprite: false
-research: Thermal-Plant
+research: {
+  parent: Thermal-Plant
+  requirements: [
+    CopperAlt/300
+    Tin/550
+  ]
+}
  solid: true
 requirements: [
  Tin/150

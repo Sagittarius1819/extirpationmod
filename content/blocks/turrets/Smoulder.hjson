@@ -51,7 +51,20 @@ drawer: {
   ]
 }
 category: turret
-research: Anarchy
+research: {
+  parent: Grunt
+  requirements: [
+    Tin/400
+    CopperAlt/350
+    Jet/50
+  ]
+  objectives: [
+    {
+      type: SectorComplete
+      preset: inception
+    }
+  ]
+}
 shootSound: FireShot
 requirements: [
  Tin/320

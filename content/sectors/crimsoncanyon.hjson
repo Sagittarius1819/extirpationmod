@@ -1,0 +1,14 @@
+captureWave: 16
+planet: Varelin
+sector: 9
+difficulty: 1
+alwaysUnlocked: false
+research: {
+  parent: inception
+  objectives: [
+    {
+      type: SectorComplete
+      preset: inception
+    }
+  ]
+}

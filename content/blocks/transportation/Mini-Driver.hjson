@@ -15,10 +15,23 @@ consumes: {
   power: 1
 }
 category: distribution
-research: tin-conveyor
 requirements: [
- Tin/20
- CopperAlt/30
+ Tin/120
+ CopperAlt/75
+
+ research: {
+  parent: tin-conveyor
+  requirements: [
+    Tin/400
+    CopperAlt/350
+  ]
+  objectives: [
+    {
+      type: SectorComplete
+      preset: inception
+    }
+  ]
+}
 ]
 drawer: {
   type: DrawMulti

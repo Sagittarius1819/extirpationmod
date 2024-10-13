@@ -11,7 +11,16 @@ research: {
     CopperAlt/1000
     Bronze/500
   ]
+  objectives: [
+    {
+      type: SectorComplete
+      preset: inception
+    }
+  ]
 }
+
+
+
 researchCostMultiplier: 0.05
 shootSound: none
 requirements: [

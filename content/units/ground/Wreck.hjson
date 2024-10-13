@@ -1,5 +1,5 @@
 type: mech
-name: Ruin
+name: Wreck
 description: Fires a spreading shotgun blast that decimates close foes.
 speed: 0.6
 flying: false
