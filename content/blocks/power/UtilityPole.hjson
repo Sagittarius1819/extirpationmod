@@ -5,8 +5,8 @@
   size: 1
   health: 500
   laserRange: 32
-laser: wire
-laserEnd: wire-end
+  laserColor1: 312c2c
+  laserColor2:141212
   laserScale: 0.15
   maxNodes: 10,
 requirements: [
