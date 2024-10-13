@@ -12,7 +12,7 @@ requirements: [
  Bronze/30
 ]
 generateEffect: steam 
-effectChance: 1
+effectChance: 0.25
 powerProduction: 1.35
 consumes: {
   items:[
@@ -30,7 +30,7 @@ drawer: {
       type: DrawRegion
       suffix: -rotator
     spinSprite: true
-      rotateSpeed: 3
+      rotateSpeed: 4.5
     }
     {
       type: DrawDefault
