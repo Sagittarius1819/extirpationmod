@@ -17,19 +17,25 @@ research: Ruin
       recoil: 2
       shootCone: 45
         y: 1.25
-        reload: 72
+        reload: 85
         rotate: false
         mirror: true
         alternate: true
-        inaccuracy: 40
+        inaccuracy: 15
         shoot: {
           shots: 1
         }
         shootSound: Atom-Bang
+        shootSoundVolume: 0.6
         bullet: {
-          type: BasicBulletType
-          speed: 4
-          lifetime: 32
+trailColor: ed4c4c
+    trailInterval: 2
+    TrailRotation: true
+    trailLength: 5
+        trailEffect: missileTrail
+          type: ArtilleryBulletType
+          speed: 5
+          lifetime: 40
           pierce: false
           damage: 25
           width: 6
