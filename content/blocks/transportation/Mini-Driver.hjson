@@ -6,8 +6,10 @@ squareSprite: false
  solid: true
 outlineColor: 4c3939
 itemCapacity: 10
-reload: 50
+reload: 10
+rotateSpeed: 7
 range: 50
+shake
   health: 60
 consumes: {
   power: 1
