@@ -11,7 +11,7 @@ requirements: [
  CopperAlt/125
 ]
 generateEffect: steam 
-powerProduction: 1.25
+powerProduction: 1.15
 consumes: {
-  liquid: slag/0.1
+  liquid: slag/0.125
 }
