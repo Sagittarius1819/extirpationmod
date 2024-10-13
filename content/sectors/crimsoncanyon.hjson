@@ -4,7 +4,7 @@ sector: 9
 difficulty: 1
 alwaysUnlocked: false
 research: {
-  parent: inception
+  parent: Inception
   objectives: [
     {
       type: SectorComplete
