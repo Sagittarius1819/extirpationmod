@@ -1,0 +1,6 @@
+type: material
+name: Blackplate
+description: Used in machines and units.
+cost: 3
+color: 444444
+hiddenOnPlanets: [serpulo, erekir]

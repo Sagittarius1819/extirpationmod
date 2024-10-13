@@ -1,0 +1,35 @@
+type: GenericCrafter
+name: Scrap Solidifier
+description: Uses power to cool Slag into a solid form.
+size: 2
+health: 135
+hasLiquids: true
+squareSprite: false
+liquidCapacity: 80
+itemCapacity: 10
+outputItems: [
+  scrap/1
+]
+consumes: {
+items: [
+ Bloodgrit/3
+ Jet/2
+]
+  power: 1.25
+}
+craftTime: 85
+craftEffect: shockwave
+category: crafting
+research: {
+  parent: Bronze-Mixer
+requirements: [
+ CopperAlt/270
+  Tin/1100
+  Bronze/35
+]
+researchCostMultiplier: 0.5
+}
+requirements: [
+ CopperAlt/80
+  Tin/100
+]

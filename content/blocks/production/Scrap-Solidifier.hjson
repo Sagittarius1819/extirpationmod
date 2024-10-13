@@ -21,14 +21,14 @@ research: {
   parent: Bronze-Solidifier
 requirements: [
  CopperAlt/270
-  Tin/215
-  Bronze/75
+  Tin/615
+  Bronze/475
 ]
 researchCostMultiplier: 0.5
 }
 requirements: [
- CopperAlt/200
-  Tin/150
+ CopperAlt/100
+  Tin/120
 ]
 
 drawer: {

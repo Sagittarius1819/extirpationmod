@@ -11,7 +11,7 @@ outputItems: [
   Bronze/1
 ]
 consumes: {
-  liquid: Liquid-Bronze/0.5
+  liquid: Liquid-Bronze/0.3
   power: 0.7
 }
 craftTime: 70
@@ -20,8 +20,8 @@ category: crafting
 research: {
   parent: Bronze-Mixer
 requirements: [
- CopperAlt/200
-  Tin/150
+ CopperAlt/700
+  Tin/850
 ]
 researchCostMultiplier: 0.5
 }
