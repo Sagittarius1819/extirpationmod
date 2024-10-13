@@ -14,7 +14,9 @@ requirements: [
 generateEffect: steam 
 powerProduction: 1.35
 consumes: {
-  item: Jet/2
+  items:[
+Jet/2
+  ] 
 }
 drawer: {
   type: DrawMulti
