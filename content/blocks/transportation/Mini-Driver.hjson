@@ -9,8 +9,8 @@ itemCapacity: 10
 reload: 10
 rotateSpeed: 7
 range: 50
-shake
-  health: 60
+shake: 1
+health: 60
 consumes: {
   power: 1
 }
