@@ -15,15 +15,12 @@ coolant: {
   amount: 0.5
 }
 shoot: {
+  type: ShootAlternate
   spread: 10
   shotDelay: 4
  recoils: 2
-  barrelOffset: 1
-  barrels: [
-    7, 0, 0
-    -7, 0, 0,
-  ]
 }
+recoils: 2
 drawer: {
   type: DrawTurret
   basePrefix: Rusted-
