@@ -10,7 +10,7 @@
   laserScale: 0.15
   maxNodes: 10,
   solid: true
-  editorIcon: UtilityPole-preview
+  editorIcon: "UtilityPole-preview"
 requirements: [
  Tin/35
  CopperAlt/25
