@@ -21,24 +21,25 @@ research: Ruin
         rotate: false
         mirror: true
         alternate: true
-        inaccuracy: 15
+        inaccuracy: 5
         shoot: {
           shots: 1
         }
         shootSound: Atom-Bang
         shootSoundVolume: 0.6
+        hitSound: bang
         bullet: {
-trailColor: ed4c4c
-    trailInterval: 2
+trailColor: ffffd0
+    trailInterval: 6
     TrailRotation: true
     trailLength: 5
         trailEffect: missileTrail
           type: ArtilleryBulletType
-          speed: 5
-          lifetime: 40
+          speed: 3.5
+          lifetime: 50
           pierce: false
-          damage: 25
-          width: 6
+          damage: 32
+          width: 12
           height: 12
                   splashDamage: 7.5
     splashDamageRadius: 6

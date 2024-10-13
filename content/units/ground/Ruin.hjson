@@ -21,7 +21,7 @@ research: Ruin
         rotate: false
         mirror: true
         alternate: true
-        inaccuracy: 25
+        inaccuracy: 15
         shoot: {
           shots: 5
           shotDelay: 0.75
