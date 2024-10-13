@@ -23,7 +23,7 @@ shoot: {
 recoils: 2
 drawer: {
   type: DrawTurret
-  basePrefix: Rusted-
+  basePrefix: Dark-
   parts: [
     {
       type: RegionPart
