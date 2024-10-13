@@ -18,6 +18,7 @@ category: distribution
 requirements: [
  Tin/120
  CopperAlt/75
+]
 
  research: {
   parent: tin-conveyor
@@ -32,7 +33,6 @@ requirements: [
     }
   ]
 }
-]
 drawer: {
   type: DrawMulti
   drawers: [
