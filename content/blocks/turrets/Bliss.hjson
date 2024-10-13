@@ -5,7 +5,7 @@ size: 3
 squareSprite: false
 reload: 6
 range: 200
-outlineColor: 462f28
+outlineColor: 100d0d
 coolantMultiplier: 0.5
 researchCostMultiplier: 0.5
 coolant: {
