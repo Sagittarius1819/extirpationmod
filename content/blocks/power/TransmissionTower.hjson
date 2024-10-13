@@ -1,0 +1,19 @@
+
+  type: PowerNode
+  name: Transmission Tower
+  description: A larger pole to connect power points over large distances
+  size: 2
+  health: 1500
+  laserRange: 12
+  laserColor1: 312c2c
+  laserColor2:141212
+  laserScale: 0.15
+  maxNodes: 20,
+  solid: true
+requirements: [
+ Tin/100
+ CopperAlt/75
+ Bronze/20
+]
+  category: power
+  research: Thermal-Plant
