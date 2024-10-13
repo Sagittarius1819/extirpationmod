@@ -10,23 +10,9 @@
   laserScale: 0.15
   maxNodes: 10,
   solid: true
-  editorIcon: "UtilityPole-preview"
 requirements: [
  Tin/35
  CopperAlt/25
 ]
   category: power
   research: Thermal-Plant
-
-drawer: {
-  type: DrawMulti
-  drawers: [
-    {
-      type: DrawRegion
-      suffix: -planks
-    }
-    {
-      type: DrawDefault
-    }
-  ]
-}
