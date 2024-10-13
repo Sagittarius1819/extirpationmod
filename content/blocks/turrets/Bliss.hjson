@@ -23,7 +23,6 @@ drawer: {
   type: DrawTurret
   basePrefix: Rusted-
   parts: [
-        {
     {
       type: RegionPart
       suffix: -base
@@ -32,7 +31,6 @@ drawer: {
       moveY: -1
       growX: 0.1
       growY: 0.1
-    }
     }
     {
       type: RegionPart
