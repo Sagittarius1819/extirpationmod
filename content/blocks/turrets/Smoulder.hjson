@@ -1,0 +1,70 @@
+type: ItemTurret
+name: Smoulder
+description: Fires hot jet at enemy targets
+size: 1
+squareSprite: false
+reload: 12
+health: 275
+range: 75
+outlineColor: 100d0d
+coolantMultiplier: 0.5
+researchCostMultiplier: 0.5
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.5
+}
+shoot: {
+  type: ShootAlternate
+  spread: 10
+  shotDelay: 4
+ recoils: 2
+}
+recoils: 2
+drawer: {
+  type: DrawTurret
+  basePrefix: Dark-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -barrel-l
+      progress: recoil
+      under: false
+      moveY: -2
+      growX: 0.1
+      growY: 0.1
+      mirror: false
+      recoilIndex: 0
+    }
+        {
+      type: RegionPart
+      suffix: -barrel-r
+      progress: recoil
+      under: false
+      moveY: -2
+      growX: 0.1
+      growY: 0.1
+      mirror: false
+      recoilIndex: 1
+    }
+  ]
+}
+category: turret
+research: Anarchy
+shootSound: MetalShot
+requirements: [
+ Tin/320
+ CopperAlt/260
+ Bronze/150
+]
+ammoTypes: {
+  CopperAlt: {
+    hitEffect: flakExplosion
+    type: FireBulletType
+    colorFrom:
+    colorMid:
+    colorTo:
+    ammoMultiplier: 2
+  }
+}

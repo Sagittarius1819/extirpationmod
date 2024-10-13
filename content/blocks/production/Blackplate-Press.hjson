@@ -1,6 +1,6 @@
 type: GenericCrafter
-name: Scrap Solidifier
-description: Uses power to cool Slag into a solid form.
+name: Blackplate Press
+description: Squeezes Bloodgrit and Jet into a hard plate.
 size: 2
 health: 135
 hasLiquids: true
