@@ -106,7 +106,7 @@ allowWaves: true
 prebuildBase: false
 parent: erekir
 solarSystem: sun
-defaultCore: CoreCapillary
+defaultCore: CapillaryCore
 launchCandidates: []
 itemWhitelist: [
   "Tin",
