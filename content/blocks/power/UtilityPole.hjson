@@ -5,6 +5,9 @@
   size: 1
   health: 500
   laserRange: 32
+  laserColor1: 312c2c
+  laserColor2:141212
+  laserScale: 0.15
   maxNodes: 10,
 requirements: [
  Tin/35
