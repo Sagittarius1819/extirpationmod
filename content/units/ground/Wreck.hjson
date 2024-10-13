@@ -29,7 +29,7 @@ research: Ruin
         shootSoundVolume: 0.6
         hitSound: bang
         bullet: {
-trailColor: ffffd0
+trailColor: ffb29a
     trailInterval: 6
     TrailRotation: true
     trailLength: 5
@@ -38,10 +38,10 @@ trailColor: ffffd0
           speed: 3.5
           lifetime: 50
           pierce: false
-          damage: 32
+          damage: 79
           width: 12
           height: 12
-                  splashDamage: 7.5
+                  splashDamage: 74.5
     splashDamageRadius: 6
         }}
   ]
