@@ -18,6 +18,7 @@ shoot: {
   type: ShootAlternate
   spread: 10
   shotDelay: 4
+ recoils: 2
 }
 drawer: {
   type: DrawTurret
