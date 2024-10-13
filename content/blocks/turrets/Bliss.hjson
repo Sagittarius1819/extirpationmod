@@ -58,9 +58,6 @@ research: {
     CopperAlt/3000
     Bronze/750
   ]
-  objectives: [
-    { type: "sector", sector: "canyonid" }
-  ]
 }
 shootSound: MetalShot
 requirements: [
