@@ -24,20 +24,29 @@ drawer: {
   basePrefix: Rusted-
   parts: [
     {
+        top = true
       type: RegionPart
       suffix: -barrel-l
       progress: recoil
-      heatProgress: recoil
       under: true
       moveY: -5
       growX: 0.1
       growY: 0.1
     }
         {
+              top = true
       type: RegionPart
       suffix: -barrel-r
       progress: recoil
-      heatProgress: recoil
+      under: true
+      moveY: -5
+      growX: 0.1
+      growY: 0.1
+    }
+     {
+      type: RegionPart
+      suffix: -heat
+      progress: recoil
       under: true
       moveY: -5
       growX: 0.1
