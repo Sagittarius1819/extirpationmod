@@ -7,7 +7,7 @@ squareSprite: false
 research: CapillaryCore
 requirements: [
   Tin/18
-  Copper/12
+  CopperAlt/12
 ]
 pumpAmount: 0.055
 researchCostMultiplier: 0.5
