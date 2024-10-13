@@ -24,7 +24,15 @@ drawer: {
   basePrefix: Rusted-
   parts: [
         {
-      type: DrawDefault
+    {
+      type: RegionPart
+      suffix: -base
+      progress: recoil
+      under: true
+      moveY: -1
+      growX: 0.1
+      growY: 0.1
+    }
     }
     {
       type: RegionPart
