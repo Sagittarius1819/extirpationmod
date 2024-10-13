@@ -37,4 +37,4 @@ bulletSpeed: 4
 shootEffect: shootSmall
 smokeEffect: shootSmallSmoke 
 receiveEffect: mineSmall
-shootSound: Eject
+shootSound: Mini-Drive-Shot
