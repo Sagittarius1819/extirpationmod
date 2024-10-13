@@ -65,7 +65,7 @@ ammoTypes: {
     speed: 4
     width: 11
     height: 14
-    lifetime: 55
+    lifetime: 50
     pierce: false
     damage: 4
     splashDamage: 17

@@ -41,7 +41,7 @@ trailColor: ffb29a
           damage: 90
           width: 12
           height: 12
-                  splashDamage: 80
+                  splashDamage: 800
     splashDamageRadius: 9
         }}
   ]
