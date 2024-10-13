@@ -1,0 +1,14 @@
+
+  type: PowerNode
+  name: Utility Pole
+  description: Scaled thorium power node. Has little amount of connections with big radius. Same feature that has titanium power node.
+  size: 2
+  health: 500
+  laserRange: 32
+  maxNodes: 10,
+requirements: [
+ Tin/35
+ CopperAlt/25
+]
+  category: power
+  research: Thermal-Plant
