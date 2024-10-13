@@ -1,0 +1,61 @@
+type: ItemTurret
+name: Bliss
+description: Rapidly fires bullets at enemies. More effective against single targets.
+size: 3
+squareSprite: false
+reload: 6
+range: 200
+outlineColor: 462f28
+coolantMultiplier: 0.5
+researchCostMultiplier: 0.5
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.5
+}
+shoot: {
+  type: ShootAlternate
+  spread: 10
+  shotDelay: 4
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: Rusted-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -barrel
+      progress: recoil
+      heatProgress: recoil
+      under: true
+      moveY: -1
+      growX: 0.1
+      growY: 0.1
+    }
+  ]
+}
+category: turret
+research: Anarchy
+shootSound: shoot-dull
+requirements: [
+ Tin/320
+ CopperAlt/260
+ Bronze/150
+]
+ammoTypes: {
+  CopperAlt: {
+    pierceArmor: true
+    hitEffect: flakExplosion
+    type: BasicBulletType
+    speed: 4
+    width: 11
+    height: 14
+    lifetime: 55
+    pierce: false
+    damage: 4
+    splashDamage: 17
+    splashDamageRadius: 16
+    ammoMultiplier: 2
+  }
+}

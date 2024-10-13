@@ -1,6 +1,6 @@
 name: Bloodgrit
 description: A fine, pink, sand-like material used in production.
-hardness: 2
+hardness: 1
 cost: 0.2
 lowPriority: true
 research: CopperAlt
