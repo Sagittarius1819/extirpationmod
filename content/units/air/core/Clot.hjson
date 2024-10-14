@@ -8,7 +8,7 @@ mineWalls: true
 mineSpeed: 4.5
 mineTier: 1
 build: true
-rotateSpeed: 17.5
+rotateSpeed: 8
 health: 175
 engineOffset: 7.5
 itemCapacity: 30
