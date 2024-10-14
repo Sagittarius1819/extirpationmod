@@ -57,7 +57,7 @@ weapons: [
     TrailRotation: true
     trailLength: 5
     speed: 2
-    shootSound: mineHuge 
+    shootSound: shootBig 
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     damage: 5
