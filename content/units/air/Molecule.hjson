@@ -29,10 +29,12 @@ weapons: [
     speed: 3
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    damage: 5
+    damage: 20
+    width: 6
+    height: 6
     bulletWidth: 9
     bulletHeight: 12
-    buildingDamageMultiplier: 2
+    buildingDamageMultiplier: 3.5
 }}
   {
   name: MolecBiggun
@@ -45,17 +47,21 @@ weapons: [
   type: ShootBarrel
 }
   ejectEffect: casing1
-  rotate: true
+  rotate: false
   bullet: {
     type: ArtilleryBulletType
     lifetime: 55
     speed: 2
+    shootSound: Atom-Bang
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     damage: 5
+              width: 12
+          height: 12
     bulletWidth: 9
+    damage: 49
     bulletHeight: 12
-    buildingDamageMultiplier: 2
+    buildingDamageMultiplier: 3.5
         splashDamageRadius: 5
             splashDamage: 9
 }}]
