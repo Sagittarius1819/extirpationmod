@@ -4,3 +4,13 @@ sector: 0
 research: CapillaryCore
 difficulty: 1
 alwaysUnlocked: true
+alwaysUnlocked: false
+research: {
+  parent: prologue
+    objectives: [
+    {
+      type: SectorComplete
+      preset: prologue
+    }
+  ]
+}
