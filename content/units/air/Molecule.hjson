@@ -17,7 +17,7 @@ weapons: [
   name: MolecSmallgun
   x: 8
   top: true
-  y: 7
+  y: 8.5
   reload: 50
   inaccuracy: 7.5
   shoot: {
@@ -30,7 +30,7 @@ weapons: [
     speed: 3
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    damage: 20
+    damage: 35
     width: 6
     height: 6
     bulletWidth: 9
@@ -52,15 +52,19 @@ weapons: [
   bullet: {
     type: ArtilleryBulletType
     lifetime: 55
+        trailColor: ed4c4c
+    trailInterval: 2
+    TrailRotation: true
+    trailLength: 5
     speed: 2
-    shootSound: Atom-Bang
+    shootSound: whapow
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     damage: 5
               width: 12
           height: 12
     bulletWidth: 9
-    damage: 49
+    damage: 50
     bulletHeight: 12
     buildingDamageMultiplier: 3.5
         splashDamageRadius: 5
