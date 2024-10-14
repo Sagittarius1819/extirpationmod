@@ -1,7 +1,7 @@
 type: flying
 name: Molecule
 description: A quick ship, designed to mimic the looks of the Long-dead Varelin Lifeforms.
-speed: 4.5
+speed: 2.5
 engineSize: 4.5
 flying: true
 rotateSpeed: 7
@@ -57,7 +57,7 @@ weapons: [
     TrailRotation: true
     trailLength: 5
     speed: 2
-    shootSound: whapow
+    shootSound: mineHuge 
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     damage: 5
