@@ -25,6 +25,12 @@ requirements: [
   Tin/615
   Bronze/475
 ]
+  objectives: [
+    {
+      type: OnSector 
+      preset: rebound
+    }
+  ]
 researchCostMultiplier: 0.5
 }
 requirements: [

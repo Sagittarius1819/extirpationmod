@@ -2,10 +2,16 @@ type: Wall
 name: Tin Wall
 description: A soft, cheap wall to protect your structures.
 size: 1
-health: 300
+health: 400
 squareSprite: false
 requirements: [
   Tin/5
+    objectives: [
+    {
+      type: OnSector 
+      preset: Inception
+    }
+  ]
 ]
 research: Tin
 category: defense

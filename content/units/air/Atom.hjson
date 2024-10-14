@@ -39,6 +39,7 @@ width: 7
 height: 10
 spin: 4
 lifetime: 60
+buildingDamageMultiplier: 2
 }
 shootSound: Eject
 hitEffect: flakExplosionBig 

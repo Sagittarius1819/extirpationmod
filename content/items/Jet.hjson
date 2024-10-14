@@ -4,3 +4,9 @@ description: Used for fuel and Carbon Platings.
 cost: 1.3
 color: 141313
 hiddenOnPlanets: [serpulo, erekir]
+research: {
+  parent: Tin
+  requirements: [
+    Jet/1
+  ]
+}

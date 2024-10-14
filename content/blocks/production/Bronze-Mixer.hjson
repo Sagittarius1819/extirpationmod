@@ -21,6 +21,12 @@ requirements: [
  CopperAlt/200
   Tin/150
 ]
+  objectives: [
+    {
+      type: OnSector 
+      preset: crimsoncanyon
+    }
+  ]
 researchCostMultiplier: 0.5
 }
 requirements: [

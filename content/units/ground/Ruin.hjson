@@ -36,6 +36,7 @@ research: Ruin
           pierce: true
           pierceCap: 2
           width: 6
+         buildingDamageMultiplier: 2.5
           height: 12
         }}
   ]

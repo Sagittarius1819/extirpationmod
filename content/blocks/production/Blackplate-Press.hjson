@@ -28,9 +28,15 @@ requirements: [
   Tin/1100
   Bronze/35
 ]
-researchCostMultiplier: 0.5
+  objectives: [
+    {
+      type: OnSector 
+      preset: rebound
+    }
+  ]
 }
 requirements: [
  CopperAlt/80
   Tin/100
 ]
+researchCostMultiplier: 0.5

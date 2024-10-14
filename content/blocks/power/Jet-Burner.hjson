@@ -11,6 +11,12 @@ research: {
     CopperAlt/300
     Tin/550
   ]
+    objectives: [
+    {
+      type: OnSector 
+      preset: rebound
+    }
+  ]
 }
  solid: true
 requirements: [

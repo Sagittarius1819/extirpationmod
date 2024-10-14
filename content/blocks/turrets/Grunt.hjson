@@ -10,7 +10,13 @@ research: {
     Tin/150
     CopperAlt/80
   ]
-}
+    objectives: [
+    {
+      type: OnSector 
+      preset: Inception
+    }
+  ]
+ }
 researchCostMultiplier: 0.05
 shootSound: shoot
 requirements: [

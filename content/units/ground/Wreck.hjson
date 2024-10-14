@@ -42,6 +42,7 @@ trailColor: ffb29a
           collidesGround: true
           pierce: false
           damage: 90
+          buildingDamageMultiplier: 2
           width: 12
           height: 12
                   splashDamage: 35

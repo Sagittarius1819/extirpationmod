@@ -61,8 +61,8 @@ research: {
   ]
   objectives: [
     {
-      type: SectorComplete
-      preset: Inception
+      type: OnSector 
+      preset: crimsoncanyon
     }
   ]
 }

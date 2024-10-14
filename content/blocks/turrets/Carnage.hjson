@@ -10,7 +10,13 @@ research: {
   requirements: [
     Tin/1250
     CopperAlt/1000
-    Bronze/500
+    Bronze/600
+  ]
+    objectives: [
+    {
+      type: OnSector 
+      preset: rebound
+    }
   ]
 }
 researchCostMultiplier: 0.05

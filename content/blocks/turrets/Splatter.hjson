@@ -9,6 +9,12 @@ research: {
     Tin/300
     CopperAlt/500
   ]
+    objectives: [
+    {
+      type: OnSector 
+      preset: crimsoncanyon
+    }
+  ]
 }
 researchCostMultiplier: 0.05
 shootSound: shootAlt
