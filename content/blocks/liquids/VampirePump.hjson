@@ -13,7 +13,7 @@ squareSprite: false
   objectives: [
     {
       type: OnSector 
-      preset: Crimson Canyon
+      preset: crimsoncanyon
     }
   ]
  }
