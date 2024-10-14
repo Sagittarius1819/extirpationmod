@@ -1,6 +1,7 @@
 name: Atom
 type: flying
 flying: true
+description: A heavy attack ship, usually sent in groups.
 speed: 2
 rotateSpeed: 4
 drag: 0.025
