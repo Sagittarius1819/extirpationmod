@@ -6,13 +6,18 @@ health: 1600
 squareSprite: false
 requirements: [
   Tin/20
-    objectives: [
+]
+category: defense
+researchCostMultiplier: 0.05
+research: {
+  parent: Tin-Wall
+  requirements: [
+    Tin/130
+  ]
+  objectives: [
     {
-      type: OnSector 
+      type: OnSector
       preset: Inception
     }
   ]
-]
-research: Tin-Wall
-category: defense
-researchCostMultiplier: 0.05
+}

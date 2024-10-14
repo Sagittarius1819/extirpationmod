@@ -6,13 +6,18 @@ health: 400
 squareSprite: false
 requirements: [
   Tin/5
-    objectives: [
+]
+category: defense
+researchCostMultiplier: 0.5
+research: {
+  parent: CapillaryCore
+  requirements: [
+    Tin/30
+  ]
+  objectives: [
     {
-      type: OnSector 
+      type: OnSector
       preset: Inception
     }
   ]
-]
-research: Tin
-category: defense
-researchCostMultiplier: 0.5
+}
