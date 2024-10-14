@@ -2,6 +2,7 @@ type: ContinuousLiquidTurret
 name: Carnage
 description: Fires a giant beam of plasma at foes.
 size: 3
+buildCostMultiplier: 0.14
 health: 1260
 category: turret
 research: {

@@ -11,7 +11,7 @@ rotateSpeed: 7
 range: 50
 shake: 1
 health: 60
-buildCostMultiplier: 5
+buildCostMultiplier: 0.2
 consumes: {
   power: 1
 }
