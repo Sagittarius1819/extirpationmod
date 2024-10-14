@@ -28,7 +28,7 @@ requirements: [
   objectives: [
     {
       type: OnSector 
-      preset: rebound
+      preset:  bouncer
     }
   ]
 researchCostMultiplier: 0.5
