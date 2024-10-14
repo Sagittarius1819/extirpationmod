@@ -9,11 +9,12 @@
   laserColor2:141212
   laserScale: 0.15
   maxNodes: 20,
+    buildCostMultiplier: 0.3
   solid: true
 requirements: [
- Tin/100
- CopperAlt/75
- Bronze/20
+ Tin/35
+ CopperAlt/25
+ Bronze/10
 ]
   category: power
 research: {

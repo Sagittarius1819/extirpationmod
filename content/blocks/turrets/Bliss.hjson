@@ -3,6 +3,7 @@ name: Bliss
 description: Rapidly fires bullets at enemies. More effective against single targets.
 size: 3
 squareSprite: false
+buildCostMultiplier: 0.27
 reload: 6
 health: 465
 range: 200

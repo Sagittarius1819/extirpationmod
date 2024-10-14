@@ -4,6 +4,7 @@ description: Squeezes Bloodgrit and Jet into a hard plate.
 size: 2
 health: 135
 hasLiquids: true
+buildCostMultiplier: 0.35
 squareSprite: false
 liquidCapacity: 80
 itemCapacity: 10
@@ -17,7 +18,7 @@ items: [
 ]
   power: 1.25
 }
-craftTime: 85
+craftTime: 50
 craftEffect: shockwave
 category: crafting
 research: {

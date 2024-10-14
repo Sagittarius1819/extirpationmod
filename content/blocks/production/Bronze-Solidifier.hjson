@@ -7,14 +7,15 @@ hasLiquids: true
 squareSprite: false
 liquidCapacity: 80
 itemCapacity: 10
+buildCostMultiplier: 0.6
 outputItems: [
   Bronze/1
 ]
 consumes: {
-  liquid: Liquid-Bronze/0.3
-  power: 0.7
+  liquid: Liquid-Bronze/0.2
+  power: 0.65
 }
-craftTime: 70
+craftTime: 40
 craftEffect: smoke
 category: crafting
 research: {

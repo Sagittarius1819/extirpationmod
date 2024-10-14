@@ -13,7 +13,7 @@ shake: 1
 health: 60
 buildCostMultiplier: 0.2
 consumes: {
-  power: 1
+  power: 0.1
 }
 category: distribution
 requirements: [

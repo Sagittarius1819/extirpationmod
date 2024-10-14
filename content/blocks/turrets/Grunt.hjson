@@ -51,16 +51,16 @@ ammoTypes: {
         splashDamage: 0
     splashDamageRadius: 0
   }
-  CopperAlt: {
+  Bronze: {
     type: FlakBulletType
     width: 7
     height: 9
         lifetime: 60
-    damage: 14
+    damage: 22
     speed: 3.5
     collidesGround: true
-    splashDamage: 3
-    splashDamageRadius: 5
+    splashDamage: 9
+    splashDamageRadius: 10
   }
 }
 drawer: {

@@ -6,6 +6,7 @@ health: 200
 hasLiquids: true
 squareSprite: false
 liquidCapacity: 80
+buildCostMultiplier: 0.5
 itemCapacity: 10
 outputItems: [
   scrap/1
@@ -14,7 +15,7 @@ consumes: {
   liquid: slag/0.1
   power: 0.75
 }
-craftTime: 85
+craftTime: 70
 craftEffect: smoke
 category: crafting
 research: {

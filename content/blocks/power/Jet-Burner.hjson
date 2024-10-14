@@ -4,6 +4,7 @@ description: Creates a small amount of power from slag.
 size: 2
 category: power
 squareSprite: false
+buildCostMultiplier: 0.5
 research: {
   parent: Thermal-Plant
   requirements: [

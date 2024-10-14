@@ -2,9 +2,10 @@ type: ItemTurret
 name: Smoulder
 description: Fires hot jet at enemy targets
 size: 1
+buildCostMultiplier: 0.27
 squareSprite: false
 reload: 12
-health: 275
+health: 375
 range: 75
 outlineColor: 100d0d
 coolantMultiplier: 0.5
@@ -67,9 +68,9 @@ research: {
 }
 shootSound: FireShot
 requirements: [
- Tin/320
- CopperAlt/260
- Bronze/150
+ Tin/120
+ CopperAlt/90
+ Bronze/30
 ]
 ammoTypes: {
   Jet: {
