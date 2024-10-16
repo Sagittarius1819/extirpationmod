@@ -82,8 +82,20 @@ ammoTypes: {
     damage: 5
     collidesAir: true
     ShootSpeed: 10
-    
   }
+    Hematite: {
+    trailColor: a5a5a5
+    trailInterval: 4
+    TrailRotation: true
+    trailLength: 5
+    type: FlakBulletType
+    width: 5
+    speed: 6
+    height: 10
+    damage: 7
+    collidesAir: true
+    reloadMultiplier: 0.85
+}
 }
 drawer: {
   type: DrawTurret

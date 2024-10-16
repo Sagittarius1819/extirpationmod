@@ -58,6 +58,7 @@ research: {
     Tin/4500
     CopperAlt/3000
     Bronze/750
+    Hematite/1000
   ]
     objectives: [
     {
@@ -71,9 +72,10 @@ requirements: [
  Tin/320
  CopperAlt/260
  Bronze/150
+ Hematite/250
 ]
 ammoTypes: {
-  CopperAlt: {
+  Bronze: {
     pierceArmor: true
     hitEffect: flakExplosion
     type: BasicBulletType
@@ -82,9 +84,56 @@ ammoTypes: {
     height: 14
     lifetime: 50
     pierce: false
-    damage: 4
+    damage: 27
     splashDamage: 17
     splashDamageRadius: 16
     ammoMultiplier: 2
   }
+    Jet: {
+          trailColor: ffefcf
+    trailInterval: 2
+    TrailRotation: true
+    trailLength: 5
+    pierceArmor: true
+    hitEffect: flakExplosion
+    type: ArtilleryBulletType
+    speed: 5
+    width: 11
+    height: 14
+    lifetime: 40
+    pierce: false
+    damage: 20
+    status: blasted
+    ammoMultiplier: 2.5
+  }
+    Blackplate: {
+    pierceArmor: true
+    hitEffect: flakExplosion
+    type: BasicBulletType
+    speed: 6
+    width: 11
+    height: 14
+    lifetime: 40
+    pierce: false
+    damage: 32
+    splashDamage: 17
+    splashDamageRadius: 16
+    ammoMultiplier: 4
+        reloadMultiplier: 1.25
+  }
+    }
+    Hematite: {
+    pierceArmor: true
+    hitEffect: flakExplosion
+    type: BasicBulletType
+    speed: 7
+    width: 8
+    height: 8
+    lifetime: 35
+    pierce: true
+    damage: 20
+    splashDamage: 9
+    splashDamageRadius: 16
+    ammoMultiplier: 3
+        reloadMultiplier: 1.5
 }

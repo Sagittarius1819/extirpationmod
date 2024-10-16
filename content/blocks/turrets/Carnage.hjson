@@ -6,11 +6,13 @@ buildCostMultiplier: 0.14
 health: 1260
 category: turret
 research: {
-  parent: Splatter
+  parent: Anarchy
   requirements: [
     Tin/1250
     CopperAlt/1000
     Bronze/600
+    Hematite/1000
+    Blackplate/500
   ]
     objectives: [
     {
@@ -26,13 +28,15 @@ requirements: [
   Tin/900
   CopperAlt/860
   Bronze/550
+  Blackplate/300
+  Hematite/350
 ]
 consumes: {
   power: 14
 }
 chargeEffect: lightningCharge
 outlineColor: 342222
-liquidConsumed: 1
+liquidConsumed: 2.5
 targetInterval: 5
 targetUnderBlocks: true
 range: 235
