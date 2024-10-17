@@ -1,0 +1,68 @@
+type: ContinuousLiquidTurret
+name: Remedy
+description: Fires healing beams at close blocks.
+size: 2
+health: 650
+category: turret
+research: {
+  parent: Anarchy
+  requirements: [
+    Tin/2350
+    CopperAlt/1500
+    Bronze/750
+    Hematite/2000
+  ]
+  objectives: [
+    {
+      type: SectorComplete
+      preset: bouncer
+    }
+  ]
+}
+
+
+
+researchCostMultiplier: 0.05
+shootSound: none
+requirements: [
+  Tin/200
+  CopperAlt/100
+  Bronze/25
+]
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.1
+}
+consumes: {
+  power: 1.25
+}
+outlineColor: 100d0d
+targetInterval: 5
+targetHeal: true
+targetUnderBlocks: false
+range: 75
+targetAir: false
+targetGround: false
+shootY: 5
+loopSound: PlasmaLoop
+loopSoundVolume: 0.75
+ solid: true
+drawer: {
+  type: DrawTurret
+  basePrefix: Dark-
+}
+ammoTypes: {
+slag: {
+    width: 1.7
+    drawFlare: false
+    hitColor: ffffffCC
+    type: ContinuousFlameBulletType
+    damage: 2.25
+    length: 144
+    knockback: 0.33
+    pierceCap: 3
+    colors: [ff9456, ffb68c, fde1d1, fff8f4]
+    lightColor: ffffffCC
+  }}
