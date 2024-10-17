@@ -1,4 +1,4 @@
-type: Turret
+type: PowerTurret
 name: Remedy
 description: Fires healing beams at close blocks.
 size: 2
