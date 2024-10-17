@@ -1,4 +1,4 @@
-type: ContinuousLiquidTurret
+type: Turret
 name: Remedy
 description: Fires healing beams at close blocks.
 size: 2
@@ -29,12 +29,6 @@ requirements: [
   CopperAlt/100
   Bronze/25
 ]
-coolant: {
-  type: ConsumeCoolant
-  allowGas: true
-  allowLiquid: true
-  amount: 0.1
-}
 consumes: {
   power: 1.25
 }
