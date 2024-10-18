@@ -49,7 +49,7 @@ drawer: {
   basePrefix: Dark-
 }
 ammoTypes: {
-: {
+slag: {
     width: 1.7
     drawFlare: false
     hitColor: ffffffCC
