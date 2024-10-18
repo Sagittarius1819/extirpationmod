@@ -3,6 +3,7 @@ name: Hematite
 description: A metal found in low quantities in the atmosphere and soil of Varelin.
 cost: 3
 color: a49292
+hardness: 3
 hiddenOnPlanets: [serpulo, erekir]
 research: {
   parent: Jet

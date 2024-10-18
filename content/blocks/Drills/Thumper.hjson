@@ -1,0 +1,27 @@
+type: BurstDrill
+name: Thumper
+description: Grinds up minerals and exports them to the surface.
+size: 1
+category: production
+hasLiquids: false
+research: {
+  parent: Rusty-Drill
+requirements: [
+  Hematite/250
+  Bronze/100
+  Tin/1000
+]
+}
+hardnessDrillMultiplier: 50
+drillTime: 250
+hasPower: false
+tier: 2
+shake: 0
+itemCapacity: 15
+researchCostMultiplier: 0.5
+drillEffect: shockwave
+requirements: [
+  Hematite/10
+  Tin/20
+]
+squareSprite: false
