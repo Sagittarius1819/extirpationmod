@@ -1,17 +1,17 @@
 type: Wall
 name: Large Hematite Wall
-description: A large, harder, more durable wall to protect your structures.
-size: 2
-health: 2600
+description: A harder, more durable wall to protect your structures.
+size: 1
+health: 650
 squareSprite: false
 requirements: [
-  Hematite/20
+  Hematite/5
 ]
 category: defense
 researchCostMultiplier: 0.5
 research: {
-  parent: Hematite-Wall
+  parent: Tin-Wall
   requirements: [
-    Hematite/1630
+    Hematite/630
   ]
 }
