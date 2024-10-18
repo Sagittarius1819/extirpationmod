@@ -15,7 +15,7 @@ requirements: [
 hardnessDrillMultiplier: 50
 drillTime: 250
 hasPower: false
-tier: 2
+tier: 3
 shake: 0
 itemCapacity: 15
 researchCostMultiplier: 0.5

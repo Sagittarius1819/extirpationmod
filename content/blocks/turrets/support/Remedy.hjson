@@ -4,7 +4,7 @@ description: Fires healing beams at close blocks.
 size: 2
 health: 650
 hasPower: true
-category: effect
+category: turret
 research: {
   parent: Anarchy
   requirements: [
@@ -24,6 +24,7 @@ research: {
 
 
 researchCostMultiplier: 0.05
+shootSound: none
 requirements: [
   Tin/200
   CopperAlt/100
