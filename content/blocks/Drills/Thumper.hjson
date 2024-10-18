@@ -25,3 +25,21 @@ requirements: [
   Tin/20
 ]
 squareSprite: false
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -rotator
+      spinSprite: true
+      rotateSpeed: 0.8
+    }
+        {
+      type: DrawRegion
+      suffix: -top
+    }
+  ]
+}
