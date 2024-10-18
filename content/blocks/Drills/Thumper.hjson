@@ -20,6 +20,7 @@ shake: 0
 itemCapacity: 15
 researchCostMultiplier: 0.5
 drillEffect: shockwave
+drillSound: mineBig
 requirements: [
   Hematite/10
   Tin/20
@@ -33,13 +34,13 @@ drawer: {
     }
     {
       type: DrawRegion
-      suffix: -rotator
+      suffix: -two
       spinSprite: true
       rotateSpeed: 0.8
     }
         {
       type: DrawRegion
-      suffix: -top
+      suffix: -three
     }
   ]
 }
