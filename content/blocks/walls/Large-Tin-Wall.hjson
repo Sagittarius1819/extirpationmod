@@ -1,6 +1,6 @@
 type: Wall
 name: Large Tin Wall
-description: A soft, cheap wall to protect your structures.
+description: A large, soft, cheap wall to protect your structures.
 size: 2
 health: 1600
 squareSprite: false
