@@ -24,8 +24,8 @@ researchCostMultiplier: 0.5
 drillEffect: shockwave
 drillSound: thump
 	warmupSpeed: 0.5
-	liquidBoostIntensity": 1.5
-	liquidCapacity": 10
+	liquidBoostIntensity: 1.5
+	liquidCapacity: 10
 	consumes: {
 		liquid: {
 			liquid: water
