@@ -1,39 +1,30 @@
-type: BurstDrill
-name: Thumper
-description: Grinds up minerals and exports them to the surface.
-size: 1
-category: production
-hasLiquids: false
-research: {
-  parent: Rusty Drill
-  objectives: [
-    {
-      type: OnSector
-      preset: bouncer
-    }
-  ]
-}
-hardnessDrillMultiplier: 50
-drillTime: 250
-hasPower: false
-drillSound: thump
-tier: 3
-shake: 0.45
-itemCapacity: 15
-researchCostMultiplier: 0.5
-drillEffect: {
-  type: WaveEffect
-  sizeFrom: 0.1
-  sizeTo: 5
-  strokeFrom: 1
-  strokeTo: 0.1
-  colorFrom: ffffff
-  colorTo: 000000
-  lifetime: 25
-}
+  "name": "Thumper",
+  "description": "A smaller drill that can extract minerals and export them to the surface."
+  "type": "Drill",
+  hasLiquids: false
+  "size": 1,
+  "itemCapacity": 10,
+  "tier": 3,
+  "drillTime": 250,
+  "drawMineItem": false,
+  liquidBoostIntensity: 1
 requirements: [
 Tin/15
 Hematite/10
 Copper/5
 ]
-squareSprite: false
+  "category": "production",
+research: {
+    parent: "Rusty-Drill",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "bouncer"
+        }
+    ]
+}
+researchCost: [
+    Hematite/200
+	Tin/1000
+	Copper/500
+  ]
