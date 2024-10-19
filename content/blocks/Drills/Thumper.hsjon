@@ -11,7 +11,7 @@
 requirements: [
 Tin/15
 Hematite/10
-Copper/5
+CopperAlt/5
 ]
   "category": "production",
 research: {
