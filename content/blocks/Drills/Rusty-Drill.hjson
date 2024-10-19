@@ -3,7 +3,7 @@
 	"description": "Extracts basic resources from the ground.",
 	"type": "Drill",
 	"size": 2,
-	"tier": 1,
+	"tier": 2,
 	"drillTime": 500,
 	"rotateSpeed": 1,
 	"warmupSpeed": 0.5,
