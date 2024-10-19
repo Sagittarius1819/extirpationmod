@@ -1,41 +1,39 @@
-type: Drill
+type: BurstDrill
 name: Thumper
 description: Grinds up minerals and exports them to the surface.
 size: 1
-rotateSpeed: 1
 category: production
-drawMineItem: false
 hasLiquids: false
 research: {
-  parent: Rusty-Drill
-requirements: [
-  Hematite/250
-  Bronze/100
-  Tin/1000
-]
+  parent: Rusty Drill
+  objectives: [
+    {
+      type: OnSector
+      preset: bouncer
+    }
+  ]
 }
 hardnessDrillMultiplier: 50
 drillTime: 250
 hasPower: false
+drillSound: thump
 tier: 3
-shake: 0
+shake: 0.45
 itemCapacity: 15
 researchCostMultiplier: 0.5
-drillEffect: shockwave
-drillSound: thump
-	warmupSpeed: 0.5
-	liquidBoostIntensity: 1.5
-	liquidCapacity: 10
-	consumes: {
-		liquid: {
-			liquid: water
-			amount: 0.075
-			optional: true
-			booster: true
-		}
-	}
+drillEffect: {
+  type: WaveEffect
+  sizeFrom: 0.1
+  sizeTo: 5
+  strokeFrom: 1
+  strokeTo: 0.1
+  colorFrom: ffffff
+  colorTo: 000000
+  lifetime: 25
+}
 requirements: [
-  Hematite/10
-  Tin/20
+Tin/15
+Hematite/10
+Copper/5
 ]
 squareSprite: false
