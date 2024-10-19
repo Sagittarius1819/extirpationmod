@@ -26,5 +26,5 @@ research: {
 researchCost: [
     Hematite/200
 	Tin/1000
-	Copper/500
+	CopperAlt/500
   ]
