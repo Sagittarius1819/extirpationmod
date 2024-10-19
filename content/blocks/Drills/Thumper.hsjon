@@ -1,25 +1,25 @@
-  "name": "Thumper",
-  "description": "A smaller drill that can extract minerals and export them to the surface."
-  "type": "Drill",
+  name: Thumper
+  description: A smaller drill that can extract minerals and export them to the surface.
+  type: Drill
   hasLiquids: false
-  "size": 1,
-  "itemCapacity": 10,
-  "tier": 3,
-  "drillTime": 250,
-  "drawMineItem": false,
+  size: 1
+  itemCapacity: 10
+  tier: 3
+  drillTime: 250
+  drawMineItem: false
   liquidBoostIntensity: 1
 requirements: [
 Tin/15
 Hematite/10
 CopperAlt/5
 ]
-  "category": "production",
+  category: production
 research: {
-    parent: "Rusty-Drill",
+    parent: Rusty-Drill
     objectives: [
         {
-            type: "OnSector",
-            preset: "bouncer"
+            type: OnSector
+            preset: bouncer
         }
     ]
 }
