@@ -1,0 +1,9 @@
+name: Ichor
+description: The Blood Of Gods. Overdrives units while submerged.
+effect: overdrive
+boilPoint: 0.5
+color: ffc73a
+heatCapacity: 0.35
+gasColor: d9fff3da
+research: Bronze-Mixer
+coolant: false

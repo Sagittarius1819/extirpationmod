@@ -1,4 +1,4 @@
-type: BurstDrill
+type: Drill
 name: Thumper
 description: Grinds up minerals and exports them to the surface.
 size: 1
