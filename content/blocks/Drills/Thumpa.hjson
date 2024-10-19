@@ -4,6 +4,7 @@ description: Grinds up minerals and exports them to the surface.
 size: 2
 rotateSpeed: 1
 category: production
+drawMineItem: false
 hasLiquids: false
 research: {
   parent: Rusty-Drill
