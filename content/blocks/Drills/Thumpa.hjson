@@ -2,6 +2,7 @@ type: Drill
 name: Thumper
 description: Grinds up minerals and exports them to the surface.
 size: 1
+rotateSpeed: 1
 category: production
 hasLiquids: false
 research: {
@@ -20,7 +21,18 @@ shake: 0
 itemCapacity: 15
 researchCostMultiplier: 0.5
 drillEffect: shockwave
-drillSound: mineBig
+drillSound: thump
+	warmupSpeed: 0.5
+	liquidBoostIntensity": 1.5
+	liquidCapacity": 10
+	consumes: {
+		liquid: {
+			liquid: water
+			amount: 0.075
+			optional: true
+			booster: true
+		}
+	}
 requirements: [
   Hematite/10
   Tin/20
