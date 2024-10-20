@@ -66,7 +66,7 @@ craftEffect: {
     }
   ]
 }
-outputLiquid: Oxygen/1.25
+outputLiquid: Oxygen/0.4
 craftTime: 120
 consumes: {
 power: 1.25
