@@ -1,0 +1,25 @@
+type: LiquidRouter
+health: 350
+liquidCapacity: 500
+name: Cup
+size: 1
+category: liquid
+placeableLiquid: true
+hasPower: false
+requirements: [
+ CopperAlt/20
+ Tin/30
+]
+research: {
+    parent: VampirePump
+    objectives: [
+        {
+            type: SectorComplete
+            preset: crimsoncanyon
+        }
+    ]
+}
+researchCost: [
+ CopperAlt/200
+ Tin/300
+  ]
