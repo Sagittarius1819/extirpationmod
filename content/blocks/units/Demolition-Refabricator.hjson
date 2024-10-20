@@ -1,0 +1,42 @@
+type: Reconstructor
+size: 3
+name: Demolition Refabricator
+health: 1200
+constructTime: 1500
+liquidCapacity: 60
+consumes: {
+  power: 2
+    items: {
+      items: [
+        Blackplate/20
+        Bronze/30
+      ]
+    }
+  liquid: {
+    liquid: slag
+    amount: 0.6
+  }
+}
+upgrades: [
+  [Ruin, Wreck]
+]
+requirements: [
+  Tin/120
+  Blackplate/40
+  Bronze/50
+]
+category: units
+research: {
+    parent: Demolition-Fabricator
+    objectives: [
+        {
+            type: OnSector
+            preset: bouncer
+        }
+    ]
+}
+researchCost: [
+    Tin/1000
+    CopperAlt/500
+    Blackplate/150
+  ]

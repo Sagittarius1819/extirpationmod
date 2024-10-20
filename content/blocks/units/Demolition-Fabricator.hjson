@@ -1,0 +1,36 @@
+type: UnitFactory
+health: 800
+size: 3
+name: Demolition Fabricator
+consumes: {
+  power: 1.2
+}
+plans: [
+  {
+    unit: Ruin
+    time: 1200
+    requirements: [
+ Blackplate/20
+ Tin/35
+ CopperAlt/20
+    ]
+  }
+]
+requirements: [
+  Blackplate/30
+  Tin/65
+]
+category: units
+research: {
+    parent: CapillaryCore
+    objectives: [
+        {
+            type: OnSector
+            preset: Bouncer
+        }
+    ]
+}
+researchCost: [
+    Blackplate/50
+    Tin/200
+  ]
