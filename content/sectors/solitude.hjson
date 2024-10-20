@@ -1,0 +1,14 @@
+captureWave: 16
+planet: Varelin
+sector: 22
+difficulty: 2
+alwaysUnlocked: false
+research: {
+  parent: bouncer
+    objectives: [
+    {
+      type: SectorComplete
+      preset: bouncer
+    }
+  ]
+}
