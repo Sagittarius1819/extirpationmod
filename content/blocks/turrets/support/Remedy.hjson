@@ -58,5 +58,5 @@ Oxygen: {
     type: LiquidBulletType
     damage: 0
     knockback: 0.33
-    liquid: Oxygen
+    liquid: LiquidOxygen
   }}
