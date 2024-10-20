@@ -1,0 +1,57 @@
+type: crawl
+name: Squeal
+description: A somewhat large worm-like robot.
+health: 260
+speed: 1
+armor: 1
+drawBody: false
+drawCell: true
+rotateToBuilding: false
+segments: 3
+segmentScl: 3
+groundLayer: 69.69
+segmentPhase: 5
+segmentMag: 0.5
+rotateSpeed: 6
+omniMovement: false
+hitSize: 10
+drag: 0.4
+outlineColor: 232028
+weapons: [
+  {
+    x: 0
+    y: 9
+    rotate: false
+    mirror: false
+    reload: 8
+    shootSound: flame
+    shootCone: 45
+    inaccuracy: 17
+    bullet: {
+      damage: 3
+      shootEffect: none
+      speed: 6
+      pierce: true
+      pierceBuilding: true
+      ammoMultiplier: 5
+      makeFire: true
+      lifetime: 18
+      despawnEffect: none
+      width: 0.01
+      height: 0.01
+      hittable: false
+      smokeEffect: {
+        type: ParticleEffect
+          particles: 25
+          length: 140
+          lifetime: 36
+          interp: circleOut
+          cone: 3
+          colorFrom: 8270c0
+          colorTo: 4e4277
+          sizeFrom: 4
+          sizeTo: 0.6
+        }
+     }
+  }
+]
