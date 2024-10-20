@@ -29,8 +29,8 @@ craftEffect: {
       amount: 4
       rotationSpacing: 90
       rotationOffset: 45
-      lengthOffset: 12
-      effect: smokePuff 
+      lengthOffset: 9
+      effect: shootSmallSmoke  
     }
     {
       type: RadialEffect
@@ -38,7 +38,7 @@ craftEffect: {
       rotationSpacing: 90
       rotationOffset: 40
       lengthOffset: 9
-      effect: smokePuff 
+      effect: shootSmallSmoke  
     }
     {
       type: RadialEffect
@@ -46,7 +46,7 @@ craftEffect: {
       rotationSpacing: 90
       rotationOffset: 50
       lengthOffset: 9
-      effect: smokePuff 
+      effect: shootSmallSmoke  
     }
     {
       type: RadialEffect
@@ -54,7 +54,7 @@ craftEffect: {
       rotationSpacing: 90
       rotationOffset: 55
       lengthOffset: 9
-      effect: smokePuff 
+      effect: shootSmallSmoke  
     }
     {
       type: RadialEffect
@@ -62,7 +62,7 @@ craftEffect: {
       rotationSpacing: 90
       rotationOffset: 35
       lengthOffset: 9
-      effect: smokePuff 
+      effect: shootSmallSmoke  
     }
   ]
 }
