@@ -17,6 +17,7 @@ rotateSpeed: 5
 faceTarget: true
 omniMovement: true
 hitSize: 10
+autoFindTarget: false
 drag: 0.4
 outlineColor: 301d1d
 weapons: [
