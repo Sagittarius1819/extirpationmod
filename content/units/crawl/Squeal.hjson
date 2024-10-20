@@ -12,11 +12,11 @@ segmentScl: 3
 groundLayer: 69.69
 segmentPhase: 5
 segmentMag: 0.5
-rotateSpeed: 6
+rotateSpeed: 7
 omniMovement: false
 hitSize: 10
 drag: 0.4
-outlineColor: 232028
+outlineColor: 643b3b
 weapons: [
   {
     x: 0
@@ -47,8 +47,8 @@ weapons: [
           lifetime: 36
           interp: circleOut
           cone: 3
-          colorFrom: 8270c0
-          colorTo: 4e4277
+          colorFrom: ffffff
+          colorTo: ffa852
           sizeFrom: 4
           sizeTo: 0.6
         }
