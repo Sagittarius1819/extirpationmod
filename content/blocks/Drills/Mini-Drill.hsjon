@@ -1,4 +1,4 @@
-  name: Thumper
+  name: Mini Drill
   description: A smaller drill that can extract minerals and export them to the surface.
   type: Drill
   hasLiquids: false
