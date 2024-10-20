@@ -24,7 +24,7 @@ weapons: [
     y: 7.5
     rotate: false
     mirror: false
-    reload: 32
+    reload: 40
     shootSound: PlasmaGun
     shootCone: 45
     inaccuracy: 17
