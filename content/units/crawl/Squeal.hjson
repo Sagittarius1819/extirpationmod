@@ -16,7 +16,7 @@ rotateSpeed: 7
 omniMovement: false
 hitSize: 10
 drag: 0.4
-outlineColor: 643b3b
+outlineColor: 301d1d
 weapons: [
   {
     x: 0
@@ -30,7 +30,7 @@ weapons: [
     bullet: {
       damage: 3
       shootEffect: none
-      speed: 6
+      speed: 3
       pierce: true
       pierceBuilding: true
       ammoMultiplier: 5
@@ -43,7 +43,7 @@ weapons: [
       smokeEffect: {
         type: ParticleEffect
           particles: 25
-          length: 140
+          length: 100
           lifetime: 36
           interp: circleOut
           cone: 3
