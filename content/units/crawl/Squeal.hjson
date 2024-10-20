@@ -13,7 +13,7 @@ segmentScl: 3
 groundLayer: 69.69
 segmentPhase: 5
 segmentMag: 0.5
-rotateSpeed: 7
+rotateSpeed: 2.5
 faceTarget: true
 omniMovement: true
 hitSize: 10
@@ -30,6 +30,7 @@ weapons: [
     shootCone: 45
     inaccuracy: 17
      bullet: {
+                collidesAir: true
     type: ArtilleryBulletType
     lifetime: 55
         trailColor: 993db3
