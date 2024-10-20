@@ -20,17 +20,17 @@ outlineColor: 301d1d
 weapons: [
   {
     x: 0
-    y: 9
+    y: 7.5
     rotate: false
     mirror: false
-    reload: 8
-    shootSound: flame
+    reload: 32
+    shootSound: Eject
     shootCone: 45
     inaccuracy: 17
     bullet: {
       damage: 3
       shootEffect: none
-      speed: 3
+      speed: 4
       pierce: true
       pierceBuilding: true
       ammoMultiplier: 5
