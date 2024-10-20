@@ -1,4 +1,4 @@
-type: RepairTurret
+type: ContinuousLiquidTurret
 name: Remedy
 description: Fires healing beams at close blocks.
 size: 2
@@ -49,15 +49,16 @@ drawer: {
   basePrefix: Dark-
 }
 ammoTypes: {
-slag: {
+Oxygen: {
     width: 1.7
+    healPercent: 5.5
+    healAmount: 10
     drawFlare: false
-    hitColor: ffffffCC
+    hitColor: fcfcfc
     type: ContinuousFlameBulletType
-    damage: 2.25
-    length: 144
+    damage: 0
+    length: 130
     knockback: 0.33
-    pierceCap: 3
-    colors: [ff9456, ffb68c, fde1d1, fff8f4]
-    lightColor: ffffffCC
+    colors: [96ff9f, b3ffb9, dbffde, fff8f4]
+    lightColor: fcfcfc
   }}
