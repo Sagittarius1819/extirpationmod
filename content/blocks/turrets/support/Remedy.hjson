@@ -4,6 +4,7 @@ description: Fires healing blobs of oxygen at close blocks.
 size: 2
 health: 650
 hasPower: true
+extinguish: false
 category: turret
 research: {
   parent: Anarchy
@@ -35,7 +36,7 @@ consumes: {
 }
 outlineColor: 100d0d
 targetInterval: 5
-targetHeal: true
+targetHealing: true
 targetUnderBlocks: false
 range: 75
 targetAir: false
