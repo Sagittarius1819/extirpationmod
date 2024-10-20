@@ -9,7 +9,7 @@
   drawMineItem: false
 requirements: [
 Tin/15
-Hematite/10
+Bronze/5
 CopperAlt/5
 ]
   category: production
@@ -23,7 +23,7 @@ research: {
     ]
 }
 researchCost: [
-    Hematite/200
+    Bronze/200
 	Tin/1000
 	CopperAlt/500
   ]
