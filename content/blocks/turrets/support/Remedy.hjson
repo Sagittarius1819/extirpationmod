@@ -1,6 +1,6 @@
-type: ContinuousLiquidTurret
+type: LiquidTurret
 name: Remedy
-description: Fires healing beams at close blocks.
+description: Fires healing blobs of oxygen at close blocks.
 size: 2
 health: 650
 hasPower: true
@@ -55,10 +55,8 @@ Oxygen: {
     healAmount: 10
     drawFlare: false
     hitColor: fcfcfc
-    type: ContinuousFlameBulletType
+    type: LiquidBulletType
     damage: 0
-    length: 130
     knockback: 0.33
-    colors: [96ff9f, b3ffb9, dbffde, fff8f4]
-    lightColor: fcfcfc
+    liquid: Oxygen
   }}
