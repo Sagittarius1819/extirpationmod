@@ -13,7 +13,7 @@ segmentScl: 3
 groundLayer: 69.69
 segmentPhase: 10
 segmentMag: 0.5
-rotateSpeed: 2.5
+rotateSpeed: 5
 faceTarget: true
 omniMovement: true
 hitSize: 10
