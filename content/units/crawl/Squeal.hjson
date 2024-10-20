@@ -48,7 +48,7 @@ weapons: [
     bulletWidth: 9
     damage: 50
     bulletHeight: 12
-    buildingDamageMultiplier: 3.5
+    buildingDamageMultiplier: 2
         splashDamageRadius: 20
             splashDamage: 40
 }
