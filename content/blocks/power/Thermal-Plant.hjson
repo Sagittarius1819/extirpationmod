@@ -16,8 +16,8 @@ research: {
 }
  solid: true
 requirements: [
- Tin/155
- CopperAlt/125
+ Tin/60
+ CopperAlt/35
 ]
 generateEffect: steam 
 powerProduction: 1
