@@ -1,0 +1,15 @@
+type: Conduit
+name: Reinforced Pipe
+description: Quickly transports liquids forward.
+category: liquid
+research: Pipe
+requirements: [
+  Tin/1
+  Hematite/1
+]
+health: 55
+leaks: true
+junctionReplacement: Pipe-Junction
+bridgeReplacement: Pipe-Router
+underBullets: true
+researchCostMultiplier: 0.5
