@@ -41,15 +41,15 @@ weapons: [
     shootSound: shootBig 
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
-    damage: 5
+    damage: 55
               width: 12
           height: 12
     bulletWidth: 9
     damage: 50
     bulletHeight: 12
-    buildingDamageMultiplier: 30.5
-        splashDamageRadius: 5
-            splashDamage: 9
+    buildingDamageMultiplier: 3.5
+        splashDamageRadius: 20
+            splashDamage: 92
 }
   }
 ]
