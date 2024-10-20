@@ -41,7 +41,7 @@ range: 75
 targetAir: false
 targetGround: false
 shootY: 5
-loopSound: PlasmaLoop
+loopSound: spray
 loopSoundVolume: 0.75
  solid: true
 drawer: {
