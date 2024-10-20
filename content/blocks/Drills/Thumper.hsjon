@@ -7,7 +7,6 @@
   tier: 3
   drillTime: 250
   drawMineItem: false
-  liquidBoostIntensity: 1
 requirements: [
 Tin/15
 Hematite/10

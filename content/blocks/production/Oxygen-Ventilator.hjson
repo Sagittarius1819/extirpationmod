@@ -1,0 +1,117 @@
+type: GenericCrafter
+name: Oxygen Ventilator
+description: Sucks in the air of this planet and produces Oxygen gas.
+size: 3
+category: crafting
+research: {
+   parent: Bronze-Mixer
+   objectives: [
+      Bronze-Mixer
+      {
+         type: OnSector
+         preset: bouncer
+      }
+   ]
+}
+squareSprite: false
+researchCostMultiplier: 0.5
+requirements: [
+    Blackplate/25
+    CopperAlt/50
+    Tin/70
+    Bronze/25
+]
+craftEffect: {
+  type: MultiEffect
+  effects: [
+    {
+      type: RadialEffect
+      amount: 4
+      rotationSpacing: 90
+      rotationOffset: 45
+      lengthOffset: 12
+      effect: surgeCruciSmoke
+    }
+    {
+      type: RadialEffect
+      amount: 4
+      rotationSpacing: 90
+      rotationOffset: 40
+      lengthOffset: 12
+      effect: surgeCruciSmoke
+    }
+    {
+      type: RadialEffect
+      amount: 4
+      rotationSpacing: 90
+      rotationOffset: 50
+      lengthOffset: 12
+      effect: surgeCruciSmoke
+    }
+    {
+      type: RadialEffect
+      amount: 4
+      rotationSpacing: 90
+      rotationOffset: 55
+      lengthOffset: 12
+      effect: surgeCruciSmoke
+    }
+    {
+      type: RadialEffect
+      amount: 4
+      rotationSpacing: 90
+      rotationOffset: 35
+      lengthOffset: 12
+      effect: surgeCruciSmoke
+    }
+  ]
+}
+outputLiquid: Oxygen/1.25
+craftTime: 120
+consumes: {
+power: 1.25
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawRegion
+      suffix: -fan
+      x: 2.3
+      y: 2.3
+      spinSprite: true
+      rotateSpeed: 1.2
+    }
+    {
+      type: DrawRegion
+      suffix: -fan
+      x: -2.3
+      y: 2.3
+      spinSprite: true
+      rotateSpeed: -1.2
+    }
+    {
+      type: DrawRegion
+      suffix: -fan
+      x: 2.3
+      y: -2.3
+      spinSprite: true
+      rotateSpeed: 1.2
+    }
+    {
+      type: DrawRegion
+      suffix: -fan
+      x: -2.3
+      y: -2.3
+      spinSprite: true
+      rotateSpeed: -1.2
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}

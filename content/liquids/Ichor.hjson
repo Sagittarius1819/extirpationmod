@@ -5,5 +5,5 @@ boilPoint: 0.5
 color: ffc73a
 heatCapacity: 0.35
 gasColor: d9fff3da
-research: Bronze-Mixer
+research: Liquid-Bronze
 coolant: false
