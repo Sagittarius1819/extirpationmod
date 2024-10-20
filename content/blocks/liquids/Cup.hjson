@@ -1,6 +1,6 @@
 type: LiquidRouter
 health: 350
-liquidCapacity: 500
+liquidCapacity: 200
 name: Cup
 size: 1
 category: liquid
