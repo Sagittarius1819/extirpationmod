@@ -8,11 +8,19 @@ consumes: {
 plans: [
   {
     unit: Ruin
-    time: 1200
+    time: 450
     requirements: [
  Blackplate/20
  Tin/35
  CopperAlt/20
+    ]
+  }
+    {
+    unit: Squeal
+    time: 550
+    requirements: [
+ Blackplate/20
+Hematite/25
     ]
   }
 ]
