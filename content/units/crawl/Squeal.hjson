@@ -1,5 +1,6 @@
 type: crawl
 name: Squeal
+circleTarget: true
 description: A somewhat large worm-like robot.
 health: 260
 speed: 1
@@ -24,7 +25,7 @@ weapons: [
     rotate: false
     mirror: false
     reload: 32
-    shootSound: Eject
+    shootSound: PlasmaGun
     shootCone: 45
     inaccuracy: 17
      bullet: {
