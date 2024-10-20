@@ -5,7 +5,7 @@ health: 260
 speed: 1
 armor: 1
 drawBody: false
-drawCell: true
+drawCell: false
 rotateToBuilding: false
 segments: 3
 segmentScl: 3
@@ -27,31 +27,26 @@ weapons: [
     shootSound: Eject
     shootCone: 45
     inaccuracy: 17
-    bullet: {
-      damage: 3
-      shootEffect: none
-      speed: 4
-      pierce: true
-      pierceBuilding: true
-      ammoMultiplier: 5
-      makeFire: true
-      lifetime: 18
-      despawnEffect: none
-      width: 0.01
-      height: 0.01
-      hittable: false
-      smokeEffect: {
-        type: ParticleEffect
-          particles: 25
-          length: 100
-          lifetime: 36
-          interp: circleOut
-          cone: 3
-          colorFrom: ffffff
-          colorTo: ffa852
-          sizeFrom: 4
-          sizeTo: 0.6
-        }
-     }
+     bullet: {
+    type: ArtilleryBulletType
+    lifetime: 55
+        trailColor: 993db3
+    trailInterval: 2
+    TrailRotation: true
+    trailLength: 5
+    speed: 2
+    shootSound: shootBig 
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    damage: 5
+              width: 12
+          height: 12
+    bulletWidth: 9
+    damage: 50
+    bulletHeight: 12
+    buildingDamageMultiplier: 3.5
+        splashDamageRadius: 5
+            splashDamage: 9
+}
   }
 ]

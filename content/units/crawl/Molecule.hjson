@@ -1,0 +1,72 @@
+type: flying
+name: Molecule
+description: A quick ship, designed to mimic the looks of the Long-dead Varelin Lifeforms.
+speed: 2.5
+engineSize: 4.5
+flying: true
+rotateSpeed: 7
+health: 175
+engineOffset: 7.5
+itemCapacity: 30
+alwaysUnlocked: false
+outlineColor: 342222
+lowAltitude: true
+range: 160
+weapons: [
+  {
+  name: MolecSmallgun
+  x: 8
+  top: true
+  y: 8.5
+  reload: 50
+  inaccuracy: 7.5
+  shoot: {
+  type: ShootBarrel
+}
+  ejectEffect: casing1
+  rotate: true
+  bullet: {
+    lifetime: 55
+    speed: 3
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    damage: 35
+    width: 6
+    height: 6
+    bulletWidth: 9
+    bulletHeight: 12
+    buildingDamageMultiplier: 3.5
+}}
+  {
+  name: MolecBiggun
+  x: 0
+  top: true
+  y: -5
+  reload: 150
+  inaccuracy: 3
+  shoot: {
+  type: ShootBarrel
+}
+  ejectEffect: casing1
+  rotate: false
+  bullet: {
+    type: ArtilleryBulletType
+    lifetime: 55
+        trailColor: ed4c4c
+    trailInterval: 2
+    TrailRotation: true
+    trailLength: 5
+    speed: 2
+    shootSound: shootBig 
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    damage: 5
+              width: 12
+          height: 12
+    bulletWidth: 9
+    damage: 50
+    bulletHeight: 12
+    buildingDamageMultiplier: 3.5
+        splashDamageRadius: 5
+            splashDamage: 9
+}}]
