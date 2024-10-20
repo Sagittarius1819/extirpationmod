@@ -30,7 +30,7 @@ craftEffect: {
       rotationSpacing: 90
       rotationOffset: 45
       lengthOffset: 12
-      effect: shootSmall
+      effect: smokePuff 
     }
     {
       type: RadialEffect
@@ -38,7 +38,7 @@ craftEffect: {
       rotationSpacing: 90
       rotationOffset: 40
       lengthOffset: 9
-      effect: shootSmall
+      effect: smokePuff 
     }
     {
       type: RadialEffect
@@ -46,7 +46,7 @@ craftEffect: {
       rotationSpacing: 90
       rotationOffset: 50
       lengthOffset: 9
-      effect: shootSmall
+      effect: smokePuff 
     }
     {
       type: RadialEffect
@@ -54,7 +54,7 @@ craftEffect: {
       rotationSpacing: 90
       rotationOffset: 55
       lengthOffset: 9
-      effect: shootSmall
+      effect: smokePuff 
     }
     {
       type: RadialEffect
@@ -62,11 +62,11 @@ craftEffect: {
       rotationSpacing: 90
       rotationOffset: 35
       lengthOffset: 9
-      effect: shootSmall
+      effect: smokePuff 
     }
   ]
 }
-outputLiquid: Oxygen/0.4
+outputLiquid: Oxygen/0.1
 craftTime: 120
 consumes: {
 power: 1.25
