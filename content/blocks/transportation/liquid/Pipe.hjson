@@ -6,7 +6,7 @@ research: VampirePump
 requirements: [
   CopperAlt/1
 ]
-health: 55
+health: 75
 leaks: true
 junctionReplacement: Pipe-Junction
 bridgeReplacement: Pipe-Router

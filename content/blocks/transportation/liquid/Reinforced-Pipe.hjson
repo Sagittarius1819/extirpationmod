@@ -7,9 +7,10 @@ requirements: [
   Tin/1
   Hematite/1
 ]
-health: 55
+health: 200
 leaks: true
 junctionReplacement: Pipe-Junction
 bridgeReplacement: Pipe-Router
 underBullets: true
+liquidCapacity: 16
 researchCostMultiplier: 0.5
