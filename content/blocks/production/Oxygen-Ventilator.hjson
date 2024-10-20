@@ -30,39 +30,39 @@ craftEffect: {
       rotationSpacing: 90
       rotationOffset: 45
       lengthOffset: 12
-      effect: surgeCruciSmoke
+      effect: shootSmall
     }
     {
       type: RadialEffect
       amount: 4
       rotationSpacing: 90
       rotationOffset: 40
-      lengthOffset: 12
-      effect: surgeCruciSmoke
+      lengthOffset: 9
+      effect: shootSmall
     }
     {
       type: RadialEffect
       amount: 4
       rotationSpacing: 90
       rotationOffset: 50
-      lengthOffset: 12
-      effect: surgeCruciSmoke
+      lengthOffset: 9
+      effect: shootSmall
     }
     {
       type: RadialEffect
       amount: 4
       rotationSpacing: 90
       rotationOffset: 55
-      lengthOffset: 12
-      effect: surgeCruciSmoke
+      lengthOffset: 9
+      effect: shootSmall
     }
     {
       type: RadialEffect
       amount: 4
       rotationSpacing: 90
       rotationOffset: 35
-      lengthOffset: 12
-      effect: surgeCruciSmoke
+      lengthOffset: 9
+      effect: shootSmall
     }
   ]
 }
@@ -81,37 +81,52 @@ drawer: {
     {
       type: DrawRegion
       suffix: -fan
-      x: 2.3
-      y: 2.3
+      x: 4
+      y: 4
       spinSprite: true
       rotateSpeed: 1.2
     }
     {
       type: DrawRegion
       suffix: -fan
-      x: -2.3
-      y: 2.3
+      x: -4
+      y: 4
       spinSprite: true
       rotateSpeed: -1.2
     }
     {
       type: DrawRegion
       suffix: -fan
-      x: 2.3
-      y: -2.3
+      x: 4
+      y: -4
       spinSprite: true
       rotateSpeed: 1.2
     }
     {
       type: DrawRegion
       suffix: -fan
-      x: -2.3
-      y: -2.3
+      x: -4
+      y: -4
       spinSprite: true
       rotateSpeed: -1.2
+    }
+        {
+      type: DrawLiquidTile
+      drawLiquid: Oxygen
+      alpha: 0.65
+      padding: 3
     }
     {
       type: DrawDefault
+    }
+     {
+      type: DrawParticles
+      color: d1dbde
+      alpha: 0.85
+      particleSize: 0.6
+      particles: 34
+      particleRad: 15
+      particleLife: 60
     }
   ]
 }
