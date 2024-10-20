@@ -3,11 +3,11 @@ size: 3
 moveTime: 80
 moveForce: 300
 payloadLimit: 3
-name: Shiny Payload Coveyor
+name: Dark Payload Coveyor
 category: units
 requirements: [
   Tin/10
-  CopperAlt/5
+  Blackplate/3
 ]
 research: {
     parent: Demolition-Fabricator
@@ -21,4 +21,5 @@ research: {
 researchCost: [
     Tin/200
     CopperAlt/150
+    Blackplate/25
   ]
