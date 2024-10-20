@@ -48,7 +48,7 @@ shoot: {
 ammoTypes: {
   Tin: {
     type: FlakBulletType
-    damage: 13
+    damage: 32
     width: 7
     collidesGround: true
     height: 9
@@ -62,7 +62,7 @@ ammoTypes: {
     width: 7
     height: 9
         lifetime: 60
-    damage: 22
+    damage: 55
     speed: 3.5
     collidesGround: true
     splashDamage: 9
