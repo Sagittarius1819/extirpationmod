@@ -30,8 +30,8 @@ research: {
     parent: Demolition-Fabricator
     objectives: [
         {
-            type: OnSector
-            preset: bouncer
+            type: SectorComplete
+            preset: solitude
         }
     ]
 }

@@ -30,7 +30,7 @@ requirements: [
 ]
 category: units
 research: {
-    parent: CapillaryCore
+    parent: Demolition-Fabricator
     objectives: [
         {
             type: OnSector

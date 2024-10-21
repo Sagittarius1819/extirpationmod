@@ -16,8 +16,8 @@ research: {
   ]
     objectives: [
     {
-      type: OnSector 
-      preset:  bouncer
+      type: SectorComplete 
+      preset:  solitude
     }
   ]
 }

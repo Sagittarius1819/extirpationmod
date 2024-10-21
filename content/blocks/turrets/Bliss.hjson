@@ -87,24 +87,7 @@ ammoTypes: {
     damage: 27
     splashDamage: 17
     splashDamageRadius: 16
-    ammoMultiplier: 2
-  }
-    Jet: {
-          trailColor: ffefcf
-    trailInterval: 2
-    TrailRotation: true
-    trailLength: 5
-    pierceArmor: true
-    hitEffect: flakExplosion
-    type: ArtilleryBulletType
-    speed: 5
-    width: 11
-    height: 14
-    lifetime: 40
-    pierce: false
-    damage: 20
-    status: blasted
-    ammoMultiplier: 2.5
+    ammoMultiplier: 3
   }
     Blackplate: {
     pierceArmor: true
@@ -118,11 +101,10 @@ ammoTypes: {
     damage: 32
     splashDamage: 17
     splashDamageRadius: 16
-    ammoMultiplier: 4
+    ammoMultiplier: 3
         reloadMultiplier: 1.25
   }
-    }
-    Hematite: {
+      Hematite: {
     pierceArmor: true
     hitEffect: flakExplosion
     type: BasicBulletType
@@ -134,6 +116,7 @@ ammoTypes: {
     damage: 20
     splashDamage: 9
     splashDamageRadius: 16
-    ammoMultiplier: 3
+    ammoMultiplier: 2
         reloadMultiplier: 1.5
 }
+    }
