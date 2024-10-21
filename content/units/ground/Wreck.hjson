@@ -16,6 +16,7 @@ researchCostMultiplier: 1.5
     CopperAlt/1000
     Blackplate/250
   ]
+  Demolition-Refabricator
  }
   weapons: [
     {
