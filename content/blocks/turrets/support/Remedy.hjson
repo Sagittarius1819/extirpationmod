@@ -55,6 +55,10 @@ Oxygen: {
     healPercent: 5.5
     healAmount: 10
     drawFlare: false
+    collidesGround: true
+    width: 5
+    height: 7
+    healColor: 98ffa9ff
     hitColor: fcfcfc
     type: MissileBulletType
     damage: 0
