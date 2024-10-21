@@ -56,8 +56,7 @@ Oxygen: {
     healAmount: 10
     drawFlare: false
     hitColor: fcfcfc
-    type: LiquidBulletType
+    type: MissileBulletType
     damage: 0
     knockback: 0.33
-    liquid: LiquidOxygen
   }}
