@@ -1,32 +1,23 @@
 type: UnitFactory
-health: 800
+health: 8750
 size: 3
-name: Demolition Fabricator
+name: Atomic Fabricator
 consumes: {
-  power: 1.2
+  power: 1.25
 }
 plans: [
   {
-    unit: Ruin
-    time: 700
+    unit: Atom
+    time: 600
     requirements: [
  Blackplate/20
- Tin/35
- CopperAlt/20
-    ]
-  }
-    {
-    unit: Squeal
-    time: 850
-    requirements: [
- Blackplate/20
-Hematite/25
+ Tin/30
     ]
   }
 ]
 requirements: [
   Blackplate/30
-  Tin/65
+  CopperAlt/65
 ]
 category: units
 research: {
@@ -39,6 +30,6 @@ research: {
     ]
 }
 researchCost: [
-    Blackplate/50
-    Tin/200
+    Blackplate/150
+    Tin/1000
   ]
