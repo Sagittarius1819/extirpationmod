@@ -6,7 +6,7 @@ requirements: [
   Hematite/1
 ]
 category: distribution
-speed: 0.075
+speed: 0.08
 research: tin-conveyor
 bridgeReplacement: nuhuh
 junctionReplacement: Tin-Junction
