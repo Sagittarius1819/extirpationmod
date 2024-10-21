@@ -5,6 +5,7 @@ speed: 0.8
 flying: false
 health: 525
 hitSize: 10
+alwaysUnlocked: false
 outlineColor: 643b3b
 mechLegColor: 513030
 researchCostMultiplier: 1.5
