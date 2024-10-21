@@ -1,0 +1,21 @@
+type: Conveyor
+name: Hematite Conveyor
+description: A stronger conveyor to transport more items.
+requirements: [
+  Tin/1
+  Hematite/1
+]
+category: distribution
+speed: 0.075
+research: tin-conveyor
+bridgeReplacement: nuhuh
+junctionReplacement: Tin-Junction
+research: {
+  health: 210
+  parent: CapillaryCore
+  requirements: [
+    Hematite/100
+    Tin/600
+  ]
+}
+researchCostMultiplier: 0.05
