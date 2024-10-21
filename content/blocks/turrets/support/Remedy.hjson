@@ -37,7 +37,7 @@ outlineColor: 100d0d
 targetInterval: 5
 targetHealing: true
 targetUnderBlocks: false
-range: 75
+range: 100
 targetAir: false
 targetGround: false
 shootY: 5
@@ -51,6 +51,10 @@ drawer: {
 ammoTypes: {
 Oxygen: {
     width: 1.7
+    trailColor: 8ce69c
+    trailInterval: 4
+    TrailRotation: true
+    trailLength: 5
     healPercent: 5.5
     healAmount: 10
     drawFlare: false
