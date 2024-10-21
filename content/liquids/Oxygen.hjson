@@ -5,4 +5,5 @@ color: d1dbde
 heatCapacity: 0.35
 research: Liquid-Bronze
 coolant: true
+coolantMultiplier: 5
 gas: true
