@@ -20,6 +20,13 @@ hitSize: 10
 autoFindTarget: false
 drag: 0.4
 outlineColor: 301d1d
+ research: {
+  parent: Demolition-Fabricator
+  requirements: [
+Hematite/660
+    Blackplate/120
+  ]
+ }
 weapons: [
   {
     x: 0

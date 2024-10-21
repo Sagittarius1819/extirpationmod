@@ -8,7 +8,14 @@ hitSize: 10
 outlineColor: 643b3b
 mechLegColor: 513030
 researchCostMultiplier: 1.5
-research: Ruin
+ research: {
+  parent: Demolition-Fabricator
+  requirements: [
+    Tin/1000
+    CopperAlt/750
+    Blackplate/120
+  ]
+ }
   weapons: [
     {
       top: true

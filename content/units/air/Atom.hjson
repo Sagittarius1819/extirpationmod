@@ -15,7 +15,13 @@ hitSize: 7
 targetAir: false
 health: 230
 circleTarget: true
-
+ research: {
+  parent: Atomic-Fabricator
+  requirements: [
+    CopperAlt/750
+    Blackplate/120
+  ]
+ }
 weapons: [{
 name: Atomitizer
 x: 0

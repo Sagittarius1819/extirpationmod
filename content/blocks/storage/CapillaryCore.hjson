@@ -3,8 +3,8 @@ name: Core: Capillary
 //localizedName: CapillaryCore
 description: An advanced core, fit for toxic, dry environments. Stores a medium amount of items.
 requirements: [
- Tin/150
- CopperAlt/250
+ Tin/1150
+ CopperAlt/950
 ]
 isFirstTier: true
 size: 4
@@ -12,7 +12,7 @@ squareSprite: false
 alwaysUnlocked: true
 unitType: Clot
 health: 1300
-itemCapacity: 4500
+itemCapacity: 5500
 unitCapModifier: 10
 category: effect
 hiddenOnPlanets: [serpulo, erekir]
