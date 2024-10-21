@@ -89,6 +89,23 @@ ammoTypes: {
     splashDamageRadius: 16
     ammoMultiplier: 3
   }
+    Jet: {
+          trailColor: ffefcf
+    trailInterval: 2
+    TrailRotation: true
+    trailLength: 5
+    pierceArmor: true
+    hitEffect: flakExplosion
+    type: BasicBulletType
+    speed: 5
+    width: 11
+    height: 14
+    lifetime: 40
+    pierce: false
+    damage: 16
+    status: blasted
+    ammoMultiplier: 3
+  }
     Blackplate: {
     pierceArmor: true
     hitEffect: flakExplosion
