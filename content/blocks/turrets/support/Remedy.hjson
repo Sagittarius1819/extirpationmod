@@ -49,7 +49,7 @@ drawer: {
   type: DrawTurret
   basePrefix: Dark-
 }
-reload: 7.5
+reload: 12.5
 ammoTypes: {
 Oxygen: {
     width: 1.7
