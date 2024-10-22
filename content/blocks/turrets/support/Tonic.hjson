@@ -1,6 +1,6 @@
 type: PowerTurret
 name: Tonic
-description: Fires healing missiles of oxygen at close blocks.
+description: Fires weak healing missiles at close blocks.
 size: 1
 health: 250
 hasPower: true
@@ -30,7 +30,7 @@ requirements: [
   Bronze/25
 ]
 consumes: {
-  power: 0.75
+  power: 0.65
 }
 outlineColor: 100d0d
 targetInterval: 5
