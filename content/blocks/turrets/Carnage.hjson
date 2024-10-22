@@ -32,11 +32,11 @@ requirements: [
   Hematite/350
 ]
 consumes: {
-  power: 14
+  power: 8.333
 }
 chargeEffect: lightningCharge
 outlineColor: 342222
-liquidConsumed: 2.5
+liquidConsumed: 1.25
 targetInterval: 5
 targetUnderBlocks: true
 range: 235

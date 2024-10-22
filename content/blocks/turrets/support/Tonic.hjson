@@ -1,23 +1,22 @@
 type: LiquidTurret
-name: Remedy
+name: Tonic
 description: Fires healing missiles of oxygen at close blocks.
-size: 2
-health: 650
+size: 1
+health: 250
 extinguish: true
 hasPower: true
 category: turret
 research: {
   parent: Anarchy
   requirements: [
-    Tin/2350
-    CopperAlt/1500
-    Bronze/750
-    Hematite/2000
+    Tin/1350
+    CopperAlt/750
+    Bronze/500
   ]
   objectives: [
     {
       type: SectorComplete
-      preset: bouncer
+      preset: crimsoncanyon
     }
   ]
 }
@@ -36,15 +35,14 @@ consumes: {
 }
 outlineColor: 100d0d
 targetInterval: 5
+ShootSpeed: 1
 targetHealing: true
 targetUnderBlocks: false
-range: 100
+range: 50
 targetAir: false
 targetGround: false
-shootY: 5
-loopSound: spray
-loopSoundVolume: 0.75
- solid: true
+shootY: 2.5
+ solid: false
 drawer: {
   type: DrawTurret
   basePrefix: Dark-
@@ -55,20 +53,20 @@ Oxygen: {
     trailColor: 8ce69c
     trailInterval: 4
     TrailRotation: true
-    trailLength: 5
-    healPercent: 2
-    healAmount: 7.5
-    drawFlare: true
+    trailLength: 2
+    healPercent: 1
+    healAmount: 3.5
+    drawFlare: false
     collidesGround: true
     width: 5
     height: 7
     backColor: bbedbf
     frontColor: dcfcde
     collidesTeam: true
-    speed: 2.5
+    speed: 1.25
     healColor: 98ffa9ff
     hitColor: fcfcfc
     type: MissileBulletType
     damage: 0
-    knockback: 1
+    knockback: 0.5
   }}
