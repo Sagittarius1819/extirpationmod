@@ -36,7 +36,7 @@ outlineColor: 100d0d
 range: 125
 targetAir: false
 targetGround: false
-shootY: 5
+shootY: 6.5
 loopSound: spray
 loopSoundVolume: 0.75
  solid: true
@@ -52,4 +52,5 @@ drawer: {
     }
   ]
 }
-buildSpeed: 0.1
+buildSpeed: 0.55
+buildCostMultiplier: 2
