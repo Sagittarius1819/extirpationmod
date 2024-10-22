@@ -25,7 +25,7 @@ research: {
 
 
 researchCostMultiplier: 0.05
-shootSound: none
+shootSound: missile
 requirements: [
   Tin/200
   CopperAlt/100
@@ -40,7 +40,7 @@ targetHealing: true
 targetUnderBlocks: false
 range: 100
 targetAir: false
-targetGround: true
+targetGround: false
 shootY: 5
 loopSound: spray
 loopSoundVolume: 0.75
@@ -65,7 +65,7 @@ Oxygen: {
     backColor: bbedbf
     frontColor: dcfcde
     collidesTeam: true
-    speed: 4.5
+    speed: 3
     healColor: 98ffa9ff
     hitColor: fcfcfc
     type: MissileBulletType
