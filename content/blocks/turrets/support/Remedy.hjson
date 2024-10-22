@@ -73,4 +73,4 @@ Oxygen: {
     damage: 0
     knockback: 1
   }}
-  buildCostMultiplier: 2
+  buildCostMultiplier: 0.4

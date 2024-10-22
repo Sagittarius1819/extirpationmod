@@ -25,9 +25,8 @@ research: {
 researchCostMultiplier: 0.05
 shootSound: missile
 requirements: [
-  Tin/200
-  CopperAlt/100
-  Bronze/25
+  Tin/55
+  CopperAlt/40
 ]
 consumes: {
   power: 0.65
@@ -52,7 +51,7 @@ shootType: {    width: 1.7
     TrailRotation: true
     trailLength: 1
     healPercent: 1
-    homingPower: 0.25
+    homingPower: 0.05
     healAmount: 3.5
     drawFlare: false
     collidesGround: true
@@ -68,4 +67,4 @@ shootType: {    width: 1.7
     damage: 0
     knockback: 0.5}
     reload: 15
-    buildCostMultiplier: 2
+    buildCostMultiplier: 0.4
