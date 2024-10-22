@@ -6,7 +6,7 @@ health: 250
 hasPower: true
 category: effect
 research: {
-  parent: Anarchy
+  parent: Oxygen
   requirements: [
     Tin/1350
     CopperAlt/750

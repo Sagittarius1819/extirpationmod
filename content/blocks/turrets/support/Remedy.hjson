@@ -7,7 +7,7 @@ extinguish: true
 hasPower: true
 category: effect
 research: {
-  parent: Anarchy
+  parent: Tonic
   requirements: [
     Tin/2350
     CopperAlt/1500

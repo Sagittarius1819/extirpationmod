@@ -7,12 +7,11 @@ requirements: [
 ]
 category: distribution
 speed: 0.08
-research: tin-conveyor
 bridgeReplacement: nuhuh
 junctionReplacement: Tin-Junction
 research: {
   health: 210
-  parent: CapillaryCore
+  parent: tin-conveyor
   requirements: [
     Hematite/100
     Tin/600
