@@ -49,6 +49,7 @@ drawer: {
   type: DrawTurret
   basePrefix: Dark-
 }
+reload: 7.5
 ammoTypes: {
 Oxygen: {
     width: 1.7
@@ -65,7 +66,7 @@ Oxygen: {
     backColor: bbedbf
     frontColor: dcfcde
     collidesTeam: true
-    speed: 2.5
+    speed: 2
     healColor: 98ffa9ff
     hitColor: fcfcfc
     type: MissileBulletType

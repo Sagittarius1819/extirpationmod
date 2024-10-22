@@ -60,9 +60,10 @@ shootType: {    width: 1.7
     backColor: bbedbf
     frontColor: dcfcde
     collidesTeam: true
-    speed: 1.25
+    speed: 1
     healColor: 98ffa9ff
     hitColor: fcfcfc
     type: MissileBulletType
     damage: 0
     knockback: 0.5}
+    reload: 5
