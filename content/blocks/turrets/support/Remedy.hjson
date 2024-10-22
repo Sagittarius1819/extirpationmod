@@ -63,7 +63,7 @@ Oxygen: {
     height: 7
     backColor: bbedbf
     frontColor: dcfcde
-    collidesTeam = true
+    collidesTeam: true
     speed: 4.5
     healColor: 98ffa9ff
     hitColor: fcfcfc
