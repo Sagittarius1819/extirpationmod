@@ -56,8 +56,8 @@ Oxygen: {
     trailInterval: 4
     TrailRotation: true
     trailLength: 5
-    healPercent: 1
-    healAmount: 5
+    healPercent: 2
+    healAmount: 7.5
     drawFlare: false
     collidesGround: true
     width: 5
