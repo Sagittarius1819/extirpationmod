@@ -41,6 +41,15 @@ loopSound: spray
 loopSoundVolume: 0.75
  solid: true
 drawer: {
-  type: DrawTurret
-  basePrefix: Dark-
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawDefault
+    }
+  ]
 }
+buildSpeed: 0.1
