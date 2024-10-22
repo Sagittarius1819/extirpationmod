@@ -1,9 +1,8 @@
-type: LiquidTurret
+type: PowerTurret
 name: Tonic
 description: Fires healing missiles of oxygen at close blocks.
 size: 1
 health: 250
-extinguish: true
 hasPower: true
 category: turret
 research: {
@@ -31,11 +30,11 @@ requirements: [
   Bronze/25
 ]
 consumes: {
-  power: 1.25
+  power: 0.75
 }
 outlineColor: 100d0d
 targetInterval: 5
-ShootSpeed: 1
+ShootSpeed: 0.5
 targetHealing: true
 targetUnderBlocks: false
 range: 50
@@ -47,9 +46,7 @@ drawer: {
   type: DrawTurret
   basePrefix: Dark-
 }
-ammoTypes: {
-Oxygen: {
-    width: 1.7
+shootType: {    width: 1.7
     trailColor: 8ce69c
     trailInterval: 4
     TrailRotation: true
@@ -68,5 +65,4 @@ Oxygen: {
     hitColor: fcfcfc
     type: MissileBulletType
     damage: 0
-    knockback: 0.5
-  }}
+    knockback: 0.5}
