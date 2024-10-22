@@ -21,4 +21,4 @@ research: {
     }
   ]
 }
-buildCostMultiplier: 0.75
+buildCostMultiplier: 1
