@@ -56,8 +56,8 @@ Oxygen: {
     trailInterval: 4
     TrailRotation: true
     trailLength: 5
-    healPercent: 5.5
-    healAmount: 10
+    healPercent: 1
+    healAmount: 5
     drawFlare: false
     collidesGround: true
     width: 5
@@ -70,5 +70,5 @@ Oxygen: {
     hitColor: fcfcfc
     type: MissileBulletType
     damage: 0
-    knockback: 0.33
+    knockback: 1
   }}
