@@ -3,6 +3,7 @@ name: Remedy
 description: Fires healing blobs of oxygen at close blocks.
 size: 2
 health: 650
+extinguish: true
 hasPower: true
 category: turret
 research: {
