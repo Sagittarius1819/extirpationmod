@@ -4,7 +4,7 @@ description: Fires healing missiles of oxygen at close blocks.
 size: 1
 health: 250
 hasPower: true
-category: turret
+category: effect
 research: {
   parent: Anarchy
   requirements: [

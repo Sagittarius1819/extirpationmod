@@ -1,0 +1,46 @@
+type: BuildTurret
+name: Assist
+description: Rebuilds structures and assists players in range.
+size: 2
+health: 700
+hasPower: true
+category: effect
+research: {
+  parent: Anarchy
+  requirements: [
+    Tin/2350
+    CopperAlt/1500
+    Bronze/750
+    Hematite/2000
+  ]
+  objectives: [
+    {
+      type: SectorComplete
+      preset: solitude
+    }
+  ]
+}
+
+
+
+researchCostMultiplier: 0.05
+requirements: [
+  Tin/200
+  CopperAlt/100
+  Blackplate/35
+]
+consumes: {
+  power: 3
+}
+outlineColor: 100d0d
+range: 125
+targetAir: false
+targetGround: false
+shootY: 5
+loopSound: spray
+loopSoundVolume: 0.75
+ solid: true
+drawer: {
+  type: DrawTurret
+  basePrefix: Dark-
+}
