@@ -50,7 +50,7 @@ shootType: {    width: 1.7
     trailColor: 8ce69c
     trailInterval: 4
     TrailRotation: true
-    trailLength: 2
+    trailLength: 1
     healPercent: 1
     healAmount: 3.5
     drawFlare: false

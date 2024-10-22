@@ -56,7 +56,7 @@ Oxygen: {
     trailColor: 8ce69c
     trailInterval: 4
     TrailRotation: true
-    trailLength: 5
+    trailLength: 2
     healPercent: 2
     healAmount: 7.5
     drawFlare: true
