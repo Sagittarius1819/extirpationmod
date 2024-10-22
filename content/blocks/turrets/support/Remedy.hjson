@@ -1,4 +1,4 @@
-type: LiquidTurret
+type: Turret
 name: Remedy
 description: Fires healing blobs of oxygen at close blocks.
 size: 2
@@ -39,7 +39,7 @@ targetHealing: true
 targetUnderBlocks: false
 range: 100
 targetAir: false
-targetGround: false
+targetGround: true
 shootY: 5
 loopSound: spray
 loopSoundVolume: 0.75
