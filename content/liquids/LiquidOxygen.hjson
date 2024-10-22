@@ -1,7 +1,0 @@
-name: Liquid Oxygen
-description: Chilled oxygen to further cool your turrets.
-boilPoint: 0.5
-color: d1dbde
-heatCapacity: 0.35
-research: Oxygen
-coolant: true
