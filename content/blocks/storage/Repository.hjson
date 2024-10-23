@@ -1,6 +1,7 @@
-type: StorageBlock
+type: Battery
 size: 2
 scaledHealth: 40
+hasItems: true
 name: Repository
 description: Stores up to 150 items, as well as a bit of power.
 itemCapacity: 250
