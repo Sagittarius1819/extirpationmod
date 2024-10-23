@@ -1,6 +1,6 @@
 type: LiquidTurret
 name: Remedy
-description: Fires healing missiles of oxygen at close blocks.
+description: Fires healing missiles of oxygen at close blocks. Well paired with the Assist turret.
 size: 2
 health: 650
 extinguish: true

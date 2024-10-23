@@ -1,6 +1,6 @@
 type: BuildTurret
 name: Assist
-description: Rebuilds structures and assists players in range.
+description: Rebuilds structures and assists players in range. Well paired with the Remedy turret.
 size: 2
 health: 700
 hasPower: true

@@ -1,0 +1,18 @@
+type: StorageBlock
+size: 2
+scaledHealth: 40
+name: Repository
+description: Stores up to 150 items, as well as a bit of power.
+itemCapacity: 250
+category: effect
+research: tin-conveyor
+requirements: [
+Tin/45
+CopperAlt/25
+Hematite/30
+]
+consumes: {
+  powerBuffered: 3500
+}
+squareSprite: false
+researchCostMultiplier: 0.5
