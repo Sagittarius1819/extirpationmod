@@ -46,3 +46,4 @@ drawer: {
 }
 buildSpeed: 0.7
 buildCostMultiplier: 0.4
+baseRegion: Assist-bottom
