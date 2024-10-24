@@ -67,17 +67,19 @@ drawer: {
 shootType: {    width: 1.7
     trailColor: b0fbff
     trailInterval: 4
-    TrailRotation: true
+    trailRotation: true
     trailLength: 1
     trailChance: 1
+    trailParam: 2.5
+    trailEffect:
     drawFlare: false
     collidesGround: true
-    width: 25
+    width: 20
     height: 25
     backColor: c2fdff
     frontColor: e0feff
     speed: 4
-    lifetime: 300
+    lifetime: 50
     type: EmpBulletType
     damage: 96
     knockback: 1}
