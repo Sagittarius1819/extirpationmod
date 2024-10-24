@@ -77,7 +77,7 @@ ammoTypes: {
     hitEffect: flakExplosion
     type: ContinuousFlameBulletType
     ammoMultiplier: 3
-    velMin: 2.6
-    velMax: 4
+ length: 200
+ colors: eb7abe8c, e189f5b2, 907ef7cc, 91a4ffff, ffffffff
   }
 }
