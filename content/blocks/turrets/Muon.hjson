@@ -70,7 +70,7 @@ shootType: {    width: 1.7
     trailRotation: true
     trailLength: 1
     trailChance: 1
-    trailParam: 2.5
+    trailParam: 1
     trailEffect: lancerLaserShoot 
     drawFlare: false
     collidesGround: true
