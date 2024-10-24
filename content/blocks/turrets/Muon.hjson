@@ -19,6 +19,9 @@ research: {
     }
   ]
  }
+ consumes: {
+  power: 3
+}
 researchCostMultiplier: 0.05
 shootSound: PlasmaGun
   requirements: [
