@@ -64,4 +64,25 @@ drawer: {
     }
     ]
 }
-shootType: EmpBulletType
+shootType: {    width: 1.7
+    trailColor: 8ce69c
+    trailInterval: 4
+    TrailRotation: true
+    trailLength: 1
+    healPercent: 1
+    homingPower: 0.05
+    healAmount: 3.5
+    drawFlare: false
+    collidesGround: true
+    width: 5
+    height: 7
+    backColor: bbedbf
+    frontColor: dcfcde
+    collidesTeam: true
+    speed: 1
+    healColor: 98ffa9ff
+    hitColor: fcfcfc
+    type: EmpBulletType
+    damage: 0
+    knockback: 0.5}
+    buildCostMultiplier: 0.55
