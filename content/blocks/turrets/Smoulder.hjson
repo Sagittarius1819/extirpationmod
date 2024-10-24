@@ -7,6 +7,7 @@ squareSprite: false
 reload: 12
 health: 375
 range: 75
+shootX: 1
 outlineColor: 100d0d
 coolantMultiplier: 0.5
 researchCostMultiplier: 0.5
