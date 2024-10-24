@@ -69,9 +69,9 @@ shootType: {    width: 1.7
     trailInterval: 4
     trailRotation: true
     trailLength: 1
-    trailChance: 1
+    trailChance: 0.75
     trailParam: 1
-    trailEffect: hitEmpSpark  
+    trailEffect: hitLancer  
     drawFlare: false
     collidesGround: true
     width: 20
@@ -79,7 +79,7 @@ shootType: {    width: 1.7
     backColor: c2fdff
     frontColor: e0feff
     speed: 4
-    lifetime: 50
+    lifetime: 55
     type: EmpBulletType
     damage: 96
     knockback: 1}
