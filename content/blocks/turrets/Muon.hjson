@@ -69,14 +69,15 @@ shootType: {    width: 1.7
     trailInterval: 4
     TrailRotation: true
     trailLength: 1
-    healAmount: 3.5
+    trailChance: 1
     drawFlare: false
     collidesGround: true
-    width: 10
-    height: 10
+    width: 25
+    height: 25
     backColor: c2fdff
     frontColor: e0feff
     speed: 4
+    lifetime: 300
     type: EmpBulletType
     damage: 96
     knockback: 1}
