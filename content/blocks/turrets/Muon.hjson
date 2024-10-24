@@ -47,11 +47,11 @@ collidesAir: false
 reload: 85
 range: 210
 velocityRnd: 0.15
-inaccuracy: 5
+inaccuracy: 10
 scaleLife: true
 shoot: {
   shots: 2
-  shotDelay: 0.25
+  shotDelay: 0.75
 }
 drawer: {
   type: DrawTurret
