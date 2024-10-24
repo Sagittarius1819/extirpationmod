@@ -7,7 +7,7 @@ squareSprite: false
 reload: 12
 health: 375
 range: 75
-shootX: 1
+shootX: 0.5
 outlineColor: 100d0d
 coolantMultiplier: 0.5
 researchCostMultiplier: 0.5
@@ -82,6 +82,6 @@ ammoTypes: {
  flareColor: ac6f6f
  flareLength: 15
  colors: [000000, 342828, 8a4444, d6a5a5, ffffff]
- damage: 52
+ damage: 32
   }
 }
