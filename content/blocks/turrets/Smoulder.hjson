@@ -80,6 +80,6 @@ ammoTypes: {
  length: 200
  flareColor: a16fac
  flareLength: 15
- colors: [000000, 000000, 000000, 000000, 000000]
+ colors: [000000, 342828, 8a4444, d6a5a5, ffffff]
   }
 }
