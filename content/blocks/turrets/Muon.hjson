@@ -51,7 +51,7 @@ inaccuracy: 10
 scaleLife: true
 shoot: {
   shots: 2
-  shotDelay: 3
+  shotDelay: 300
 }
 drawer: {
   type: DrawTurret
