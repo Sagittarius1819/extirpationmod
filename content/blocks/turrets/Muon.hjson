@@ -42,7 +42,7 @@ collidesGround: true
 collidesAir: false
 reload: 45
 range: 210
-velocityRnd: 0.3
+velocityRnd: 0.15
 inaccuracy: 5
 scaleLife: true
 shoot: {
