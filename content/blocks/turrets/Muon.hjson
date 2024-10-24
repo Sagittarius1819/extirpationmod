@@ -20,7 +20,7 @@ research: {
   ]
  }
 researchCostMultiplier: 0.05
-shootSound: shoot
+shootSound: PlasmaGun
   requirements: [
     Tin/150
     CopperAlt/95
@@ -54,7 +54,7 @@ drawer: {
     parts: [
     {
       type: RegionPart
-      suffix: -barrel
+      suffix: -mouth
       progress: recoil
       heatProgress: recoil
       under: true
@@ -65,24 +65,19 @@ drawer: {
     ]
 }
 shootType: {    width: 1.7
-    trailColor: 8ce69c
+    trailColor: b0fbff
     trailInterval: 4
     TrailRotation: true
     trailLength: 1
-    healPercent: 1
-    homingPower: 0.05
     healAmount: 3.5
     drawFlare: false
     collidesGround: true
-    width: 5
-    height: 7
-    backColor: bbedbf
-    frontColor: dcfcde
-    collidesTeam: true
-    speed: 1
-    healColor: 98ffa9ff
-    hitColor: fcfcfc
+    width: 10
+    height: 10
+    backColor: c2fdff
+    frontColor: e0feff
+    speed: 4
     type: EmpBulletType
-    damage: 0
-    knockback: 0.5}
+    damage: 96
+    knockback: 1}
     buildCostMultiplier: 0.55
