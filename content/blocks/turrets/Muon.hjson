@@ -1,6 +1,6 @@
 type: PowerTurret
 name: Muon
-description: Launches spheres of plasma at enemies
+description: Launches spheres of hot plasma at enemies
 size: 2
  solid: true
 category: turret
@@ -35,7 +35,7 @@ coolant: {
 }
 hiddenOnPlanets: [serpulo, erekir]
 outlineColor: 342222
-health: 260
+health: 550
 targetAir: false
 targetGround: true
 collidesGround: true
