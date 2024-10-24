@@ -71,7 +71,7 @@ shootType: {    width: 1.7
     trailLength: 1
     trailChance: 1
     trailParam: 1
-    trailEffect: lancerLaserShoot 
+    trailEffect: hitEmpSpark  
     drawFlare: false
     collidesGround: true
     width: 20
