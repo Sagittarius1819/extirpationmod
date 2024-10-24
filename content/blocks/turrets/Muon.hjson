@@ -36,6 +36,7 @@ coolant: {
 hiddenOnPlanets: [serpulo, erekir]
 outlineColor: 342222
 health: 550
+shootY: 2
 targetAir: false
 targetGround: true
 collidesGround: true
