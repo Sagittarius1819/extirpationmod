@@ -44,7 +44,7 @@ targetAir: false
 targetGround: true
 collidesGround: true
 collidesAir: false
-reload: 25
+reload: 70
 range: 210
 velocityRnd: 0.15
 inaccuracy: 5
