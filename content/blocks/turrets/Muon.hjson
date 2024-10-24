@@ -59,7 +59,7 @@ drawer: {
       heatProgress: recoil
       under: true
       moveY: -1
-      growX: 0.2
+      growX: -0.1
       growY: 0.1
     }
     ]
