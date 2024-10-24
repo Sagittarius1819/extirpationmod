@@ -78,7 +78,7 @@ ammoTypes: {
     hitEffect: flakExplosion
     type: ContinuousFlameBulletType
     ammoMultiplier: 3
- length: 75
+ length: 85
  flareColor: ac6f6f
  flareLength: 15
  colors: [000000, 342828, 8a4444, d6a5a5, ffffff]

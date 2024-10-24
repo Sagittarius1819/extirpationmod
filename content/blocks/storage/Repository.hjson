@@ -1,6 +1,6 @@
 type: StorageBlock
 size: 2
-scaledHealth: 40
+scaledHealth: 80
 name: Repository
 description: A simple container unit that stores up to 150 items.
 itemCapacity: 250

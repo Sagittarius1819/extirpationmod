@@ -1,0 +1,21 @@
+type: Unloader
+name: Unlader
+description: A small block to unload items from an item container.
+requirements: [
+ Tin/150
+ CopperAlt/45
+]
+size: 1
+squareSprite: false
+alwaysUnlocked: true
+unitType: Clot
+health: 250
+category: effect
+hiddenOnPlanets: [serpulo, erekir]
+research: {
+  parent: Repository
+  requirements: [
+    CopperAlt/300
+    Tin/550
+  ]
+}
