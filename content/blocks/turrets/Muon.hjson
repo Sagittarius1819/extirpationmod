@@ -50,7 +50,8 @@ velocityRnd: 0.15
 inaccuracy: 5
 scaleLife: true
 shoot: {
-  shots: 1
+  shots: 2
+  shotDelay: 0.25
 }
 drawer: {
   type: DrawTurret
@@ -84,7 +85,7 @@ shootType: {    width: 1.7
     frontColor: e0feff
     speed: 4
     lifetime: 57.5
-    type: EmpBulletType
+    type: BulletType
     damage: 72
     knockback: 1}
     buildCostMultiplier: 0.55
