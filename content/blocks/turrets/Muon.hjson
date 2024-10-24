@@ -1,6 +1,6 @@
 type: PowerTurret
 name: Muon
-description: Launches spheres of hot plasma at enemies
+description: Launches spheres of hot plasma at enemies. Shoots quicker while in battle.
 size: 2
  solid: true
 category: turret
