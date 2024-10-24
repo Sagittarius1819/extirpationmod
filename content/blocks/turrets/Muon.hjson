@@ -76,7 +76,7 @@ shootType: {    width: 1.7
     trailLength: 15
     trailChance: 0.75
     trailParam: 40
-    trailEffect: electrified    
+    trailEffect: lightningShoot     
     drawFlare: false
     collidesGround: true
     width: 200
