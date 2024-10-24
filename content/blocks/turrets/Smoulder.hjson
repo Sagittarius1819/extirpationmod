@@ -1,4 +1,4 @@
-type: ContinuousTurret
+type: ItemTurret
 name: Smoulder
 description: Fires hot jet at enemy targets
 size: 1
