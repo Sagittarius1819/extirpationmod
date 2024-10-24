@@ -82,6 +82,6 @@ shootType: {    width: 1.7
     speed: 4
     lifetime: 57.5
     type: EmpBulletType
-    damage: 96
+    damage: 68
     knockback: 1}
     buildCostMultiplier: 0.55
