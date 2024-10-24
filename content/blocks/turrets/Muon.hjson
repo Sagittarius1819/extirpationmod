@@ -44,7 +44,7 @@ targetAir: false
 targetGround: true
 collidesGround: true
 collidesAir: false
-reload: 70
+reload: 85
 range: 210
 velocityRnd: 0.15
 inaccuracy: 5
@@ -85,6 +85,6 @@ shootType: {    width: 1.7
     speed: 4
     lifetime: 57.5
     type: EmpBulletType
-    damage: 68
+    damage: 72
     knockback: 1}
     buildCostMultiplier: 0.55
