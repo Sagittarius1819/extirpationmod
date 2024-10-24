@@ -21,6 +21,8 @@ shoot: {
   spread: 10
   shotDelay: 4
  recoils: 2
+ Offset: 2
+ barrelOffset: 2
 }
 recoils: 2
 drawer: {
@@ -77,8 +79,8 @@ ammoTypes: {
     hitEffect: flakExplosion
     type: ContinuousFlameBulletType
     ammoMultiplier: 3
- length: 200
- flareColor: a16fac
+ length: 75
+ flareColor: ac6f6f
  flareLength: 15
  colors: [000000, 342828, 8a4444, d6a5a5, ffffff]
   }
