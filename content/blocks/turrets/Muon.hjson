@@ -20,7 +20,7 @@ research: {
   ]
  }
  consumes: {
-  power: 5.25
+  power: 5.5
 }
 researchCostMultiplier: 0.05
 shootSound: PlasmaGun
@@ -76,7 +76,7 @@ shootType: {    width: 1.7
     trailLength: 1
     trailChance: 0.75
     trailParam: 0.2
-    trailEffect: hitLancer  
+    trailEffect: freezing   
     drawFlare: false
     collidesGround: true
     width: 20
