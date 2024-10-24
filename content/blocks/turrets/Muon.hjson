@@ -1,0 +1,67 @@
+type: PowerTurret
+name: Muon
+description: Launches spheres of plasma at enemies
+size: 2
+ solid: true
+category: turret
+research: {
+  parent: Anarchy
+  requirements: [
+    Tin/1500
+    CopperAlt/950
+    Hematite/1000
+    Blackplate/250
+  ]
+    objectives: [
+    {
+      type: OnSector 
+      preset: bouncer
+    }
+  ]
+ }
+researchCostMultiplier: 0.05
+shootSound: shoot
+  requirements: [
+    Tin/150
+    CopperAlt/95
+    Hematite/100
+    Blackplate/25
+  ]
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.35
+}
+hiddenOnPlanets: [serpulo, erekir]
+outlineColor: 342222
+health: 260
+targetAir: false
+targetGround: true
+collidesGround: true
+collidesAir: false
+reload: 45
+range: 210
+velocityRnd: 0.3
+inaccuracy: 5
+scaleLife: true
+shoot: {
+  shots: 1
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: Rusted-
+    parts: [
+    {
+      type: RegionPart
+      suffix: -barrel
+      progress: recoil
+      heatProgress: recoil
+      under: true
+      moveY: -1
+      growX: 0.2
+      growY: 0.1
+    }
+    ]
+}
+shootType: EmpBulletType

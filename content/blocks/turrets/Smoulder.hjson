@@ -1,4 +1,4 @@
-type: ItemTurret
+type: ContinuousTurret
 name: Smoulder
 description: Fires hot jet at enemy targets
 size: 1
@@ -75,7 +75,7 @@ requirements: [
 ammoTypes: {
   Jet: {
     hitEffect: flakExplosion
-    type: FireBulletType
+    type: ContinuousFlameBulletType
     ammoMultiplier: 3
     velMin: 2.6
     velMax: 4
