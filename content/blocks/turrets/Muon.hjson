@@ -47,11 +47,11 @@ collidesAir: false
 reload: 85
 range: 210
 velocityRnd: 0.15
-inaccuracy: 10
+inaccuracy: 7.5
 scaleLife: true
 shoot: {
   shots: 2
-  shotDelay: 30
+  shotDelay: 15
 }
 drawer: {
   type: DrawTurret
@@ -73,10 +73,10 @@ shootType: {    width: 1.7
     trailColor: b0fbff
     trailInterval: 4
     trailRotation: true
-    trailLength: 1
+    trailLength: 10
     trailChance: 0.75
-    trailParam: 0.2
-    trailEffect: fluxVapor    
+    trailParam: 3
+    trailEffect: electrified    
     drawFlare: false
     collidesGround: true
     width: 20
