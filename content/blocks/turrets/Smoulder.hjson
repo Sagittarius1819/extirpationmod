@@ -78,6 +78,6 @@ ammoTypes: {
     type: ContinuousFlameBulletType
     ammoMultiplier: 3
  length: 200
- colors: [eb7abe8c, e189f5b2, 907ef7cc, 91a4ffff, ffffffff]
+ colors: [a16fac, eb8fff, b58fff, d2c9ff, ffffffff]
   }
 }
