@@ -73,14 +73,14 @@ shootType: {    width: 1.7
     trailColor: b0fbff
     trailInterval: 4
     trailRotation: true
-    trailLength: 10
+    trailLength: 15
     trailChance: 0.75
-    trailParam: 3
+    trailParam: 40
     trailEffect: electrified    
     drawFlare: false
     collidesGround: true
-    width: 20
-    height: 25
+    width: 200
+    height: 250
     backColor: c2fdff
     frontColor: e0feff
     speed: 4
