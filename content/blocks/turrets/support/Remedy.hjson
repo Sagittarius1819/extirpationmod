@@ -32,7 +32,7 @@ requirements: [
   Bronze/25
 ]
 consumes: {
-  power: 1.25
+  power: 5.8333
 }
 outlineColor: 100d0d
 targetInterval: 5
