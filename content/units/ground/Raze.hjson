@@ -4,7 +4,7 @@ description: Carries an arsenal of weapons to obliterate foes.
 speed: 0.35
 flying: false
 health: 925
-hitSize: 10
+hitSize: 16
 armor: 9
 alwaysUnlocked: false
 outlineColor: 643b3b
@@ -20,47 +20,17 @@ researchCostMultiplier: 1.5
     Bronze/2000
   ]
  }
-  weapons: [
+   weapons: [
     {
-      top: false
-      x: 0.5
-      name: whatbro
+      top: true
+      x: 4
+      name: Demolition
       recoil: 2
       shootCone: 45
-        y: 0
-        reload: 7.5
+        y: 1.25
+        reload: 72
         rotate: false
-        mirror: false
-        alternate: true
-        inaccuracy: 8
-                alternate: true
-   shootSound: shoot
-        hitSound: bang
-        bullet: {
-        trailEffect: missileTrail
-          type: FlakBulletType
-          speed: 4.5
-          lifetime: 35
-          collidesAir: true
-          collides: true
-          collidesGround: true
-          pierce: false
-          damage: 7
-          buildingDamageMultiplier: 2
-          width: 7
-          height: 16
-        }}
-    {
-      top: false
-      x: -0.5
-      name: Razeshotgun
-      recoil: 3.2
-              alternate: true
-      shootCone: 45
-        y: 0
-        reload: 85
-        rotate: false
-        mirror: false
+        mirror: true
         alternate: true
         inaccuracy: 15
         shoot: {
@@ -68,24 +38,16 @@ researchCostMultiplier: 1.5
           shotDelay: 0.75
         }
         shootSound: Shotgun
-        hitSound: bang
         bullet: {
-trailColor: ffb29a
-    trailInterval: 6
-    TrailRotation: true
-    trailLength: 5
-        trailEffect: missileTrail
-          type: FlakBulletType
-          speed: 3.5
-          lifetime: 50
-          collidesAir: true
-          collides: true
-          collidesGround: true
+          type: BasicBulletType
+          speed: 4
+          lifetime: 32
           pierce: false
-          damage: 23
-          buildingDamageMultiplier: 2
-          width: 12
+          damage: 9
+          pierce: true
+          pierceCap: 2
+          width: 6
+         buildingDamageMultiplier: 2.5
           height: 12
         }}
-            
   ]
