@@ -41,8 +41,8 @@ weapons: [
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     damage: 7.5
-    bulletWidth: 9
-    bulletHeight: 12
+    width: 9
+    height: 12
     buildingDamageMultiplier: 0.01
 }}
 {
@@ -59,13 +59,17 @@ shootSound: shootBig
   bullet: {
     lifetime: 130
     speed: 2
+        trailInterval: 6
+    TrailRotation: true
+    trailLength: 5
+        trailEffect: missileTrail
     type: ArtilleryBulletType
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     damage: 30
     shootSound: shootBig
-    bulletWidth: 16
-    bulletHeight: 20
+    width: 16
+    height: 20
     buildingDamageMultiplier: 0.01
 }}
 ]

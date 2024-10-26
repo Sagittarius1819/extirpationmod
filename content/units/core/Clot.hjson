@@ -41,7 +41,7 @@ weapons: [
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     damage: 5
-    bulletWidth: 9
-    bulletHeight: 12
+    width: 9
+    height: 12
     buildingDamageMultiplier: 0.01
 }}]
