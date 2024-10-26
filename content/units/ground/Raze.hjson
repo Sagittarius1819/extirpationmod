@@ -22,11 +22,11 @@ researchCostMultiplier: 1.5
   weapons: [
     {
       top: true
-      x: 12
+      x: -6
       name: Razeshotgun
       recoil: 3.4
       shootCone: 45
-        y: 1.25
+        y: 0
         reload: 85
         rotate: false
         mirror: false
