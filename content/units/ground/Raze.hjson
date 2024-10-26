@@ -34,7 +34,7 @@ weapons: [
         alternate: true
         inaccuracy: 8
                 alternate: true
-   shootSound: shoot
+   shootSound: MetalShot
         hitSound: bang
         bullet: {
         trailEffect: missileTrail
