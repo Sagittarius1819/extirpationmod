@@ -30,7 +30,7 @@ researchCostMultiplier: 1.5
         y: 1.25
         reload: 72
         rotate: false
-        mirror: true
+        mirror: false
         alternate: true
         inaccuracy: 15
         shoot: {
