@@ -18,7 +18,8 @@ itemCapacity: 11000
 unitCapModifier: 14
 category: effect
 hiddenOnPlanets: [serpulo, erekir]
-research: CapillaryCore
+research: {
+  parent: CapillaryCore
 requirements: [
 Tin/25000
 CopperAlt/12000
@@ -26,3 +27,4 @@ Hematite/5500
 Blackplate/1250
 Bronze/3000
 ]
+}
