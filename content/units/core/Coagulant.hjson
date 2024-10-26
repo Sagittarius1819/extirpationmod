@@ -5,18 +5,19 @@ speed: 3.25
 flying: true
 mineFloor: true
 mineWalls: true
-mineSpeed: 5.25
+mineSpeed: 5.2
 mineTier: 2
 build: true
 rotateSpeed: 10
 health: 210
-engineOffset: 8.5
+engineOffset: 9.75
 itemCapacity: 55
 alwaysUnlocked: false
 outlineColor: 1b1212
-buildSpeed: 1.45
+buildSpeed: 1.25
 lowAltitude: true
 range: 220
+research: ArteryCore
 weapons: [
   {
   name: Vessel

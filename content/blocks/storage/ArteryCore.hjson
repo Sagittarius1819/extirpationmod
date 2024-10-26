@@ -19,7 +19,7 @@ unitCapModifier: 14
 category: effect
 hiddenOnPlanets: [serpulo, erekir]
 research: {
-  parent: CapillaryCore
+  parent: Clot
 requirements: [
 Tin/25000
 CopperAlt/12000

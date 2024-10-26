@@ -45,3 +45,4 @@ weapons: [
     height: 12
     buildingDamageMultiplier: 0.01
 }}]
+research: CapillaryCore
