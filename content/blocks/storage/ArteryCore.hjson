@@ -1,0 +1,28 @@
+type: CoreBlock
+name: Core: Artery
+description: A very advanced core, fit for more extreme environments. Stores a larger amount of items.
+requirements: [
+ Tin/3550
+ CopperAlt/1950
+ Hematite/1250
+ Blackplate/750
+ Bronze/1000
+]
+isFirstTier: false
+size: 5
+squareSprite: false
+alwaysUnlocked: false
+unitType: Coagulant
+health: 3650
+itemCapacity: 11000
+unitCapModifier: 14
+category: effect
+hiddenOnPlanets: [serpulo, erekir]
+research: CapillaryCore
+requirements: [
+Tin/25000
+CopperAlt/12000
+Hematite/5500
+Blackplate/1250
+Bronze/3000
+]

@@ -1,0 +1,69 @@
+type: flying
+name: Coagulant
+description: A bulkier ship with enhanced capabilities.
+speed: 3.25
+flying: true
+mineFloor: true
+mineWalls: true
+mineSpeed: 5.25
+mineTier: 2
+build: true
+rotateSpeed: 10
+health: 210
+engineOffset: 8.5
+itemCapacity: 55
+alwaysUnlocked: false
+outlineColor: 1b1212
+buildSpeed: 1.45
+lowAltitude: true
+range: 220
+weapons: [
+  {
+  name: Vessel
+  x: 6
+  top: true
+  y: 5.65
+  reload: 17
+  inaccuracy: 6
+  shoot: {
+  type: ShootBarrel
+  shots: 2
+  recoils: 2
+  shotDelay: 3
+}
+  ejectEffect: casing1
+  rotate: true
+  bullet: {
+    lifetime: 75
+    homingPower: 3
+    homingRange: 50
+    speed: 3.5
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    damage: 7.5
+    bulletWidth: 9
+    bulletHeight: 12
+    buildingDamageMultiplier: 0.01
+}}
+{
+  name: Capper
+  x: 0
+  top: true
+  y: -5.65
+shootSound: shootBig
+  reload: 40
+  inaccuracy: 2.5
+  ejectEffect: casing1
+  rotate: false
+  bullet: {
+    lifetime: 115
+    speed: 2.5
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    damage: 28
+    shootSound: shootBig
+    bulletWidth: 12
+    bulletHeight: 16
+    buildingDamageMultiplier: 0.01
+}}
+]

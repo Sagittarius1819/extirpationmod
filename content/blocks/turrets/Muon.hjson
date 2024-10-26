@@ -86,6 +86,6 @@ shootType: {    width: 1.7
     speed: 4
     lifetime: 57.5
     type: BulletType
-    damage: 72
+    damage: 58
     knockback: 1}
     buildCostMultiplier: 0.55
