@@ -46,7 +46,6 @@ weapons: [
           collidesGround: true
           pierce: false
           damage: 8
-          buildingDamageMultiplier: 2
           width: 7
           height: 16
         }}
@@ -62,7 +61,7 @@ weapons: [
         rotate: false
         mirror: false
         alternate: true
-        inaccuracy: 15
+        inaccuracy: 22.5
         shoot: {
           shots: 5
           shotDelay: 0.75
@@ -82,8 +81,7 @@ trailColor: ffb29a
           collides: true
           collidesGround: true
           pierce: false
-          damage: 20
-          buildingDamageMultiplier: 2
+          damage: 18
           width: 12
           height: 12
         }}
