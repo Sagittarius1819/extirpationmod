@@ -51,19 +51,21 @@ weapons: [
   top: true
   y: -5.65
 shootSound: shootBig
-  reload: 40
+  reload: 50
   inaccuracy: 2.5
   ejectEffect: casing1
   rotate: false
+  mirror: false
   bullet: {
-    lifetime: 115
-    speed: 2.5
+    lifetime: 130
+    speed: 2
+    type: ArtilleryBulletType
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
-    damage: 28
+    damage: 30
     shootSound: shootBig
-    bulletWidth: 12
-    bulletHeight: 16
+    bulletWidth: 16
+    bulletHeight: 20
     buildingDamageMultiplier: 0.01
 }}
 ]
