@@ -24,10 +24,8 @@ weapons: [
     {
       top: false
       x: 0.5
-      name: whatbro
+      name: Razeminigun
       recoil: 2
-      shootX: 12
-      ShootY: 40
       shootCone: 45
         y: 0
         reload: 7.5
