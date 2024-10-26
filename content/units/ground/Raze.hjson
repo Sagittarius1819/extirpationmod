@@ -32,7 +32,8 @@ researchCostMultiplier: 1.5
         mirror: false
         alternate: true
         inaccuracy: 8
-   shootSound: shootdull
+                alternate: true
+   shootSound: shoot
         hitSound: bang
         bullet: {
         trailEffect: missileTrail
@@ -53,6 +54,7 @@ researchCostMultiplier: 1.5
       x: -0.5
       name: Razeshotgun
       recoil: 3.2
+              alternate: true
       shootCone: 45
         y: 0
         reload: 85
