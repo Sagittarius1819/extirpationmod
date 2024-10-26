@@ -27,7 +27,7 @@ weapons: [
       name: whatbro
       recoil: 2
       shootX: 12
-      ShootY: 19
+      ShootY: 40
       shootCone: 45
         y: 0
         reload: 7.5
