@@ -22,20 +22,21 @@ researchCostMultiplier: 1.5
   weapons: [
     {
       top: true
-      x: 6
+      x: 12
       name: Razeshotgun
-      recoil: 2
+      recoil: 3.4
       shootCone: 45
         y: 1.25
         reload: 85
         rotate: false
-        mirror: true
+        mirror: false
         alternate: true
-        inaccuracy: 5
+        inaccuracy: 15
         shoot: {
-          shots: 1
+          shots: 5
+          shotDelay: 0.75
         }
-        shootSound: Atom-Bang
+        ShootSound: Shotgun
         shootSoundVolume: 0.6
         hitSound: bang
         bullet: {
@@ -44,18 +45,16 @@ trailColor: ffb29a
     TrailRotation: true
     trailLength: 5
         trailEffect: missileTrail
-          type: ArtilleryBulletType
+          type: FlakBulletType
           speed: 3.5
           lifetime: 50
           collidesAir: true
           collides: true
           collidesGround: true
           pierce: false
-          damage: 90
+          damage: 23
           buildingDamageMultiplier: 2
           width: 12
           height: 12
-                  splashDamage: 35
-    splashDamageRadius: 9
         }}
   ]
