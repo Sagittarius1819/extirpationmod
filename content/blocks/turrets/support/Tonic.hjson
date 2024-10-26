@@ -29,7 +29,7 @@ requirements: [
   CopperAlt/40
 ]
 consumes: {
-  power: 2.95
+  power: 2.5
 }
 outlineColor: 100d0d
 targetInterval: 5

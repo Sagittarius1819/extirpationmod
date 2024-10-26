@@ -30,7 +30,7 @@ requirements: [
   Blackplate/35
 ]
 consumes: {
-  power: 3
+  power: 4.5
 }
 outlineColor: 100d0d
 range: 125
