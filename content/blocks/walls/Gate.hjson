@@ -1,0 +1,19 @@
+type: door
+name: Gate
+description: A door-like structure to let your units in and out of areas 
+size: 1
+health: 750
+    squareSprite: false
+    requirements: [
+        Blackplate/20
+        Hematite/25
+]
+category: defense
+researchCostMultiplier: 0.5
+research: {
+  parent: Tin-Wall
+  requirements: [
+    Hematite/630
+  ]
+}
+buildCostMultiplier: 1.6
