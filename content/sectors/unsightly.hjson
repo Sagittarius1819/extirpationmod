@@ -1,0 +1,14 @@
+
+planet: Varelin
+sector: 9
+difficulty: 2
+alwaysUnlocked: false
+research: {
+  parent: bouncer
+    objectives: [
+    {
+      type: SectorComplete
+      preset: bouncer
+    }
+  ]
+}
