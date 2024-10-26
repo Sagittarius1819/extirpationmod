@@ -4,11 +4,11 @@ sector: 9
 difficulty: 2
 alwaysUnlocked: false
 research: {
-  parent: bouncer
+  parent: solitude
     objectives: [
     {
       type: SectorComplete
-      preset: bouncer
+      preset: solitude
     }
   ]
 }
