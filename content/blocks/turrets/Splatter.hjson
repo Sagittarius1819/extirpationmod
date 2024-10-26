@@ -79,7 +79,7 @@ ammoTypes: {
     width: 5
     speed: 6
     height: 10
-    damage: 5
+    damage: 6.5
     collidesAir: true
     ShootSpeed: 10
   }

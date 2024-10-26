@@ -62,10 +62,10 @@ ammoTypes: {
     width: 7
     height: 9
         lifetime: 60
-    damage: 55
-    speed: 3.5
+    damage: 38
+    speed: 3
     collidesGround: true
-    splashDamage: 9
+    splashDamage: 5
     splashDamageRadius: 10
   }
 }
