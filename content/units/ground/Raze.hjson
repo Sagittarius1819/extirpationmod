@@ -22,7 +22,7 @@ researchCostMultiplier: 1.5
  }
 weapons: [
     {
-      top: true
+      top: false
       x: 0.5
       name: whatbro
       recoil: 2
@@ -50,7 +50,7 @@ weapons: [
           height: 16
         }}
     {
-      top: true
+      top: false
       x: -0.5
       name: Razeshotgun
       recoil: 3.2
@@ -81,7 +81,7 @@ trailColor: ffb29a
           collides: true
           collidesGround: true
           pierce: false
-          damage: 18
+          damage: 9
           width: 12
           height: 12
         }}
