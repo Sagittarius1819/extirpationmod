@@ -22,7 +22,7 @@ researchCostMultiplier: 1.5
   weapons: [
     {
       top: false
-      x: -1.5
+      x: -1
       name: Razeshotgun
       recoil: 3.2
       shootCone: 45
@@ -36,8 +36,7 @@ researchCostMultiplier: 1.5
           shots: 5
           shotDelay: 0.75
         }
-        ShootSound: blaster
-        shootSoundVolume: 0.6
+        shootSound: Shotgun
         hitSound: bang
         bullet: {
 trailColor: ffb29a
