@@ -23,7 +23,7 @@ researchCostMultiplier: 1.5
     {
       top: false
       x: 0.5
-      name: Razeminigun
+      name: whatbro
       recoil: 2
       shootCone: 45
         y: 0
@@ -32,7 +32,7 @@ researchCostMultiplier: 1.5
         mirror: false
         alternate: true
         inaccuracy: 7.5
-        shootSound: shoot
+   shootSound: shoot-dull
         hitSound: bang
         bullet: {
         trailEffect: missileTrail
