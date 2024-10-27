@@ -2,7 +2,7 @@ type: AttributeCrafter
 attribute: steam
 name: Tumor Quarry
 description: Exports chunks of blight, harvested from Tumors.
-size: 3
+size: 4
 hasLiquids: true
 squareSprite: false
 displayEfficiencyScale: 1
