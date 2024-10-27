@@ -1,0 +1,12 @@
+type: material
+name: Blight
+description: An organic material, Used to make things a little more lively.
+cost: 3.5
+color: 660300 
+hiddenOnPlanets: [serpulo, erekir]
+research: {
+  parent: Blackplate
+  requirements: [
+    Blackplate/1
+  ]
+}
