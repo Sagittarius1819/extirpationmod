@@ -26,7 +26,7 @@ weapons: [
       x: 11
       name: Razeminigun
       recoil: 2
-            shootY: 10
+            shootY: 7.5
       shootCone: 45
         y: 0
         reload: 7.5
@@ -55,7 +55,7 @@ weapons: [
       x: -11
       name: Razeshotgun
       recoil: 3.2
-            shootY: 7
+            shootY: 6
               alternate: true
       shootCone: 45
         y: 0
