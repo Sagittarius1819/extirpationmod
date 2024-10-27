@@ -4,5 +4,5 @@ blendGroup: Maroon-Floor
 parent: Maroon-Floor
 effect: none
 attributes: {
-   steam: 1
+   steam: 0.111111111111
 }
