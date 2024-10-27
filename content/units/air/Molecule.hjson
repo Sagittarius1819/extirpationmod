@@ -39,7 +39,7 @@ weapons: [
 }}
   {
   name: MolecBiggun
-  x: 10.5
+  x: 10.25
   y: 1.5
   top: false
   reload: 150
