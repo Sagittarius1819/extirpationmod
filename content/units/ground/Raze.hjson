@@ -23,7 +23,7 @@ researchCostMultiplier: 1.5
 weapons: [
     {
       top: false
-      x: 11
+      x: 10.5
       name: Razeminigun
       recoil: 2
             shootY: 7.5
@@ -52,7 +52,7 @@ weapons: [
         }}
     {
       top: false
-      x: -11
+      x: -10.5
       name: Razeshotgun
       recoil: 3.2
             shootY: 6
