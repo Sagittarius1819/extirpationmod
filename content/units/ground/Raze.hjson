@@ -29,7 +29,7 @@ weapons: [
             shootY: 7.3
       shootCone: 45
         y: 0
-        reload: 7.5
+        reload: 10
         rotate: false
         mirror: false
         alternate: true
@@ -55,7 +55,7 @@ weapons: [
       x: -11
       name: Razeshotgun
       recoil: 3.2
-            shootY: 5
+            shootY: 7
               alternate: true
       shootCone: 45
         y: 0
