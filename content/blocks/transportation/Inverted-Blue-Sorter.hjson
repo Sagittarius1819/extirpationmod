@@ -1,5 +1,5 @@
 type: Sorter
-name: Blue Sorter
+name: Inverted Blue Sorter
 invert: true
 description: Inputted item moves to the sides, Any others are moved forward.
 category: distribution
