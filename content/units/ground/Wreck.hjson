@@ -3,7 +3,7 @@ name: Wreck
 description: Fires a large bomb to destroy targets.
 speed: 0.6
 flying: false
-health: 525
+health: 700
 hitSize: 10
 alwaysUnlocked: false
 outlineColor: 643b3b
@@ -51,7 +51,7 @@ trailColor: ffb29a
           collidesGround: true
           pierce: false
           damage: 90
-          buildingDamageMultiplier: 2
+          buildingDamageMultiplier: 3.5
           width: 12
           height: 12
                   splashDamage: 35
