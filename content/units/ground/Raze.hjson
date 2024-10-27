@@ -26,10 +26,10 @@ weapons: [
       x: 11
       name: Razeminigun
       recoil: 2
-            shootY: 7.3
+            shootY: 10
       shootCone: 45
         y: 0
-        reload: 10
+        reload: 7.5
         rotate: false
         mirror: false
         alternate: true
