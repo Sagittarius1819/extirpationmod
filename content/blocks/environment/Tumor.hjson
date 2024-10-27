@@ -1,6 +1,5 @@
 name: tumor
 type: SteamVent
-blendGroup: Maroon-Floor
 parent: Maroon-Floor
 effect: neoplasiaSmoke
 effectColor: dad2ca
