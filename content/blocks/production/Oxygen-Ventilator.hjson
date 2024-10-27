@@ -9,7 +9,7 @@ research: {
       Bronze-Mixer
       {
          type: OnSector
-         preset: bouncer
+         preset: solitude
       }
    ]
 }

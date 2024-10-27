@@ -6,6 +6,7 @@ health: 650
 extinguish: true
 hasPower: true
 category: effect
+squareSprite: false
 research: {
   parent: Tonic
   requirements: [
