@@ -5,7 +5,7 @@ speed: 2.5
 engineSize: 4.5
 flying: true
 rotateSpeed: 7
-health: 175
+health: 575
 engineOffset: 7.5
 itemCapacity: 30
 alwaysUnlocked: false
