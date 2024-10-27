@@ -59,7 +59,7 @@ weapons: [
     TrailRotation: true
     trailLength: 5
     speed: 2
-    shootSound: bigshoot 
+    shootSound: artillery 
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     damage: 5
