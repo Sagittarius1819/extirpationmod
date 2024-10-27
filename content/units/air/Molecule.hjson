@@ -16,7 +16,7 @@ weapons: [
   {
   name: MolecSmallgun
   x: 8
-  top: true
+  top: false
   shootEffect: shootSmall
   smokeEffect: shootSmallSmoke
   y: 8.5
@@ -39,8 +39,8 @@ weapons: [
 }}
   {
   name: MolecBiggun
-  x: 3
-  top: true
+  x: 4.5
+  top: false
   reload: 150
   alternate: true
   mirror: true
