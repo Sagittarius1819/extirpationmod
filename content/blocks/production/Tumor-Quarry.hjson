@@ -5,7 +5,6 @@ description: Exports chunks of blight, harvested from Tumors.
 size: 3
 hasLiquids: true
 squareSprite: false
-outputItems: Blight/1
 displayEfficiencyScale: 1
 baseEfficiency: 0
 squareSprite: false
@@ -20,6 +19,12 @@ research: {
       preset: unsightly
     }
   ]
+}
+outputItems: [
+  Blight/1
+]
+consumes: {
+  power: 2.25
 }
 requirements: [
  CopperAlt/80
