@@ -1,0 +1,15 @@
+type: Router
+name: Blue Distributor
+description: A colored distributor that splits the paths of items.
+size: 1
+speed: 7
+health: 330
+itemCapacity: 7
+requirements: [
+  Tin/12
+  CopperAlt/5
+]
+squareSprite: false
+category: distribution
+research: Tin-Router
+researchCostMultiplier: 0.5

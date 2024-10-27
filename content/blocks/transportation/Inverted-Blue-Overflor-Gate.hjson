@@ -1,0 +1,11 @@
+type: OverflowGate
+name: Blue Underflow Gate
+invert: true
+description: Outputs items to the front if the side paths are obstructed.
+category: distribution
+research: Blue-Sorter
+requirements: [
+  Tin/5
+  CopperAlt/4
+]
+researchCostMultiplier: 0.5

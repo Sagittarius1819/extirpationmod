@@ -30,7 +30,7 @@ weapons: [
     speed: 3
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    damage: 35
+    damage: 30
     width: 6
     height: 6
     bulletWidth: 9
@@ -39,10 +39,12 @@ weapons: [
 }}
   {
   name: MolecBiggun
-  x: 0
+  x: 3
   top: true
-  y: -5
   reload: 150
+  alternate: true
+  mirror: true
+  rotate: false
   inaccuracy: 3
   shoot: {
   type: ShootBarrel
@@ -57,7 +59,7 @@ weapons: [
     TrailRotation: true
     trailLength: 5
     speed: 2
-    shootSound: shootBig 
+    shootSound: bigshoot 
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     damage: 5
@@ -66,7 +68,7 @@ weapons: [
     bulletWidth: 9
     damage: 50
     bulletHeight: 12
-    buildingDamageMultiplier: 3.5
+    buildingDamageMultiplier: 2.5
         splashDamageRadius: 5
             splashDamage: 9
 }}]

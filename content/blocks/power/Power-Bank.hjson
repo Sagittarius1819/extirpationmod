@@ -1,0 +1,16 @@
+type: Battery
+name: Power Bank
+description: A small structure meant for containing power, and releasing it when needed.
+health: 650
+size: 2
+squareSprite: false
+consumes: {
+  powerBuffered: 14500
+}
+requirements: [
+ CopperAlt/60
+ Tin/90
+]
+category: power
+research: UtilityPoly
+researchCostMultiplier: 0.5

@@ -1,0 +1,11 @@
+type: Sorter
+name: Blue Sorter
+invert: true
+description: Inputted item moves to the sides, Any others are moved forward.
+category: distribution
+research: Tin-Router
+requirements: [
+  Tin/3
+  CopperAlt/3
+]
+researchCostMultiplier: 0.5
