@@ -84,7 +84,7 @@ ammoTypes: {
     height: 14
     lifetime: 50
     pierce: false
-    damage: 27
+    damage: 20
     splashDamage: 17
     splashDamageRadius: 16
     ammoMultiplier: 3
@@ -102,7 +102,7 @@ ammoTypes: {
     height: 14
     lifetime: 40
     pierce: false
-    damage: 16
+    damage: 10
     status: blasted
     ammoMultiplier: 3
   }
@@ -115,11 +115,11 @@ ammoTypes: {
     height: 14
     lifetime: 40
     pierce: false
-    damage: 32
+    damage: 26
     splashDamage: 17
     splashDamageRadius: 16
     ammoMultiplier: 3
-        reloadMultiplier: 1.25
+        reloadMultiplier: 1.15
   }
       Hematite: {
     pierceArmor: true
@@ -130,10 +130,10 @@ ammoTypes: {
     height: 8
     lifetime: 35
     pierce: true
-    damage: 20
+    damage: 10
     splashDamage: 9
     splashDamageRadius: 16
     ammoMultiplier: 2
-        reloadMultiplier: 1.5
+        reloadMultiplier: 1.25
 }
     }

@@ -69,7 +69,7 @@ craftEffect: {
 outputLiquid: Oxygen/0.1
 craftTime: 120
 consumes: {
-power: 1.25
+power: 2.5
 }
 drawer: {
   type: DrawMulti

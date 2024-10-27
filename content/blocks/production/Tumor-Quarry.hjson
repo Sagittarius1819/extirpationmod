@@ -45,13 +45,13 @@ drawer: {
       type: DrawRegion
       suffix: -rotator
       spinSprite: true
-      rotateSpeed: 4
+      rotateSpeed: 12
     }
         {
       type: DrawRegion
       suffix: -top
       spinSprite: true
-      rotateSpeed: 0.4
+      rotateSpeed: 0.2
     }
   ]
 }

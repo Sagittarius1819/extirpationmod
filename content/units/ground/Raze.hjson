@@ -3,7 +3,7 @@ name: Raze
 description: Carries an arsenal of weapons to obliterate foes.
 speed: 0.35
 flying: false
-health: 925
+health: 1230
 hitSize: 16
 armor: 9
 alwaysUnlocked: false

@@ -13,9 +13,9 @@ outputItems: [
 ]
 consumes: {
   liquid: Liquid-Bronze/0.2
-  power: 0.65
+  power: 0.75
 }
-craftTime: 40
+craftTime: 60
 craftEffect: smoke
 category: crafting
 research: {

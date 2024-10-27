@@ -3,7 +3,7 @@ name: Wreck
 description: Fires a large bomb to destroy targets.
 speed: 0.6
 flying: false
-health: 700
+health: 1000
 hitSize: 10
 alwaysUnlocked: false
 outlineColor: 643b3b

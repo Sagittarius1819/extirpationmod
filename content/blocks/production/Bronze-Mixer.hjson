@@ -13,7 +13,7 @@ consumes: {
     Tin/1
   ]
 }
-craftTime: 90
+craftTime: 110
 category: crafting
 research: {
   parent: CopperAlt
