@@ -38,20 +38,20 @@ drawer: {
       type: DrawRegion
       suffix: -bottom
     }
-    {
-      type: DrawDefault
-    }
-    {
+        {
       type: DrawRegion
       suffix: -rotator
       spinSprite: true
-      rotateSpeed: 12
+      rotateSpeed: 7
     }
         {
       type: DrawRegion
       suffix: -top
       spinSprite: true
-      rotateSpeed: 0.2
+      rotateSpeed: -0.2
+    }
+    {
+      type: DrawDefault
     }
   ]
 }
