@@ -20,7 +20,7 @@ researchCostMultiplier: 1.5
   weapons: [
     {
       top: true
-      x: 8
+      x: 6.5
       top: false
       name: Titan
       recoil: 2
