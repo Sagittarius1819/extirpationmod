@@ -1,0 +1,54 @@
+type: AttributeCrafter
+attribute: heat
+name: Tumor Quarry
+description: Exports chunks of blight, harvested from Tumors.
+size: 3
+hasLiquids: true
+squareSprite: false
+outputItems: Blight/1
+displayEfficiencyScale: 1
+baseEfficiency: 0
+squareSprite: false
+minEfficiency: 1
+researchCostMultiplier: 0.5
+category: crafting
+research: [ 
+    parent: Mini-Drill
+    objectives: [
+    {
+      type: SectorComplete 
+      preset: unsightly
+    }
+  ]
+  ]
+requirements: [
+ CopperAlt/80
+ Tin/110
+ Bronze/55
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+        {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -rotator
+      spinSprite: true
+      rotateSpeed: 4
+    }
+        {
+      type: DrawRegion
+      suffix: -top
+      spinSprite: true
+      rotateSpeed: 0.4
+    }
+  ]
+}
+ambientSound: hum
+ambientSoundVolume: 0.05
