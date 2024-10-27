@@ -1,7 +1,7 @@
 type: Router
 name: Blue Distributor
 description: A colored distributor that splits the paths of items.
-size: 1
+size: 2
 speed: 7
 health: 330
 itemCapacity: 7
