@@ -12,7 +12,7 @@ squareSprite: false
 minEfficiency: 1
 researchCostMultiplier: 0.5
 category: crafting
-research: [ 
+research: { 
     parent: Mini-Drill
     objectives: [
     {
@@ -20,7 +20,7 @@ research: [
       preset: unsightly
     }
   ]
-  ]
+}
 requirements: [
  CopperAlt/80
  Tin/110
