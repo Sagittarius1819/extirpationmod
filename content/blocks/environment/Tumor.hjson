@@ -2,7 +2,7 @@ name: tumor
 type: SteamVent
 blendGroup: Maroon-Floor
 parent: Maroon-Floor
+effect: none
 attributes: {
-   attributes: {
-   heat: 0.11111111
-}}
+   steam: 1
+}

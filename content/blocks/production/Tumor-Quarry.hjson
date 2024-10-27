@@ -1,5 +1,5 @@
 type: AttributeCrafter
-attribute: heat
+attribute: steam
 name: Tumor Quarry
 description: Exports chunks of blight, harvested from Tumors.
 size: 3
