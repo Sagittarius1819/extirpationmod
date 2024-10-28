@@ -21,7 +21,7 @@ craftEffect: {
   type: Effect
   rotationSpacing: 90
   amount: 10
-  lengthOffset: 6.3
+  lengthOffset: 2
   layer: 118
   effect: {
     type: ParticleEffect
