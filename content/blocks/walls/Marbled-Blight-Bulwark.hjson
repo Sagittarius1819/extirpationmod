@@ -9,9 +9,9 @@ requirements: [
   Blight/5
 ]
 timerUse: 1
-healPercent: 0.25
+healPercent: 0.075
 category: defense
-researchCostMultiplier: 0.05
+researchCostMultiplier: 0.5
 research: {
   parent: CapillaryCore
   requirements: [
@@ -19,7 +19,6 @@ research: {
     Tin/1500
   ]
 }
-optionalUseTime: 4
 buildCostMultiplier: 2
 range: 0.75
 baseColor: FFFFFFFF
