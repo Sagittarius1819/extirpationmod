@@ -28,8 +28,8 @@ craftEffect: {
     particles: 2
         useRotation: false
     length: 12
-    lifetime: 100
-        baseLength: 1
+    lifetime: 135
+        baseLength: 2.5
     cone: 10
     useRotation: false
     baseRotation: 45

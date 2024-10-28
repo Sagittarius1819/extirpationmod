@@ -1,0 +1,19 @@
+type: Wall
+name: Marbled Blight Bulwark
+description: A soft, fleshy wall to protect your structures.
+size: 1
+health: 400
+squareSprite: false
+requirements: [
+  Tin/5
+]
+category: defense
+researchCostMultiplier: 0.5
+research: {
+  parent: CapillaryCore
+  requirements: [
+    Blight/100
+  ]
+}
+buildCostMultiplier: 2
+regen: 2
