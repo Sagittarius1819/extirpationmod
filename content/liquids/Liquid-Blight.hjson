@@ -1,8 +1,10 @@
 name: Liquid Blight
-description: trailChance
+description: ffgfgdsfgd
 boilPoint: 0.5
 color: 7a0f24
 heatCapacity: 0.35
 gasColor: c22141
-research: CapillaryCore
-type: liquid
+effect: burning
+boilPoint: 0.5
+heatCapacity: 0.35
+coolant: false
