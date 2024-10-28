@@ -18,7 +18,7 @@ items: [
 }
 craftTime: 65
 craftEffect: {
-  type: RadialEffect
+  type: Effect
   rotationSpacing: 90
   amount: 10
   lengthOffset: 6.3
