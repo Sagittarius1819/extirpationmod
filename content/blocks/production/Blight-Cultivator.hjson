@@ -35,8 +35,8 @@ craftEffect: {
     sizeTo: 0
     colorFrom: ff4a4a
     colorTo: ffffff88
-    interp: pow3
-    sizeInterp: pow2Out
+    interp: pow2
+    sizeInterp: pow3In
     layer: 80
   }
 }
