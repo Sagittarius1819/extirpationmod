@@ -4,9 +4,7 @@ description: Squeezes Bloodgrit and Jet into a hard plate.
 size: 2
 health: 235
 buildCostMultiplier: 0.35
-hasLiquids: true
 squareSprite: false
-liquidCapacity: 80
 itemCapacity: 10
 outputItems: [
   Blight/2
@@ -28,15 +26,16 @@ craftEffect: {
   effect: {
     type: ParticleEffect
     particles: 12
-    length: 0
+    length: 10
     lifetime: 100
     cone: 10
     useRotation: false
     baseRotation: 45
     sizeFrom: 2
     sizeTo: 0
-    colorFrom: ffffff00
-    colorTo: ff4a4a
+    colorFrom: ff4a4a
+    colorTo: ffffff00
+    
     interp: pow2
     sizeInterp: pow3In
     layer: 80
@@ -70,11 +69,6 @@ drawer: {
     {
       type: DrawRegion
       suffix: -bottom
-    }
-    {
-      type: DrawLiquidTile
-      drawLiquid: Liquid-Bronze
-      padding: 1.5
     }
     {
       type: DrawDefault
