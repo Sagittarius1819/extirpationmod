@@ -19,6 +19,7 @@ research: {
     Tin/1500
   ]
 }
+optionalUseTime: 4
 buildCostMultiplier: 2
 range: 0.75
 baseColor: FFFFFFFF
