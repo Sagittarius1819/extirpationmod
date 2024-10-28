@@ -20,4 +20,4 @@ research: {
 buildCostMultiplier: 2
 range: 0.1
 baseColor: FFFFFFFF
-phaseColor: 50FFFFFF
+phaseColor: b42222
