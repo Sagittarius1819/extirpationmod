@@ -37,8 +37,8 @@ Hematite/1660
 weapons: [
 {
   name: Mewl-Sparker
-    x: 6
-    y: 10
+    x: 6.5
+    y: 11
     reload: 61
     shootSound: spark
     shoot: {
