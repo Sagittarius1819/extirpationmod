@@ -14,7 +14,7 @@ drawBody: false
 drawCell: false
 rotateToBuilding: false
 segments: 4
-segmentScl: 3
+segmentScl: 1.5
 groundLayer: 69.42
 segmentPhase: 20
 segmentMag: 3
