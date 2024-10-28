@@ -19,8 +19,8 @@ items: [
 craftTime: 65
 craftEffect: {
   type: RadialEffect
-  rotationSpacing: 90
-  amount: 4
+  rotationSpacing: 45
+  amount: 8
   lengthOffset: 4
   layer: 118
   effect: {
@@ -36,7 +36,7 @@ craftEffect: {
     colorFrom: ff4a4a
     colorTo: ffffff88
     interp: pow3
-    sizeInterp: pow2In
+    sizeInterp: pow2Out
     layer: 80
   }
 }
