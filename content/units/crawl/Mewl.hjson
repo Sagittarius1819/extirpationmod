@@ -90,7 +90,7 @@ weapons: [
     bullet: {
       damage: 10
       shootEffect: none
-      speed: 6
+      speed: 3
       pierce: true
       pierceBuilding: true
       ammoMultiplier: 5
