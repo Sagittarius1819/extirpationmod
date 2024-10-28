@@ -5,18 +5,18 @@ size: 1
 health: 450
 squareSprite: false
 requirements: [
-  Tin/5
+  Marble/5
   Blight/5
 ]
 timerUse: 1
-healPercent: 0.05
+healPercent: 0.025
 category: defense
 researchCostMultiplier: 0.5
 research: {
   parent: CapillaryCore
   requirements: [
     Blight/100
-    Tin/1500
+    Marble/1500
   ]
 }
 buildCostMultiplier: 2
