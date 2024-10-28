@@ -65,4 +65,39 @@ weapons: [
             splashDamage: 30
 }
   }
+  {
+    x: 0
+    y: 9
+    rotate: false
+    mirror: false
+    reload: 8
+    shootSound: flame
+    shootCone: 45
+    inaccuracy: 17
+    bullet: {
+      damage: 3.5
+      shootEffect: none
+      speed: 6
+      pierce: true
+      pierceBuilding: true
+      ammoMultiplier: 5
+      lifetime: 18
+      despawnEffect: none
+      width: 0.01
+      height: 0.01
+      hittable: false
+      smokeEffect: {
+        type: ParticleEffect
+          particles: 25
+          length: 45
+          lifetime: 36
+          interp: circleOut
+          cone: 3
+          colorFrom: ffffff
+          colorTo: 0e0012
+          sizeFrom: 4
+          sizeTo: 0.6
+        }
+     }
+  }
 ]
