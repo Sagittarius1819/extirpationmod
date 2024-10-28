@@ -26,6 +26,7 @@ craftEffect: {
   effect: {
     type: ParticleEffect
     particles: 6
+        useRotation: false
     length: 12
     lifetime: 100
     cone: 10
@@ -33,7 +34,7 @@ craftEffect: {
     baseRotation: 45
     sizeFrom: 2
     sizeTo: 0.1
-    colorFrom: 66ff4a4a
+    colorFrom: ffb3c6
     colorTo: ffffff00
     
     interp: pow2
