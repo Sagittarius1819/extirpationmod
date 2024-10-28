@@ -18,6 +18,6 @@ research: {
   ]
 }
 buildCostMultiplier: 2
-range: 2
+range: 8
 baseColor: FFFFFFFF
 phaseColor: b42222
