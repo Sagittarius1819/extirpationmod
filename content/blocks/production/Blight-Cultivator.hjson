@@ -24,7 +24,7 @@ craftEffect: {
   lengthOffset: 6.3
   layer: 118
   effect: {
-    type: Effect
+    type: RadialEffect
     particles: 2
     lifetime: 160
     sizeFrom: 1.8
