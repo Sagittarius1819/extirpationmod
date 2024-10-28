@@ -2,7 +2,7 @@ type: RegenProjector
 name: Large Marbled Blight Bulwark
 description: A harder, living wall to protect your structures. Automatically repairs itself over time.
 size: 2
-health: 1800
+health: 1400
 squareSprite: false
 requirements: [
   Tin/5
