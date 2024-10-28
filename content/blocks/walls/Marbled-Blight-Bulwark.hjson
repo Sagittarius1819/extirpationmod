@@ -8,7 +8,7 @@ requirements: [
   Tin/5
 ]
 timerUse: 1
-healPercent: 2.5
+healPercent: 0.25
 category: defense
 researchCostMultiplier: 0.5
 research: {
