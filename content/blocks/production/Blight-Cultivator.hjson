@@ -27,17 +27,17 @@ craftEffect: {
   layer: 118
   effect: {
     type: ParticleEffect
-    particles: 5
+    particles: 3
     lifetime: 260
-    sizeFrom: 2.8
+    sizeFrom: 1.8
     useRotation: false
     baseRotation: 90
-    sizeTo: 0.3
-    colorFrom: fffafb
-    colorTo: ff8aa1
-    length: 12
-    baseLength: 15
-    cone: 40
+    sizeTo: 0.2
+    colorFrom: ad2641
+    colorTo: fc5879
+    length: 5
+    baseLength: 7
+    cone: 4
     interp: pow2
     sizeInterp: pow3In
     layer: 80
