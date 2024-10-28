@@ -107,7 +107,7 @@ weapons: [
           interp: circleOut
           cone: 3
           colorFrom: ffffff
-          colorTo: 0e0012
+          colorTo: a600ff
           sizeFrom: 4
           sizeTo: 0.6
         }
