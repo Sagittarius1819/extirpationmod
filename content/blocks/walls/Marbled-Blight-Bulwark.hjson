@@ -1,6 +1,6 @@
-type: MendProjector
+type: RegenProjector
 name: Marbled Blight Bulwark
-description: A soft, fleshy wall to protect your structures.
+description: A soft, living wall to protect your structures. Automatically repairs itself over time.
 size: 1
 health: 400
 squareSprite: false
@@ -18,6 +18,6 @@ research: {
   ]
 }
 buildCostMultiplier: 2
-range: 8
+range: 4
 baseColor: FFFFFFFF
-phaseColor: b42222
+effectChance: 0
