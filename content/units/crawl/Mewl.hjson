@@ -47,6 +47,7 @@ weapons: [
   }
   rotate: false
     mirror: true
+    top: false
     inaccuracy: 6
      bullet: {
     type: LightningBulletType
