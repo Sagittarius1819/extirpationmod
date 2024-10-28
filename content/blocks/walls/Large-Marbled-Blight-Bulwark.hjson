@@ -9,7 +9,7 @@ requirements: [
   Blight/5
 ]
 timerUse: 1
-healPercent: 0.2
+healPercent: 0.1
 category: defense
 researchCostMultiplier: 0.5
 research: {

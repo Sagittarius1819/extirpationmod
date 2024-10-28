@@ -8,7 +8,7 @@ requirements: [
   Hematite/20
 ]
 category: defense
-researchCostMultiplier: 0.5
+researchCostMultiplier: 0.25
 research: {
   parent: Hematite-Wall
   requirements: [
