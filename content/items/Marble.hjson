@@ -1,0 +1,12 @@
+type: material
+name: Marble
+description: A solid rock, great for protecting blighed structures and units.
+cost: 3.5
+color: e3e7e9 
+hiddenOnPlanets: [serpulo, erekir]
+research: {
+  parent: Blackplate
+  requirements: [
+    Blackplate/1
+  ]
+}
