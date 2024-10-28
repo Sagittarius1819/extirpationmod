@@ -16,8 +16,8 @@ rotateToBuilding: false
 segments: 3
 segmentScl: 3
 groundLayer: 69.42
-segmentPhase: 10
-segmentMag: 0.5
+segmentPhase: 20
+segmentMag: 2
 rotateSpeed: 5
 faceTarget: true
 omniMovement: true
@@ -37,8 +37,8 @@ Hematite/1660
 weapons: [
 {
   name: Mewl-Sparker
-    x: -9.5
-    y: 13
+    x: 7
+    y: 10
     reload: 61
     shootSound: spark
     shoot: {
