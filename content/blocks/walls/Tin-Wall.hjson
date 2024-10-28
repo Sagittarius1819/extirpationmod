@@ -2,7 +2,7 @@ type: Wall
 name: Tin Wall
 description: A soft, cheap wall to protect your structures.
 size: 1
-health: 400
+health: 350
 squareSprite: false
 requirements: [
   Tin/5
