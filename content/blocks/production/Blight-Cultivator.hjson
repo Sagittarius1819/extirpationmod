@@ -62,16 +62,3 @@ requirements: [
   Marble/80
 ]
 researchCostMultiplier: 0.5
-
-drawer: {
-  type: DrawMulti
-  drawers: [
-    {
-      type: DrawRegion
-      suffix: -bottom
-    }
-    {
-      type: DrawDefault
-    }
-  ]
-}
