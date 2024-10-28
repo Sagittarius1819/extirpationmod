@@ -4,7 +4,9 @@ description: Squeezes Bloodgrit and Jet into a hard plate.
 size: 2
 health: 235
 buildCostMultiplier: 0.35
+hasLiquids: true
 squareSprite: false
+liquidCapacity: 80
 itemCapacity: 10
 outputItems: [
   Blight/2
