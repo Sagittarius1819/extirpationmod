@@ -1,4 +1,4 @@
-type: Wall
+type: selfHealingWall
 name: Marbled Blight Bulwark
 description: A soft, fleshy wall to protect your structures.
 size: 1
