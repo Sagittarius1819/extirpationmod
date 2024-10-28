@@ -9,7 +9,7 @@ requirements: [
   Marble/5
 ]
 timerUse: 1
-healPercent: 1
+healPercent: 0.5
 category: defense
 researchCostMultiplier: 0.5
 research: {
