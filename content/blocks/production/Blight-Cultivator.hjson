@@ -20,20 +20,20 @@ craftTime: 65
 craftEffect: {
   type: RadialEffect
   rotationSpacing: 45
-  amount: 8
+  amount: 4
   lengthOffset: 4
   layer: 118
   effect: {
     type: ParticleEffect
     particles: 12
-    length: 14
+    length: 10
     lifetime: 100
     cone: 20
     useRotation: false
-    baseRotation: 45
+    baseRotation: 90
     sizeFrom: 2
     sizeTo: 0
-    colorFrom: ffff4a4a
+    colorFrom: ffff4ad8
     colorTo: ffffff88
     interp: pow2
     sizeInterp: pow3In
