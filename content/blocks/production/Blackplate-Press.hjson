@@ -3,10 +3,8 @@ name: Blackplate Press
 description: Squeezes Bloodgrit and Jet into a hard plate.
 size: 2
 health: 135
-hasLiquids: true
 buildCostMultiplier: 0.35
 squareSprite: false
-liquidCapacity: 80
 itemCapacity: 10
 outputItems: [
   Blackplate/1
