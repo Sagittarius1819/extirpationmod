@@ -1,0 +1,79 @@
+type: crawl
+name: Mewl
+circleTarget: true
+description: A large, electric worm-like robot.
+health: 765
+speed: 0.75
+commands: [move, mine, repair]
+mineWalls: true
+mineFloor: true
+mineSpeed: 2.25
+mineTier: 1
+armor: 5
+drawBody: false
+drawCell: false
+rotateToBuilding: false
+segments: 3
+segmentScl: 3
+groundLayer: 69.42
+segmentPhase: 10
+segmentMag: 0.5
+rotateSpeed: 5
+faceTarget: true
+omniMovement: true
+hitSize: 10
+autoFindTarget: true
+drag: 0.4
+outlineColor: 301d1d
+ research: {
+  parent: Squeal
+  requirements: [
+Hematite/1660
+    Blackplate/1120
+    Tin/10000
+    CopperAlt/7500
+  ]
+ }
+weapons: [
+{
+  name: Mewl-Sparker
+    x: -9.5
+    y: the
+    reload: 61
+    shootSound: spark
+    shoot: {
+  shots: 3
+    shotDelay: 0.8
+  }
+  rotate: false
+    mirror: false
+    inaccuracy: 6
+     bullet: {
+    type: LightningBulletType
+      lightningLength: 12.5
+      damage: 12
+      collidesTeam: true
+      pierceBuilding: true
+      pierce: true
+      pierceCap: 1
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      hitColor: 993db3
+      lightningColor: 993db3
+      healPercent: 1.25
+      lightningType: {
+        type: BulletType
+        speed: 0.0001
+        damage: 25
+        lifetime: 10
+        hitEffect: hitLancer
+        despawnEffect: none
+        status: shocked
+        statusDuration: 10
+        hittable: false
+        healPercent: 1
+        collidesTeam: true
+      }
+  }
+  }
+]

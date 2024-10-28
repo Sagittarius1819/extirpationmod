@@ -2,9 +2,14 @@ type: crawl
 name: Squeal
 circleTarget: true
 description: A somewhat large worm-like robot.
-health: 260
+health: 360
 speed: 1
-armor: 1
+armor: 2
+commands: [move, mine]
+mineWalls: true
+mineFloor: true
+mineSpeed: 1.5
+mineTier: 1
 drawBody: false
 drawCell: false
 rotateToBuilding: false

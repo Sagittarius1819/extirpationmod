@@ -5,6 +5,7 @@ speed: 0.6
 flying: false
 health: 1000
 hitSize: 10
+armor: 4
 alwaysUnlocked: false
 outlineColor: 643b3b
 mechLegColor: 513030
