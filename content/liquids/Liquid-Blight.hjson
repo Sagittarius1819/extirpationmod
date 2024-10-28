@@ -5,3 +5,4 @@ color: 7a0f24
 heatCapacity: 0.35
 gasColor: c22141
 research: CapillaryCore
+type: liquid
