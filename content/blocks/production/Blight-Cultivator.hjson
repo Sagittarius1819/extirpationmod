@@ -29,6 +29,7 @@ craftEffect: {
         useRotation: false
     length: 12
     lifetime: 100
+        baseLength: 15
     cone: 10
     useRotation: false
     baseRotation: 45
