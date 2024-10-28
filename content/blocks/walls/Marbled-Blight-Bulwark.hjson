@@ -1,4 +1,4 @@
-type: selfHealingWall
+type: MendProjector
 name: Marbled Blight Bulwark
 description: A soft, fleshy wall to protect your structures.
 size: 1
@@ -7,6 +7,8 @@ squareSprite: false
 requirements: [
   Tin/5
 ]
+timerUse: 1
+healPercent: 5
 category: defense
 researchCostMultiplier: 0.5
 research: {
