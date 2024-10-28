@@ -1,25 +1,17 @@
-const selfHealingWall = extendContent(Wall, "self-healing-wall", {
-    update(tile) {
+const selfHealingWall = Vars.content.block("extirpation-mod-Marbled-Blight-Bulwark");  // Replace "mod-name" with your mod's name
+
+// Extend the behavior of the wall with custom regeneration
+selfHealingWall.update = true;  // Ensure it updates each tick
+selfHealingWall.buildType = () => extendContent(Wall.WallBuild, selfHealingWall, {
+    updateTile() {
+        this.super$updateTile();
+
         // Define regeneration rate
         const regenRate = 0.5;  // Health per tick
-        const block = tile.ent();
 
-        // Ensure the wall's health is below max and needs healing
-        if (block.health < block.maxHealth) {
-            block.health = Math.min(block.health + regenRate, block.maxHealth);
+        // Regenerate health if below max
+        if (this.health < this.maxHealth) {
+            this.health = Math.min(this.health + regenRate, this.maxHealth);
         }
     }
 });
-
-// Define basic properties
-selfHealingWall.health = 600;
-selfHealingWall.size = 1;
-selfHealingWall.armor = 5;
-selfHealingWall.buildCostMultiplier = 0.8;
-
-// Register the custom wall block
-selfHealingWall.category = Category.defense;
-selfHealingWall.requirements = ItemStack.with(
-    Items.copper, 10,
-    Items.lead, 5
-);
