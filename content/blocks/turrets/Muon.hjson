@@ -35,6 +35,7 @@ coolant: {
   allowGas: true
   allowLiquid: true
   amount: 0.35
+  coolantMultiplier: 45
 }
 hiddenOnPlanets: [serpulo, erekir]
 outlineColor: 342222
