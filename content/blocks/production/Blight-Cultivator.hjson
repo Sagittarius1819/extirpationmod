@@ -19,7 +19,7 @@ items: [
 craftTime: 65
 craftEffect: {
   type: RadialEffect
-  rotationSpacing: 45
+  rotationSpacing: 90
   amount: 4
   lengthOffset: 4
   layer: 118
@@ -28,15 +28,15 @@ craftEffect: {
     particles: 12
     length: 10
     lifetime: 100
-    cone: 20
+    cone: 10
     useRotation: false
     baseRotation: 45
     sizeFrom: 2
     sizeTo: 0
     colorFrom: ff4a4a
     colorTo: ffffff88
-    interp: pow2
-    sizeInterp: pow3In
+    interp: pow3
+    sizeInterp: pow2In
     layer: 80
   }
 }
