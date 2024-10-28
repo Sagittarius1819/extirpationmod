@@ -20,7 +20,7 @@ segmentPhase: 10
 segmentMag: 0.5
 rotateSpeed: 5
 faceTarget: true
-omniMovement: false
+omniMovement: true
 hitSize: 10
 autoFindTarget: false
 drag: 0.4

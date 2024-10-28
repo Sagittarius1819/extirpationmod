@@ -1,6 +1,5 @@
 type: crawl
 name: Mewl
-circleTarget: true
 description: A large, electric worm-like robot.
 health: 765
 speed: 0.75
