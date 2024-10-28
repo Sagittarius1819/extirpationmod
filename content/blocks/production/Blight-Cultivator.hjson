@@ -71,6 +71,11 @@ drawer: {
       suffix: -bottom
     }
     {
+      type: DrawLiquidTile
+      drawLiquid: liquid-neoplasm
+      padding: 1.5
+    }
+    {
       type: DrawDefault
     }
   ]
