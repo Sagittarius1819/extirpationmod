@@ -5,5 +5,5 @@ color: d1dbde
 heatCapacity: 0.6
 research: Liquid-Bronze
 coolant: true
-gas: true
+gas: false
 temperature: 0.6
