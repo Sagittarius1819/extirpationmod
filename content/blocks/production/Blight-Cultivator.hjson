@@ -64,3 +64,21 @@ requirements: [
   Marble/80
 ]
 researchCostMultiplier: 0.5
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: Liquid-Blight
+      padding: 1.5
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
