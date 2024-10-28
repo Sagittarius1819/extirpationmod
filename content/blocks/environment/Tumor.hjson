@@ -1,7 +1,7 @@
 name: tumor
 type: SteamVent
-blendGroup: Maroon-Floor
-parent: Maroon-Floor
+blendGroup: Blighted-Floor
+parent: Blighted-Floor
 effect: none
 attributes: {
    steam: 0.111111111111
