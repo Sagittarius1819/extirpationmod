@@ -1,9 +1,9 @@
 name: Oxygen
 description: You can breathe this! Oh wait, you're a robot.
-boilPoint: 0.2
+boilPoint: 0.6
 color: d1dbde
-heatCapacity: 0.2
+heatCapacity: 0.6
 research: Liquid-Bronze
 coolant: true
 gas: true
-temperature: 0.2
+temperature: 0.6
