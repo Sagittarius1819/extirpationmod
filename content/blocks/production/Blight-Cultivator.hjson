@@ -72,7 +72,7 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      drawLiquid: neoplasm
+      drawLiquid: liquid-neoplasm
       padding: 1.5
     }
     {
