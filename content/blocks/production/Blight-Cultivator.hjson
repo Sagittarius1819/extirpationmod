@@ -33,7 +33,7 @@ craftEffect: {
     baseRotation: 45
     sizeFrom: 2
     sizeTo: 0.1
-    colorFrom: ff4a4a
+    colorFrom: 66ff4a4a
     colorTo: ffffff00
     
     interp: pow2
