@@ -38,7 +38,7 @@ weapons: [
 {
   name: Mewl-Sparker
     x: -9.5
-    y: the
+    y: 13
     reload: 61
     shootSound: spark
     shoot: {
@@ -46,7 +46,7 @@ weapons: [
     shotDelay: 0.8
   }
   rotate: false
-    mirror: false
+    mirror: true
     inaccuracy: 6
      bullet: {
     type: LightningBulletType
