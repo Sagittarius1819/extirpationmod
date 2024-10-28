@@ -1,10 +1,10 @@
 public class extirpationmod extends Mod {
 
-    public static Block healingBlock;
+    public static Block healingWall;
 
     @Override
     public void loadContent() {
-        healingBlock = new HealingBlock("healing-block") {{
+        healingWall = new HealingWall("healing-wall") {{
             requirements(Category.defense, ItemStack.with(Items.copper, 30));
             health = 600;
             size = 1;

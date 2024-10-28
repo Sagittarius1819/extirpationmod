@@ -1,18 +1,17 @@
 package extirpationmod.content;
 
 import mindustry.world.blocks.defense.Wall;
-import mindustry.world.blocks;
 import mindustry.gen.Building;
 
-public class HealingBlock extends Block {
+public class HealingWall extends Wall {
 
     // Constructor for the healing wall
-    public HealingBlock(String name) {
+    public HealingWall(String name) {
         super(name);
     }
 
     // Inner class for the building logic
-    public class HealingBlockBuild extends BlockBuild {
+    public class HealingWallBuild extends WallBuild {
         
         private static final float HEAL_RATE = 0.5f; // Adjust healing rate as needed
 
@@ -34,6 +33,6 @@ public class HealingBlock extends Block {
 
     @Override
     public Building createBuilding() {
-        return new HealingBlockBuild();
+        return new HealingWallBuild();
     }
 }
