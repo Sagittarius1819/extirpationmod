@@ -18,6 +18,6 @@ research: {
   ]
 }
 buildCostMultiplier: 2
-range: 2
+range: 1
 baseColor: FFFFFFFF
 effectChance: 0
