@@ -13,7 +13,7 @@ armor: 5
 drawBody: false
 drawCell: false
 rotateToBuilding: false
-segments: 3
+segments: 4
 segmentScl: 3
 groundLayer: 69.42
 segmentPhase: 20
