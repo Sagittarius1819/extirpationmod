@@ -30,10 +30,10 @@ craftEffect: {
     lifetime: 100
     cone: 20
     useRotation: false
-    baseRotation: 90
+    baseRotation: 45
     sizeFrom: 2
     sizeTo: 0
-    colorFrom: ffff4ad8
+    colorFrom: ff4a4a
     colorTo: ffffff88
     interp: pow2
     sizeInterp: pow3In
