@@ -21,12 +21,12 @@ craftEffect: {
   type: RadialEffect
   rotationSpacing: 45
   amount: 8
-  lengthOffset: 4
+  lengthOffset: 0
   layer: 118
   effect: {
     type: ParticleEffect
     particles: 12
-    length: 10
+    length: 0
     lifetime: 100
     cone: 10
     useRotation: false
@@ -68,6 +68,11 @@ drawer: {
     {
       type: DrawRegion
       suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: Liquid-Bronze
+      padding: 1.5
     }
     {
       type: DrawDefault
