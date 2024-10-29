@@ -35,10 +35,10 @@ weapons: [
     }
     bullet: {
       type: LiquidBulletType
-      weaveScale: 3
-      weaveMag: 3
-      width: 9
-      height: 13
+      weaveScale: 2
+      weaveMag: 2
+      width: 6
+      height: 8
       speed: 2
       liquid: slag
       lifetime: 90
