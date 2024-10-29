@@ -12,10 +12,9 @@ legMoveSpace: 0.9
 legCount: 6
 lockLegBase: true
 legContinuousMove: true
-legMinLength: 9.9f
-legMaxLength: 10.1f
 legLength: 10
 legSpeed: 0.5
+legBaseOffset: 8
 legForwardScl: 0.56
 itemCapacity: 10
 outlineColor: 7f6f6f
