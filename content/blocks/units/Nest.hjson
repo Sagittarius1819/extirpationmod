@@ -2,7 +2,9 @@ type: UnitFactory
 health: 550
 size: 2
 squareSprite: false
-acceptsItems: true
+acceptsItems: false
+acceptsPayloads: true
+acceptsPayload: true
 name: Nest
 description: A small incubator for Organic units.
 consumes: {
