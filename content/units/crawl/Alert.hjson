@@ -3,7 +3,7 @@ name: Alert
 description: A small, organic unit that shoots streams of slag at enemies.
 speed: 0.75
 health: 420
-armor: 3
+armor: 1
 flying: false
 legExtension: -2.5
 legMoveSpace: 1
