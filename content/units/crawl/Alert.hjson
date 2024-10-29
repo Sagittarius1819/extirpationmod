@@ -6,7 +6,7 @@ health: 420
 armor: 3
 flying: false
 legExtension: -2.5
-legMoveSpace: 0.6
+legMoveSpace: 0.85
 hovering: false
 legCount: 6
 legGroupSide: 3
@@ -15,7 +15,7 @@ legContinuousMove: true
 legLength: 10
 legSpeed: 0.5
 legBaseOffset: 4
-legForwardScl: 0.56
+legForwardScl: 1
 itemCapacity: 10
 outlineColor: 824b4b
 hitSize: 6
