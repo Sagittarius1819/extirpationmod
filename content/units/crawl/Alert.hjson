@@ -45,7 +45,7 @@ weapons: [
       speed: 2
       liquid: slag
       lifetime: 90
-      damage: 22
+      damage: 18
       pierce: true
       pierceBuilding: true
       pierceCap: 2

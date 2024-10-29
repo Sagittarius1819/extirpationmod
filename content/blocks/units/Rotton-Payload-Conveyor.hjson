@@ -1,9 +1,9 @@
 type: PayloadConveyor
-size: 3
-moveTime: 75
+size: 2
+moveTime: 50
 moveForce: 300
 payloadLimit: 3
-name: Dark Payload Coveyor
+name: Rotton Payload Coveyor
 category: units
 requirements: [
   Tin/10
