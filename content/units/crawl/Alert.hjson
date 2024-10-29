@@ -21,6 +21,7 @@ weapons: [
     name: AlertSprayer
     y: 2
     reload: 72
+          drawFlare: false
     shootSound: shoot-dull
     mirror: true
     alternate: true
@@ -28,36 +29,30 @@ weapons: [
     rotate: false
     inaccuracy: 3
     shoot: {
-      shots: 4
-      shotDelay: 12
+      shots: 2
+      shotDelay: 24
     }
     bullet: {
-      type: MissileBulletType
-      homingPower: 0.09
-      homingDelay: 30
+      type: LiquidBulletType
       weaveScale: 3
       weaveMag: 3
       width: 9
       height: 13
       speed: 2
+      liquid: slag
       lifetime: 90
       damage: 32
       pierce: true
       pierceBuilding: true
-      pierceCap: 3
+      pierceCap: 2
       collidesTeam: true
       healPercent: 2
       trailChance: -1
       trailLength: 22
       trailWidth: 2.2
-      trailColor: 69a25e
-      backColor: 69a25e
-      lightColor: 69a25e
-      lightRadius: 40
-      lightOpacity: 0.7
+      lightColor: f5b192
       hitSound: dullExplosion
       despawnSound: dullExplosion
-      frontColor: 9be98b
     }
   }
 ]
