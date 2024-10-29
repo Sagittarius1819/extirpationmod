@@ -9,8 +9,8 @@ legExtension: -2.5
 legMoveSpace: 0.9
 hovering: false
 legCount: 6
-legLength: 5
-legSpeed: 0.2
+legLength: 10
+legSpeed: 2
 legForwardScl: 0.56
 itemCapacity: 10
 outlineColor: 7f6f6f
