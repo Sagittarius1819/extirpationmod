@@ -5,7 +5,7 @@ speed: 0.75
 health: 420
 armor: 3
 flying: false
-legExtension: 4
+legExtension: -2.5
 legMoveSpace: 1
 hovering: false
 legCount: 6
