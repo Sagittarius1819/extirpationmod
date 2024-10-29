@@ -1,7 +1,7 @@
 type: legs
 name: Alert
 description: A small, organic unit that shoots streams of slag at enemies.
-speed: 2
+speed: 1
 health: 420
 armor: 3
 flying: false
@@ -10,7 +10,7 @@ legMoveSpace: 0.9
 hovering: false
 legCount: 6
 legLength: 10
-legSpeed: 2
+legSpeed: 0.5
 legForwardScl: 0.56
 itemCapacity: 10
 outlineColor: 7f6f6f
