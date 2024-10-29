@@ -23,7 +23,7 @@ weapons: [
   {
     x: 2.9
     name: AlertSprayer
-    y: 1.5
+    y: 1.55
     reload: 72
           drawFlare: false
     shootSound: FireShot
