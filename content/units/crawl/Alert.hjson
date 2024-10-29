@@ -10,6 +10,10 @@ legMoveSpace: 0.9
 hovering: false
 legMoveSpace: 0.9
 legCount: 6
+lockLegBase: true
+legContinuousMove: true
+legMinLength: 9.9f
+legMaxLength: 10.1f
 legLength: 10
 legSpeed: 0.5
 legForwardScl: 0.56
