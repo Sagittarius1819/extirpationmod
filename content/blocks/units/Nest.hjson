@@ -1,7 +1,9 @@
 type: UnitFactory
 health: 550
 size: 2
+squareSprite: false
 name: Nest
+description: A small incubator for Organic units.
 consumes: {
   power: 1.5
 }
