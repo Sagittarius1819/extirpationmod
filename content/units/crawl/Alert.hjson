@@ -8,6 +8,7 @@ flying: false
 legExtension: -2.5
 legMoveSpace: 0.9
 hovering: false
+legMoveSpace: 0.9
 legCount: 6
 legLength: 10
 legSpeed: 0.5
