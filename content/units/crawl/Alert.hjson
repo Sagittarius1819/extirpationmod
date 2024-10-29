@@ -9,8 +9,8 @@ legExtension: 4
 legMoveSpace: 3
 hovering: false
 legCount: 3
-lockLegBase: true
-legContinuousMove: true
+lockLegBase = true
+legContinuousMove = true
 legLength: 10
 legSpeed: 0.5
 legBaseOffset: 4
