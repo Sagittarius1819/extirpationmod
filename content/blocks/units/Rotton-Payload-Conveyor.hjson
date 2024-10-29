@@ -2,12 +2,13 @@ type: PayloadConveyor
 size: 2
 moveTime: 50
 moveForce: 300
+health: 65
 payloadLimit: 3
 name: Rotton Payload Coveyor
 category: units
 requirements: [
-  Tin/10
-  Blackplate/3
+  Blight/10
+  Marble/5
 ]
 research: {
     parent: Demolition-Fabricator

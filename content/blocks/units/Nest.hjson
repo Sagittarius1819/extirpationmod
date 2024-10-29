@@ -1,35 +1,38 @@
 type: UnitFactory
-health: 750
-size: 3
-name: Atomic Fabricator
+health: 550
+size: 2
+name: Nest
 consumes: {
-  power: 1.25
+  power: 1.5
 }
 plans: [
   {
-    unit: Atom
-    time: 600
+    unit: Alert
+    time: 650
     requirements: [
- Blackplate/20
+ Blight/20
  Tin/30
+ Marble/25
     ]
   }
 ]
 requirements: [
-  Blackplate/30
+  Tin/100
   CopperAlt/65
+  Marble/70
+  Blight/50
 ]
 category: units
 research: {
     parent: Demolition-Fabricator
     objectives: [
         {
-            type: OnSector
-            preset: solitude
+            type: SectorComplete
+            preset: unsightly
         }
     ]
 }
 researchCost: [
-    Blackplate/150
-    Tin/1000
+    Marble/1200
+    Blight/1000
   ]

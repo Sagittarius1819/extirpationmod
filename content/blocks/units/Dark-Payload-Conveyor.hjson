@@ -1,5 +1,6 @@
 type: PayloadConveyor
 size: 3
+health: 65
 moveTime: 75
 moveForce: 300
 payloadLimit: 3
