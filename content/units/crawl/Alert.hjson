@@ -23,7 +23,7 @@ weapons: [
     y: 2
     reload: 72
           drawFlare: false
-    shootSound: shoot-dull
+    shootSound: FireShot
     mirror: true
     alternate: true
     top: false
