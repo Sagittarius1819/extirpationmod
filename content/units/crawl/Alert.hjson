@@ -15,7 +15,7 @@ legContinuousMove: true
 legLength: 10
 legSpeed: 0.5
 legBaseOffset: 0
-legForwardScl: 1
+legForwardScl: 1.25
 itemCapacity: 10
 outlineColor: 824b4b
 hitSize: 6
