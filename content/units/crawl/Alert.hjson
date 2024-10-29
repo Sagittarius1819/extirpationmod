@@ -21,9 +21,9 @@ outlineColor: 824b4b
 hitSize: 6
 weapons: [
   {
-    x: 3
+    x: 2.95
     name: AlertSprayer
-    y: 2
+    y: 1.85
     reload: 72
           drawFlare: false
     shootSound: FireShot
