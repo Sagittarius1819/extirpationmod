@@ -9,21 +9,22 @@ legExtension: -2.5
 legMoveSpace: 0.9
 hovering: false
 legCount: 6
-legLength: 18
-legSpeed: 0.23
+legLength: 5
+legSpeed: 0.2
 legForwardScl: 0.56
 itemCapacity: 10
 outlineColor: 7f6f6f
 hitSize: 6
 weapons: [
   {
-    x: 9
+    x: 3
     name: AlertSprayer
-    y: 3
+    y: 2
     reload: 72
     shootSound: shoot-dull
     mirror: true
     alternate: true
+    top: false
     rotate: false
     inaccuracy: 3
     shoot: {
