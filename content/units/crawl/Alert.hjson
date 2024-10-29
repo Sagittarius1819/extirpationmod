@@ -8,7 +8,7 @@ flying: false
 legExtension: 4
 legMoveSpace: 3
 hovering: false
-legCount: 3
+legCount: 6
 lockLegBase = true
 legContinuousMove = true
 legLength: 10
