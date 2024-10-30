@@ -21,9 +21,9 @@ outlineColor: 824b4b
 hitSize: 6
 weapons: [
   {
-    x: 4
+    x: 7
     name: Animate-weapon
-    y: 2
+    y: 16
     reload: 72
           drawFlare: false
     shootSound: FireShot
