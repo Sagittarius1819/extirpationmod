@@ -5,8 +5,8 @@ speed: 0.65
 health: 700
 armor: 2.5
 flying: false
-legExtension: 2
-legMoveSpace: 2
+legExtension: -2.5
+legMoveSpace: 4.5
 hovering: false
 legCount: 4
 legGroupSide: 1
@@ -23,7 +23,7 @@ weapons: [
   {
     x: 7
     name: Animate-weapon
-    y: 16
+    y: 8
     reload: 72
           drawFlare: false
     shootSound: FireShot
