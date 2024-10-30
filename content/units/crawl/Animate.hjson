@@ -1,15 +1,15 @@
 type: legs
 name: Alert
 description: A small, organic unit that shoots streams of slag at enemies.
-speed: 0.8
-health: 420
-armor: 1
+speed: 0.65
+health: 700
+armor: 2.5
 flying: false
 legExtension: -2.5
-legMoveSpace: 1
+legMoveSpace: 2
 hovering: false
-legCount: 6
-legGroupSide: 3
+legCount: 4
+legGroupSide: 2
 lockLegBase: true
 legContinuousMove: true
 legLength: 10
@@ -21,9 +21,9 @@ outlineColor: 824b4b
 hitSize: 6
 weapons: [
   {
-    x: 2.9
-    name: AlertSprayer
-    y: 1.25
+    x: 4
+    name: Animate-weapon
+    y: 2
     reload: 72
           drawFlare: false
     shootSound: FireShot
@@ -61,11 +61,12 @@ weapons: [
   }
 ]
  research: {
-  parent: Nest
+  parent: Alert
   requirements: [
-    Marble/500
-    Blight/500
-    Tin/4500
+Hematite/1660
+    Marble/4120
+    Blight/2000
+    Tin/7500
   ]
  }
 researchCostMultiplier: 0.75
