@@ -9,19 +9,19 @@ legExtension: -2.5
 legMoveSpace: 4.5
 hovering: false
 legCount: 4
-legGroupSide: 1
+legGroupSide: 2
 lockLegBase: true
 legContinuousMove: true
 legLength: 10
 legSpeed: 0.4
-legBaseOffset: 0
+legBaseOffset: 5
 legForwardScl: 1.25
 itemCapacity: 10
 outlineColor: 824b4b
 hitSize: 6
 weapons: [
   {
-    x: 7
+    x: -7
     name: Animate-weapon
     y: 8
     reload: 72
