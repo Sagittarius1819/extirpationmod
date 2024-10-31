@@ -66,7 +66,7 @@ Blight: {
     width: 6
     height: 72
     speed: 6.5
-    lifetime: 25
+    lifetime: 27
     frontColor: aed197
     backColor: 8aa36d
     pierce: true
@@ -74,7 +74,10 @@ Blight: {
     pierceCap: 4
     damage: 65
     despawnSound: Dripshot
-    despawnEffect: none
+     bullet: {
+          weaveScale: 1
+      weaveMag: 2
+     }
   }
   Hematite: {
     type: FlakBulletType
