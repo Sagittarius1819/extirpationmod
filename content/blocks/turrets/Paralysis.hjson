@@ -7,7 +7,7 @@ category: turret
 recoil: 2
 ammoPerShot: 3
 maxAmmo: 42
-shootY: 5
+shootY: 10
 research: {
   parent: Bliss
   requirements: [
@@ -58,7 +58,6 @@ shoot: {
 ammoTypes: {
 Blight: {
     trailColor: a6cc54
-    trailInterval: 3.5
     trailRotation: true
     trailLength: 20
     trailWidth: 1.25
@@ -75,6 +74,7 @@ Blight: {
     pierceCap: 4
     damage: 65
     despawnSound: Dripshot
+    despawnEffect: greenBomb
   }
   Hematite: {
     type: FlakBulletType
