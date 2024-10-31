@@ -7,6 +7,7 @@ category: turret
 recoil: 2
 ammoPerShot: 3
 maxAmmo: 42
+shootY: 5
 research: {
   parent: Bliss
   requirements: [
