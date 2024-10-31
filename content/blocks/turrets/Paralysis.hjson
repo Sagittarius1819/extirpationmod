@@ -6,7 +6,7 @@ size: 3
 category: turret
 recoil: 2
 ammoPerShot: 3
-maxAmmo: 42
+maxAmmo: 21
 shootY: 10
 research: {
   parent: Bliss
@@ -65,7 +65,7 @@ Blight: {
     layer: 111
     width: 6
     height: 72
-    speed: 8.5
+    speed: 6
     lifetime: 32
     frontColor: aed197
     backColor: 8aa36d
