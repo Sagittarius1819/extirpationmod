@@ -1,0 +1,82 @@
+type: ItemTurret
+name: Paralysis
+description: Launches a stunning glob of bile at enemies
+size: 3
+ solid: true
+category: turret
+recoil: 2
+research: {
+  parent: Bliss
+  requirements: [
+    Blight/2150
+    Marble/3800
+    Blackplate/4500
+    Tin/10000
+    CopperAlt/5000
+  ]
+    objectives: [
+    {
+      type: OnSector 
+      preset: unsightly
+    }
+  ]
+ }
+researchCostMultiplier: 0.05
+shootSound: OrganicLaunch
+requirements: [
+    Blight/150
+    Marble/80
+    Blackplate/45
+    Tin/200
+]
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.1
+}
+hiddenOnPlanets: [serpulo, erekir]
+outlineColor: 4e3737
+damage: 65
+health: 1260
+targetAir: true
+targetGround: true
+collidesGround: true
+collidesAir: true
+reload: 50
+range: 160
+velocityRnd: 0.2
+inaccuracy: 2.5
+scaleLife: true
+shoot: {
+  shots: 1
+  shotDelay: 0.4
+}
+ammoTypes: {
+  Blight: {
+    type: FlakBulletType
+    damage: 32
+    width: 7
+    collidesGround: true
+    height: 9
+        lifetime: 60
+    speed: 3
+        splashDamage: 0
+    splashDamageRadius: 0
+  }
+  Hematite: {
+    type: FlakBulletType
+    width: 7
+    height: 9
+        lifetime: 60
+    damage: 38
+    speed: 3
+    collidesGround: true
+    splashDamage: 5
+    splashDamageRadius: 10
+  }
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: Organic-
+}
