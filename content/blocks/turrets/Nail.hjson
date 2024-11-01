@@ -66,16 +66,18 @@ drawer: {
       suffix: -Wing-l
       progress: warmup
       under: false
-      moveY: -15
-            moveRot: 15
+      moveY: -5
+      moveX:-2
+            moveRot: 25
     }
         {
       type: RegionPart
       suffix: -Wing-r
       progress: warmup
       under: false
-      moveY: -15
-          moveRot: -15
+      moveY: -5
+            moveX:2
+          moveRot: -25
     }
     ]
 }
