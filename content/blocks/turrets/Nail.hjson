@@ -67,7 +67,7 @@ drawer: {
       suffix: -Wing-l
       progress: warmup
       under: false
-      moveY: -5
+      moveY: 2
       moveX:-2
             moveRot: 25
     }
@@ -76,7 +76,7 @@ drawer: {
       suffix: -Wing-r
       progress: warmup
       under: false
-      moveY: -5
+      moveY: 2
             moveX:2
           moveRot: -25
     }
