@@ -23,3 +23,4 @@ buildCostMultiplier: 2
 range: 0.75
 baseColor: FFFFFFFF
 effectChance: 0
+hasPower: false

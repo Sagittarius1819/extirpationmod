@@ -1,7 +1,7 @@
 type: PayloadConveyor
 size: 2
 moveTime: 50
-moveForce: 300
+moveForce: 200
 health: 65
 payloadLimit: 3
 name: Rotton Payload Coveyor
@@ -24,3 +24,5 @@ researchCost: [
     CopperAlt/150
     Blackplate/25
   ]
+  canOverdrive: false
+payloadLimit: 2
