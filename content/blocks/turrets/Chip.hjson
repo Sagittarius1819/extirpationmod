@@ -72,15 +72,27 @@ ammoTypes: {
 }
 drawer: {
   type: DrawTurret
-  basePrefix: Rusted-
+  basePrefix: Organic-
     parts: [
     {
       type: RegionPart
-      suffix: -barrel
+      suffix: -barrel-l
       progress: recoil
       heatProgress: recoil
       under: true
       moveY: -1
+      MoveX: -3
+      growX: 0.2
+      growY: 0.1
+    }
+        {
+      type: RegionPart
+      suffix: -barrel-r
+      progress: recoil
+      heatProgress: recoil
+      under: true
+      moveY: -1
+    MoveX: 3
       growX: 0.2
       growY: 0.1
     }
