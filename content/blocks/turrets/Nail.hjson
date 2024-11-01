@@ -86,8 +86,8 @@ drawer: {
       suffix: -top
       progress: warmup
       moveY: 0.6
-      growY: 1
-        growX: 1
+      growY: 0.5
+        growX: 0.5
     }
     ]
 }
