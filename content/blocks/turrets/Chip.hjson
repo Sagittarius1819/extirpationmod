@@ -2,6 +2,7 @@ type: ItemTurret
 name: Chip
 description: Launches small pieces of marble at enemies.
 size: 1
+maxAmmo: 20
  solid: true
 category: turret
 research: {
@@ -39,15 +40,15 @@ collidesGround: true
 collidesAir: true
 reload: 25
 range: 170
-velocityRnd: 0.2
+velocityRnd: 0.25
 inaccuracy: 7
 scaleLife: true
 shoot: {
   shots: 2
-  shotDelay: 0.5
+  shotDelay: 1.5
 }
 ammoTypes: {
-  Blight: {
+  Marble: {
     type: FlakBulletType
     damage: 32
     width: 7
@@ -55,8 +56,6 @@ ammoTypes: {
     height: 9
         lifetime: 60
     speed: 3
-        splashDamage: 0
-    splashDamageRadius: 0
   }
   Bronze: {
     type: FlakBulletType
@@ -82,7 +81,7 @@ drawer: {
       under: false
       moveY: -1
       MoveX: -33
-            moveRot: -23
+            moveRot: 23
     }
         {
       type: RegionPart
