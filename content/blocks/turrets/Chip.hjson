@@ -1,0 +1,88 @@
+type: ItemTurret
+name: Chip
+description: Launches small pieces of marble at enemies.
+size: 1
+ solid: true
+category: turret
+research: {
+  parent: Grunt
+  requirements: [
+    Tin/1150
+    CopperAlt/1000
+    Blight/100
+  ]
+    objectives: [
+    {
+      type: SectorComplete 
+      preset: unsightly
+    }
+  ]
+ }
+researchCostMultiplier: 0.05
+shootSound: shoot
+requirements: [
+  Tin/35
+]
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.1
+}
+hiddenOnPlanets: [serpulo, erekir]
+outlineColor: 4e3737
+damage: 10
+health: 275
+targetAir: true
+targetGround: true
+collidesGround: true
+collidesAir: true
+reload: 25
+range: 170
+velocityRnd: 0.2
+inaccuracy: 7
+scaleLife: true
+shoot: {
+  shots: 2
+  shotDelay: 0.4
+}
+ammoTypes: {
+  Tin: {
+    type: FlakBulletType
+    damage: 32
+    width: 7
+    collidesGround: true
+    height: 9
+        lifetime: 60
+    speed: 3
+        splashDamage: 0
+    splashDamageRadius: 0
+  }
+  Bronze: {
+    type: FlakBulletType
+    width: 7
+    height: 9
+        lifetime: 60
+    damage: 38
+    speed: 3
+    collidesGround: true
+    splashDamage: 5
+    splashDamageRadius: 10
+  }
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: Rusted-
+    parts: [
+    {
+      type: RegionPart
+      suffix: -barrel
+      progress: recoil
+      heatProgress: recoil
+      under: true
+      moveY: -1
+      growX: 0.2
+      growY: 0.1
+    }
+    ]
+}
