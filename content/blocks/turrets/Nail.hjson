@@ -2,7 +2,7 @@ type: ItemTurret
 name: Nail
 description: Fires a spray of bullets at enemies
 size: 2
-shootY: 7
+shootY: 5.5
 maxAmmo: 20
  solid: true
 category: turret
@@ -79,6 +79,14 @@ drawer: {
       moveY: 2
             moveX:2
           moveRot: -25
+    }
+            {
+      type: RegionPart
+      suffix: -top
+      progress: warmup
+      under: false
+      moveY: 1
+      growY: 4
     }
     ]
 }
