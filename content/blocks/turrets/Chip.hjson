@@ -2,7 +2,7 @@ type: ItemTurret
 name: Chip
 description: Launches small pieces of marble at enemies.
 size: 1
-shootY: 5
+shootY: 3.5
 maxAmmo: 20
  solid: true
 category: turret

@@ -2,6 +2,7 @@ type: ItemTurret
 name: Nail
 description: Fires a spray of bullets at enemies
 size: 2
+shootY: 7
 maxAmmo: 20
  solid: true
 category: turret
