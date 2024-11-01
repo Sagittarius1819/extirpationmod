@@ -11,7 +11,7 @@ ammoPerShot: 3
 maxAmmo: 21
 shootY: 25
 research: {
-  parent: Bliss
+  parent: Chip
   requirements: [
     Blight/2150
     Marble/3800

@@ -1,17 +1,16 @@
 type: ItemTurret
-name: Chip
-description: Launches small pieces of marble at enemies.
-size: 1
-shootY: 5
+name: Nail
+description: Fires a spray of bullets at enemies
+size: 2
 maxAmmo: 20
  solid: true
 category: turret
 research: {
-  parent: Grunt
+  parent: Chip
   requirements: [
-    Tin/1150
-    CopperAlt/1000
-    Blight/100
+    Bronze/2000
+    CopperAlt/5000
+    Blight/1500
   ]
     objectives: [
     {
@@ -33,21 +32,17 @@ coolant: {
 }
 hiddenOnPlanets: [serpulo, erekir]
 outlineColor: 4e3737
-damage: 10
-health: 275
+damage: 7
+health: 575
 targetAir: true
 targetGround: true
 collidesGround: true
 collidesAir: true
-reload: 25
-range: 100
-velocityRnd: 0.25
-inaccuracy: 7
+reload: 10
+range: 170
+velocityRnd: 0.3
+inaccuracy: 15
 scaleLife: true
-shoot: {
-  shots: 2
-  shotDelay: 1.5
-}
 ammoTypes: {
   Marble: {
     type: BasicBulletType
@@ -55,9 +50,9 @@ ammoTypes: {
     width: 7
     collidesGround: true
     height: 9
-        lifetime: 60
-    speed: 2
-     ammoMultiplier: 2
+        lifetime: 45
+    speed: 3.5
+     ammoMultiplier: 5
   }
 }
 drawer: {
@@ -66,23 +61,19 @@ drawer: {
     parts: [
     {
       type: RegionPart
-      suffix: -barrel-l
-      progress: recoil
-      heatProgress: recoil
+      suffix: -Wing-l
+      progress: warmup
       under: false
-      moveY: -1
-      MoveX: -33
-            moveRot: 23
+      moveY: -15
+            moveRot: 15
     }
         {
       type: RegionPart
-      suffix: -barrel-r
-      progress: recoil
-      heatProgress: recoil
+      suffix: -Wing-r
+      progress: warmup
       under: false
-      moveY: -1
-    MoveX: 33
-          moveRot: -23
+      moveY: -15
+          moveRot: -15
     }
     ]
 }
