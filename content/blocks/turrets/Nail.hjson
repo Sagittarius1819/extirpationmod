@@ -37,8 +37,8 @@ hiddenOnPlanets: [serpulo, erekir]
 outlineColor: 4e3737
 health: 575
 targetAir: true
-targetGround: true
-collidesGround: true
+targetGround: false
+collidesGround: false
 collidesAir: true
 reload: 6
 range: 170
