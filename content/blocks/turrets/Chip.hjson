@@ -49,7 +49,7 @@ shoot: {
 }
 ammoTypes: {
   Marble: {
-    type: FlakBulletType
+    type: BasicBulletType
     damage: 14
     width: 7
     collidesGround: true
