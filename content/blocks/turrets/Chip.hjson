@@ -44,10 +44,10 @@ inaccuracy: 7
 scaleLife: true
 shoot: {
   shots: 2
-  shotDelay: 0.4
+  shotDelay: 0.5
 }
 ammoTypes: {
-  Tin: {
+  Blight: {
     type: FlakBulletType
     damage: 32
     width: 7
@@ -81,8 +81,7 @@ drawer: {
       heatProgress: recoil
       under: false
       moveY: -1
-      MoveX: -3
-      growY: 0.1
+      MoveX: -33
     }
         {
       type: RegionPart
@@ -91,8 +90,7 @@ drawer: {
       heatProgress: recoil
       under: false
       moveY: -1
-    MoveX: 3
-      growY: 0.1
+    MoveX: 33
     }
     ]
 }
