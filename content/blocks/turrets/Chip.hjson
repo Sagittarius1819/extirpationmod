@@ -20,7 +20,7 @@ research: {
   ]
  }
 researchCostMultiplier: 0.05
-shootSound: shoot
+shootSound: Organicshoot
 requirements: [
   Tin/35
 ]
@@ -50,23 +50,12 @@ shoot: {
 ammoTypes: {
   Marble: {
     type: FlakBulletType
-    damage: 32
+    damage: 14
     width: 7
     collidesGround: true
     height: 9
         lifetime: 60
     speed: 3
-  }
-  Bronze: {
-    type: FlakBulletType
-    width: 7
-    height: 9
-        lifetime: 60
-    damage: 38
-    speed: 3
-    collidesGround: true
-    splashDamage: 5
-    splashDamageRadius: 10
   }
 }
 drawer: {
