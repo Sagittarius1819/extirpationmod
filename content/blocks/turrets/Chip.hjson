@@ -82,7 +82,6 @@ drawer: {
       under: false
       moveY: -1
       MoveX: -3
-      growX: 0.2
       growY: 0.1
     }
         {
@@ -93,7 +92,6 @@ drawer: {
       under: false
       moveY: -1
     MoveX: 3
-      growX: 0.2
       growY: 0.1
     }
     ]
