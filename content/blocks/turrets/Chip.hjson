@@ -82,6 +82,7 @@ drawer: {
       under: false
       moveY: -1
       MoveX: -33
+            moveRot: -23
     }
         {
       type: RegionPart
@@ -91,6 +92,7 @@ drawer: {
       under: false
       moveY: -1
     MoveX: 33
+          moveRot: -23
     }
     ]
 }
