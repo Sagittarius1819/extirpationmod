@@ -79,7 +79,7 @@ drawer: {
       suffix: -barrel-l
       progress: recoil
       heatProgress: recoil
-      under: true
+      under: false
       moveY: -1
       MoveX: -3
       growX: 0.2
@@ -90,7 +90,7 @@ drawer: {
       suffix: -barrel-r
       progress: recoil
       heatProgress: recoil
-      under: true
+      under: false
       moveY: -1
     MoveX: 3
       growX: 0.2
