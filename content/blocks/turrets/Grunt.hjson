@@ -47,18 +47,16 @@ shoot: {
 }
 ammoTypes: {
   Tin: {
-    type: FlakBulletType
+    type: BasicBulletType
     damage: 32
     width: 7
     collidesGround: true
     height: 9
         lifetime: 60
     speed: 3
-        splashDamage: 0
-    splashDamageRadius: 0
   }
   Bronze: {
-    type: FlakBulletType
+    type: BasicBulletType
     width: 7
     height: 9
         lifetime: 60
