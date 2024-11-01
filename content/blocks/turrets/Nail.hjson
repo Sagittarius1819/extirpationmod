@@ -85,8 +85,7 @@ drawer: {
       type: RegionPart
       suffix: -top
       progress: warmup
-      under: false
-      moveY: 1
+      moveY: 0.6
       growY: 1
         growX: 1
     }
