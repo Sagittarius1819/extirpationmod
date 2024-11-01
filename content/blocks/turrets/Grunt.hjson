@@ -60,8 +60,9 @@ ammoTypes: {
     width: 7
     height: 9
         lifetime: 60
-    damage: 38
-    speed: 3
+    damage: 58
+    speed: 3.25
+        reloadMultiplier: 1.2
     collidesGround: true
     splashDamage: 5
     splashDamageRadius: 10
