@@ -50,7 +50,7 @@ scaleLife: true
 ammoTypes: {
   Marble: {
     type: BasicBulletType
-    damage: 8
+    damage: 6.5
     width: 7
     collidesGround: true
     height: 9
@@ -70,7 +70,7 @@ drawer: {
       under: false
       moveY: 2
       moveX:-2
-            moveRot: 20
+            moveRot: 10
     }
         {
       type: RegionPart
