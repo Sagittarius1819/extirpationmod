@@ -35,27 +35,28 @@ coolant: {
 }
 hiddenOnPlanets: [serpulo, erekir]
 outlineColor: 4e3737
-damage: 7
 health: 575
 targetAir: true
 targetGround: true
 collidesGround: true
 collidesAir: true
-reload: 7
+reload: 6
 range: 170
 velocityRnd: 0.3
-inaccuracy: 15
+shootEffect: none
+drawFlare: false
+inaccuracy: 20
 scaleLife: true
 ammoTypes: {
   Marble: {
     type: BasicBulletType
-    damage: 14
+    damage: 8
     width: 7
     collidesGround: true
     height: 9
         lifetime: 45
-    speed: 3.5
-     ammoMultiplier: 5
+    speed: 3.75
+     ammoMultiplier: 4
   }
 }
 drawer: {
@@ -86,7 +87,8 @@ drawer: {
       progress: warmup
       under: false
       moveY: 1
-      growY: 4
+      growY: 1
+        growX: 1
     }
     ]
 }
