@@ -20,7 +20,9 @@ research: {
   ]
  }
 researchCostMultiplier: 0.05
-shootSound: Organicshoot
+shootSound: Organicshoot-dull
+loopSound: distantnoise
+loopSoundVolume: 0.7
 requirements: [
   Tin/35
 ]
