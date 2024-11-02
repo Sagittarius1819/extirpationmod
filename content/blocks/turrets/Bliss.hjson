@@ -116,7 +116,7 @@ ammoTypes: {
     lifetime: 40
     pierce: false
     damage: 26
-    splashDamage: 17
+    splashDamage: 25
     splashDamageRadius: 16
     ammoMultiplier: 3
         reloadMultiplier: 1.15
@@ -131,7 +131,7 @@ ammoTypes: {
     lifetime: 35
     pierce: true
     damage: 10
-    splashDamage: 9
+    splashDamage: 15
     splashDamageRadius: 16
     ammoMultiplier: 2
         reloadMultiplier: 1.25

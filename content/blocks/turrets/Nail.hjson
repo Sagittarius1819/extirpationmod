@@ -50,7 +50,7 @@ scaleLife: true
 ammoTypes: {
   Marble: {
     type: BasicBulletType
-    damage: 6.5
+    damage: 7.5
     width: 7
     collidesGround: true
     height: 9
