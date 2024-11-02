@@ -1,0 +1,120 @@
+localizedName: Varelin
+description: A dangerous, uninhabited wasteland. Filled with precious minerals and resources.
+alwaysUnlocked: true
+mesh: [
+  {
+    //wasteland
+    type: NoiseMesh
+    planet: varelin
+    divisions: 6
+    seed: 101
+    radius: 1.2441
+    color1: 801a00
+    color2: 991f00
+    octaves: 5.1
+    persistence: 0.8
+  }
+  {
+    //sand
+    type: NoiseMesh
+    planet: varelin
+    divisions: 6
+    seed: 17
+    radius: 1.2514
+    color1: 4d0000
+    color2: ff0000
+    octaves: 5.7
+    persistence: 0.9
+  }
+]
+cloudMesh: [
+ {
+   type: HexSkyMesh
+   planet: varelin
+   speed: 1.21
+   radius: 0.1
+   divisions: 6
+   color: eafffd7e
+   octaves: 3
+   persistence: 0.3
+   scl: 1
+   thresh: 0.6
+  }
+  {
+   type: HexSkyMesh
+   planet: varelin
+   speed: 1.01
+   radius: 0.11
+   divisions: 6
+   color: ff9999
+   octaves: 3
+   persistence: 0.4
+   scl: 0.9
+   thresh: 0.6
+  }
+  {
+   type: HexSkyMesh
+   planet: varelin
+   speed: 0.891
+   radius: 0.091
+   divisions: 6
+   color: ff9999
+   octaves: 3
+   persistence: 0.5
+   scl: 1.1
+   thresh: 0.6
+  }
+]
+generator: {
+  octaves: 3
+  persistence: 0.52
+  scale: 22
+  mag: 0.721
+  thresh: 1.152
+  min: 100
+  max: 100
+  radMin: 220
+  radMax: 600
+  iceChance: 0.51
+  carbonChance: 0.32
+  berylChance: 0
+  ferricChance: 0.26
+}
+sectorSize: 0.75
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLaunchLoadout: false
+allowSectorInvasion: false
+startSector: 0
+orbitSpacing: 0.6
+radius: 1.65
+minZoom: 0.6
+drawOrbit: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
+accessible: true
+updateLighting: false
+sectorSeed: 14513
+bloom: false
+visible: true
+atmosphereColor: ff9999
+iconColor: 411414
+hasAtmosphere: true
+allowWaveSimulation: true
+clearSectorOnLose: true
+allowWaves: true
+prebuildBase: false
+parent: erekir
+solarSystem: sun
+defaultCore: CapillaryCore
+launchCandidates: []
+itemWhitelist: [
+  "Tin",
+  "CopperAlt",
+  "Bloodgrit",
+  "Bronze",
+  "Jet",
+  "Hematite",
+  "Blackplate",
+  "scrap"
+]
