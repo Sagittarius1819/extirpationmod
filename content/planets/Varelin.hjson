@@ -87,7 +87,7 @@ allowLaunchLoadout: false
 allowSectorInvasion: false
 startSector: 0
 orbitSpacing: 0.6
-radius: 1.65
+radius: 1.21
 minZoom: 0.6
 drawOrbit: true
 atmosphereRadIn: 0
@@ -104,7 +104,7 @@ allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
-parent: erekir
+parent: serpulo
 solarSystem: sun
 defaultCore: CapillaryCore
 launchCandidates: []
