@@ -1,0 +1,8 @@
+captureWave: 10
+planet: Varelin
+sector: 16
+difficulty: 1
+alwaysUnlocked: false
+research: {
+  parent: CapillaryCore
+}
