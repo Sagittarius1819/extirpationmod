@@ -80,7 +80,7 @@ generator: {
   berylChance: 0
   ferricChance: 0.26
 }
-sectorSize: 0.5
+sectorSize: 1.1
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
 allowLaunchLoadout: false
