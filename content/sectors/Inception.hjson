@@ -1,6 +1,6 @@
 captureWave: 10
 planet: Varelin
-sector: 16
+sector: 0
 difficulty: 1
 alwaysUnlocked: false
 research: {
