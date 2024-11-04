@@ -1,3 +1,4 @@
 type: TreeBlock
 name: Dead Tree
 variants: 2
+shadowAlpha: 0.5
