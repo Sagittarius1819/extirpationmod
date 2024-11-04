@@ -97,6 +97,7 @@ updateLighting: false
 sectorSeed: 14513
 bloom: false
 visible: true
+environment: scorching
 atmosphereColor: ff9999
 iconColor: 411414
 hasAtmosphere: true
