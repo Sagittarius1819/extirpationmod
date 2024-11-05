@@ -1,12 +1,6 @@
-type: GenericCrafter
-drawTeamOverlay: false
-squareSprite: false
-size: 2
+type: Prop
 name: Large Rusted Boulder
 breakable: false
 variants: 2
-inEditor: true
 hasShadow: true
 customShadow: true
-clipSize: 2
-solid: true
