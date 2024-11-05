@@ -1,0 +1,8 @@
+type: Block
+drawTeamOverlay: false
+squareSprite: false
+size: 2
+name: Large Rusted Boulder
+breakable: false
+variants: 2
+inEditor: true
