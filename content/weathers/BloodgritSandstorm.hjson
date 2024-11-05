@@ -8,9 +8,9 @@ useWindVector: true
 sizeMax: 140
 sizeMin: 70
 minAlpha: 0
-maxAlpha: 0.15
+maxAlpha: 0.7
 density: 1500
-baseSpeed: 3.4
+baseSpeed: 3
 opacityMultiplier: 0.35
 force: 0.1
 sound: wind
