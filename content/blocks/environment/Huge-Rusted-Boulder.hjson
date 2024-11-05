@@ -1,0 +1,6 @@
+type: Prop
+name: Huge Rusted Boulder
+breakable: false
+variants: 2
+hasShadow: true
+customShadow: true
