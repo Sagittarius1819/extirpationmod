@@ -1,6 +1,7 @@
-type: Prop
+type: TallBlock
 name: Large Rusted Boulder
 breakable: false
 variants: 2
 hasShadow: true
 customShadow: true
+layer: 25
