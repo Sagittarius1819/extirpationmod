@@ -9,3 +9,4 @@ inEditor: true
 hasShadow: true
 customShadow: true
 clipSize: 2
+solid: true
