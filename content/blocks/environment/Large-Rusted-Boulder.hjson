@@ -1,12 +1,8 @@
-type: Block
-drawTeamOverlay: false
-squareSprite: false
-size: 2
-name: Large Rusted Boulder
+type: Prop
 breakable: false
-variants: 2
+alwaysReplace: false
 inEditor: true
 hasShadow: true
 customShadow: true
-clipSize: 2
+size: 2
 solid: true
