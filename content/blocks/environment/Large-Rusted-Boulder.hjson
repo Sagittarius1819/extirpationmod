@@ -6,3 +6,6 @@ name: Large Rusted Boulder
 breakable: false
 variants: 2
 inEditor: true
+hasShadow: true
+customShadow: true
+clipSize: 2
