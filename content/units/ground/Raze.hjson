@@ -4,7 +4,7 @@ stepShake: 0.6
 description: Carries an arsenal of weapons to obliterate foes.
 speed: 0.35
 flying: false
-health: 1230
+health: 2150
 hitSize: 16
 armor: 9
 alwaysUnlocked: false
