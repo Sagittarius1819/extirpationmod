@@ -111,16 +111,15 @@ top: false
             baseLength: -48
             cone: 360
             particles: 22
-            sizeFrom: 10
+            sizeFrom: 100
             colorFrom: ff7570
             colorTo: bf3e39
             sizeTo: 0
             lifetime: 60
           }
         ]
-      spawnBullets: [
-        {
-            homing: true
+             }
+                         homing: true
           type: MissileBulletType
           speed: 5
               trailWidth: 1.25
@@ -141,8 +140,6 @@ top: false
           damage: 12
           width: 7
           height: 16
-        }]
-             }
         }
       }
   ]
