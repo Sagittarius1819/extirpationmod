@@ -46,7 +46,7 @@ weapons: [
           collides: true
           collidesGround: true
           pierce: false
-          damage: 7.5
+          damage: 5.5
           width: 7
           height: 16
         }}
@@ -83,7 +83,7 @@ trailColor: ffb29a
           collides: true
           collidesGround: true
           pierce: false
-          damage: 9
+          damage: 7
           width: 12
           height: 12
         }}

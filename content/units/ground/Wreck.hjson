@@ -33,7 +33,8 @@ researchCostMultiplier: 1.5
         alternate: true
         inaccuracy: 5
         shoot: {
-          shots: 1
+          shots: 3
+          shotDelay: 2
         }
         shootSound: artillery
         shootSoundVolume: 0.6

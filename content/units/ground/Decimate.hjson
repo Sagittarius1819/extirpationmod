@@ -76,7 +76,7 @@ weapons: [
           collides: true
           collidesGround: true
           pierce: false
-          damage: 32
+          damage: 36
           width: 7
           height: 16
         }}
@@ -140,7 +140,7 @@ top: false
           collides: true
           collidesGround: true
           pierce: false
-          damage: 20
+          damage: 23
                     homingDelay: 7
           width: 7
           height: 16
