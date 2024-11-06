@@ -77,7 +77,7 @@ top: false
    shootSound: shootBig
         hitSound: bang
         bullet: {
-            homingL tr
+            homing: true
           type: BasicBulletType
           speed: 5
           lifetime: 40
