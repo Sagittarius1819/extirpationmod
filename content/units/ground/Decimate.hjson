@@ -129,7 +129,7 @@ top: false
           backColor: ff8c87
           lifetime: 40
               homingPower: 0.25
-              homingRange: 10
+              homingRange: 20
               trailColor: ff5b54
         trailInterval: 4
         TrailRotation: true
@@ -139,6 +139,7 @@ top: false
           collidesGround: true
           pierce: false
           damage: 12
+                    homingDelay: 7
           width: 7
           height: 16
         }
