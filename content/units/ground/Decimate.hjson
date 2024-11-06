@@ -83,7 +83,7 @@ weapons: [
         {
 top: false
       x: 0
-      chargeSound: lasercharge2
+      chargeSound: ElectricCharge
       mirror: false
       shake: 1
             shootStatus: unmoving 
@@ -125,6 +125,7 @@ top: false
               trailWidth: 1.25
           frontColor: ffb8b5
           weaveMag: 3
+                    weaveScale: 3
           backColor: ff8c87
           lifetime: 40
               homingPower: 0.25
