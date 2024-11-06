@@ -10,7 +10,7 @@ consumes: {
 plans: [
   {
     unit: Alert
-    time: 650
+    time: 700
     requirements: [
  Blight/20
  Tin/30

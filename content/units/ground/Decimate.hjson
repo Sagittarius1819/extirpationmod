@@ -76,7 +76,7 @@ weapons: [
           collides: true
           collidesGround: true
           pierce: false
-          damage: 10
+          damage: 25
           width: 7
           height: 16
         }}
