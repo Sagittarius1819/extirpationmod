@@ -45,14 +45,6 @@ researchCostMultiplier: 1.5
     sides: 5
     followRotation: true
   }
-  {
-    type: RegionPart
-    suffix: -glow
-    blending: additive
-    color: ffffff33
-    outline: false
-    mirror: false
-  }
 ]
 weapons: [
     {
