@@ -104,14 +104,16 @@ top: false
             homing: true
           type: MissileBulletType
           speed: 5
+              trailWidth: 1.25
           frontColor: ffb8b5
+          weaveMag: 3
           backColor: ff8c87
           lifetime: 40
               homingPower: 2.5
               trailColor: ff5b54
     trailInterval: 4
     TrailRotation: true
-    trailLength: 2
+    trailLength: 20
           collidesAir: true
           collides: true
           collidesGround: true
