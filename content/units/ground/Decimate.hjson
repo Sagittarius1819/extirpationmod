@@ -28,7 +28,7 @@ researchCostMultiplier: 1.5
     x: 0
     under: true
     top: false
-    y: 5
+    y: 3
     color1: ff7570
     color2: bf3e39
     spinSpeed: -1
@@ -39,7 +39,7 @@ researchCostMultiplier: 1.5
   {
     type: FlarePart
     x: 0
-    y: 5
+    y: 3
         under: true
     top: false
     color1: ff7570
