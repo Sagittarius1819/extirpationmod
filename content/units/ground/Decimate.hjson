@@ -86,6 +86,8 @@ top: false
       chargeSound: ElectricCharge
       mirror: false
       shake: 1
+      shootEffect: none
+      drawFlare: false
             shootStatus: unmoving 
       shootCone: 45
       shoot: {
