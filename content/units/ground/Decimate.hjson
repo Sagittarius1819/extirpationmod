@@ -22,6 +22,37 @@ researchCostMultiplier: 1.5
     Bronze/2000
   ]
  }
+ parts: [
+  {
+    type: FlarePart
+    x: 0
+    y: 0
+    color1: ffbe7f
+    color2: d46f6b
+    spinSpeed: -0.89
+    radius: 7
+    followRotation: true
+  }
+  {
+    type: FlarePart
+    x: 0
+    y: 0
+    color1: ffbe7f
+    color2: d46f6b
+    spinSpeed: 0.89
+    radius: 5
+    sides: 8
+    followRotation: true
+  }
+  {
+    type: RegionPart
+    suffix: -glow
+    blending: additive
+    color: ffffff33
+    outline: false
+    mirror: false
+  }
+]
 weapons: [
     {
       top: false
@@ -61,7 +92,7 @@ top: false
       x: 0
       chargeSound: lasercharge2
       mirror: false
-      shake: 0.6
+      shake: 1
             shootStatus: unmoving 
       shootCone: 45
       shoot: {
