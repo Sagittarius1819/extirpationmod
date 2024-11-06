@@ -60,7 +60,7 @@ weapons: [
 top: false
       x: 0
       mirror: false
-      shake: 0.2
+      shake: 0.6
             shootStatus: unmoving 
       shootCone: 45
       shoot: {
@@ -69,11 +69,11 @@ top: false
       }
         y: 0
         reload: 200
-        shootStatusDuration: 75
+        shootStatusDuration: 60
         rotate: false
         inaccuracy: 22
                 alternate: true
-   shootSound: shootDull
+   shootSound: pew
         hitSound: bang
         bullet: {
           type: BasicBulletType
