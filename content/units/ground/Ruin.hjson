@@ -25,6 +25,7 @@ researchCostMultiplier: 1.5
       recoil: 2
       shootCone: 45
         y: 1.25
+        top: false
         reload: 72
         rotate: false
         mirror: true
