@@ -1,5 +1,6 @@
 type: mech
 name: Decimate
+stepShake: 1.15
 description: Fires two miniguns and a barrage of bullets at enemies
 speed: 0.325
 flying: false
@@ -28,7 +29,7 @@ researchCostMultiplier: 1.5
     x: 0
     y: 2.5
     color1: ff7570
-    color2: bf3e39
+    color2: ffd8d6
     spinSpeed: -1
     radius: 9
     sides: 3
@@ -39,7 +40,7 @@ researchCostMultiplier: 1.5
     x: 0
     y: 2.5
     color1: ff7570
-    color2: bf3e39
+    color2: ffd8d6
     spinSpeed: 0.5
     radius: 7
     sides: 5

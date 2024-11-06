@@ -1,5 +1,6 @@
 type: mech
 name: Raze
+stepShake: 0.6
 description: Carries an arsenal of weapons to obliterate foes.
 speed: 0.35
 flying: false
