@@ -20,11 +20,11 @@ researchCostMultiplier: 1.5
   weapons: [
     {
       top: true
-      x: -3.1
+      x: -3.35
       name: Demolition
       recoil: 2
       shootCone: 45
-        y: 1.25
+        y: 1.15
         top: false
         reload: 72
         rotate: false
