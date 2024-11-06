@@ -83,6 +83,7 @@ weapons: [
         {
 top: false
       x: 0
+      firstShotDelay: 3
       chargeSound: lasercharge2
       mirror: false
       shake: 1
