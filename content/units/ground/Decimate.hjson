@@ -60,15 +60,16 @@ weapons: [
 top: false
       x: 0
       mirror: false
-      shake: 0.15
+      shake: 0.2
             shootStatus: unmoving 
       shootCone: 45
       shoot: {
-                 shots: 20
+                 shots: 15
           shotDelay: 2.25
       }
         y: 0
-        reload: 135
+        reload: 200
+        shootStatusDuration: 75
         rotate: false
         inaccuracy: 22
                 alternate: true
