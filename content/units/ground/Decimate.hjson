@@ -60,7 +60,7 @@ weapons: [
 top: false
       x: 0
       mirror: false
-      recoil: 2
+      shake: 0.15
             shootStatus: unmoving 
       shootCone: 45
       shoot: {
