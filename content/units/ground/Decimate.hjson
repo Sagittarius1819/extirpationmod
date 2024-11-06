@@ -4,6 +4,8 @@ description: Fires two miniguns and a barrage of bullets at enemies
 speed: 0.325
 flying: false
 health: 10000
+mechStepParticles: true
+
 hitSize: 14
 armor: 9
 alwaysUnlocked: false
@@ -23,7 +25,7 @@ researchCostMultiplier: 1.5
 weapons: [
     {
       top: false
-      x: 13.5
+      x: 13.57
       mirror: true
       name: DecimateGun
       recoil: 2
@@ -33,7 +35,7 @@ weapons: [
                  shots: 5
           shotDelay: 3
       }
-        y: 4
+        y: 3.7
         reload: 14.7
         rotate: false
         mirror: false
