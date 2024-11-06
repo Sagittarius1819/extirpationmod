@@ -5,7 +5,7 @@ speed: 0.325
 flying: false
 health: 10000
 mechStepParticles: true
-
+rotateSpeed: 3
 hitSize: 14
 armor: 9
 alwaysUnlocked: false
@@ -26,22 +26,23 @@ researchCostMultiplier: 1.5
   {
     type: FlarePart
     x: 0
-    y: 0
-    color1: ffbe7f
-    color2: d46f6b
-    spinSpeed: -0.89
+    y: 7.5
+    color1: ff5852
+    color2: ffc9c7
+    spinSpeed: -1
     radius: 7
+    sides: 3
     followRotation: true
   }
   {
     type: FlarePart
     x: 0
-    y: 0
-    color1: ffbe7f
-    color2: d46f6b
-    spinSpeed: 0.89
+    y: 7.5
+    color1: ff5852
+    color2: ffc9c7
+    spinSpeed: 0.5
     radius: 5
-    sides: 8
+    sides: 5
     followRotation: true
   }
   {
