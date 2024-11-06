@@ -143,17 +143,6 @@ top: false
       }
       spawnBullets: [
         {
-          type: LaserBulletType
-          laserAbsorb: false
-          length: 240
-          width: 16
-          sideAngle: 45
-          sideLength: 50
-          sideWidth: 1.5
-          colors: [baa164, edc66c, ffffff]
-          damage: 125
-          lifetime: 126
-        }]
             homing: true
           type: MissileBulletType
           speed: 5
@@ -175,6 +164,7 @@ top: false
           damage: 12
           width: 7
           height: 16
+        }]
         }}
             
   ]
