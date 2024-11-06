@@ -29,8 +29,12 @@ weapons: [
       recoil: 2
             shootY: 7.5
       shootCone: 45
+      shoot: {
+                 shots: 5
+          shotDelay: 3
+      }
         y: 4
-        reload: 7.5
+        reload: 14.7
         rotate: false
         mirror: false
         alternate: true
@@ -47,7 +51,7 @@ weapons: [
           collides: true
           collidesGround: true
           pierce: false
-          damage: 7.5
+          damage: 10
           width: 7
           height: 16
         }}
