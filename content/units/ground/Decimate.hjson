@@ -59,6 +59,7 @@ weapons: [
         {
 top: false
       x: 0
+      chargeSound: lasercharge2
       mirror: false
       shake: 0.6
             shootStatus: unmoving 
@@ -73,9 +74,10 @@ top: false
         rotate: false
         inaccuracy: 22
                 alternate: true
-   shootSound: pew
+   shootSound: shootBig
         hitSound: bang
         bullet: {
+            homingL tr
           type: BasicBulletType
           speed: 5
           lifetime: 40
