@@ -45,7 +45,7 @@ trailColor: ffb29a
     TrailRotation: true
     trailLength: 5
         trailEffect: missileTrail
-          type: ArtilleryBulletType
+          type: BasicBulletType
           speed: 3.5
           lifetime: 50
           collidesAir: true

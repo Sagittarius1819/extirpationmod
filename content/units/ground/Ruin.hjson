@@ -41,11 +41,10 @@ researchCostMultiplier: 1.5
           speed: 4
           lifetime: 32
           pierce: false
-          damage: 9
+          damage: 22
           pierce: true
           pierceCap: 2
           width: 6
-         buildingDamageMultiplier: 2.5
           height: 12
         }}
   ]
