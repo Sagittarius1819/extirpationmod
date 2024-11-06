@@ -7,7 +7,7 @@ requirements: [
 ]
 size: 1
 squareSprite: false
-alwaysUnlocked: true
+alwaysUnlocked: false
 unitType: Clot
 health: 250
 category: effect

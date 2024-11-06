@@ -1,0 +1,91 @@
+type: mech
+name: Decimate
+description: Fires two miniguns and a barrage of bullets at enemies
+speed: 0.325
+flying: false
+health: 10000
+hitSize: 14
+armor: 9
+alwaysUnlocked: false
+outlineColor: 643b3b
+mechLegColor: 513030
+researchCostMultiplier: 1.5
+ research: {
+  parent: Wreck
+  requirements: [
+    Tin/15000
+    CopperAlt/10000
+    Blackplate/2500
+    Hematite/3000
+    Bronze/2000
+  ]
+ }
+weapons: [
+    {
+      top: false
+      x: 10.5
+      name: DecimateGun
+      recoil: 2
+            shootY: 7.5
+      shootCone: 45
+        y: 0
+        reload: 7.5
+        rotate: false
+        mirror: false
+        alternate: true
+        inaccuracy: 8
+                alternate: true
+   shootSound: Minigunshot
+        hitSound: bang
+        bullet: {
+        trailEffect: missileTrail
+          type: FlakBulletType
+          speed: 4.5
+          lifetime: 35
+          collidesAir: true
+          collides: true
+          collidesGround: true
+          pierce: false
+          damage: 7.5
+          width: 7
+          height: 16
+        }}
+    {
+      top: false
+      x: -10.5
+      name: DecimateGun
+      recoil: 3.2
+            shootY: 6
+              alternate: true
+      shootCone: 45
+        y: 0
+        reload: 85
+        rotate: false
+        mirror: false
+        alternate: true
+        inaccuracy: 22.5
+        shoot: {
+          shots: 5
+          shotDelay: 0.75
+        }
+        shootSound: Shotgun
+        hitSound: bang
+        bullet: {
+trailColor: ffb29a
+    trailInterval: 6
+    TrailRotation: true
+    trailLength: 5
+        trailEffect: missileTrail
+          type: FlakBulletType
+          speed: 3.5
+          lifetime: 50
+          collidesAir: true
+          collides: true
+          collidesGround: true
+          pierce: false
+          damage: 9
+          width: 12
+          height: 12
+        }}
+            
+  ]
