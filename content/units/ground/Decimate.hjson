@@ -91,11 +91,11 @@ top: false
       shoot: {
                  shots: 15
           shotDelay: 2.25
-          firstShotDelay: 60
+          firstShotDelay: 75
       }
         y: 0
-        reload: 200
-        shootStatusDuration: 60
+        reload: 225
+        shootStatusDuration: 75
         rotate: false
         inaccuracy: 22
                 alternate: true
@@ -115,7 +115,7 @@ top: false
             colorFrom: ff7570
             colorTo: bf3e39
             sizeTo: 0
-            lifetime: 60
+            lifetime: 75
           }
         ]
              }
