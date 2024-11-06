@@ -83,7 +83,6 @@ weapons: [
         {
 top: false
       x: 0
-      firstShotDelay: 3
       chargeSound: lasercharge2
       mirror: false
       shake: 1
@@ -92,6 +91,7 @@ top: false
       shoot: {
                  shots: 15
           shotDelay: 2.25
+          firstShotDelay: 60
       }
         y: 0
         reload: 200
