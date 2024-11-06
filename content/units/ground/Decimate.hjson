@@ -25,7 +25,7 @@ researchCostMultiplier: 1.5
 weapons: [
     {
       top: false
-      x: 13.5
+      x: 13.45
       mirror: true
       name: DecimateGun
       recoil: 2
@@ -35,7 +35,7 @@ weapons: [
                  shots: 5
           shotDelay: 3
       }
-        y: 3.25
+        y: 3.3
         reload: 30
         rotate: false
         alternate: true
@@ -45,14 +45,44 @@ weapons: [
         hitSound: bang
         bullet: {
         trailEffect: missileTrail
-          type: FlakBulletType
-          speed: 4.5
-          lifetime: 35
+          type: BasicBulletType
+          speed: 3.5
+          lifetime: 42
           collidesAir: true
           collides: true
           collidesGround: true
           pierce: false
           damage: 10
+          width: 7
+          height: 16
+        }}
+        {
+top: false
+      x: 0
+      mirror: false
+      recoil: 2
+            shootStatus: unmoving 
+      shootCone: 45
+      shoot: {
+                 shots: 20
+          shotDelay: 2.25
+      }
+        y: 0
+        reload: 135
+        rotate: false
+        inaccuracy: 22
+                alternate: true
+   shootSound: shoot-dull
+        hitSound: bang
+        bullet: {
+          type: BasicBulletType
+          speed: 5
+          lifetime: 40
+          collidesAir: true
+          collides: true
+          collidesGround: true
+          pierce: false
+          damage: 12
           width: 7
           height: 16
         }}
