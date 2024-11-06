@@ -25,7 +25,7 @@ researchCostMultiplier: 1.5
 weapons: [
     {
       top: false
-      x: 13.57
+      x: 14
       mirror: true
       name: DecimateGun
       recoil: 2
@@ -35,12 +35,11 @@ weapons: [
                  shots: 5
           shotDelay: 3
       }
-        y: 3.7
-        reload: 14.7
+        y: 3.5
+        reload: 30
         rotate: false
-        mirror: false
         alternate: true
-        inaccuracy: 8
+        inaccuracy: 11
                 alternate: true
    shootSound: Minigunshot
         hitSound: bang
