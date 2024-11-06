@@ -109,7 +109,8 @@ top: false
           weaveMag: 3
           backColor: ff8c87
           lifetime: 40
-              homingPower: 2.5
+              homingPower: 1
+              homingRange: 10
               trailColor: ff5b54
     trailInterval: 4
     TrailRotation: true
