@@ -73,7 +73,7 @@ top: false
         rotate: false
         inaccuracy: 22
                 alternate: true
-   shootSound: shoot-dull
+   shootSound: shootDull
         hitSound: bang
         bullet: {
           type: BasicBulletType
