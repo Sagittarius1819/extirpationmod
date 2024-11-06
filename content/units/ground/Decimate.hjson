@@ -106,9 +106,16 @@ top: false
         hitSound: bang
         bullet: {
             homing: true
-          type: BasicBulletType
+          type: MissileBulletType
           speed: 5
+          frontColor: ffb8b5
+          backColor: ff8c87
           lifetime: 40
+              homingPower: 2.5
+              trailColor: ff5b54
+    trailInterval: 4
+    TrailRotation: true
+    trailLength: 2
           collidesAir: true
           collides: true
           collidesGround: true

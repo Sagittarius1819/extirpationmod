@@ -50,10 +50,13 @@ shootType: {    width: 1.7
     trailInterval: 4
     TrailRotation: true
     trailLength: 1
+    trailSinScl: 1
+    trailSinMag: 1
     healPercent: 0.333
     homingPower: 0.05
     healAmount: 3.5
     drawFlare: false
+    homingRange: 50
     collidesGround: true
     width: 5
     height: 7
