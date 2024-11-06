@@ -111,7 +111,7 @@ top: false
             baseLength: -48
             cone: 360
             particles: 22
-            sizeFrom: 5
+            sizeFrom: 10
             colorFrom: ff7570
             colorTo: bf3e39
             sizeTo: 0
@@ -131,9 +131,9 @@ top: false
               homingPower: 0.25
               homingRange: 10
               trailColor: ff5b54
-    trailInterval: 4
-    TrailRotation: true
-    trailLength: 20
+        trailInterval: 4
+        TrailRotation: true
+         trailLength: 20
           collidesAir: true
           collides: true
           collidesGround: true
@@ -142,9 +142,7 @@ top: false
           width: 7
           height: 16
         }]
-        
-
              }
         }
-        }
+      }
   ]
