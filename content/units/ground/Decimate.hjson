@@ -101,6 +101,59 @@ top: false
    shootSound: shootBig
         hitSound: bang
         bullet: {
+             chargeEffect: {
+        type: SeqEffect
+        effects: [
+          {
+            type: ParticleEffect
+            length: 48
+            baseLength: -48
+            cone: 360
+            particles: 22
+            sizeFrom: 7
+            colorFrom: e2c585
+            colorTo: c2a870
+            sizeTo: 0
+            lifetime: 60
+          }
+          {
+            type: WaveEffect
+            sizeFrom: 0
+            sizeTo: 64
+            interp: elasticOut
+            strokeFrom: 0
+            strokeTo: 3
+            colorFrom: e2c585
+            colorTo: c2a870
+            lifetime: 20
+          }
+          {
+            type: ParticleEffect
+            length: 64
+            baseLength: -64
+            particles: 28
+            colorFrom: e2c585
+            colorTo: c2a870
+            cone: 360
+            sizeFrom: 8
+            sizeTo: 0
+            lifetime: 90
+          }
+        ]
+      }
+      spawnBullets: [
+        {
+          type: LaserBulletType
+          laserAbsorb: false
+          length: 240
+          width: 16
+          sideAngle: 45
+          sideLength: 50
+          sideWidth: 1.5
+          colors: [baa164, edc66c, ffffff]
+          damage: 125
+          lifetime: 126
+        }]
             homing: true
           type: MissileBulletType
           speed: 5
