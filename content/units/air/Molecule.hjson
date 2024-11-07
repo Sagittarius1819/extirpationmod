@@ -16,7 +16,7 @@ weapons: [
   {
   name: MolecSmallgun
   x: 6
-  top: false
+  top: true
   rotationLimit: 35
   shootEffect: shootSmall
   smokeEffect: shootSmallSmoke
