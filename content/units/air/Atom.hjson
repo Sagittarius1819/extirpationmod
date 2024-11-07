@@ -15,7 +15,7 @@ engineOffset: 6.5
 engineSize: 3
 hitSize: 7
 targetAir: false
-health: 230
+health: 250
 circleTarget: true
  research: {
   parent: Atomic-Fabricator
