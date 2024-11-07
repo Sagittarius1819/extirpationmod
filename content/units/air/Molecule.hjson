@@ -67,7 +67,7 @@ weapons: [
     damage: 5
               width: 12
           height: 12
-    bulletWidth: 9
+    bulletWidth: 4
     damage: 50
     bulletHeight: 12
     buildingDamageMultiplier: 2.5
