@@ -42,7 +42,7 @@ weapons: [
   name: MolecBiggun
   x: 7.5
   y: 1.5
-  top: false
+  top: true
   reload: 150
   alternate: true
   mirror: true
