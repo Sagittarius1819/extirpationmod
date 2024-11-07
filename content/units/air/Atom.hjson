@@ -26,7 +26,7 @@ weapons: [{
 name: Atomitizer
 x: 0
 y: -2
-hitSound: Atom-Bang
+hitSound: whapow
 reload: 55
 alternate: true
 shootCone: 180
