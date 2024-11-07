@@ -7,9 +7,11 @@ rotateSpeed: 4
 drag: 0.025
 outlineColor: 342222
 armor: 3
+trailScl: 5
+trailLength: 10
 faceTarget: false
 lowAltitude: false
-engineOffset: 4.5
+engineOffset: 6.5
 engineSize: 3
 hitSize: 7
 targetAir: false
@@ -27,7 +29,7 @@ name: Atomitizer
 x: 0
 y: -2
 hitSound: whapow
-reload: 55
+reload: 60
 alternate: true
 shootCone: 180
 ejectEffect: none
@@ -41,11 +43,12 @@ type: BombBulletType
 despawnEffect: flakExplosion
 damage: 4
 splashDamage: 28
-splashDamageRadius: 25
+splashDamageRadius: 40
 width: 7
 height: 10
 spin: 4
-lifetime: 60
+drawFlare: false
+lifetime: 45
 buildingDamageMultiplier: 2
 }
 shootSound: Eject
