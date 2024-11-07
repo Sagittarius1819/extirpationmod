@@ -9,7 +9,7 @@ outlineColor: 342222
 armor: 3
 faceTarget: false
 lowAltitude: false
-engineOffset: 7
+engineOffset: 3
 engineSize: 3
 hitSize: 7
 targetAir: false
