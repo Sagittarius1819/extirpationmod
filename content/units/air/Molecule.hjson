@@ -15,11 +15,12 @@ range: 160
 weapons: [
   {
   name: MolecSmallgun
-  x: 8
+  x: 6
   top: false
+  rotationLimit: 35
   shootEffect: shootSmall
   smokeEffect: shootSmallSmoke
-  y: 8.5
+  y: 7
   reload: 50
   inaccuracy: 7.5
   shoot: {
@@ -39,7 +40,7 @@ weapons: [
 }}
   {
   name: MolecBiggun
-  x: 10.25
+  x: 7.5
   y: 1.5
   top: false
   reload: 150
