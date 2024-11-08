@@ -41,8 +41,8 @@ ignoreRotation: true
 bullet: {
 type: BombBulletType
 despawnEffect: flakExplosion
-damage: 4
-splashDamage: 28
+damage: 0
+splashDamage: 22.5
 splashDamageRadius: 40
 width: 7
 height: 10
