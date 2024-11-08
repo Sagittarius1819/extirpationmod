@@ -47,7 +47,7 @@ requirements: [
 targetAir: false
 consumes: {
   power: 3.5
-    liquid: Oxygen/0.5
+    liquid: Oxygen/0.125
 }
 drawer: {
   type: DrawTurret
