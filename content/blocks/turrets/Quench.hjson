@@ -43,7 +43,6 @@ chargeEffect: {
             cone: 360
             particles: 12
             sizeFrom: 20
-            sizeInterp
             colorFrom: ff7570
             colorTo: ffffff
             sizeTo: 0
