@@ -38,7 +38,7 @@ chargeEffect: {
             }  
              {
             type: ParticleEffect
-        length: 48
+            length: 48
             baseLength: -48
             cone: 360
             particles: 12
