@@ -1,0 +1,43 @@
+type: PowerTurret
+name: Quench
+description: Charges up to deliver three consecutive laser beams that deal high damage and pierce enemies.
+size: 2
+reload: 150
+accurateDelay: false
+inaccuracy: 6
+shoot: {
+  firstShotDelay: 45
+  shots: 2
+  shotDelay: 8
+}
+range: 170
+outlineColor: 42413e
+shootSound: laser
+chargeSound: quenchcharge
+researchCostMultiplier: 0.5
+shootType: {
+  type: LaserBulletType
+  colors: [b85140, eb897a, fae0dc]
+  damage: 63
+  buildingDamageMultiplier: 0.5
+  chargeEffect: lancerLaserCharge
+}
+category: turret
+squareSprite: false
+research: Muon
+requirements: [
+ Hematite/250
+ Tin/350
+ CopperAlt/250
+ Bronze/215
+ Blackplate/70
+]
+targetAir: false
+consumes: {
+  power: 3.5
+    liquid: Oxygen/0.5
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: Rusted-
+}
