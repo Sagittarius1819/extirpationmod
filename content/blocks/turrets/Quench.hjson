@@ -4,11 +4,11 @@ description: Charges up to deliver three consecutive laser beams that deal high 
 size: 2
 reload: 150
 accurateDelay: false
-inaccuracy: 6
+inaccuracy: 7.5
 shoot: {
   firstShotDelay: 45
   shots: 2
-  shotDelay: 8
+  shotDelay: 25
 }
 range: 170
 outlineColor: 42413e
@@ -20,7 +20,19 @@ shootType: {
   colors: [b85140, eb897a, fae0dc]
   damage: 63
   buildingDamageMultiplier: 0.5
-  chargeEffect: lancerLaserCharge
+chargeEffect: {
+        type: WaveEffect
+        length: 48
+            baseLength: -48
+            cone: 360
+            particles: 22
+            sizeFrom: 50
+            colorFrom: ff7570
+            colorTo: bf3e39
+            sizeTo: 0
+            Y: 20
+            lifetime: 75
+}
 }
 category: turret
 squareSprite: false
