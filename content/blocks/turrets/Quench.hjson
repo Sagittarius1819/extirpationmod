@@ -35,11 +35,9 @@ chargeEffect: {
             sizeTo: 0
             Y: 15.5
             lifetime: 35
-            ParticleEffect}  
-
-            
-                
-        {type: ParticleEffect
+            }  
+             {
+            type: ParticleEffect
         length: 48
             baseLength: -48
             cone: 360
