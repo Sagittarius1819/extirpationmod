@@ -1,0 +1,16 @@
+type: material
+name: Plutonium
+description: A highly concentrated, reactive material.
+cost: 5
+color: 56c474
+hiddenOnPlanets: [serpulo, erekir]
+hardness: 4
+charge: 0.3
+radioactivity: 1
+explosiveness: 0.3
+research: {
+  parent: Jet
+  requirements: [
+    Jet/1
+  ]
+}

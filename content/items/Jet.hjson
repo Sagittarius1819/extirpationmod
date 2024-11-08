@@ -1,12 +1,12 @@
 type: material
 name: Jet
-description: Used for fuel and Carbon Platings.
+description: Used for fuel and Blackplate.
 cost: 1.3
 color: 141313
 lowPriority: true
 hiddenOnPlanets: [serpulo, erekir]
 hardness: 2
-flammability: 0.5
+explosiveness: 0.45
 research: {
   parent: Tin
   requirements: [
