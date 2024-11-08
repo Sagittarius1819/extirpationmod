@@ -50,7 +50,6 @@ chargeEffect: {
             interp: pow2
             sizeInterp: pow3In
             lifetime: 35
-            ParticleEffect
           }
         ]
 }
