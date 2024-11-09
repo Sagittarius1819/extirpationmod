@@ -4,6 +4,7 @@ description: A slow moving, heavy hitting attack ship.
 speed: 1.75
 engineSize: 4.5
 flying: true
+hitSize: 26
 rotateSpeed: 5
 health: 825
 trailScl: 1

@@ -5,7 +5,7 @@ description: Carries an arsenal of weapons to obliterate foes.
 speed: 0.35
 flying: false
 health: 2150
-hitSize: 16
+hitSize: 18
 armor: 9
 alwaysUnlocked: false
 outlineColor: 643b3b

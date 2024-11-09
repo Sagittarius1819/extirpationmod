@@ -5,6 +5,7 @@ speed: 2.5
 engineSize: 4.5
 flying: true
 rotateSpeed: 7
+hitSize: 12
 health: 580
 trailScl: 1
 trailLength: 6
