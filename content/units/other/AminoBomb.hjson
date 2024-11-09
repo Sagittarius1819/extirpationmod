@@ -14,7 +14,7 @@ homingDelay: 0
 outlineColor: 342222
 circleTarget: false
 faceTarget: true
-aimDst: 14
+aimDst: 4
 abilities: [
   {
     type: MoveEffectAbility
