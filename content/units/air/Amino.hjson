@@ -1,28 +1,57 @@
 type: flying
-name: Particle
-description: A quick ship, designed to mimic the looks of the Long-dead Varelin Lifeforms.
-speed: 2.5
+name: Amino
+description: A slow moving, heavy hitting attack ship.
+speed: 1.75
 engineSize: 4.5
 flying: true
-rotateSpeed: 7
-health: 580
+rotateSpeed: 5
+health: 720
 trailScl: 1
-trailLength: 6
-engineOffset: 7.5
-itemCapacity: 30
+trailLength: 8
+engineOffset: 10.5
+itemCapacity: 45
 alwaysUnlocked: false
 outlineColor: 342222
 lowAltitude: true
 range: 160
+
+parts: [
+  {
+    type: RegionPart
+    progress: warmup
+    growProgress: warmup
+    suffix: -slider
+    mirror: true
+    under: true
+    x: 3
+    y: 8
+    moveX: 3
+    moveY: -1.5
+    moveRot: -30
+    layerOffset: -0.01
+
+    growX: 0.1
+    growY: 0.1
+    moves: [
+      {
+        type: partMove
+        progress: recoil
+        rot: -4
+        y: -2
+      }
+    ]
+  }
+]
 weapons: [
   {
-  name: MolecSmallgun
+  name: Amino-gun
   x: 6
-  top: true
+  top: false
+  under: true
   rotationLimit: 35
   shootEffect: shootSmall
   smokeEffect: shootSmallSmoke
-  y: 7
+  y: 13
   reload: 50
   inaccuracy: 7.5
   shoot: {
@@ -41,7 +70,7 @@ weapons: [
     buildingDamageMultiplier: 3.5
 }}
   {
-  name: MolecBiggun
+  name: Amino-gun
   x: 7.5
   y: 1.5
   top: true

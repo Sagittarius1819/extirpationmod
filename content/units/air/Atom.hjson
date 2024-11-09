@@ -3,7 +3,7 @@ type: flying
 flying: true
 description: A heavy attack ship, usually sent in groups.
 speed: 2
-rotateSpeed: 4
+rotateSpeed: 5.8
 drag: 0.025
 outlineColor: 342222
 armor: 3
