@@ -6,7 +6,7 @@ physics: false
 lifetime: 85
 rotateSpeed: 1.25
 hitSize: 6
-trailLength: 0.5
+trailLength: 1.4
 useUnitCap: false
 health: 10000
 autoFindTarget: true
