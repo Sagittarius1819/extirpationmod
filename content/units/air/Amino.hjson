@@ -46,7 +46,7 @@ parts: [
 weapons: [
   {
   name: Amino-gun
-  x: 15
+  x: 19
   top: false
   layerOffest: -1
   under: true
