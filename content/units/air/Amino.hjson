@@ -88,21 +88,8 @@ weapons: [
 }
   ejectEffect: casing1
   rotate: false
-  bullet: {
-    type: ArtilleryBulletType
-    lifetime: 55
-        trailColor: ed4c4c
-    trailInterval: 2
-    TrailRotation: true
-    trailLength: 5
-    speed: 2
-    damage: 5
-              width: 12
-          height: 12
-    bulletWidth: 4
-    damage: 50
-    bulletHeight: 12
-    buildingDamageMultiplier: 2.5
-        splashDamageRadius: 5
-            splashDamage: 9
-}}]
+bullet: {
+    instantDisappear: true
+       damage: 0
+       spawnUnit: AminoBomb
+ }}]
