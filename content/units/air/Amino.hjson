@@ -23,14 +23,13 @@ parts: [
     suffix: -slider
     mirror: true
     under: true
-    offset: -0.001
     top: false
     x: 3
     y: 14
     moveX: 3
     moveY: -1.5
     moveRot: -7
-    layerOffset: -0.01
+    layerOffset: -0.001
 
     growX: 0.1
     growY: 0.1
@@ -49,7 +48,7 @@ weapons: [
   name: Amino-gun
   x: 8
   top: false
-  offset: -0.001
+  layerOffest: -0.001
   under: true
   rotationLimit: 35
   shootEffect: shootSmall
@@ -80,7 +79,7 @@ weapons: [
   top: false
   under: true
   reload: 200
-  offset: -0.001
+  layerOffest: -0.001
   alternate: false
   mirror: false
   shootSound: missileSmall 
