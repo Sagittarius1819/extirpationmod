@@ -62,11 +62,22 @@ weapons: [
   {
     type: FlarePart
     x: 0
-    y: 5.5
-    color1: ff7570
+    y: 3.5
+    color1: ffae70
     color2: ffd8d6
     spinSpeed: -2
     radius: 7
+    sides: 4
+    followRotation: true
+  }
+    {
+    type: FlarePart
+    x: 0
+    y: 3.5
+    color1: ffae70
+    color2: ffd8d6
+    spinSpeed: 4
+    radius: 6
     sides: 4
     followRotation: true
   }
