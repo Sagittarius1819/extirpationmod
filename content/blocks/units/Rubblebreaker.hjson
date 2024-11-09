@@ -1,0 +1,47 @@
+type: Reconstructor
+size: 4
+name: Rubblebreaker
+health: 1400
+constructTime: 1050
+liquidCapacity: 110
+consumes: {
+  power: 3.25
+    items: {
+      items: [
+        Blackplate/65
+        Plutonium/20
+      ]
+    }
+  liquid: {
+    liquid: slag
+    amount: 0.6
+  }
+}
+upgrades: [
+  [Molecule, Amino]
+]
+requirements: [
+  Tin/1080
+  Blackplate/640
+  Bronze/400
+  CopperAlt/680
+  Hematite/665
+]
+category: units
+research: {
+    parent: Atomic-Refabricator
+    objectives: [
+        {
+            type: SectorComplete
+            preset: solitude
+        }
+    ]
+}
+researchCost: [
+    Tin/10000
+    CopperAlt/5000
+    Blackplate/1500
+    Bronze/4000
+    Hematite/3000
+    Plutonium/200
+  ]
