@@ -14,7 +14,6 @@ alwaysUnlocked: false
 outlineColor: 342222
 lowAltitude: true
 range: 160
-reload: 200
 parts: [
   {
     type: RegionPart
@@ -46,7 +45,7 @@ parts: [
 weapons: [
   {
   name: Amino-gun
-  x: 17
+  x: 10.5
   top: false
   layerOffest: -1
   under: true
