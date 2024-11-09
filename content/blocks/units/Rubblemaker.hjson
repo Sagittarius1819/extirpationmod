@@ -10,6 +10,7 @@ consumes: {
       items: [
         Blackplate/65
         Tin/75
+        Plutonium/35
       ]
     }
   liquid: {

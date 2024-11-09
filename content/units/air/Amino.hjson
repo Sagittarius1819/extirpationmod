@@ -14,19 +14,6 @@ alwaysUnlocked: false
 outlineColor: 342222
 lowAltitude: true
 range: 160
- parts: [
-  {
-    type: FlarePart
-    x: 0
-    y: 5.5
-    color1: ff7570
-    color2: ffd8d6
-    spinSpeed: -2
-    radius: 7
-    sides: 4
-    followRotation: true
-  }
- ]
 weapons: [
   {
   name: Amino-gun
@@ -71,6 +58,19 @@ weapons: [
   smokeEffect: shootBigSmoke
   rotate: false
   inaccuracy: 3
+   parts: [
+  {
+    type: FlarePart
+    x: 0
+    y: 5.5
+    color1: ff7570
+    color2: ffd8d6
+    spinSpeed: -2
+    radius: 7
+    sides: 4
+    followRotation: true
+  }
+ ]
   shoot: {
   type: ShootBarrel
 }

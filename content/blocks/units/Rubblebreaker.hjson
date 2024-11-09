@@ -9,12 +9,13 @@ consumes: {
     items: {
       items: [
         Blackplate/65
-        Plutonium/20
+        Plutonium/45
+        Hematite/55
       ]
     }
   liquid: {
-    liquid: slag
-    amount: 0.6
+    liquid: Oxygen
+    amount: 0.8
   }
 }
 upgrades: [
