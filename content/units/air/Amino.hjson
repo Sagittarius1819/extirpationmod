@@ -24,11 +24,12 @@ parts: [
     mirror: true
     under: true
     top: false
+    reload: 200
     x: 3
-    y: 11
+    y: 14
     moveX: 3
     moveY: -1.5
-    moveRot: -20
+    moveRot: -7
     layerOffset: -0.01
 
     growX: 0.1
@@ -77,7 +78,7 @@ weapons: [
   y: 11
   top: false
   under: true
-  reload: 150
+  reload: 200
   alternate: false
   mirror: false
   shootSound: missileSmall 
