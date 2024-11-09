@@ -29,7 +29,7 @@ parts: [
     moveX: 1
     moveY: -1.5
     moveRot: -5
-    layerOffset: -0.001
+    layerOffset: -0.01
 
     growX: 0.1
     growY: 0.1
@@ -48,7 +48,7 @@ weapons: [
   name: Amino-gun
   x: 8
   top: false
-  layerOffest: -0.001
+  layerOffest: -0.01
   under: true
   rotationLimit: 35
   shootEffect: shootSmall
@@ -79,7 +79,7 @@ weapons: [
   top: false
   under: true
   reload: 200
-  layerOffest: -0.001
+  layerOffest: -0.01
   alternate: false
   mirror: false
   shootSound: missileSmall 
