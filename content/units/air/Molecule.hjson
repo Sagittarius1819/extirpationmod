@@ -23,7 +23,7 @@ weapons: [
   shootEffect: shootSmall
   smokeEffect: shootSmallSmoke
   y: 7
-  reload: 50
+  reload: 10
   inaccuracy: 7.5
   shoot: {
   type: ShootBarrel
@@ -33,9 +33,9 @@ weapons: [
   bullet: {
     lifetime: 55
     speed: 3
-    damage: 30
-    width: 6
-    height: 6
+    damage: 35
+    width: 10
+    height: 12
     bulletWidth: 9
     bulletHeight: 12
     buildingDamageMultiplier: 3.5
@@ -45,7 +45,7 @@ weapons: [
   x: 7.5
   y: 1.5
   top: true
-  reload: 150
+  reload: 130
   alternate: true
   mirror: true
   shootSound: artillery 
@@ -66,7 +66,7 @@ weapons: [
     TrailRotation: true
     trailLength: 5
     speed: 2
-    damage: 5
+    damage: 75
               width: 12
           height: 12
     bulletWidth: 4
