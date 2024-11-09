@@ -25,10 +25,10 @@ parts: [
     under: true
     top: false
     x: 3
-    y: 14
-    moveX: 3
+    y: 12.25
+    moveX: 1
     moveY: -1.5
-    moveRot: -7
+    moveRot: -5
     layerOffset: -0.001
 
     growX: 0.1
