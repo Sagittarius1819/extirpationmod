@@ -9,11 +9,11 @@ hitSize: 6
 trailLength: 0.5
 useUnitCap: false
 health: 10000
-autoFindTarget: false
+autoFindTarget: true
 homingDelay: 0
+outlineColor: 342222
 circleTarget: false
 faceTarget: true
-trailColor: 7a7564
 aimDst: 4
 abilities: [
   {
@@ -23,8 +23,9 @@ abilities: [
       type: ParticleEffect
       particles: 8
       length: 3.2
+      sizeFrom: 2
+      SizeTo: 0
       baseLength: 4
-      line: true
       strokeFrom: 2.2
       strokeTo: 1.6
       colorFrom: e3b88d

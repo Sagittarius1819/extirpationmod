@@ -5,7 +5,7 @@ speed: 1.75
 engineSize: 4.5
 flying: true
 rotateSpeed: 5
-health: 720
+health: 825
 trailScl: 1
 trailLength: 8
 engineOffset: 10.5
@@ -63,7 +63,7 @@ weapons: [
   {
     type: FlarePart
     x: 0
-    y: 3.5
+    y: 2.5
     color1: ffae70
     color2: ffd8d6
     spinSpeed: -2
@@ -74,7 +74,7 @@ weapons: [
     {
     type: FlarePart
     x: 0
-    y: 3.5
+    y: 2.5
     color1: ffae70
     color2: ffd8d6
     spinSpeed: 4
