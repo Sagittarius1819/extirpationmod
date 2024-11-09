@@ -13,7 +13,7 @@ consumes: {
       ]
     }
   liquid: {
-    liquid: Slag
+    liquid: slag
     amount: 0.6
   }
 }
