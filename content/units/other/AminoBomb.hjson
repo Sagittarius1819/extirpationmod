@@ -22,6 +22,7 @@ abilities: [
     effect: {
       type: ParticleEffect
       particles: 8
+      lifetime: 26
       length: 3.2
       sizeFrom: 2
       SizeTo: 0
