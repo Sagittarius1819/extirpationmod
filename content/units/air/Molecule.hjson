@@ -26,6 +26,7 @@ weapons: [
   y: 7
   reload: 10
   inaccuracy: 7.5
+    shootSound: shoot 
   shoot: {
   type: ShootBarrel
 }
