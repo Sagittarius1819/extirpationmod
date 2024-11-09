@@ -14,7 +14,7 @@ consumes: {
     }
   liquid: {
     liquid: Oxygen
-    amount: 0.7
+    amount: 0.3
   }
 }
 upgrades: [

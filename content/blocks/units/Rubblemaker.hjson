@@ -1,0 +1,48 @@
+type: Reconstructor
+size: 4
+name: Rubblemaker
+health: 1400
+constructTime: 1300
+liquidCapacity: 110
+consumes: {
+  power: 3.5
+    items: {
+      items: [
+        Blackplate/65
+        Tin/75
+      ]
+    }
+  liquid: {
+    liquid: Slag
+    amount: 0.6
+  }
+}
+upgrades: [
+  [Wreck, Raze]
+]
+requirements: [
+  Tin/920
+  Blackplate/140
+  Bronze/350
+  CopperAlt/600
+  Hematite/465
+  Plutonium/200
+]
+category: units
+research: {
+    parent: Demolition-Refabricator
+    objectives: [
+        {
+            type: SectorComplete
+            preset: solitude
+        }
+    ]
+}
+researchCost: [
+    Tin/10000
+    CopperAlt/5000
+    Blackplate/1500
+    Bronze/4000
+    Hematite/3000
+    Plutonium/200
+  ]

@@ -14,34 +14,19 @@ alwaysUnlocked: false
 outlineColor: 342222
 lowAltitude: true
 range: 160
-parts: [
+ parts: [
   {
-    type: RegionPart
-    progress: warmup
-    growProgress: warmup
-    suffix: -slider
-    mirror: true
-    under: true
-    top: false
-    x: 3
-    y: 12.25
-    moveX: 1
-    moveY: -1.5
-    moveRot: -5
-    layerOffset: -0.01
-
-    growX: 0.1
-    growY: 0.1
-    moves: [
-      {
-        type: partMove
-        progress: recoil
-        rot: -4
-        y: -2
-      }
-    ]
+    type: FlarePart
+    x: 0
+    y: 5.5
+    color1: ff7570
+    color2: ffd8d6
+    spinSpeed: -2
+    radius: 7
+    sides: 4
+    followRotation: true
   }
-]
+ ]
 weapons: [
   {
   name: Amino-gun
