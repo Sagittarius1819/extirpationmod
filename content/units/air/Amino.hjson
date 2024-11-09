@@ -46,11 +46,10 @@ parts: [
 weapons: [
   {
   name: Amino-gun
-  x: 11.5
+  x: 15
   top: false
   layerOffest: -1
   under: true
-  rotationLimit: 35
   shootEffect: shootSmall
   smokeEffect: shootSmallSmoke
   y: 2
