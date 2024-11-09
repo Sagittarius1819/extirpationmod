@@ -2,7 +2,7 @@ type: Reconstructor
 size: 4
 name: Rubblebreaker
 health: 1400
-constructTime: 1050
+constructTime: 1450
 liquidCapacity: 110
 consumes: {
   power: 3.25
