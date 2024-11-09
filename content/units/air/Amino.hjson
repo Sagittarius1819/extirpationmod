@@ -49,6 +49,7 @@ weapons: [
   y: 11
   top: false
   under: true
+  recoil: 5
   reload: 200
   layerOffest: -0.01
   alternate: false
