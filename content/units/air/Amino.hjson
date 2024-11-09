@@ -46,18 +46,19 @@ parts: [
 weapons: [
   {
   name: Amino-gun
-  x: 19
+  x: 17
   top: false
   layerOffest: -1
   under: true
   shootEffect: shootSmall
   smokeEffect: shootSmallSmoke
   y: 2
-  x: 7.5
-  reload: 50
+  reload: 75
   inaccuracy: 7.5
   shoot: {
   type: ShootBarrel
+    shots: 4
+  shotDelay: 2.5
 }
   ejectEffect: casing1
   rotate: false
