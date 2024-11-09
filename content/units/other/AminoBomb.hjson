@@ -1,10 +1,10 @@
 type: missile
 template: MissileUnitType
 flying: true
-speed: 2.5
+speed: 2.75
 physics: false
-lifetime: 75
-rotateSpeed: 0.125
+lifetime: 85
+rotateSpeed: 1.25
 hitSize: 6
 trailLength: 0.5
 useUnitCap: false
@@ -14,7 +14,7 @@ homingDelay: 0
 outlineColor: 342222
 circleTarget: false
 faceTarget: true
-aimDst: 4
+aimDst: 14
 abilities: [
   {
     type: MoveEffectAbility
@@ -35,7 +35,6 @@ abilities: [
     rotateEffect: true
   }
 ]
-outlines: false
 range: 4
 hidden: true  
 weapons: [
