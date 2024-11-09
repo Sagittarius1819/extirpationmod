@@ -17,7 +17,7 @@ range: 160
 weapons: [
   {
   name: Amino-gun
-  x: 10.5
+  x: 11
   top: false
   layerOffest: -1
   under: true
@@ -36,11 +36,9 @@ weapons: [
   bullet: {
     lifetime: 55
     speed: 3
-    damage: 30
-    width: 6
-    height: 6
-    bulletWidth: 9
-    bulletHeight: 12
+    damage: 36
+    width: 12
+    height: 15
     buildingDamageMultiplier: 3.5
 }}
   {
