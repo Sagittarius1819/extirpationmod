@@ -3,8 +3,8 @@ type: flying
 flying: true
 description: A heavy attack ship, usually sent in groups.
 speed: 2
-rotateSpeed: 2
-drag: 0.5
+rotateSpeed: 4
+drag: 0.75
 aiControllable: false
 Controllable: false
 outlineColor: 342222
@@ -15,6 +15,7 @@ engineOffset: 0
 engineSize: 0
 hitSize: 7
 targetAir: true
+targetHealing: true
 health: 250
  research: {
   parent: Atomic-Fabricator
@@ -68,15 +69,14 @@ bullet: {
     backColor: bbedbf
     frontColor: dcfcde
     collidesTeam: true
-    speed: 1
+    speed: 1.6
     healColor: 98ffa9ff
     hitColor: fcfcfc
     type: MissileBulletType
     damage: 0
     knockback: 0.5
 }
-shootSound: none
-alwaysShooting: true
+shootSound: missile
 reload: 25
 }
 ]
