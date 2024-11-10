@@ -45,6 +45,7 @@ splashDamage: 22.5
 splashDamageRadius: 40
 width: 7
 height: 10
+alwaysShooting: true
 spin: 4
 drawFlare: false
 lifetime: 45
@@ -68,12 +69,12 @@ parts: [
     heatColor: ff0000
     heatProgress: reload
     mirror: false
-    turretShading: false //note: this needs -l and -r sprites
-    moves: [ //use to add extra movement to a part like recoiling while warmed up
+    turretShading: false
+    moves: [ 
       {
         type: PartMove
         progress: recoil
-        moveY: -3 //has same possible parameters as part
+        moveY: -3
       }
     ]
   }
@@ -92,12 +93,12 @@ parts: [
     heatColor: ff0000
     heatProgress: recoil
     mirror: false
-    turretShading: false //note: this needs -l and -r sprites
-    moves: [ //use to add extra movement to a part like recoiling while warmed up
+    turretShading: false
+    moves: [
       {
         type: PartMove
         progress: recoil
-        moveY: -3 //has same possible parameters as part
+        moveY: -3
       }
     ]
   }
