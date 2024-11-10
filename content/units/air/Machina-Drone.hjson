@@ -26,39 +26,18 @@ health: 375
   ]
  }
 weapons: [{
-name: Atomitizer
-x: 0
-y: -2
-hitSound: whapow
-reload: 60
-alternate: true
-shootCone: 180
-ejectEffect: none
-minShootVelocity: 0.75f
-velocityRnd: 1
-shootSoundVolume: 0.6
-inaccuracy: 15
-ignoreRotation: true
-bullet: {
-type: BombBulletType
-despawnEffect: flakExplosion
-damage: 0
-splashDamage: 22.5
-splashDamageRadius: 40
-width: 7
-height: 10
-alwaysShooting: true
-spin: 4
-drawFlare: false
-lifetime: 45
-buildingDamageMultiplier: 2
-}
-shootSound: Eject
-hitEffect: flakExplosionBig 
-}{
   name: Atomitizer
 x: 0
+drawFlare: false
 y: -2
+bullet: {
+type: BombBulletType
+width: 0
+height: 0
+lifetime: 0
+}
+shootSound: none
+alwaysShooting: true
 reload: 5
 }]
 
