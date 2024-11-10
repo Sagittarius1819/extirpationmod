@@ -43,7 +43,43 @@ lifetime: 0
 shootSound: none
 alwaysShooting: true
 reload: 25
-}]
+}
+{
+  name: the
+x: 0
+drawFlare: false
+shootEffect: none
+y: 0
+bullet: {
+    trailColor: 8ce69c
+    trailInterval: 4
+    TrailRotation: true
+    trailLength: 1
+    trailSinScl: 1
+    trailSinMag: 1
+    healPercent: 0.333
+    homingPower: 0.05
+    healAmount: 3.5
+    drawFlare: false
+    homingRange: 50
+    collidesGround: true
+    width: 5
+    height: 7
+    backColor: bbedbf
+    frontColor: dcfcde
+    collidesTeam: true
+    speed: 1
+    healColor: 98ffa9ff
+    hitColor: fcfcfc
+    type: MissileBulletType
+    damage: 0
+    knockback: 0.5
+}
+shootSound: none
+alwaysShooting: true
+reload: 25
+}
+]
 
 parts: [
   {
