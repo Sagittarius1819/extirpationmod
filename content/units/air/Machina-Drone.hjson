@@ -36,11 +36,13 @@ width: 0
 height: 0
 despawnEffect: none
 despawnSound: none
+hitEffect: none
+hitSound: none
 lifetime: 0
 }
 shootSound: none
 alwaysShooting: true
-reload: 50
+reload: 25
 }]
 
 parts: [
