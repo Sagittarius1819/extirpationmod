@@ -8,7 +8,7 @@ drag: 0.025
 aiControllable: false
 Controllable: false
 outlineColor: 342222
-armor: 3
+armor: 1
 faceTarget: false
 lowAltitude: false
 engineOffset: 0
