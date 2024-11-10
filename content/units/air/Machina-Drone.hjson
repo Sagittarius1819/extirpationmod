@@ -29,7 +29,8 @@ weapons: [{
   name: Atomitizer
 x: 0
 drawFlare: false
-y: -5
+shootEffect: none
+y: -7
 bullet: {
 type: BombBulletType
 width: 0
