@@ -1,0 +1,115 @@
+name: Machina Drone
+type: flying
+flying: true
+description: A heavy attack ship, usually sent in groups.
+speed: 2
+rotateSpeed: 5.8
+drag: 0.025
+outlineColor: 342222
+armor: 3
+trailScl: 1
+trailLength: 5
+faceTarget: false
+lowAltitude: false
+engineOffset: 7.5
+engineSize: 3
+hitSize: 7
+targetAir: true
+health: 375
+ research: {
+  parent: Atomic-Fabricator
+  requirements: [
+    CopperAlt/750
+    Blackplate/120
+  ]
+ }
+weapons: [{
+name: Atomitizer
+x: 0
+y: -2
+hitSound: whapow
+reload: 60
+alternate: true
+shootCone: 180
+ejectEffect: none
+minShootVelocity: 0.75f
+velocityRnd: 1
+shootSoundVolume: 0.6
+inaccuracy: 15
+ignoreRotation: true
+bullet: {
+type: BombBulletType
+despawnEffect: flakExplosion
+damage: 0
+splashDamage: 22.5
+splashDamageRadius: 40
+width: 7
+height: 10
+spin: 4
+drawFlare: false
+lifetime: 45
+buildingDamageMultiplier: 2
+}
+shootSound: Eject
+hitEffect: flakExplosionBig 
+}]
+
+abilities: [
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 2
+    x: -3
+    y: 0
+    rotateEffect: true
+    rotation: 0
+    parentizeEffects: true
+     effects: [
+        {
+          type: ParticleEffect
+          layer: 91
+          followParent: true
+          rotWithParent: true
+          region: SpinnerBase
+          particles: 1
+          length: 0
+          spin: 0
+          lifetime: 2
+          sizeFrom: 20
+          sizeTo: 20
+          baseRotation: 210
+          lightOpacity: 0
+        }
+                {
+          type: ParticleEffect
+          layer: 90
+          followParent: true
+          rotWithParent: true
+          region: SpinnerRotator
+          particles: 1
+          length: 0
+          spin: 15
+          lifetime: 2
+          sizeFrom: 20
+          sizeTo: 20
+          baseRotation: 210
+          lightOpacity: 0
+        }
+                {
+          type: ParticleEffect
+          layer: 91
+          followParent: true
+          rotWithParent: true
+          region: SpinnerBlur
+          particles: 1
+          length: 0
+          spin: 20
+          lifetime: 2
+          sizeFrom: 20
+          sizeTo: 20
+          baseRotation: 210
+          lightOpacity: 0
+        }
+     ]
+  }
+]
