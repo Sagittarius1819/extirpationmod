@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Blackplate Fuser
-description: Produces Blcakplate with great speeds
+description: Produces Blackplate with great speeds
 size: 3
 health: 935
 buildCostMultiplier: 0.35

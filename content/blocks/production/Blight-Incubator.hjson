@@ -1,6 +1,6 @@
 type: GenericCrafter
-name: Blight Imcubator
-description: Mass Produces Blight using Bloodgrit and Marble
+name: Blight Incubator
+description: Incubates Blight with the help of Marble and Bloodgrit
 size: 3
 health: 835
 buildCostMultiplier: 0.35
