@@ -53,63 +53,28 @@ buildingDamageMultiplier: 2
 shootSound: Eject
 hitEffect: flakExplosionBig 
 }]
-
-abilities: [
+parts: [
   {
-    type: MoveEffectAbility
-    minVelocity: 0
-    interval: 2
-    x: -3
+    suffix: -SpinnerBase
+    type: RegionPart
+    progress: warmup
+    x: 0
     y: 0
-    rotateEffect: true
-    rotation: 0
-    parentizeEffects: true
-     effects: [
-        {
-          type: ParticleEffect
-          layer: 91
-          followParent: true
-          rotWithParent: true
-          region: SpinnerBase
-          particles: 0
-          length: 0
-          spin: 0
-          lifetime: 2
-          sizeFrom: 20
-          sizeTo: 20
-          baseRotation: 210
-          lightOpacity: 0
-        }
-                {
-          type: ParticleEffect
-          layer: 90
-          followParent: true
-          rotWithParent: true
-          region: SpinnerRotator
-          particles: 0
-          length: 0
-          spin: 15
-          lifetime: 2
-          sizeFrom: 20
-          sizeTo: 20
-          baseRotation: 210
-          lightOpacity: 0
-        }
-                {
-          type: ParticleEffect
-          layer: 89
-          followParent: true
-          rotWithParent: true
-          region: SpinnerBlur
-          particles: 0
-          length: 0
-          spin: 20
-          lifetime: 2
-          sizeFrom: 20
-          sizeTo: 20
-          baseRotation: 210
-          lightOpacity: 0
-        }
-     ]
+    rot: 3
+    moveX: 3 
+    moveY: 3
+    moveRot: 7
+    layerOffset: -0.01
+    heatColor: ff0000
+    heatProgress: reload
+    mirror: true
+    turretShading: true //note: this needs -l and -r sprites
+    moves: [ //use to add extra movement to a part like recoiling while warmed up
+      {
+        type: PartMove
+        progress: recoil
+        moveY: -3 //has same possible parameters as part
+      }
+    ]
   }
 ]
