@@ -94,4 +94,28 @@ parts: [
       }
     ]
   }
+      {
+         alwaysShooting: true
+    suffix: -SpinnerBlur
+    type: RegionPart
+    progress: recoil
+    x: 0
+    y: 0
+    rot: 3
+    moveX: 0 
+    moveY: 0
+     moveRot: 180
+    layerOffset: 70
+    heatColor: ff0000
+    heatProgress: recoil
+    mirror: false
+    turretShading: false
+    moves: [
+      {
+        type: PartMove
+        progress: recoil
+        moveY: -3
+      }
+    ]
+  }
 ]
