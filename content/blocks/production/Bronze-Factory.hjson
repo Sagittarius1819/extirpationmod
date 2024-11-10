@@ -13,6 +13,7 @@ consumes: {
 items: [
  CopperAlt/8
  Tin/6
+ Jet/2
 ]}
 craftTime: 55
 category: crafting

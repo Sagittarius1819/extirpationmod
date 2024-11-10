@@ -7,12 +7,13 @@ buildCostMultiplier: 0.35
 squareSprite: false
 itemCapacity: 25
 outputItems: [
-  Blackplate/4
+  Blackplate/5
 ]
 consumes: {
 items: [
  Bloodgrit/8
  Jet/6
+ Bronze/2
 ]
   power: 4.5
 }

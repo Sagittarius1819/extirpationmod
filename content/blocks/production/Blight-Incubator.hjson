@@ -7,12 +7,13 @@ buildCostMultiplier: 0.35
 squareSprite: false
 itemCapacity: 25
 outputItems: [
-  Blight/6
+  Blight/7
 ]
 consumes: {
 items: [
  Bloodgrit/8
  Marble/6
+ Blight/2
 ]
   power: 5.25
 }
