@@ -61,13 +61,36 @@ parts: [
     x: 0
     y: 0
     rot: 3
-    moveX: 3 
-    moveY: 3
-    moveRot: 7
+    moveX: 0 
+    moveY: 0
+    moveRot: 0
     layerOffset: 70
     heatColor: ff0000
     heatProgress: reload
-    mirror: true
+    mirror: false
+    turretShading: false //note: this needs -l and -r sprites
+    moves: [ //use to add extra movement to a part like recoiling while warmed up
+      {
+        type: PartMove
+        progress: recoil
+        moveY: -3 //has same possible parameters as part
+      }
+    ]
+  }
+    {
+    suffix: -SpinnerRotator
+    type: RegionPart
+    progress: warmup
+    x: 0
+    y: 0
+    rot: 3
+    moveX: 0 
+    moveY: 0
+     moveRot: 360
+    layerOffset: 70
+    heatColor: ff0000
+    heatProgress: reload
+    mirror: false
     turretShading: false //note: this needs -l and -r sprites
     moves: [ //use to add extra movement to a part like recoiling while warmed up
       {
