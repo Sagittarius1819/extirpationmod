@@ -28,7 +28,7 @@ weapons: [{
 x: 0
 drawFlare: false
 shootEffect: none
-y: -9
+y: 9000
 bullet: {
 type: BombBulletType
 width: 0
