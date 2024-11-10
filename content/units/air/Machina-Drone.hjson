@@ -78,6 +78,7 @@ parts: [
     ]
   }
     {
+         alwaysShooting: true
     suffix: -SpinnerRotator
     type: RegionPart
     progress: linear
