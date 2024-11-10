@@ -101,6 +101,8 @@ parts: [
     progress: recoil
     x: 0
     y: 0
+    outline: false
+    DrawOutline: false
     rot: 3
     moveX: 0 
     moveY: 0
