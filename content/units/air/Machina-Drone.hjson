@@ -55,7 +55,13 @@ buildingDamageMultiplier: 2
 }
 shootSound: Eject
 hitEffect: flakExplosionBig 
+}{
+  name: Atomitizer
+x: 0
+y: -2
+reload: 5
 }]
+
 parts: [
   {
     suffix: -SpinnerBase
