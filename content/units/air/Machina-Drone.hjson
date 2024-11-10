@@ -64,11 +64,11 @@ parts: [
     moveX: 3 
     moveY: 3
     moveRot: 7
-    layerOffset: -0.01
+    layerOffset: 70
     heatColor: ff0000
     heatProgress: reload
     mirror: true
-    turretShading: true //note: this needs -l and -r sprites
+    turretShading: false //note: this needs -l and -r sprites
     moves: [ //use to add extra movement to a part like recoiling while warmed up
       {
         type: PartMove
