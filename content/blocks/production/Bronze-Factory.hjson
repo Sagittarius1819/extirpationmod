@@ -11,7 +11,7 @@ outputItems: [
 ]
 consumes: {
 items: [
- Copper/8
+ CopperAlt/8
  Tin/6
 ]}
 craftTime: 55
