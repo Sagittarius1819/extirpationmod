@@ -1,0 +1,42 @@
+type: GenericCrafter
+name: Bronze Factory
+description: Melts, Mixes, and Solidifies Copper and Tin, to mass produce Bronze
+size: 4
+health: 175
+hasLiquids: false
+squareSprite: false
+itemCapacity: 25
+outputItems: [
+  Bronze/5
+]
+consumes: {
+items: [
+ Copper/8
+ Tin/6
+]}
+craftTime: 55
+category: crafting
+research: {
+  parent: CopperAlt
+requirements: [
+ CopperAlt/7000
+  Tin/9000
+  Bronze/1000
+  Hematite/670
+  Plutonium/120
+]
+  objectives: [
+    {
+      type: OnSector 
+      preset: crimsoncanyon
+    }
+  ]
+researchCostMultiplier: 0.5
+}
+requirements: [
+ Tin/600
+ CopperAlt/350
+ Plutonium/80
+ Hematite/105
+ Bronze/175
+]

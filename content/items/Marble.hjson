@@ -10,3 +10,5 @@ research: {
     Blackplate/1
   ]
 }
+always
+alwaysUnlocked: false

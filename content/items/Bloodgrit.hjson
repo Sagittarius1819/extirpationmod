@@ -6,3 +6,4 @@ lowPriority: true
 research: CopperAlt
 color: e78989
 hiddenOnPlanets: [serpulo, erekir]
+alwaysUnlocked: false

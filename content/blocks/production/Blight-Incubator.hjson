@@ -1,33 +1,33 @@
 type: GenericCrafter
-name: Blight Cultivator
-description: Creates Blight using Bloodgrit and Marble
-size: 2
-health: 235
+name: Blight Imcubator
+description: Mass Produces Blight using Bloodgrit and Marble
+size: 3
+health: 835
 buildCostMultiplier: 0.35
 squareSprite: false
-itemCapacity: 10
+itemCapacity: 25
 outputItems: [
-  Blight/2
+  Blight/6
 ]
 consumes: {
 items: [
- Bloodgrit/4
- Marble/3
+ Bloodgrit/8
+ Marble/6
 ]
-  power: 2.25
+  power: 5.25
 }
-craftTime: 65
+craftTime: 70
 craftEffect: {
   type: RadialEffect
   rotationSpacing: 45
-  amount: 8
+  amount: 16
   lengthOffset: 2
   layer: 118
   effect: {
     type: ParticleEffect
     particles: 2
         useRotation: false
-    length: 12
+    length: 24
     lifetime: 135
         baseLength: 2.5
     cone: 10
@@ -45,11 +45,14 @@ craftEffect: {
 }
 category: crafting
 research: {
-  parent: Bronze-Mixer
+  parent: Blight-Cultivator
 requirements: [
- CopperAlt/270
-  Tin/1100
-  Bronze/35
+ CopperAlt/7270
+  Tin/11000
+  Bronze/2600
+  Plutonium/590
+  Blight/450
+  Hematite/3560
 ]
   objectives: [
     {
@@ -59,8 +62,11 @@ requirements: [
   ]
 }
 requirements: [
- CopperAlt/80
-  Tin/100
-  Marble/80
+ CopperAlt/145
+  Tin/465
+  Marble/310
+  Plutonium/85
+  Hematite/175
+  Blight/170
 ]
 researchCostMultiplier: 0.5

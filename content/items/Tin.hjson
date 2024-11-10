@@ -10,3 +10,4 @@ research: {
   ]
 }
 hiddenOnPlanets: [serpulo, erekir]
+alwaysUnlocked: false

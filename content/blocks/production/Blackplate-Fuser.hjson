@@ -1,0 +1,46 @@
+type: GenericCrafter
+name: Blackplate Fuser
+description: Produces Blcakplate with great speeds
+size: 3
+health: 935
+buildCostMultiplier: 0.35
+squareSprite: false
+itemCapacity: 25
+outputItems: [
+  Blackplate/4
+]
+consumes: {
+items: [
+ Bloodgrit/8
+ Jet/6
+]
+  power: 4.5
+}
+craftTime: 50
+craftEffect: shockwave
+category: crafting
+research: {
+  parent: Blackplate-Press
+requirements: [
+ CopperAlt/8700
+  Tin/11000
+  Bronze/3500
+  Hematite/2050
+  Plutonium/90
+]
+  objectives: [
+    {
+      type: OnSector 
+      preset:  bouncer
+    }
+  ]
+}
+requirements: [
+ CopperAlt/800
+  Tin/500
+  Hematite/350
+  Plutonium/100
+  Bronze/210
+  Blackplate/150
+]
+researchCostMultiplier: 0.5
