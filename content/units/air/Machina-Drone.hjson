@@ -71,7 +71,7 @@ abilities: [
           followParent: true
           rotWithParent: true
           region: SpinnerBase
-          particles: 1
+          particles: 0
           length: 0
           spin: 0
           lifetime: 2
@@ -86,7 +86,7 @@ abilities: [
           followParent: true
           rotWithParent: true
           region: SpinnerRotator
-          particles: 1
+          particles: 0
           length: 0
           spin: 15
           lifetime: 2
@@ -97,11 +97,11 @@ abilities: [
         }
                 {
           type: ParticleEffect
-          layer: 91
+          layer: 89
           followParent: true
           rotWithParent: true
           region: SpinnerBlur
-          particles: 1
+          particles: 0
           length: 0
           spin: 20
           lifetime: 2
