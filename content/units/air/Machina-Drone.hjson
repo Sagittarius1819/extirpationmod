@@ -80,7 +80,7 @@ parts: [
     rot: 3
     moveX: 0 
     moveY: 0
-     moveRot: 360
+     moveRot: 540
     layerOffset: 70
     heatColor: ff0000
     heatProgress: recoil
@@ -106,7 +106,7 @@ parts: [
     rot: 3
     moveX: 0 
     moveY: 0
-     moveRot: 180
+     moveRot: 360
     layerOffset: 70
     heatColor: ff0000
     heatProgress: recoil
