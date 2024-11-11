@@ -25,6 +25,7 @@ health: 250
   ]
  }
 weapons: [{
+  shootCone: 45
   name: Atomitizer
 x: 0
 drawFlare: false
