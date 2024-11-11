@@ -5,7 +5,6 @@ description: A heavy attack ship, usually sent in groups.
 speed: 2
 rotateSpeed: 4
 drag: 0.75
-targetHealing: true
 targetUnderBlocks: false
 targetAir: false
 targetGround: false
