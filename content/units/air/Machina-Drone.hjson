@@ -32,7 +32,7 @@ drawFlare: false
 shootEffect: none
 y: 9000
 bullet: {
-type: BombBulletType
+type: BasicBulletType
 width: 0
 damage: 0
 height: 0
