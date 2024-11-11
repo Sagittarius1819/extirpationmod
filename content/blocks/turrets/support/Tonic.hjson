@@ -4,7 +4,10 @@ description: Fires weak healing missiles at close blocks.
 size: 1
 health: 250
 hasPower: true
+defaultCommand: repair
 category: effect
+controller: RepairAI
+commands: [move, repair]
 research: {
   parent: Oxygen
   requirements: [
