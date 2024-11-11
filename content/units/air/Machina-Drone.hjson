@@ -1,11 +1,11 @@
 name: Machina Drone
 type: flying
 flying: true
-description: A heavy attack ship, usually sent in groups.
-speed: 2
+description: A tiny, stupid, weak ship. Its only purpose is to slowly heal blocks.
+speed: 2.25
 range: 60
-rotateSpeed: 4
-drag: 0.75
+rotateSpeed: 3.5
+drag: 1.25
 targetUnderBlocks: false
 targetAir: false
 targetGround: false
