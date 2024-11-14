@@ -38,14 +38,14 @@ chargeEffect: {
             }  
              {
             type: ParticleEffect
-            length: -48
-            baseLength: 48
+            length: 48
+            baseLength: -48
             cone: 360
             particles: 12
-            sizeFrom: -10
+            sizeFrom: 10
             colorFrom: ff7570
             colorTo: ffffff
-            sizeTo: 10
+            sizeTo: 0
             Y: 15.5
             interp: pow2Out
             sizeInterp: pow3Out
