@@ -4,7 +4,7 @@ description: Extracts liquid from Liquid blocks.
 size: 2
 category: liquid
 squareSprite: false
-consumes{
+consumes: {
      power: 0.75
 }
  research: {
