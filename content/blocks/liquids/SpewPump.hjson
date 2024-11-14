@@ -4,11 +4,15 @@ description: Extracts liquid from Liquid blocks.
 size: 2
 category: liquid
 squareSprite: false
+consumes{
+     power: 0.75
+}
  research: {
-  parent: CapillaryCore
+  parent: VampirePump
   requirements: [
-    Tin/400
-    CopperAlt/400
+    Tin/4000
+    CopperAlt/4000
+    Bronze/1500
   ]
   objectives: [
     {
@@ -22,5 +26,5 @@ requirements: [
   CopperAlt/45
   Bronze/80
 ]
-pumpAmount: 0.4125
+pumpAmount: 0.25
 researchCostMultiplier: 0.5
