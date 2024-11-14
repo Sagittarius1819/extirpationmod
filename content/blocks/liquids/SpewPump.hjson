@@ -1,0 +1,26 @@
+type: Pump
+name: Spew Pump
+description: Extracts liquid from Liquid blocks.
+size: 2
+category: liquid
+squareSprite: false
+ research: {
+  parent: CapillaryCore
+  requirements: [
+    Tin/400
+    CopperAlt/400
+  ]
+  objectives: [
+    {
+      type: OnSector 
+      preset: crimsoncanyon
+    }
+  ]
+ }
+requirements: [
+  Tin/65
+  CopperAlt/45
+  Bronze/80
+]
+pumpAmount: 0.4125
+researchCostMultiplier: 0.5
