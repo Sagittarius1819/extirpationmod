@@ -46,6 +46,8 @@ chargeEffect: {
             colorFrom: ff7570
             colorTo: ffffff
             sizeTo: 0
+                interp: pow2
+    sizeInterp: pow3In
             Y: 15.5
             lifetime: 60
 }]}}
