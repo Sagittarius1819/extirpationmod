@@ -47,9 +47,7 @@ chargeEffect: {
             colorTo: ffffff
             sizeTo: 0
             Y: 15.5
-            interp: pow2Out
-            sizeInterp: pow3Out
-            lifetime: 35
+            lifetime: 60
 }]}}
 category: turret
 squareSprite: false
