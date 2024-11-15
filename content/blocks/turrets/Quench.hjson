@@ -21,7 +21,7 @@ shootType: {
   damage: 80
   buildingDamageMultiplier: 0.5
 chargeEffect: {
-         
+            type: SeqEffect
         effects: [
           {
         type: WaveEffect
