@@ -1,6 +1,6 @@
 type: GenericCrafter
-name: Oxygen Ventilator
-description: Sucks in the air of this planet and produces Oxygen gas.
+name: Nitrogen Chiller
+description: Cools down Air in the atmosphere to form Liquid Nitrogen
 size: 3
 category: crafting
 research: {

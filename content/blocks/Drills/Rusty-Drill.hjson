@@ -12,7 +12,7 @@
 	"consumes": {
 		"liquid": {
 			"liquid": "Oxygen", 
-			"amount": 0.075,
+			"amount": 0.035,
 			"optional": true,
 			"booster": true
 		},

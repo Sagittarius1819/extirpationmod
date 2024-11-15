@@ -6,14 +6,14 @@
 	"size": 3,
 	"tier": 3,
 	"drillTime": 220,
-	"rotateSpeed": 2.5,
+	"rotateSpeed": 4.5,
 	"warmupSpeed": 0.1,
 	"liquidBoostIntensity": 1.35,
 	"liquidCapacity": 10,
 	"consumes": {
 		"liquid": {
 			"liquid": "Oxygen", 
-			"amount": 0.125,
+			"amount": 0.075,
 			"optional": true,
 			"booster": true
 		},
