@@ -32,6 +32,7 @@ chargeEffect: {
             sizeFrom: 35
             colorFrom: ff7570
             colorTo: ffffff
+            rotWithParent: true
             sizeTo: 0
             Y: 15.5
             lifetime: 50
@@ -48,7 +49,7 @@ chargeEffect: {
             colorTo: ffffff
             sizeTo: 0
             Y: 15.5
-            lifetime: 60
+            lifetime: 30
 }]}}
 category: turret
 squareSprite: false
