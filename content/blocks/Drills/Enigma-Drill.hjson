@@ -1,30 +1,36 @@
 {
-	"name": "Rusty Drill",
-	"description": "Extracts basic resources from the ground.",
+	"name": "Enigma Drill",
+	"description": "Provides a more powerful exporting speed, at the cost of power.",
 	"type": "Drill",
-	"size": 2,
-	"tier": 2,
-	"drillTime": 500,
-	"rotateSpeed": 1,
-	"warmupSpeed": 0.5,
-	"liquidBoostIntensity": 1.5,
+	"size": 3,
+	"tier": 3,
+	"drillTime": 750,
+	"rotateSpeed": 2,
+	"warmupSpeed": 0.2,
+	"liquidBoostIntensity": 1.35,
 	"liquidCapacity": 10,
 	"consumes": {
 		"liquid": {
 			"liquid": "Oxygen", 
-			"amount": 0.075,
+			"amount": 0.1.25,
 			"optional": true,
 			"booster": true
 		},
 	},
 	"requirements": [
-		"Tin/19"
+		"Tin/70"
+        "CopperAlt/55"
+        "Bronze/45"
+        "Blackplate/20"
 	],
 	"category": "production",
 	research: {
-  parent: CapillaryCore
+  parent: Mini-Drill
   requirements: [
-    Tin/30
+    Tin/10000
+    CopperAlt/7500
+    Blackplate/1250
+    Bronze/5555
   ]
 }
 researchCostMultiplier: 0.05
@@ -33,17 +39,13 @@ drawer: {
   type: DrawMulti
   drawers: [
     {
-      type: DrawRegion
-      suffix: -bottom
+      type: DrawDefault
     }
-    {
+        {
       type: DrawRegion
-      suffix: -spinner
+      suffix: -rotator
       spinSprite: true
       rotateSpeed: 0.6
-    }
-    {
-      type: DrawDefault
     }
         {
       type: DrawRegion
