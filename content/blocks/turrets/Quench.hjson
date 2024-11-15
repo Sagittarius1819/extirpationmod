@@ -2,6 +2,7 @@ type: PowerTurret
 name: Quench
 description: Charges up to deliver three consecutive laser beams that deal high damage and pierce enemies.
 size: 2
+predictTarget: true
 reload: 150
 accurateDelay: false
 inaccuracy: 7.5
@@ -50,6 +51,8 @@ chargeEffect: {
             colorFrom: ff7570
             colorTo: ffffff
             sizeTo: 0
+            smokes: 0
+            sparks: 0
             Y: 15.5
             lifetime: 25
              }
@@ -64,6 +67,8 @@ chargeEffect: {
             colorFrom: ff7570
             colorTo: ffffff
             sizeTo: 0
+                        smokes: 0
+            sparks: 0
             Y: 15.5
             lifetime: 50
 }]}}
