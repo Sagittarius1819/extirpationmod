@@ -61,7 +61,6 @@ chargeEffect: {
             length: 48
             baseLength: -48
             cone: 360
-            line: true
             particles: 12
             sizeFrom: 10
             colorFrom: ff7570
