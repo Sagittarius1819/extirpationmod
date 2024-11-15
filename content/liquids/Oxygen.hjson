@@ -1,7 +1,7 @@
-name: Oxygen
-description: You can breathe this! Oh wait, you're a robot.
+name: Liquid Nitrogen
+description: A supercooled liquid, made for cooling turrets and boosting drills.
 boilPoint: 0.25
-color: d1dbde
+color: f2fafc
 heatCapacity: 0.25
 research: Liquid-Bronze
 coolant: true
