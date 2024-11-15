@@ -5,7 +5,7 @@
     "squareSprite": "false",
 	"size": 3,
 	"tier": 3,
-	"drillTime": 120,
+	"drillTime": 240,
 	"rotateSpeed": 2.5,
 	"warmupSpeed": 0.1,
 	"liquidBoostIntensity": 1.35,
