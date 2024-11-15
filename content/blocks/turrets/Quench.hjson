@@ -15,10 +15,12 @@ outlineColor: 342222
 shootSound: laser
 chargeSound: quenchcharge
 researchCostMultiplier: 0.5
+moveWhileCharging: false
 shootType: {
   type: LaserBulletType
   colors: [b85140, eb897a, fae0dc]
   damage: 80
+
   buildingDamageMultiplier: 0.5
 chargeEffect: {
             type: SeqEffect
