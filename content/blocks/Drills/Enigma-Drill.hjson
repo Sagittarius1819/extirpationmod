@@ -4,7 +4,7 @@
 	"type": "Drill",
 	"size": 3,
 	"tier": 3,
-	"drillTime": 1450,
+	"drillTime": 120,
 	"rotateSpeed": 2,
 	"warmupSpeed": 0.2,
 	"liquidBoostIntensity": 1.35,
