@@ -4,7 +4,7 @@
 	"type": "Drill",
 	"size": 3,
 	"tier": 3,
-	"drillTime": 750,
+	"drillTime": 1450,
 	"rotateSpeed": 2,
 	"warmupSpeed": 0.2,
 	"liquidBoostIntensity": 1.35,
@@ -16,6 +16,7 @@
 			"optional": true,
 			"booster": true
 		},
+        "power/2.75"
 	},
 	"requirements": [
 		"Tin/70"
