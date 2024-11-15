@@ -16,7 +16,7 @@
 			"optional": true,
 			"booster": true
 		},
-        "power/2.75"
+        "power/2.75",
 	},
 	"requirements": [
 		"Tin/70"
