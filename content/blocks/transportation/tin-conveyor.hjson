@@ -9,8 +9,8 @@ speed: 0.05
 research: Tin
 bridgeReplacement: nuhuh
 junctionReplacement: Tin-Junction
+  health: 75
 research: {
-  health: 45
   parent: CapillaryCore
   requirements: [
     Tin/5
