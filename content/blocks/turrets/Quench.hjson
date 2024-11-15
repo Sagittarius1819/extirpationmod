@@ -38,7 +38,7 @@ chargeEffect: {
             lifetime: 50
             }  
              {
-            type: ParticleEffect
+            type: ExplosionEffect
             length: 48
             baseLength: -48
             cone: 360
