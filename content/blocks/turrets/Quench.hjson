@@ -21,7 +21,7 @@ shootType: {
   damage: 80
   buildingDamageMultiplier: 0.5
 chargeEffect: {
-            type: SeqEffect
+         
         effects: [
           {
         type: WaveEffect
@@ -41,13 +41,12 @@ chargeEffect: {
             length: 48
             baseLength: -48
             cone: 360
+            line: true
             particles: 12
             sizeFrom: 10
             colorFrom: ff7570
             colorTo: ffffff
             sizeTo: 0
-                interp: pow2
-    sizeInterp: pow3In
             Y: 15.5
             lifetime: 60
 }]}}
