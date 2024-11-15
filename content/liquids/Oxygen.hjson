@@ -1,8 +1,8 @@
 name: Liquid Nitrogen
 description: A supercooled liquid, made for cooling turrets and boosting drills.
-boilPoint: 0.25
+boilPoint: 0.2
 color: f2fafc
-heatCapacity: 0.25
+heatCapacity: 0.2
 research: Liquid-Bronze
 coolant: true
-temperature: 0.25
+temperature: 0.2
