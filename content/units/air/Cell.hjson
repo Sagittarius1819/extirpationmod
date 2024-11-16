@@ -1,15 +1,15 @@
 type: flying
 name: Cell
 description: A gigantic ship, for raiding high level bases.
-speed: 1.5
-engineSize: 6.75
+speed: 0.85
+engineSize: 7.75
 flying: true
 hitSize: 55
 rotateSpeed: 3.5
 health: 8300
 trailScl: 1
 trailLength: 10
-engineOffset: 20.5
+engineOffset: 25.5
 itemCapacity: 105
 alwaysUnlocked: false
 outlineColor: 342222
@@ -18,7 +18,7 @@ range: 160
 weapons: [
   {
   name: cellsecton2
-  x: 19
+  x: 28
   top: false
     shootSound: MetalShot
   layerOffest: -1
@@ -32,6 +32,22 @@ weapons: [
   type: ShootBarrel
     shots: 5
   shotDelay: 5
+}
+  {
+  name: cellsecton1
+  x: 28
+  top: false
+    shootSound: MetalShot
+  layerOffest: -1
+  under: true
+  shootEffect: shootSmall
+  smokeEffect: shootSmallSmoke
+  y: -5
+  reload: 125
+  inaccuracy: 7.5
+  shoot: {
+  type: ShootBarrel
+    shots: 1
 }
   ejectEffect: casing1
   rotate: false
