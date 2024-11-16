@@ -6,6 +6,7 @@ engineSize: 7.75
 flying: true
 hitSize: 55
 rotateSpeed: 3.5
+    layerOffset: 1
 health: 8300
 trailScl: 1
 trailLength: 10
@@ -20,6 +21,7 @@ weapons: [
   name: cellsection2
   x: 24.5
   top: false
+    layerOffset: -1
     shootSound: MetalShot
   under: true
   shootEffect: shootSmall
@@ -51,6 +53,7 @@ weapons: [
   shootEffect: shootSmall
   smokeEffect: shootSmallSmoke
   y: -9
+  layerOffset: -1
   reload: 62.5 
   inaccuracy: 7.5
   shoot: {
