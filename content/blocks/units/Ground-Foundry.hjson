@@ -19,8 +19,8 @@ plans: [
     type: AssemblerUnitPlan
     unit: Decimate
     requirements: [
-      DecimateBaseUnit/2
-      DecimateCoreUnit/1
+      extirpation-DecimateBaseUnit/2
+      extirpationmod-DecimateCoreUnit/1
       DecimateGunUnit/2
     ]
     time: 9000
