@@ -36,7 +36,6 @@ coolant: {
 }
 hiddenOnPlanets: [serpulo, erekir]
 outlineColor: 4e3737
-damage: 10
 health: 1260
 targetAir: false
 targetGround: true
@@ -54,7 +53,7 @@ shoot: {
 ammoTypes: {
   Tin: {
     type: BasicBulletType
-    damage: 48
+    damage: 32
     width: 9
     collidesGround: true
     height: 12
@@ -66,9 +65,9 @@ ammoTypes: {
     width: 10
     height: 13
         lifetime: 60
-    damage: 69
+    damage: 45
     speed: 3.75
-        reloadMultiplier: 1.2
+        reloadMultiplier: 1.25
     collidesGround: true
     splashDamage: 15
     splashDamageRadius: 20

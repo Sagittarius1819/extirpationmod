@@ -42,7 +42,7 @@ health: 1730
  solid: true
 collidesGround: false
 collidesAir: true
-reload: 13.5
+reload: 7.5
 range: 245
 velocityRnd: 0.6
 inaccuracy: 30
@@ -100,16 +100,6 @@ drawer: {
             Y: 10
       type: RegionPart
       suffix: -barrel
-      mirror: false
-      under: true
-      progress: recoil
-      moveY: -4
-      recoilIndex: 0
-    }
-            {  
-            Y: 10
-      type: RegionPart
-      suffix: -heat
       mirror: false
       under: true
       progress: recoil
