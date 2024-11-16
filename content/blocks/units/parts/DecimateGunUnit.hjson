@@ -1,0 +1,13 @@
+type: Wall
+name: Decimation Minigun
+description: A fast firing weapon, much like the Raze minigun.
+size: 2
+customShadow: true
+placeablePlayer: false
+requirements: [
+  Tin/25
+  CopperAlt/10
+  Bronze/7
+]
+research: 10j-00-ground-mounting-bay
+researchCostMultiplier: 0.25

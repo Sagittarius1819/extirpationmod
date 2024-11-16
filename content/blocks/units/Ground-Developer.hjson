@@ -1,0 +1,24 @@
+type: Constructor
+name: Ground Developer
+description: Constructs weaponry and components for large units.
+size: 3
+category: units
+requirements: [
+  Tin/175
+  CopperAlt/75
+  Blackplate/45
+  Bronze/75
+] 
+hasPower: true
+consumes: {
+  power: 1.25
+}
+buildSpeed: 1
+filter: [
+DecimateGunUnit,
+]
+research: Rubblemaker
+squareSprite: false
+conductivePower: true
+researchCostMultiplier: 0.35
+maxBlockSize: 3
