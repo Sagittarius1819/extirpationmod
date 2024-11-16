@@ -42,15 +42,14 @@ health: 1730
  solid: true
 collidesGround: false
 collidesAir: true
-reload: 5.75
+reload: 13.5
 range: 245
 velocityRnd: 0.6
 inaccuracy: 30
 hiddenOnPlanets: [serpulo, erekir]
 scaleLife: true
 shoot: {
-  shots: 1
-  shotDelay: 7
+  shots: 3
 }
 ammoTypes: {
   CopperAlt: {
@@ -64,7 +63,7 @@ ammoTypes: {
     damage: 6.5
     collidesAir: true
     reloadMultiplier: 0.75
-    speed: 5
+    speed: 7
   }
     Bronze: {
     trailColor: 992929
@@ -73,7 +72,7 @@ ammoTypes: {
     trailLength: 10
     type: FlakBulletType
     width: 5
-    speed: 6
+    speed: 7.75
     height: 10
     damage: 8.75
     collidesAir: true
@@ -86,7 +85,7 @@ ammoTypes: {
     trailLength: 5
     type: FlakBulletType
     width: 5
-    speed: 6
+    speed: 7.75
     height: 10
     damage: 7
     collidesAir: true
