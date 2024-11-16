@@ -20,6 +20,28 @@ playerControllable: false
 allowedInPayloads: false
 createWreck: false
 controller: AssemblerAI
+weapons: [{
+  shootCone: 120
+  name: Atomitizer
+x: 0
+drawFlare: false
+shootEffect: none
+y: 9000
+bullet: {
+type: BasicBulletType
+width: 0
+damage: 0
+height: 0
+despawnEffect: none
+despawnSound: none
+hitEffect: none
+hitSound: none
+lifetime: 0
+}
+shootSound: none
+alwaysShooting: true
+reload: 25
+}]
 parts: [
   {
     suffix: -SpinnerBase
