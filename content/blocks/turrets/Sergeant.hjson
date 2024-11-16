@@ -2,7 +2,7 @@ type: ItemTurret
 name: Sergeant
 description: Launches large pieces of scrap metal at enemies.
 size: 2
-shootY: 7
+shootY: 5.5
  solid: true
 category: turret
 research: {
@@ -41,7 +41,7 @@ targetAir: false
 targetGround: true
 collidesGround: true
 collidesAir: false
-reload: 10
+reload: 12.5
 range: 220
 velocityRnd: 0.25
 inaccuracy: 5.5
@@ -53,7 +53,7 @@ shoot: {
 ammoTypes: {
   Tin: {
     type: BasicBulletType
-    damage: 32
+    damage: 35
     width: 9
     collidesGround: true
     height: 12
@@ -65,7 +65,7 @@ ammoTypes: {
     width: 10
     height: 13
         lifetime: 60
-    damage: 45
+    damage: 42.5
     speed: 3.75
         reloadMultiplier: 1.25
     collidesGround: true
