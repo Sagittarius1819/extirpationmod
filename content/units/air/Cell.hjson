@@ -71,7 +71,7 @@ weapons: [
     width: 12
     height: 15
     buildingDamageMultiplier: 1.75
-}
+}}
   {
   name: cellgun1
   x: 12
