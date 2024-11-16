@@ -4,6 +4,7 @@ description: A gigantic ship, for raiding high level bases.
 speed: 0.85
 engineSize: 7.75
 flying: true
+outlineRadius: 5.5
 hitSize: 55
 rotateSpeed: 3.5
     layerOffset: 1
@@ -47,7 +48,7 @@ weapons: [
   {
   name: cellsection1
   x: 22
-  top: false
+  top: true
     shootSound: artillery
   under: true
   shootEffect: shootSmall
