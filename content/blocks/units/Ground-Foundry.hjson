@@ -23,7 +23,7 @@ plans: [
       extirpation-DecimateCoreUnit/1
     extirpation-DecimateGunUnit/2
     ]
-    time: 9000
+    time: 4500
   }
 ]
 //We dont know why you have to put extirpation-, It just is that way.
