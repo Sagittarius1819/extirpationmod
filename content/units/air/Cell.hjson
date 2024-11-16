@@ -33,12 +33,22 @@ weapons: [
     shots: 5
   shotDelay: 5
 }
+  ejectEffect: casing1
+  rotate: false
+  bullet: {
+    lifetime: 55
+    speed: 3
+    damage: 25
+    width: 12
+    height: 15
+    buildingDamageMultiplier: 1.75
+}}
   {
   name: cellsecton1
   x: 28
   top: false
-    shootSound: MetalShot
-  layerOffest: -1
+    shootSound: artilery
+  layerOffest: -1.5
   under: true
   shootEffect: shootSmall
   smokeEffect: shootSmallSmoke
@@ -49,12 +59,11 @@ weapons: [
   type: ShootBarrel
     shots: 1
 }
-  ejectEffect: casing1
-  rotate: false
   bullet: {
+    type: ArtilleryBulletType
     lifetime: 55
-    speed: 3
-    damage: 20
+    speed: 2
+    damage: 40
     width: 12
     height: 15
     buildingDamageMultiplier: 1.75
