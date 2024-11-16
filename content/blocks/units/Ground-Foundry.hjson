@@ -20,12 +20,13 @@ plans: [
     unit: Decimate
     requirements: [
       extirpation-DecimateBaseUnit/2
-      extirpationmod-DecimateCoreUnit/1
-      DecimateGunUnit/2
+      extirpation-DecimateCoreUnit/1
+    extirpation-DecimateGunUnit/2
     ]
     time: 9000
   }
 ]
+//We dont know why you have to put extirpation-, It just is that way.
 squareSprite: false
 consumes: {
   power: 6.5
