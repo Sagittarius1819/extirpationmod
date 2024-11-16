@@ -18,14 +18,13 @@ range: 160
 weapons: [
   {
   name: cellsection2
-  x: 28
+  x: 26
   top: false
     shootSound: MetalShot
-  layerOffest: -1
   under: true
   shootEffect: shootSmall
   smokeEffect: shootSmallSmoke
-  y: 2
+  y: 8
   reload: 125
   inaccuracy: 7.5
   shoot: {
@@ -45,15 +44,14 @@ weapons: [
 }}
   {
   name: cellsection1
-  x: 28
+  x: 24
   top: false
     shootSound: artilery
-  layerOffest: -1.5
   under: true
   shootEffect: shootSmall
   smokeEffect: shootSmallSmoke
-  y: -5
-  reload: 125
+  y: -18
+  reload: 62.5 
   inaccuracy: 7.5
   shoot: {
   type: ShootBarrel
