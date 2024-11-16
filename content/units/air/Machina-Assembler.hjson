@@ -1,0 +1,101 @@
+type: tether
+name: Machina Assembler
+description: Assembles various units.
+flying: true
+drag: 0.05
+accel: 0.11
+speed: 0.8
+health: 120
+engineOffset: 0
+engineSize: 0
+payloadCapacity: 0
+targetable: false
+bounded: false
+outlineColor: 342222
+isEnemy: false
+hidden: true
+useUnitCap: false
+logicControllable: false
+playerControllable: false
+allowedInPayloads: false
+createWreck: false
+controller: AssemblerAI
+parts: [
+  {
+    suffix: -SpinnerBase
+    type: RegionPart
+    progress: warmup
+    x: 5
+    y: 0
+    rot: 3
+    moveX: 0 
+        outline: false
+    DrawOutline: false
+    moveY: 0
+    moveRot: 0
+    layerOffset: 70
+    heatColor: ff0000
+    heatProgress: reload
+    mirror: true
+    turretShading: false
+    moves: [ 
+      {
+        type: PartMove
+        progress: recoil
+        moveY: -3
+      }
+    ]
+  }
+    {
+         alwaysShooting: true
+    suffix: -SpinnerRotator
+    type: RegionPart
+    progress: recoil
+    x: 5
+    y: 0
+    rot: 3
+    moveX: 0 
+    moveY: 0
+        outline: false
+    DrawOutline: false
+     moveRot: 540
+    layerOffset: 70
+    heatColor: ff0000
+    heatProgress: recoil
+    mirror: true
+    turretShading: false
+    moves: [
+      {
+        type: PartMove
+        progress: recoil
+        moveY: -3
+      }
+    ]
+  }
+      {
+         alwaysShooting: true
+    suffix: -SpinnerBlur
+    type: RegionPart
+    progress: recoil
+    x: 5
+    y: 0
+    outline: false
+    DrawOutline: false
+    rot: 3
+    moveX: 0 
+    moveY: 0
+     moveRot: 360
+    layerOffset: 70
+    heatColor: ff0000
+    heatProgress: recoil
+    mirror: true
+    turretShading: false
+    moves: [
+      {
+        type: PartMove
+        progress: recoil
+        moveY: -3
+      }
+    ]
+  }
+]

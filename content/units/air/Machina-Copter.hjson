@@ -11,6 +11,8 @@ targetAir: false
 targetGround: false
 aiControllable: false
 Controllable: false
+isEnemy: false
+targetable: false
 outlineColor: 342222
 armor: 1.5
 faceTarget: true
