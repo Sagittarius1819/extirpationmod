@@ -19,7 +19,6 @@ weapons: [
   {
   name: cellsection2
   x: 24.5
-    layerOffest: 999
   top: false
     shootSound: MetalShot
   under: true
@@ -45,7 +44,7 @@ weapons: [
 }}
   {
   name: cellsection1
-  x: 24
+  x: 22
   top: false
     shootSound: artillery
   under: true
@@ -53,7 +52,6 @@ weapons: [
   smokeEffect: shootSmallSmoke
   y: -9
   reload: 62.5 
-  layerOffest: -199
   inaccuracy: 7.5
   shoot: {
   type: ShootBarrel
