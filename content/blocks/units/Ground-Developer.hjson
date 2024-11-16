@@ -16,6 +16,8 @@ consumes: {
 buildSpeed: 1
 filter: [
 DecimateGunUnit,
+DecimateBaseUnit,
+DecimateCoreUnit,
 ]
 research: Rubblemaker
 squareSprite: false
