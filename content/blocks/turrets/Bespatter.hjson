@@ -43,7 +43,7 @@ health: 1730
 collidesGround: false
 collidesAir: true
 reload: 5.75
-range: 300
+range: 245
 velocityRnd: 0.6
 inaccuracy: 30
 hiddenOnPlanets: [serpulo, erekir]
@@ -98,8 +98,19 @@ drawer: {
   basePrefix: Rusted-
     parts: [
         {  
+            Y: 10
       type: RegionPart
       suffix: -barrel
+      mirror: false
+      under: true
+      progress: recoil
+      moveY: -4
+      recoilIndex: 0
+    }
+            {  
+            Y: 10
+      type: RegionPart
+      suffix: -heat
       mirror: false
       under: true
       progress: recoil
