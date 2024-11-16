@@ -4,7 +4,7 @@ name: Ground Foundry
 description: Creates high tier mechs using power and payloads.
 size: 5
 category: units
-droneType: Machina-Drone
+droneType: Machina-Copter
 research: Rubblemaker
 requirements: [
   Plutonium/2000

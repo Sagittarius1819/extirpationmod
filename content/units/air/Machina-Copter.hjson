@@ -1,7 +1,7 @@
-name: Machina Drone
+name: Machina Copter
 type: flying
 flying: true
-description: A tiny, stupid, weak ship. Its only purpose is to slowly heal blocks.
+description: A slightly larger ship, capable of building and healing.
 speed: 2.25
 range: 60
 rotateSpeed: 3.5
@@ -12,19 +12,20 @@ targetGround: false
 aiControllable: false
 Controllable: false
 outlineColor: 342222
-armor: 1
+armor: 1.5
 faceTarget: true
 lowAltitude: false
 engineOffset: 0
 engineSize: 0
 hitSize: 7
 targetHealing: true
-health: 250
+health: 480
  research: {
-  parent: Atomic-Fabricator
+  parent: Machina-Drone
   requirements: [
-    CopperAlt/750
-    Blackplate/120
+    CopperAlt/7500
+    Blackplate/1200
+    Tin/9000
   ]
  }
 weapons: [{
@@ -90,7 +91,7 @@ parts: [
     suffix: -SpinnerBase
     type: RegionPart
     progress: warmup
-    x: 0
+    x: 5
     y: 0
     rot: 3
     moveX: 0 
@@ -101,7 +102,7 @@ parts: [
     layerOffset: 70
     heatColor: ff0000
     heatProgress: reload
-    mirror: false
+    mirror: true
     turretShading: false
     moves: [ 
       {
@@ -116,7 +117,7 @@ parts: [
     suffix: -SpinnerRotator
     type: RegionPart
     progress: recoil
-    x: 0
+    x: 5
     y: 0
     rot: 3
     moveX: 0 
@@ -127,7 +128,7 @@ parts: [
     layerOffset: 70
     heatColor: ff0000
     heatProgress: recoil
-    mirror: false
+    mirror: true
     turretShading: false
     moves: [
       {
@@ -142,7 +143,7 @@ parts: [
     suffix: -SpinnerBlur
     type: RegionPart
     progress: recoil
-    x: 0
+    x: 5
     y: 0
     outline: false
     DrawOutline: false
@@ -153,7 +154,7 @@ parts: [
     layerOffset: 70
     heatColor: ff0000
     heatProgress: recoil
-    mirror: false
+    mirror: true
     turretShading: false
     moves: [
       {
