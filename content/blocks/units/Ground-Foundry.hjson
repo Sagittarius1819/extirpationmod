@@ -1,0 +1,33 @@
+researchCostMultiplier: 0.5
+type: UnitAssembler
+name: Ground Foundry
+description: Creates high tier mechs using power and payloads.
+size: 5
+category: units
+droneType: Machina-Drone
+research: Rubblemaker
+requirements: [
+  Plutonium/2000
+  Tin/3000
+  CopperAlt/1500
+  Hematite/1000
+  Bronze/1750
+  Blackplate/1000
+]
+plans: [
+   {
+    type: AssemblerUnitPlan
+    unit: Decimate
+    requirements: [
+      DecimateBaseUnit/2
+      DecimateCoreUnit/1
+      DecimateGunUnit/2
+    ]
+    time: 900
+  }
+]
+squareSprite: false
+consumes: {
+  power: 6.5
+}
+areaSize: 8
