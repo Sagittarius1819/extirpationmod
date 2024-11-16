@@ -82,7 +82,7 @@ weapons: [
   smokeEffect: shootSmallSmoke
   y: 7
   layerOffset: 1.1
-  reload: 41.666
+  reload: 20.833
   inaccuracy: 7.5
   shoot: {
   type: ShootBarrel
@@ -92,14 +92,38 @@ weapons: [
     lifetime: 55
     speed: 3.5
     damage: 15
-    width: 5
-    height: 10
+    width: 7
+    height: 14
+    buildingDamageMultiplier: 1.75
+}}
+  {
+  name: cellgun1
+  x: 7
+  top: true
+    shootSound: shoot
+  under: true
+  shootEffect: shootSmall
+  smokeEffect: shootSmallSmoke
+  y: -5
+  layerOffset: 1.1
+  reload: 20.833
+  inaccuracy: 7.5
+  shoot: {
+  type: ShootBarrel
+    shots: 1
+    shotDelay: 5
+}
+  bullet: {
+    lifetime: 55
+    speed: 3.5
+    damage: 15
+    width: 7
+    height: 14
     buildingDamageMultiplier: 1.75
 }}
   {
   name: cellgun2
-  x: 0
-  mirror: false
+  x: 10.5
   top: true
     shootSound: laser
   shootEffect: shootSmall
