@@ -19,6 +19,7 @@ consumes: {
 }
 upgrades: [
   [Atom, Molecule]
+    [Machina-Drone, Machina-Copter]
 ]
 requirements: [
   Tin/120
