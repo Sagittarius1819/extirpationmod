@@ -1,13 +1,16 @@
 type: ItemTurret
-name: Splatter
-description: Sprays inaccurate bullets at flying targets. Less effective against crowds.
-size: 2
+name: Bespatter
+description: Sprays accurate bullets at flying targets. Less effective against crowds.
+size: 3
 category: turret
 research: {
-  parent: Grunt
+  parent: Splatter
   requirements: [
-    Tin/300
-    CopperAlt/500
+    Tin/3000
+    CopperAlt/5000
+    Bronze/2850
+    Hematite/1500
+    Blackplate/750
   ]
     objectives: [
     {
@@ -19,8 +22,11 @@ research: {
 researchCostMultiplier: 0.05
 shootSound: shootAlt
 requirements: [
-  Tin/50
-  CopperAlt/30
+    Tin/150
+    CopperAlt/100
+    Bronze/70
+    Hematite/60
+    Blackplate/65
 ]
 coolant: {
   type: ConsumeCoolant
@@ -29,32 +35,22 @@ coolant: {
   amount: 0.1
 }
 outlineColor: 361818
-damage: 4
+damage: 8
 targetAir: true
 targetGround: false
-health: 430
+health: 1730
  solid: true
-recoils: 3
 collidesGround: false
 collidesAir: true
-reload: 7
-range: 200
-velocityRnd: 0.4
-inaccuracy: 26
+reload: 5.75
+range: 300
+velocityRnd: 0.6
+inaccuracy: 30
 hiddenOnPlanets: [serpulo, erekir]
 scaleLife: true
 shoot: {
-  type: ShootBarrel
-  barrels: 3
   shots: 1
-  recoils: 3
   shotDelay: 7
-  barrelOffset: 1
-  barrels: [
-    0, 0, 0
-    -2, 0, 0,
-    2, 0, 0
-  ]
 }
 ammoTypes: {
   CopperAlt: {
@@ -65,7 +61,7 @@ ammoTypes: {
     type: FlakBulletType
     width: 5
     height: 8
-    damage: 4
+    damage: 6.5
     collidesAir: true
     reloadMultiplier: 0.75
     speed: 5
@@ -79,7 +75,7 @@ ammoTypes: {
     width: 5
     speed: 6
     height: 10
-    damage: 6.5
+    damage: 8.75
     collidesAir: true
     ShootSpeed: 10
   }
@@ -94,7 +90,7 @@ ammoTypes: {
     height: 10
     damage: 7
     collidesAir: true
-    reloadMultiplier: 0.85
+    reloadMultiplier: 1.25
 }
 }
 drawer: {
@@ -103,29 +99,12 @@ drawer: {
     parts: [
         {  
       type: RegionPart
-      suffix: -barrel-left
+      suffix: -barrel
       mirror: false
       under: true
       progress: recoil
-      moveY: -2
+      moveY: -4
       recoilIndex: 0
-    }
-    {
-      type: RegionPart
-      suffix: -barrel-middle
-      under: false
-      moveY: -2
-      progress: recoil
-        recoilIndex: 1
-    }
-    {  
-      type: RegionPart
-      suffix: -barrel-right
-      mirror: false
-      under: true
-      progress: recoil
-      moveY: -2
-      recoilIndex: 2
     }
     ]
 }

@@ -1,0 +1,91 @@
+type: ItemTurret
+name: Sergeant
+description: Launches large pieces of scrap metal at enemies.
+size: 2
+ solid: true
+category: turret
+research: {
+  parent: Grunt
+  requirements: [
+    Tin/6500
+    CopperAlt/5800
+    Bronze/3000
+    Hematite/2500
+  ]
+    objectives: [
+    {
+      type: OnSector 
+      preset: Inception
+    }
+  ]
+ }
+researchCostMultiplier: 0.05
+shootSound: shoot
+requirements: [
+    Tin/450
+    CopperAlt/380
+    Bronze/65
+    Hematite/125
+]
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.1
+}
+hiddenOnPlanets: [serpulo, erekir]
+outlineColor: 4e3737
+damage: 10
+health: 1260
+targetAir: false
+targetGround: true
+collidesGround: true
+collidesAir: false
+reload: 10
+range: 250
+velocityRnd: 0.25
+inaccuracy: 5.5
+scaleLife: true
+shoot: {
+  shots: 1
+  shotDelay: 0.4
+}
+ammoTypes: {
+  Tin: {
+    type: BasicBulletType
+    damage: 48
+    width: 9
+    collidesGround: true
+    height: 12
+        lifetime: 75
+    speed: 3.25
+  }
+  Bronze: {
+    type: BasicBulletType
+    width: 10
+    height: 13
+        lifetime: 60
+    damage: 69
+    speed: 3.75
+        reloadMultiplier: 1.2
+    collidesGround: true
+    splashDamage: 15
+    splashDamageRadius: 20
+  }
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: Rusted-
+    parts: [
+    {
+      type: RegionPart
+      suffix: -barrel
+      progress: recoil
+      heatProgress: recoil
+      under: true
+      moveY: -4
+      growX: 0.2
+      growY: 0.1
+    }
+    ]
+}
