@@ -2,6 +2,7 @@ type: ItemTurret
 name: Sergeant
 description: Launches large pieces of scrap metal at enemies.
 size: 2
+shootY: 7
  solid: true
 category: turret
 research: {
