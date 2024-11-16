@@ -1,5 +1,5 @@
 type: Constructor
-name: Ground Developer
+name: Developer
 description: Constructs weaponry and components for large units.
 size: 3
 category: units

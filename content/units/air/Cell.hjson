@@ -1,0 +1,95 @@
+type: flying
+name: Cell
+description: A gigantic ship, for raiding high level bases.
+speed: 1.5
+engineSize: 6.75
+flying: true
+hitSize: 55
+rotateSpeed: 3.5
+health: 8300
+trailScl: 1
+trailLength: 10
+engineOffset: 20.5
+itemCapacity: 105
+alwaysUnlocked: false
+outlineColor: 342222
+lowAltitude: true
+range: 160
+weapons: [
+  {
+  name: cellsecton2
+  x: 11
+  top: false
+    shootSound: MetalShot
+  layerOffest: -1
+  under: true
+  shootEffect: shootSmall
+  smokeEffect: shootSmallSmoke
+  y: 2
+  reload: 125
+  inaccuracy: 7.5
+  shoot: {
+  type: ShootBarrel
+    shots: 5
+  shotDelay: 5
+}
+  ejectEffect: casing1
+  rotate: false
+  bullet: {
+    lifetime: 55
+    speed: 3
+    damage: 20
+    width: 12
+    height: 15
+    buildingDamageMultiplier: 1.75
+}}
+  {
+  name: Amino-nuke
+  x: 0
+  y: 11
+  top: false
+  under: true
+  recoil: 5
+  reload: 200
+  layerOffest: -0.01
+  alternate: false
+  mirror: false
+  shootSound: whapow 
+  shootEffect: shootBig
+  smokeEffect: shootBigSmoke
+  rotate: false
+  inaccuracy: 3
+   parts: [
+  {
+    type: FlarePart
+    x: 0
+    y: 2.5
+    color1: ffae70
+    color2: ffd8d6
+    spinSpeed: -2
+    radius: 6
+    sides: 4
+    followRotation: true
+  }
+    {
+    type: FlarePart
+    x: 0
+    y: 2.5
+    color1: ffae70
+    color2: ffd8d6
+    spinSpeed: 4
+    radius: 5
+    sides: 5
+    followRotation: true
+  }
+ ]
+  shoot: {
+  type: ShootBarrel
+}
+  ejectEffect: casing1
+  rotate: false
+bullet: {
+    instantDisappear: true
+       damage: 0
+       spawnUnit: AminoBomb
+ }}]
