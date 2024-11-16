@@ -18,7 +18,7 @@ range: 160
 weapons: [
   {
   name: cellsecton2
-  x: 11
+  x: 19
   top: false
     shootSound: MetalShot
   layerOffest: -1
