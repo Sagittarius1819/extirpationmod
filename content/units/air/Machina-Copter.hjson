@@ -2,10 +2,9 @@ name: Machina Copter
 type: flying
 flying: true
 description: A slightly larger ship, capable of building and healing.
-speed: 2.25
+speed: 3
 range: 60
-rotateSpeed: 3.5
-drag: 1.25
+rotateSpeed: 6.25
 targetUnderBlocks: false
 targetAir: false
 targetGround: false

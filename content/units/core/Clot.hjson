@@ -5,7 +5,7 @@ speed: 3
 flying: true
 mineFloor: true
 mineWalls: true
-mineSpeed: 4.5
+mineSpeed: 3.5
 mineTier: 1
 build: true
 rotateSpeed: 8
