@@ -4,6 +4,12 @@ flying: true
 description: A slightly larger ship, capable of building and healing.
 speed: 3
 range: 60
+mineFloor: true
+mineWalls: true
+mineSpeed: 0.6
+buildSpeed: 0.1
+mineTier: 1
+build: true
 rotateSpeed: 6.25
 targetUnderBlocks: false
 targetAir: false
