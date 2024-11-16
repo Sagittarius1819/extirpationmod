@@ -5,8 +5,9 @@ speed: 0.85
 engineSize: 7.75
 flying: true
 outlineRadius: 5.5
-hitSize: 55
-rotateSpeed: 3.5
+hitSize: 45
+drag: 0.07
+rotateSpeed: 1.75
     layerOffset: 1
 health: 8300
 trailScl: 1
@@ -47,13 +48,13 @@ weapons: [
 }}
   {
   name: cellsection1
-  x: -21.5
+  x: -23
   top: true
     shootSound: artillery
   under: true
   shootEffect: shootSmall
   smokeEffect: shootSmallSmoke
-  y: -9
+  y: -9.5
   layerOffset: -1
   reload: 62.5 
   inaccuracy: 7.5
