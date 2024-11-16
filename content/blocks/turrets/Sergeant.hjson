@@ -4,6 +4,7 @@ description: Launches large pieces of scrap metal at enemies.
 size: 2
 shootY: 5.5
  solid: true
+ recoil: 3.5
 category: turret
 research: {
   parent: Grunt

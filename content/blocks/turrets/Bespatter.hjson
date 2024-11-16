@@ -3,6 +3,7 @@ name: Bespatter
 description: Sprays accurate bullets at flying targets. Less effective against crowds.
 size: 3
 category: turret
+ recoil: 5
 research: {
   parent: Splatter
   requirements: [
