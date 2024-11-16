@@ -20,7 +20,7 @@ range: 160
 weapons: [
   {
   name: cellsection2
-  x: 24.5
+  x: -24.5
   top: false
     layerOffset: -1
     shootSound: MetalShot
@@ -47,7 +47,7 @@ weapons: [
 }}
   {
   name: cellsection1
-  x: 22
+  x: -21.5
   top: true
     shootSound: artillery
   under: true
