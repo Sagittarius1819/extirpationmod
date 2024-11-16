@@ -17,7 +17,7 @@ lowAltitude: true
 range: 160
 weapons: [
   {
-  name: cellsecton2
+  name: cellsection2
   x: 28
   top: false
     shootSound: MetalShot
@@ -44,7 +44,7 @@ weapons: [
     buildingDamageMultiplier: 1.75
 }}
   {
-  name: cellsecton1
+  name: cellsection1
   x: 28
   top: false
     shootSound: artilery
