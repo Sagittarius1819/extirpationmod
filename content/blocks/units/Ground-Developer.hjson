@@ -13,7 +13,7 @@ hasPower: true
 consumes: {
   power: 1.25
 }
-buildSpeed: 20
+buildSpeed: 18
 filter: [
 DecimateGunUnit,
 DecimateBaseUnit,

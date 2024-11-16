@@ -1,14 +1,14 @@
 type: Wall
-name: Decimation Minigun
-description: A fast firing weapon, much like the Raze minigun.
+name: Decimation Jaw
+description: Connects to the Core and Minigun, creates the base of the Decimate Unit.
 size: 2
 customShadow: true
 placeablePlayer: false
 requirements: [
-  Tin/850
-  CopperAlt/650
-  Blackplate/750
-  Plutonium/200
+  Tin/450
+  CopperAlt/325
+  Blackplate/225
+  Plutonium/75
 ]
 research: Ground-Developer
 researchCostMultiplier: 0.25
