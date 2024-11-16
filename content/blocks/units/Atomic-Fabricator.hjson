@@ -16,7 +16,7 @@ plans: [
   }
     {
     unit: Machina-Drone
-    time: 300
+    time: 750
     requirements: [
  CopperAlt/30
  Tin/40
