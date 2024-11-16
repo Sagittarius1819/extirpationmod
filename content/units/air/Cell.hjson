@@ -29,6 +29,7 @@ weapons: [
   shootEffect: shootSmall
   smokeEffect: shootSmallSmoke
   y: 6.5
+  shootY: 8
   reload: 125
   inaccuracy: 7.5
   shoot: {
@@ -48,7 +49,7 @@ weapons: [
 }}
   {
   name: cellsection1
-  x: -23
+  x: -24.5
   top: true
     shootSound: artillery
   under: true
@@ -70,4 +71,99 @@ weapons: [
     width: 12
     height: 15
     buildingDamageMultiplier: 1.75
-}}]
+}
+  {
+  name: cellgun1
+  x: 12
+  top: true
+    shootSound: shoot
+  under: true
+  shootEffect: shootSmall
+  smokeEffect: shootSmallSmoke
+  y: 7
+  layerOffset: 1.1
+  reload: 41.666
+  inaccuracy: 7.5
+  shoot: {
+  type: ShootBarrel
+    shots: 1
+}
+  bullet: {
+    lifetime: 55
+    speed: 3.5
+    damage: 15
+    width: 5
+    height: 10
+    buildingDamageMultiplier: 1.75
+}}
+  {
+  name: cellgun2
+  x: 0
+  mirror: false
+  top: true
+    shootSound: laser
+  shootEffect: shootSmall
+  smokeEffect: shootSmallSmoke
+  y: -7
+  layerOffset: 1.1
+  reload: 125
+  inaccuracy: 7.5
+  shoot: {
+  type: ShootBarrel
+    shots: 1
+}
+shootType: {
+  type: LaserBulletType
+  colors: [b85140, eb897a, fae0dc]
+  damage: 80
+
+  buildingDamageMultiplier: 0.5
+chargeEffect: {
+            type: SeqEffect
+        effects: [
+          {
+        type: WaveEffect
+        length: 48
+            baseLength: -48
+            cone: 360
+            particles: 22
+            sizeFrom: 35
+            colorFrom: ff7570
+            colorTo: ffffff
+            rotWithParent: true
+            sizeTo: 0
+            Y: 15.5
+            lifetime: 50
+            }  
+             {
+            type: ExplosionEffect
+            length: 48
+            baseLength: -48
+            cone: 360
+            line: true
+            particles: 12
+            sizeFrom: 10
+            colorFrom: ff7570
+            colorTo: ffffff
+            sizeTo: 0
+            smokes: 0
+            sparks: 0
+            Y: 15.5
+            lifetime: 25
+             }
+                          {
+            type: ExplosionEffect
+            length: 48
+            baseLength: -48
+            cone: 360
+            particles: 12
+            sizeFrom: 10
+            colorFrom: ff7570
+            colorTo: ffffff
+            sizeTo: 0
+                        smokes: 0
+            sparks: 0
+            Y: 15.5
+            lifetime: 50
+}]}}
+}]
