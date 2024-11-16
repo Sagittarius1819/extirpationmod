@@ -7,7 +7,7 @@ placeablePlayer: false
 requirements: [
   Tin/115
   CopperAlt/75
-  Blackplate/225
+  Blackplate/235
   Plutonium/75
 ]
 research: Ground-Developer

@@ -7,7 +7,8 @@ placeablePlayer: false
 requirements: [
   Tin/20
   CopperAlt/15
-  Bronze/8
+  Bronze/35
+  Blackplate/50
 ]
 research: Ground-Developer
 researchCostMultiplier: 0.25

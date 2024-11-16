@@ -22,6 +22,8 @@ plans: [
       extirpation-DecimateBaseUnit/2
       extirpation-DecimateCoreUnit/1
     extirpation-DecimateGunUnit/2
+    extirpation-Raze/1
+    Raze/1
     ]
     time: 4500
   }
