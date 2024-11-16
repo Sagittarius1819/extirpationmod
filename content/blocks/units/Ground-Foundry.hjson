@@ -23,7 +23,7 @@ plans: [
       DecimateCoreUnit/1
       DecimateGunUnit/2
     ]
-    time: 900
+    time: 9000
   }
 ]
 squareSprite: false
