@@ -7,9 +7,6 @@ hasLiquids: true
 category: units
 droneType: Machina-Assembler
 research: Ground-Foundry
-consumes: {
-  liquid: Oxygen/0.675
-}
 requirements: [
   Plutonium/2000
   Tin/1500
@@ -47,5 +44,8 @@ plans: [
 squareSprite: false
 consumes: {
   power: 5.5
+        liquids: [
+      Oxygen/0.675
+  ]
 }
 areaSize: 13

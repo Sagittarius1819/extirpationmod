@@ -7,9 +7,6 @@ hasLiquids: true
 category: units
 droneType: Machina-Assembler
 research: Rubblemaker
-consumes: {
-  liquid: slag/1.5
-}
 requirements: [
   Plutonium/2000
   Tin/3000
@@ -35,5 +32,8 @@ plans: [
 squareSprite: false
 consumes: {
   power: 6.5
+          liquids: [
+      slag/1.5
+  ]
 }
 areaSize: 13
