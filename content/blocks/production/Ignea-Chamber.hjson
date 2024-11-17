@@ -13,13 +13,12 @@ outputItems: [
 ]
 consumes: {
       liquids: [
-      slag/0.3,
+      slag/0.35
       Oxygen/0.15
   ]
   power: 1.25
 }
-craftTime: 60
-craftEffect: smoke
+craftTime: 72
 category: crafting
 research: {
   parent: Bronze-Solidifier
@@ -62,6 +61,12 @@ drawer: {
     }
     {
       type: DrawDefault
+    }
+        {
+      type: DrawRegion
+      suffix: -rotator
+      spinSprite: true
+      rotateSpeed: 3
     }
   ]
 }
