@@ -1,0 +1,29 @@
+type: PayloadConveyor
+size: 5
+health: 565
+moveTime: 60
+moveForce: 300
+payloadLimit: 5
+name: Freight Coveyor
+category: units
+requirements: [
+  Tin/40
+  Blackplate/30
+  Bronze/25
+  CopperAlt/35
+]
+research: {
+    parent: Dark-Payload-Conveyor
+    objectives: [
+        {
+            type: SectorComplete
+            preset: bouncer
+        }
+    ]
+}
+researchCost: [
+    Tin/10000
+    CopperAlt/9000
+    Blackplate/7500
+    Bronze/7000
+  ]
