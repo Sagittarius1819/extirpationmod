@@ -1,0 +1,35 @@
+researchCostMultiplier: 0.5
+type: UnitAssembler
+name: Aerial Foundry
+description: Creates high tier ships and flying units using power and payloads.
+size: 5
+category: units
+droneType: Machina-Assembler
+research: Ground-Foundry
+requirements: [
+  Plutonium/2000
+  Tin/1500
+  CopperAlt/2000
+  Hematite/1200
+  Bronze/1450
+  Blackplate/900
+]
+plans: [
+   {
+    type: AssemblerUnitPlan
+    unit: Cell
+    requirements: [
+      extirpation-CellGunUnit2/2
+     extirpation-CellSectionUnit/2
+      extirpation-Cellsegment/3
+    extirpation-CellGunUnit1/4
+    extirpation-Amino/1
+    ]
+    time: 18000
+  }
+]
+squareSprite: false
+consumes: {
+  power: 5.5
+}
+areaSize: 16
