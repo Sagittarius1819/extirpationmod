@@ -24,7 +24,7 @@ plans: [
     extirpation-OrganelleGunUnit2/2
     extirpation-Amino/1
     ]
-    time: 4250
+    time: 4000
   }
    {
     type: AssemblerUnitPlan
