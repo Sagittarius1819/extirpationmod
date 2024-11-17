@@ -1,0 +1,15 @@
+type: Wall
+name: Cell Machine Gun
+description: Fires a barrage bullets at targts.
+size: 3
+customShadow: true
+placeablePlayer: false
+requirements: [
+  Tin/40
+  CopperAlt/35
+  Blackplate/50
+  Plutonium/30
+  Hematite/35
+]
+research: Prosperer
+researchCostMultiplier: 0.25

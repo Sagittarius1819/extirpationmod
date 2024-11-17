@@ -1,0 +1,13 @@
+type: Wall
+name: Cell Gun Unit A
+description: Fires a simple bullet at targts.
+size: 3
+customShadow: true
+placeablePlayer: false
+requirements: [
+  Tin/15
+  CopperAlt/10
+  Blackplate/5
+]
+research: Prosperer
+researchCostMultiplier: 0.25

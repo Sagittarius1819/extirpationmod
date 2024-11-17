@@ -4,6 +4,7 @@ description: A gigantic ship, for raiding high level bases.
 speed: 0.6
 engineSize: 7.75
 flying: true
+armor: 5
 outlineRadius: 5.5
 hitSize: 45
 drag: 0.07

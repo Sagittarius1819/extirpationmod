@@ -1,0 +1,27 @@
+type: Constructor
+name: Prosperer
+description: Constructs a larger variety of high tier weaponry and components for bigger units.
+size: 4
+category: units
+requirements: [
+  Tin/175
+  CopperAlt/75
+  Blackplate/45
+  Bronze/75
+] 
+hasPower: true
+consumes: {
+  power: 2
+}
+buildSpeed: 8.5
+filter: [
+CellGunUnit1,
+CellGunUnit2,
+CellSectionUnit,
+Cellsegment,
+]
+research: Ground-Foundry
+squareSprite: false
+conductivePower: true
+researchCostMultiplier: 0.35
+maxBlockSize: 4

@@ -1,0 +1,16 @@
+type: Wall
+name: Cell Gun Unit A
+description: The base of the Cell Unit.
+size: 3
+customShadow: true
+placeablePlayer: false
+requirements: [
+  Tin/375
+  CopperAlt/245
+  Blackplate/210
+  Hematite/200
+  Bronze/200
+  Plutonium/150
+]
+research: Prosperer
+researchCostMultiplier: 0.25

@@ -1,0 +1,16 @@
+type: UnitAssemblerModule
+name: Port
+description: Increases the tier of the created unit when placed next to the area of a Foundry. Also acts as another input for payloads.
+size: 4
+category: units
+research: Ground-Foundry
+requirements: [
+  Tin/320
+  CopperAlt/220
+  Bronze/150
+  Plutonium/50
+]
+consumes: {
+  power: 1.25
+}
+researchCostMultiplier: 0.3
