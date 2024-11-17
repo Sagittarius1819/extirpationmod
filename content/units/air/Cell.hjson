@@ -45,7 +45,7 @@ weapons: [
     homingPower: 2
     homingDelay: 7
     homing: true
-    damage: 25
+    damage: 32.5
     width: 12
     height: 15
     buildingDamageMultiplier: 1.75
@@ -115,7 +115,7 @@ bullet: {
   bullet: {
     lifetime: 55
     speed: 3.5
-    damage: 20
+    damage: 25
     width: 7
     height: 14
     buildingDamageMultiplier: 1.75
@@ -141,7 +141,7 @@ bullet: {
   bullet: {
     lifetime: 55
     speed: 3.5
-    damage: 20
+    damage: 25
     width: 7
     height: 14
     buildingDamageMultiplier: 1.75
