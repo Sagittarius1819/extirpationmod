@@ -95,8 +95,8 @@ weapons: [
     color1: ffae70
     color2: ffd8d6
     spinSpeed: -3
-    radius: 5
-    sides: 2
+    radius: 7
+    sides: 5
     followRotation: true
   }
     {
@@ -107,7 +107,7 @@ weapons: [
     color2: ffd8d6
     spinSpeed: 3
     radius: 6
-    sides: 3
+    sides: 4
     followRotation: true
   }
  ]
