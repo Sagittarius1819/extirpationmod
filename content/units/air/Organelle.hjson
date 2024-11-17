@@ -19,7 +19,7 @@ range: 160
 weapons: [
   {
   name: Organellegun1
-  x: 6
+  x: 7.25
   top: true
   rotationLimit: 35
   shootEffect: shootSmall
@@ -51,10 +51,10 @@ weapons: [
   rotationLimit: 35
   shootEffect: shootSmall
   smokeEffect: shootSmallSmoke
-  y: -7
+  y: -8
   mirror: false
   shootY: 4.5
-  reload: 10
+  reload: 17.5
   inaccuracy: 6
     shootSound: shoot 
   shoot: {
@@ -74,9 +74,9 @@ weapons: [
 }}
   {
   name: Organellegun2
-  x: 20
+  x: 18
   y: 2
-  top: true
+  top: false
   reload: 130
   alternate: true
   mirror: true
