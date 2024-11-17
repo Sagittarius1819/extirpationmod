@@ -22,7 +22,7 @@ CellGunUnit1,
 CellGunUnit2,
 OrganelleGunUnit1,
 OrganelleGunUnit2,
-OrganelleGunUnit1,
+Organellebaseunit,
 ]
 research: Rubblemaker
 squareSprite: false
