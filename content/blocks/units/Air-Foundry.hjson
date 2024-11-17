@@ -25,7 +25,7 @@ plans: [
     extirpation-CellGunUnit1/4
     extirpation-Amino/1
     ]
-    time: 14500
+    time: 14000
   }
 ]
 squareSprite: false
