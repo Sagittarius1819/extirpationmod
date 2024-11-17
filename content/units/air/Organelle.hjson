@@ -2,7 +2,7 @@ type: flying
 name: Organelle
 description: A bulky ship, constructed with the Amino.
 speed: 1
-engineSize: 4.5
+engineSize: 6.5
 flying: true
 rotateSpeed: 2
 outlineRadius: 4
@@ -10,7 +10,7 @@ hitSize: 32
 health: 9350
 trailScl: 1
 trailLength: 7.5
-engineOffset: 10.5
+engineOffset: 14
 itemCapacity: 65
 alwaysUnlocked: false
 outlineColor: 342222
@@ -18,15 +18,16 @@ lowAltitude: true
 range: 160
 weapons: [
   {
-  name: MolecSmallgun
+  name: Organellegun1
   x: 6
   top: true
   rotationLimit: 35
   shootEffect: shootSmall
   smokeEffect: shootSmallSmoke
-  y: 7
+  y: 6
+  shootY: 4.5
   reload: 10
-  inaccuracy: 7.5
+  inaccuracy: 6
     shootSound: shoot 
   shoot: {
   type: ShootBarrel
@@ -34,9 +35,9 @@ weapons: [
   ejectEffect: casing1
   rotate: true
   bullet: {
-    lifetime: 55
+    lifetime: 75
     speed: 3
-    damage: 17.5
+    damage: 45
     width: 7
     height: 12
     bulletWidth: 7
@@ -44,9 +45,37 @@ weapons: [
     buildingDamageMultiplier: 2
 }}
   {
-  name: MolecBiggun
-  x: 7.5
-  y: 1.5
+  name: Organellegun1
+  x: 0
+  top: true
+  rotationLimit: 35
+  shootEffect: shootSmall
+  smokeEffect: shootSmallSmoke
+  y: -7
+  mirror: false
+  shootY: 4.5
+  reload: 10
+  inaccuracy: 6
+    shootSound: shoot 
+  shoot: {
+  type: ShootBarrel
+}
+  ejectEffect: casing1
+  rotate: true
+  bullet: {
+    lifetime: 75
+    speed: 3
+    damage: 45
+    width: 7
+    height: 12
+    bulletWidth: 7
+    bulletHeight: 12
+    buildingDamageMultiplier: 2
+}}
+  {
+  name: Organellegun2
+  x: 20
+  y: 2
   top: true
   reload: 130
   alternate: true
