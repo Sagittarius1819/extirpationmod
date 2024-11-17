@@ -78,6 +78,7 @@ weapons: [
   shootY: 7
   shootX: -3
   y: 2.325
+  recoil: 7
   top: false
   reload: 130
   alternate: true
