@@ -70,7 +70,7 @@ weapons: [
     height: 12
     bulletWidth: 7
     bulletHeight: 12
-    buildingDamageMultiplier: 2
+    buildingDamageMultiplier: 1.7
 }}
   {
   name: Organellegun2
