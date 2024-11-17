@@ -29,7 +29,7 @@ requirements: [
 ]
 generateEffect: steam 
 effectChance: 0.08
-powerProduction: 3.25
+powerProduction: 7.416659999999
 warmupSpeed: 0.1
 consumes: {
   liquids: [
