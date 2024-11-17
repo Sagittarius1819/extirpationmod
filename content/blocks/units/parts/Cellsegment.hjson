@@ -5,8 +5,8 @@ size: 3
 customShadow: true
 placeablePlayer: false
 requirements: [
-  Tin/275
-  CopperAlt/170
+  Tin/135
+  CopperAlt/105
   Blackplate/110
   Hematite/150
   Bronze/200
