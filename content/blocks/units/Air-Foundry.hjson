@@ -35,7 +35,7 @@ plans: [
       extirpation-Cellsegment/3
     extirpation-CellGunUnit1/4
     extirpation-Organelle/1
-    extirpation-Atom-2
+    extirpation-Atom/2
     ]
     time: 13500
   }
