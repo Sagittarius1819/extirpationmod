@@ -111,6 +111,19 @@ weapons: [
     sides: 4
     followRotation: true
   }
+               chargeEffect: {
+          {
+            type: WaveEffect
+            length: 48
+            baseLength: -48
+            cone: 360
+            particles: 22
+            sizeFrom: 100
+            colorFrom: ff7570
+            colorTo: bf3e39
+            sizeTo: 0
+            lifetime: 75
+          }}
  ]
   shoot: {
   type: ShootBarrel
