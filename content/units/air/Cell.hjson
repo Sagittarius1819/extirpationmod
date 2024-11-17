@@ -113,7 +113,7 @@ bullet: {
   inaccuracy: 7.5
   shoot: {
   type: ShootBarrel
-    shots: 1
+    shots: 2
 }
   bullet: {
     lifetime: 55
@@ -138,7 +138,7 @@ bullet: {
   inaccuracy: 7.5
   shoot: {
   type: ShootBarrel
-    shots: 1
+    shots: 2
     firstShotDelay: 5.25
 }
   bullet: {
@@ -177,7 +177,8 @@ bullet: {
   inaccuracy: 7.5
   shoot: {
   type: ShootBarrel
-    shots: 1
+    shots: 2
+    shotDelay: 45
 }
   bullet: {
   type: LaserBulletType
