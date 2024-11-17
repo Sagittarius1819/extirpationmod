@@ -1,0 +1,15 @@
+type: material
+name: Ignea
+description: A supercooled chunk of magma.
+cost: 4
+color: f09148
+hiddenOnPlanets: [serpulo, erekir]
+explosiveness: 0.45
+charge: 0.25
+research: {
+  parent: Jet
+  requirements: [
+    Ignea/1
+  ]
+}
+alwaysUnlocked: false
