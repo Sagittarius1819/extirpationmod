@@ -82,15 +82,39 @@ weapons: [
   reload: 130
   alternate: true
   mirror: true
-  shootSound: artillery 
+  shootSound: shootBig 
   shootEffect: shootBig
   smokeEffect: shootBigSmoke
   rotate: false
-  inaccuracy: 3
+  inaccuracy: 18
+     parts: [
+  {
+    type: FlarePart
+    x: -2.5
+    y: 7
+    color1: ffae70
+    color2: ffd8d6
+    spinSpeed: -3
+    radius: 5
+    sides: 2
+    followRotation: true
+  }
+    {
+    type: FlarePart
+    x: -2.5
+    y: 7
+    color1: ffae70
+    color2: ffd8d6
+    spinSpeed: 3
+    radius: 6
+    sides: 3
+    followRotation: true
+  }
+ ]
   shoot: {
   type: ShootBarrel
   shots: 6
-  shotDelay: 10
+  shotDelay: 5
 }
   ejectEffect: casing1
   rotate: false
