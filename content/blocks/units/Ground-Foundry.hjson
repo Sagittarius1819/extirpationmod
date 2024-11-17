@@ -3,6 +3,7 @@ type: UnitAssembler
 name: Ground Foundry
 description: Creates high tier mechs using power and payloads.
 size: 5
+LiquidCapacity: 75
 hasLiquids: true
 category: units
 droneType: Machina-Assembler
