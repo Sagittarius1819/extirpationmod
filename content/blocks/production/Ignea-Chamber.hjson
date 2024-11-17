@@ -1,6 +1,6 @@
 type: GenericCrafter
-name: Bronze Solidifier
-description: Uses power to cool Liquid bronze into a solid form.
+name: Ignea Chamber
+description: Cools down Slag with Liquid Nitrogen to produce Ignea
 size: 3
 health: 755
 hasLiquids: true
