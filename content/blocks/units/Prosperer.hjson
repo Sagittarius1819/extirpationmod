@@ -17,6 +17,7 @@ buildSpeed: 10
 filter: [
 CellSectionUnit,
 Cellsegment,
+Organellebaseunit,
 ]
 research: Ground-Foundry
 squareSprite: false
