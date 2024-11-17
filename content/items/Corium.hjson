@@ -1,0 +1,18 @@
+type: material
+name: Corium
+description: An extremely reactive piece of waste material.
+cost: 4
+color: 5c4d49
+hiddenOnPlanets: [serpulo, erekir]
+explosiveness: 0.6
+charge: 0.6
+charge: 0.6
+radioactivity: 0.6
+flammability: 0.6
+research: {
+  parent: Plutonium
+  requirements: [
+    Corium/1
+  ]
+}
+alwaysUnlocked: false
