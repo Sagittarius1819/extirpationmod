@@ -157,18 +157,19 @@ bullet: {
     rotate: true
   top: true
     shootSound: laser
-  shootEffect: { type: ExplosionEffect
-            length: 48
-            baseLength: -48
-            cone: 360
-            particles: 12
-            sizeFrom: 10
-            colorFrom: ff7570
-            colorTo: ffffff
-            sizeTo: 0
-                        smokes: 0
-            sparks: 0
-            lifetime: 50 }
+  shootEffect: [ 
+    type: ExplosionEffect
+    length: 48
+    baseLength: -48
+     cone: 360
+     particles: 12
+     sizeFrom: 10
+     colorFrom: ff7570
+     colorTo: ffffff
+    sizeTo: 0
+      smokes: 0
+     sparks: 0
+      lifetime: 50 ]
   smokeEffect: shootSmallSmoke
   y: -7
   layerOffset: 1.1
