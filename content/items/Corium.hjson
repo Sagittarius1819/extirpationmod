@@ -4,11 +4,11 @@ description: An extremely reactive piece of waste material.
 cost: 4
 color: 5c4d49
 hiddenOnPlanets: [serpulo, erekir]
-explosiveness: 1
-charge: 1
-charge: 1.25
-radioactivity: 1.25
-flammability: 1
+explosiveness: 4
+charge: 4
+charge: 4.5
+radioactivity: 4.5
+flammability: 2.5
 research: {
   parent: Plutonium
   requirements: [
