@@ -44,13 +44,13 @@ drawer: {
     {
       type: DrawLiquidTile
       drawLiquid: slag
-      padding: 10.5
+      padding: 2
       x: 10
     }
         {
       type: DrawLiquidTile
       drawLiquid: Oxygen
-      padding: -10.5
+      padLeft: 7
       x: 10
     }
     {
