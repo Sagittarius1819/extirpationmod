@@ -78,7 +78,7 @@ weapons: [
   shootY: 7
   shootX: -3
   y: 2.325
-  recoil: 7
+  recoil: 4.5
   top: false
   reload: 130
   alternate: true
@@ -120,8 +120,10 @@ weapons: [
   ejectEffect: casing1
   rotate: false
   bullet: {
-          chargeEffect: {
-            effects: [
+        bullet: {
+             chargeEffect: {
+        type: SeqEffect
+        effects: [
           {
             type: WaveEffect
             length: 48
@@ -133,7 +135,8 @@ weapons: [
             colorTo: bf3e39
             sizeTo: 0
             lifetime: 75
-          }]}
+          }
+        ]            }
 type: MissileBulletType
           speed: 5
               trailWidth: 1.25
