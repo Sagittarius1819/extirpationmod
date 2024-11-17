@@ -120,7 +120,6 @@ weapons: [
   ejectEffect: casing1
   rotate: false
   bullet: {
-        bullet: {
              chargeEffect: {
         type: SeqEffect
         effects: [
