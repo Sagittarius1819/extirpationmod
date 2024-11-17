@@ -1,0 +1,15 @@
+type: Wall
+name: Cell Blaster
+description: Fires a large laser at targets.
+size: 3
+customShadow: true
+placeablePlayer: false
+requirements: [
+  Tin/120
+  CopperAlt/85
+  Blackplate/75
+  Plutonium/60
+  Hematite/55
+]
+research: Prosperer
+researchCostMultiplier: 0.25
