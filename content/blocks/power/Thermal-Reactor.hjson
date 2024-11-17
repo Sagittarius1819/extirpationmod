@@ -1,0 +1,38 @@
+type: ConsumeGenerator
+name: Thermal Reactor
+description: Creates a large amount of power from Slag and Jet
+size: 3
+craftTime: 75
+outputItems: Corium/1
+category: power
+squareSprite: false
+buildCostMultiplier: 0.5
+research: {
+  parent: Thermal Reactor
+  objectives: [
+    {
+      type: OnSector 
+      preset: crimsoncanyon
+    }
+  ]
+}
+ solid: true
+requirements: [
+ Tin/100
+ CopperAlt/75
+ Plutonium/30
+ Bronze/75
+ Blackplate/30
+ Ignea/25
+]
+generateEffect: steam 
+effectChance: 0.08
+powerProduction: 3.25
+warmupSpeed: 1
+consumes: {
+  liquid: slag/0.3.5
+ item: Jet/2
+  power/2
+}
+ambientSound: hum
+ambientSoundVolume: 0.5
