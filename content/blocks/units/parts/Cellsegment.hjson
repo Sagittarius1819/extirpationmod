@@ -1,5 +1,5 @@
 type: Wall
-name: Cell Gun Unit A
+name: Cell Segment
 description: The base of the Cell Unit.
 size: 3
 customShadow: true
