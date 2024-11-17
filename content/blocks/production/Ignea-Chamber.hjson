@@ -6,14 +6,16 @@ health: 755
 hasLiquids: true
 squareSprite: false
 liquidCapacity: 85
-itemCapacity: 10
+itemCapacity: 12
 buildCostMultiplier: 0.6
 outputItems: [
-  Bronze/1
+  Ignea/1
 ]
 consumes: {
-  liquid: slag/0.35
-    liquid: Oxygen/0.35
+      liquids: [
+      liquid: slag/0.3,
+      liquid: Oxygen/0.15
+  ]
   power: 0.75
 }
 craftTime: 60
@@ -42,13 +44,13 @@ drawer: {
     {
       type: DrawLiquidTile
       drawLiquid: slag
-      padding: 1.5
+      padding: 10.5
       x: 10
     }
         {
       type: DrawLiquidTile
       drawLiquid: Oxygen
-      padding: 1.5
+      padding: -10.5
       x: 10
     }
     {
