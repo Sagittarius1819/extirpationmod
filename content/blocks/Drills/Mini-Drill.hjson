@@ -5,7 +5,7 @@
   size: 1
   itemCapacity: 10
   tier: 3
-  drillTime: 700
+  drillTime: 650
   drawMineItem: false
 requirements: [
 Tin/15
