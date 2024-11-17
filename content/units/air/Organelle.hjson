@@ -123,14 +123,14 @@ weapons: [
 type: MissileBulletType
           speed: 5
               trailWidth: 1.25
-          frontColor: ffb8b5
+          frontColor: ffd8d6
           weaveMag: 3
                     weaveScale: 3
-          backColor: ff8c87
+          backColor: ffae70
           lifetime: 40
               homingPower: 0.25
               homingRange: 20
-              trailColor: ff5b54
+              trailColor: ffae70
         trailInterval: 4
         TrailRotation: true
          trailLength: 20
