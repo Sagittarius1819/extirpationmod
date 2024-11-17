@@ -1,0 +1,57 @@
+type: GenericCrafter
+name: Bronze Solidifier
+description: Uses power to cool Liquid bronze into a solid form.
+size: 2
+health: 200
+hasLiquids: true
+squareSprite: false
+liquidCapacity: 80
+itemCapacity: 10
+buildCostMultiplier: 0.6
+outputItems: [
+  Bronze/1
+]
+consumes: {
+  liquid: slag/0.2
+  power: 0.75
+}
+craftTime: 60
+craftEffect: smoke
+category: crafting
+research: {
+  parent: Bronze-Mixer
+requirements: [
+ CopperAlt/700
+  Tin/850
+]
+researchCostMultiplier: 0.5
+}
+requirements: [
+ CopperAlt/60
+  Tin/105
+]
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: slag
+      padding: 1.5
+      x: 10
+    }
+        {
+      type: DrawLiquidTile
+      drawLiquid: Oxygen
+      padding: 1.5
+      x: 10
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
