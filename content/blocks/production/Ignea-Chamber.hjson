@@ -16,7 +16,7 @@ consumes: {
       slag/0.3,
       Oxygen/0.15
   ]
-  power: 0.75
+  power: 1.25
 }
 craftTime: 60
 craftEffect: smoke
