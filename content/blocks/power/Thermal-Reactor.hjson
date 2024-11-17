@@ -32,8 +32,12 @@ effectChance: 0.08
 powerProduction: 3.25
 warmupSpeed: 1
 consumes: {
-  liquid: slag/0.35
- item: Jet/2
+          liquids: [
+      slag/3.5
+  ]
+           items: [
+      Jet/2
+  ]
   power/2
 }
 ambientSound: hum
