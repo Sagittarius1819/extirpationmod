@@ -57,7 +57,7 @@ weapons: [
     y: 3
     color1: ffae70
     color2: ffd8d6
-    spinSpeed: -4
+    spinSpeed: -2
     radius: 7
     sides: 5
     followRotation: true
@@ -68,7 +68,7 @@ weapons: [
     y: 3
     color1: ffae70
     color2: ffd8d6
-    spinSpeed: 6
+    spinSpeed: 3
     radius: 8
     sides: 6
     followRotation: true
@@ -87,12 +87,10 @@ weapons: [
   type: ShootBarrel
     shots: 1
 }
-  bullet: {
 bullet: {
     instantDisappear: true
        damage: 0
        spawnUnit: AminoBomb
- }
 }}
   {
   name: cellgun1
