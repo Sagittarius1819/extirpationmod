@@ -33,7 +33,6 @@ plans: [
       extirpation-CellGunUnit2/2
      extirpation-CellSectionUnit/2
       extirpation-Cellsegment/3
-    //extirpation-CellGunUnit1/4
     extirpation-Organelle/1
     extirpation-Atom-2
     ]
