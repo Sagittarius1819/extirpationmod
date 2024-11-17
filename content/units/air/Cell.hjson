@@ -23,6 +23,7 @@ weapons: [
   {
   name: cellsection2
   x: -24.5
+  recoil: 4
   top: false
     layerOffset: -1
     shootSound: MetalShot
@@ -58,6 +59,7 @@ weapons: [
   {
     type: FlarePart
     x: 0
+      recoil: 5.5
     y: 4.5
     color1: ffae70
     color2: ffd8d6
@@ -150,6 +152,7 @@ bullet: {
   {
   name: cellgun2
   x: 16.5
+    recoil: 2.3
     rotate: true
   top: true
     shootSound: laser
