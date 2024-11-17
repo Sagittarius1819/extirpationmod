@@ -1,0 +1,16 @@
+type: Incinerator
+name: Kindle
+description: Uses power to destroy items.
+size: 1
+squareSprite: false
+consumes: {
+  power: 0.65
+}
+category: crafting
+research: Thermal-Plant
+requirements: [
+  Tin/25
+  CopperAlt/15
+  Bronze/10
+]
+researchCostMultiplier: 0.5
