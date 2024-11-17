@@ -36,7 +36,7 @@ weapons: [
   rotate: true
   bullet: {
     lifetime: 75
-    speed: 3
+    speed: 4.25
     damage: 45
     width: 7
     height: 12
@@ -64,7 +64,7 @@ weapons: [
   rotate: true
   bullet: {
     lifetime: 75
-    speed: 3
+    speed: 3.5
     damage: 45
     width: 7
     height: 12
@@ -76,8 +76,8 @@ weapons: [
   name: Organellegun2
   x: 16
   shootY: 7
-  shootX: -3.5
-  y: 2.275
+  shootX: -3
+  y: 2.325
   top: false
   reload: 130
   alternate: true
@@ -89,24 +89,32 @@ weapons: [
   inaccuracy: 3
   shoot: {
   type: ShootBarrel
+  shots: 6
+  shotDelay: 10
 }
   ejectEffect: casing1
   rotate: false
   bullet: {
-    type: ArtilleryBulletType
-    lifetime: 55
-        trailColor: ed4c4c
-    trailInterval: 2
-    TrailRotation: true
-    trailLength: 5
-    speed: 2
-    damage: 55
-              width: 12
-          height: 12
-    bulletWidth: 4
-    damage: 50
-    bulletHeight: 12
-    buildingDamageMultiplier: 1.25
-        splashDamageRadius: 5
-            splashDamage: 9
+type: MissileBulletType
+          speed: 5
+              trailWidth: 1.25
+          frontColor: ffb8b5
+          weaveMag: 3
+                    weaveScale: 3
+          backColor: ff8c87
+          lifetime: 40
+              homingPower: 0.25
+              homingRange: 20
+              trailColor: ff5b54
+        trailInterval: 4
+        TrailRotation: true
+         trailLength: 20
+          collidesAir: true
+          collides: true
+          collidesGround: true
+          pierce: false
+          damage: 23
+                    homingDelay: 7
+          width: 7
+          height: 16
 }}]
