@@ -6,8 +6,8 @@ color: 5c4d49
 hiddenOnPlanets: [serpulo, erekir]
 explosiveness: 1
 charge: 1
-charge: 1
-radioactivity: 1
+charge: 1.25
+radioactivity: 1.25
 flammability: 1
 research: {
   parent: Plutonium
