@@ -87,7 +87,7 @@ weapons: [
   smokeEffect: shootSmallSmoke
   y: -9.5
   layerOffset: -1
-  reload: 100 
+  reload: 75
   inaccuracy: 7.5
   shoot: {
   type: ShootBarrel
@@ -118,7 +118,7 @@ bullet: {
   bullet: {
     lifetime: 55
     speed: 4
-    damage: 25
+    damage: 30
     width: 7
     height: 14
     buildingDamageMultiplier: 1.75
@@ -144,7 +144,7 @@ bullet: {
   bullet: {
     lifetime: 55
     speed: 4
-    damage: 25
+    damage: 27
     width: 7
     height: 14
     buildingDamageMultiplier: 1.75

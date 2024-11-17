@@ -6,7 +6,7 @@ speed: 3
 range: 60
 mineFloor: true
 mineWalls: true
-mineSpeed: 0.6
+mineSpeed: 1.25
 buildSpeed: 0.1
 mineTier: 1
 build: true
