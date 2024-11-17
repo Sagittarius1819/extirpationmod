@@ -1,0 +1,14 @@
+type: Wall
+name: Organelle Decimator
+description: Fires a barrage of homing missiles at targets.
+size: 3
+customShadow: true
+placeablePlayer: false
+requirements: [
+  Tin/65
+  Plutonium/45
+  Blackplate/75
+  Bronze/45
+]
+research: Ground-Developer
+researchCostMultiplier: 0.25

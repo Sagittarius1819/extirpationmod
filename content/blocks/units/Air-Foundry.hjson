@@ -15,6 +15,17 @@ requirements: [
   Blackplate/900
 ]
 plans: [
+     {
+    type: AssemblerUnitPlan
+    unit: Organelle
+    requirements: [
+    extirpation-Organellebaseunit/1
+    extirpation-OrganelleGunUnit1/3
+    extirpation-OrganelleGunUnit2/2
+    extirpation-Amino/1
+    ]
+    time: 4250
+  }
    {
     type: AssemblerUnitPlan
     unit: Cell
@@ -23,13 +34,14 @@ plans: [
      extirpation-CellSectionUnit/2
       extirpation-Cellsegment/3
     extirpation-CellGunUnit1/4
-    extirpation-Amino/1
+    extirpation-Organelle/1
+    extirpation-Atom-2
     ]
-    time: 14000
+    time: 13500
   }
 ]
 squareSprite: false
 consumes: {
   power: 5.5
 }
-areaSize: 14
+areaSize: 13

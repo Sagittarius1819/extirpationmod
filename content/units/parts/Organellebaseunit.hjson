@@ -1,0 +1,16 @@
+type: Wall
+name: Organelle Hull
+description: The tough outer body of the Organelle.
+size: 3
+customShadow: true
+placeablePlayer: false
+requirements: [
+  Tin/150
+  Plutonium/60
+  Blackplate/210
+  Bronze/60
+  CopperAlt/75
+  Hematite/90
+]
+research: Ground-Developer
+researchCostMultiplier: 0.25

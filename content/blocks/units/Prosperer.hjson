@@ -15,8 +15,6 @@ consumes: {
 }
 buildSpeed: 10
 filter: [
-CellGunUnit1,
-CellGunUnit2,
 CellSectionUnit,
 Cellsegment,
 ]

@@ -18,6 +18,11 @@ filter: [
 DecimateGunUnit,
 DecimateBaseUnit,
 DecimateCoreUnit,
+CellGunUnit1,
+CellGunUnit2,
+OrganelleGunUnit1,
+OrganelleGunUnit2,
+Organellebaseunit,
 ]
 research: Rubblemaker
 squareSprite: false

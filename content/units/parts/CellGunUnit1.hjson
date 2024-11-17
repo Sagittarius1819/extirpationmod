@@ -1,5 +1,5 @@
 type: Wall
-name: Cell Gun Unit A
+name: Cell Launcher
 description: Fires a simple bullet at targts.
 size: 3
 customShadow: true

@@ -1,6 +1,6 @@
 type: Wall
-name: Cell Gun Unit B
-description: Fires a large laser at targts.
+name: Cell Blaster
+description: Fires a large laser at targets.
 size: 3
 customShadow: true
 placeablePlayer: false
