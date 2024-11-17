@@ -49,7 +49,7 @@ drawer: {
       padRight: 9
       padTop: 2
       padBottom: 2
-      x: 10
+
     }
         {
       type: DrawLiquidTile
@@ -58,7 +58,7 @@ drawer: {
       padRight: 2
       padTop: 2
       padBottom: 2
-      x: 10
+
     }
     {
       type: DrawDefault
