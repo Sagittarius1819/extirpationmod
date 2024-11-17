@@ -14,4 +14,4 @@ consumes: {
   power: 1.25
 }
 researchCostMultiplier: 0.3
-tier: 4
+tier: 5
