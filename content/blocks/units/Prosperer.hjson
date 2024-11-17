@@ -13,7 +13,7 @@ hasPower: true
 consumes: {
   power: 2
 }
-buildSpeed: 8.5
+buildSpeed: 10
 filter: [
 CellGunUnit1,
 CellGunUnit2,

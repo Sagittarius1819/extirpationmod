@@ -5,11 +5,11 @@ size: 3
 customShadow: true
 placeablePlayer: false
 requirements: [
-  Tin/40
-  CopperAlt/35
-  Blackplate/50
-  Plutonium/30
-  Hematite/35
+  Tin/70
+  CopperAlt/45
+  Blackplate/150
+  Plutonium/65
+  Hematite/85
 ]
 research: Prosperer
 researchCostMultiplier: 0.25

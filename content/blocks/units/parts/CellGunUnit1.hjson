@@ -5,9 +5,9 @@ size: 3
 customShadow: true
 placeablePlayer: false
 requirements: [
-  Tin/15
-  CopperAlt/10
-  Blackplate/5
+  Tin/70
+  CopperAlt/60
+  Blackplate/45
 ]
 research: Prosperer
 researchCostMultiplier: 0.25
