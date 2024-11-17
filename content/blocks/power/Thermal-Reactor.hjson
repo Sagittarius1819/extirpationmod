@@ -29,8 +29,7 @@ requirements: [
 ]
 generateEffect: steam 
 effectChance: 0.08
-powerProduction: 7.416659999999
-warmupSpeed: 0.1
+powerProduction: 7.41666
 consumes: {
   liquids: [
  slag/3.5
@@ -38,7 +37,6 @@ consumes: {
    items: [
    Jet/2
   ]
-  power: 2
 }
 ambientSound: hum
 ambientSoundVolume: 0.5
