@@ -1,13 +1,13 @@
-type: Wall
-name: Cell Launcher
-description: Fires a simple bullet at targts.
-size: 2
-customShadow: true
-placeablePlayer: false
-requirements: [
-  Tin/70
-  CopperAlt/60
-  Blackplate/45
-]
-research: Prosperer
-researchCostMultiplier: 0.25
+//type: Wall
+//name: Cell Launcher
+//description: Fires a simple bullet at targts.
+//size: 2
+//customShadow: true
+//placeablePlayer: false
+//requirements: [
+  //Tin/70
+  //CopperAlt/60
+  //Blackplate/45
+//]
+//research: Prosperer
+//researchCostMultiplier: 0.25
