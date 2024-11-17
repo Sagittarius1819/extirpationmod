@@ -26,18 +26,6 @@ plans: [
     ]
     time: 4250
   }
-   {
-    type: AssemblerUnitPlan
-    unit: Cell
-    requirements: [
-      extirpation-CellGunUnit2/2
-     extirpation-CellSectionUnit/2
-      extirpation-Cellsegment/3
-    extirpation-Organelle/1
-    extirpation-Atom-2
-    ]
-    time: 13500
-  }
 ]
 squareSprite: false
 consumes: {
