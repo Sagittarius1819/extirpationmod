@@ -120,7 +120,8 @@ weapons: [
   ejectEffect: casing1
   rotate: false
   bullet: {
-                   chargeEffect: {
+          chargeEffect: {
+            effects: [
           {
             type: WaveEffect
             length: 48
@@ -132,7 +133,7 @@ weapons: [
             colorTo: bf3e39
             sizeTo: 0
             lifetime: 75
-          }}
+          }]}
 type: MissileBulletType
           speed: 5
               trailWidth: 1.25
