@@ -150,9 +150,9 @@ bullet: {
     buildingDamageMultiplier: 1.75
 }}
   {
-    shootY: 4,5
   name: cellgun2
   x: 16.5
+      shootY: 4.5
     recoil: 2.3
     rotate: true
   top: true
