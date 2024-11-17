@@ -29,7 +29,7 @@ requirements: [
 ]
 generateEffect: steam 
 effectChance: 0.08
-powerProduction: 7.41666
+powerProduction: 7.41667
 consumes: {
   liquids: [
  slag/3.5
