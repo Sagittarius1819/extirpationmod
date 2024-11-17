@@ -7,7 +7,7 @@ requirements: [
 ]
 category: distribution
 speed: 0.08
-  health: 210
+  health: 130
 bridgeReplacement: nuhuh
 junctionReplacement: Tin-Junction
 research: {

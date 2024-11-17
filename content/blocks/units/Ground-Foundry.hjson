@@ -3,9 +3,13 @@ type: UnitAssembler
 name: Ground Foundry
 description: Creates high tier mechs using power and payloads.
 size: 5
+hasLiquids: true
 category: units
 droneType: Machina-Assembler
 research: Rubblemaker
+consumes: {
+  liquid: slag/1.5
+}
 requirements: [
   Plutonium/2000
   Tin/3000

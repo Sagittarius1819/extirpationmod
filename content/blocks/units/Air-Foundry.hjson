@@ -3,9 +3,13 @@ type: UnitAssembler
 name: Aerial Foundry
 description: Creates high tier ships and flying units using power and payloads.
 size: 5
+hasLiquids: true
 category: units
 droneType: Machina-Assembler
 research: Ground-Foundry
+consumes: {
+  liquid: Oxygen/0.675
+}
 requirements: [
   Plutonium/2000
   Tin/1500

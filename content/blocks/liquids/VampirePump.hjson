@@ -21,5 +21,5 @@ requirements: [
   Tin/18
   CopperAlt/12
 ]
-pumpAmount: 0.055
+pumpAmount: 0.15
 researchCostMultiplier: 0.5
