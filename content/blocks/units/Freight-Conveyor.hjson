@@ -3,7 +3,7 @@ size: 5
 health: 565
 moveTime: 60
 moveForce: 300
-payloadLimit: 5
+payloadLimit: 7
 name: Freight Coveyor
 category: units
 requirements: [
