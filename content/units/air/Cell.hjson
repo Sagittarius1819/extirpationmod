@@ -75,7 +75,7 @@ weapons: [
   }
  ]
   top: true
-    shootSound: artillery
+    shootSound: whapow
   under: true
   shootEffect: shootSmall
   smokeEffect: shootSmallSmoke
