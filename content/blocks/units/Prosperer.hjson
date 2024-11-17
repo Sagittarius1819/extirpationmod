@@ -17,8 +17,6 @@ buildSpeed: 10
 filter: [
 CellSectionUnit,
 Cellsegment,
-CellGunUnit1,
-CellGunUnit2,
 ]
 research: Ground-Foundry
 squareSprite: false
