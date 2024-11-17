@@ -30,7 +30,7 @@ requirements: [
 generateEffect: steam 
 effectChance: 0.08
 powerProduction: 3.25
-warmupSpeed: 1
+warmupSpeed: 0.5
 consumes: {
   liquids: [
  slag/3.5
