@@ -76,7 +76,7 @@ weapons: [
   name: Organellegun2
   x: 16
   shootY: 7
-  shootX: 1.25
+  shootX: 3.5
   y: 1.85
   top: false
   reload: 130
