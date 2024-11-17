@@ -4,9 +4,8 @@ description: An extremely reactive piece of waste material.
 cost: 4
 color: 5c4d49
 hiddenOnPlanets: [serpulo, erekir]
-explosiveness: 4
-charge: 4
-charge: 4.5
+explosiveness: 5
+charge: 5
 radioactivity: 4.5
 flammability: 2.5
 research: {
