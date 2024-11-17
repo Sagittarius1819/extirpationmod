@@ -50,6 +50,30 @@ weapons: [
   {
   name: cellsection1
   x: -24.5
+     parts: [
+  {
+    type: FlarePart
+    x: 0
+    y: 3
+    color1: ffae70
+    color2: ffd8d6
+    spinSpeed: -4
+    radius: 7
+    sides: 5
+    followRotation: true
+  }
+    {
+    type: FlarePart
+    x: 0
+    y: 3
+    color1: ffae70
+    color2: ffd8d6
+    spinSpeed: 6
+    radius: 8
+    sides: 6
+    followRotation: true
+  }
+ ]
   top: true
     shootSound: artillery
   under: true
@@ -64,13 +88,11 @@ weapons: [
     shots: 1
 }
   bullet: {
-    type: ArtilleryBulletType
-    lifetime: 55
-    speed: 2
-    damage: 40
-    width: 12
-    height: 15
-    buildingDamageMultiplier: 1.75
+bullet: {
+    instantDisappear: true
+       damage: 0
+       spawnUnit: AminoBomb
+ }
 }}
   {
   name: cellgun1
@@ -80,7 +102,7 @@ weapons: [
   under: true
   shootEffect: shootSmall
   smokeEffect: shootSmallSmoke
-  y: 7
+  y: 8.5
   layerOffset: 1.1
   reload: 20.833
     rotate: true
