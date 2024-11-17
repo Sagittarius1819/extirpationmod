@@ -83,6 +83,7 @@ weapons: [
   y: 7
   layerOffset: 1.1
   reload: 20.833
+    rotate: true
   inaccuracy: 7.5
   shoot: {
   type: ShootBarrel
@@ -99,6 +100,7 @@ weapons: [
   {
   name: cellgun1
   x: 7
+  rotate: true
   top: true
     shootSound: shoot
   under: true
@@ -111,7 +113,7 @@ weapons: [
   shoot: {
   type: ShootBarrel
     shots: 1
-    shotDelay: 5
+    firstShotDelay: 5.25
 }
   bullet: {
     lifetime: 55
@@ -123,7 +125,8 @@ weapons: [
 }}
   {
   name: cellgun2
-  x: 10.5
+  x: 16.5
+    rotate: true
   top: true
     shootSound: laser
   shootEffect: shootSmall
