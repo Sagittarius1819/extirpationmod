@@ -111,7 +111,16 @@ weapons: [
     sides: 4
     followRotation: true
   }
-               chargeEffect: {
+ ]
+  shoot: {
+  type: ShootBarrel
+  shots: 6
+  shotDelay: 5
+}
+  ejectEffect: casing1
+  rotate: false
+  bullet: {
+                   chargeEffect: {
           {
             type: WaveEffect
             length: 48
@@ -124,15 +133,6 @@ weapons: [
             sizeTo: 0
             lifetime: 75
           }}
- ]
-  shoot: {
-  type: ShootBarrel
-  shots: 6
-  shotDelay: 5
-}
-  ejectEffect: casing1
-  rotate: false
-  bullet: {
 type: MissileBulletType
           speed: 5
               trailWidth: 1.25
