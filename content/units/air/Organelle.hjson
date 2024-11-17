@@ -78,7 +78,7 @@ weapons: [
   shootY: 7
   shootX: -3
   y: 2.325
-  recoil: 4.5
+  recoil: 3.5
   top: false
   reload: 130
   alternate: true
@@ -92,22 +92,22 @@ weapons: [
   {
     type: FlarePart
     x: -2.5
-    y: 7
+    y: 7.5
     color1: ffae70
     color2: ffd8d6
     spinSpeed: -3
-    radius: 7
+    radius: 4.5
     sides: 5
     followRotation: true
   }
     {
     type: FlarePart
     x: -2.5
-    y: 7
+    y: 7.5
     color1: ffae70
     color2: ffd8d6
     spinSpeed: 3
-    radius: 6
+    radius: 3.5
     sides: 4
     followRotation: true
   }
@@ -120,22 +120,6 @@ weapons: [
   ejectEffect: casing1
   rotate: false
   bullet: {
-             chargeEffect: {
-        type: SeqEffect
-        effects: [
-          {
-            type: WaveEffect
-            length: 48
-            baseLength: -48
-            cone: 360
-            particles: 22
-            sizeFrom: 100
-            colorFrom: ff7570
-            colorTo: bf3e39
-            sizeTo: 0
-            lifetime: 75
-          }
-        ]            }
 type: MissileBulletType
           speed: 5
               trailWidth: 1.25
