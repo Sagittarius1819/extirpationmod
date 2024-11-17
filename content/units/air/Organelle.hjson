@@ -10,7 +10,7 @@ hitSize: 32
 health: 9350
 trailScl: 1
 trailLength: 7.5
-engineOffset: 14
+engineOffset: 16
 itemCapacity: 65
 alwaysUnlocked: false
 outlineColor: 342222
@@ -77,7 +77,7 @@ weapons: [
   x: 16
   shootY: 7
   shootX: 10
-  y: 1.95
+  y: 2
   top: false
   reload: 130
   alternate: true
