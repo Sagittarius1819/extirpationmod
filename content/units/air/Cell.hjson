@@ -54,7 +54,7 @@ weapons: [
   {
     type: FlarePart
     x: 0
-    y: 3
+    y: 4.5
     color1: ffae70
     color2: ffd8d6
     spinSpeed: -2
@@ -65,7 +65,7 @@ weapons: [
     {
     type: FlarePart
     x: 0
-    y: 3
+    y: 4.5
     color1: ffae70
     color2: ffd8d6
     spinSpeed: 3
