@@ -70,6 +70,7 @@ weapons: [
     {
 top: false
       x: 0
+      recoil: 0
       chargeSound: rahh
       mirror: false
       shake: 1.5
@@ -78,15 +79,15 @@ top: false
             shootStatus: unmoving 
       shootCone: 10
       shoot: {
-                 shots: 20
-          shotDelay: 2
-          firstShotDelay: 125
+                 shots: 25
+          shotDelay: 4
+          firstShotDelay: 80
       }
         y: 0
-        reload: 225
-        shootStatusDuration: 75
+        reload: 550
+        shootStatusDuration: 80
         rotate: false
-        inaccuracy: 25
+        inaccuracy: 35
                 alternate: true
    shootSound: missileshot
         hitSound: bang
