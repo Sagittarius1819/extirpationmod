@@ -11,7 +11,7 @@ abilities: [
     spawnTime: 950
     unit: Ruin
     spawnX: 0
-    spawnY: 0
+    spawnY: -35
   }
 ]
 research: Decimate
