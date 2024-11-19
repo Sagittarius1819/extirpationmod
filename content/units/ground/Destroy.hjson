@@ -11,7 +11,7 @@ abilities: [
     spawnTime: 1200
     unit: Ruin
     spawnX: 0
-    spawnY: -22.5
+    spawnY: -22.75
   }
 ]
 research: Decimate
@@ -19,7 +19,7 @@ legCount: 4
 lockLegBase: true
 legContinuousMove: true
 legMoveSpace: 0.5
-legPairOffset: 1.5
+legPairOffset: 3
 parts: [
   {
     type: FlarePart
