@@ -69,6 +69,8 @@ researchCostMultiplier: 2.5
 weapons: [
     {
 top: false
+soundPitchMin: 0.5
+soundPitchMin: 1.2
       x: 0
       recoil: 0
       chargeSound: rahh
