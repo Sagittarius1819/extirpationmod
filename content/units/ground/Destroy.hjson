@@ -19,7 +19,6 @@ legCount: 4
 lockLegBase: true
 legContinuousMove: true
 legMoveSpace: 0.5
-legPairOffset: 3
 parts: [
   {
     type: FlarePart
@@ -46,7 +45,7 @@ parts: [
 ]
 legLength: 30
 legExtension: -10
-legBaseOffset: 5
+legBaseOffset: 10
 stepShake: 0.8
 legLengthScl: 0.8
 rippleScale: 3
