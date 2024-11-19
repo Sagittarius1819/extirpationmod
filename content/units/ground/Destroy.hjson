@@ -11,7 +11,7 @@ abilities: [
     spawnTime: 1200
     unit: Ruin
     spawnX: 0
-    spawnY: -25
+    spawnY: -22.5
   }
 ]
 research: Decimate
@@ -44,16 +44,16 @@ parts: [
     followRotation: true
   }
 ]
-legLength: 22
+legLength: 30
 legExtension: -10
 legBaseOffset: 5
 stepShake: 0.8
 legLengthScl: 0.8
 rippleScale: 3
-legSpeed: 0.19
+legSpeed: 0.2
 drag: 0.1
 speed: 0.42
-rotateSpeed: 1.95
+rotateSpeed: 1.8
 hovering: false
 drownTimeMultiplier: 2
 legSplashDamage: 18
