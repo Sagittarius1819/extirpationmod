@@ -83,11 +83,11 @@ soundPitchMin: 1.2
       shoot: {
                  shots: 25
           shotDelay: 5
-          firstShotDelay: 80
+          firstShotDelay: 70
       }
         y: 6
         reload: 550
-        shootStatusDuration: 80
+        shootStatusDuration: 70
         rotate: false
         inaccuracy: 35
                 alternate: true
@@ -97,9 +97,6 @@ soundPitchMin: 1.2
       chargeEffect: {
         type: SeqEffect
         effects: [
-          {
-          type: MultiEffect
-          effects: [
           {
             type: WaveEffect
             length: 48
@@ -124,9 +121,7 @@ soundPitchMin: 1.2
             sizeTo: 0
             lifetime: 60
           }
-
-            ]}
-           
+         
            { 
             type: ExplosionEffect
             length: 48
