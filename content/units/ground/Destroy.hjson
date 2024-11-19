@@ -15,9 +15,11 @@ abilities: [
   }
 ]
 research: Decimate
-legCount: 8
-legMoveSpace: 0.8
-legPairOffset: 3
+legCount: 4
+lockLegBase: true
+legContinuousMove: true
+legMoveSpace: 0.5
+legPairOffset: 1.5
 parts: [
   {
     type: FlarePart
