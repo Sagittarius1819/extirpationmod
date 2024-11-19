@@ -8,6 +8,7 @@ squareSprite: false
 itemCapacity: 25
 outputItems: [
   Blackplate/5
+    Corium/2
 ]
 consumes: {
 items: [

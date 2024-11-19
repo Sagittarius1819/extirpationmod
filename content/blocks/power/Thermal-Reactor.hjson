@@ -37,6 +37,7 @@ consumes: {
    items: [
    Jet/2
   ]
+  power: 2
 }
 ambientSound: hum
 ambientSoundVolume: 0.5

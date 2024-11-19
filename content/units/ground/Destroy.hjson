@@ -1,0 +1,66 @@
+type: legs
+name: Destroy
+description: Capable of building and automatically repairing damaged structures. Equipped with a double barrel healing launcher, a piercing heal laser array and two missile launchers.
+hitSize: 26
+health: 22500
+outlineColor: 643b3b
+armor: 13
+abilities: [
+  {
+    type: UnitSpawnAbility
+    spawnTime: 950
+    unit: Ruin
+    spawnX: 0
+    spawnY: 0
+  }
+]
+research: Decimate
+legCount: 8
+legMoveSpace: 0.8
+legPairOffset: 3
+parts: [
+  {
+    type: FlarePart
+    x: 0
+    y: 0
+    color1: ff7570
+    color2: ffd8d6
+    spinSpeed: -0.5
+    radius: 8.5
+    sides: 6
+    followRotation: true
+  }
+    {
+    type: FlarePart
+    x: 0
+    y: 0
+    color1: ff7570
+    color2: ffd8d6
+    spinSpeed: 1
+    radius: 7
+    sides: 5
+    followRotation: true
+  }
+]
+legLength: 50
+legExtension: -17
+legBaseOffset: 8
+stepShake: 1
+legLengthScl: 0.93
+buildSpeed: 2.2
+rippleScale: 3
+legSpeed: 0.19
+drag: 0.1
+speed: 0.41
+rotateSpeed: 1.95
+hovering: false
+drownTimeMultiplier: 2
+legSplashDamage: 20
+legSplashRange: 32
+itemCapacity: 200
+weapons: [
+  {
+
+  }
+]
+researchCostMultiplier: 2.5

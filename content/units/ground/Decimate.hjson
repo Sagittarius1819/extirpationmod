@@ -14,7 +14,7 @@ outlineColor: 643b3b
 mechLegColor: 513030
 researchCostMultiplier: 1.5
  research: {
-  parent: Wreck
+  parent: Raze
   requirements: [
     Tin/15000
     CopperAlt/10000
