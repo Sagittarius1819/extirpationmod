@@ -2,6 +2,7 @@ type: ItemTurret
 name: Bespatter
 description: Sprays accurate bullets at flying targets. Less effective against crowds.
 size: 3
+ammoPerShot: 2
 category: turret
  recoil: 5
 research: {

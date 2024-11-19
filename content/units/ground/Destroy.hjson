@@ -65,3 +65,71 @@ weapons: [
   }
 ]
 researchCostMultiplier: 2.5
+
+weapos: [
+    {
+top: false
+      x: 0
+      chargeSound: rahh
+      mirror: false
+      shake: 1.5
+      shootEffect: none
+      drawFlare: false
+            shootStatus: unmoving 
+      shootCone: 10
+      shoot: {
+                 shots: 20
+          shotDelay: 2
+          firstShotDelay: 125
+      }
+        y: 0
+        reload: 225
+        shootStatusDuration: 75
+        rotate: false
+        inaccuracy: 25
+                alternate: true
+   shootSound: missileshot
+        hitSound: bang
+        bullet: {
+             chargeEffect: {
+        type: SeqEffect
+        effects: [
+          {
+            type: WaveEffect
+            length: 48
+            baseLength: -48
+            cone: 360
+            particles: 22
+            sizeFrom: 100
+            colorFrom: ff7570
+            colorTo: bf3e39
+            sizeTo: 0
+            lifetime: 75
+          }
+        ]
+             }
+                         homing: true
+          type: MissileBulletType
+          speed: 6
+              trailWidth: 2
+          frontColor: ffb8b5
+          weaveMag: 5
+                    weaveScale: 6
+          backColor: ff8c87
+          lifetime: 55
+              homingPower: 0.2
+              homingRange: 25
+              trailColor: ff5b54
+        trailInterval: 4
+        TrailRotation: true
+         trailLength: 20
+          collidesAir: true
+          collides: true
+          collidesGround: true
+          pierce: false
+          damage: 48
+                    homingDelay: 7
+          width: 12
+          height: 30
+        }
+      }]

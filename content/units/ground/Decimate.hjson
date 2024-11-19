@@ -89,8 +89,8 @@ top: false
       shake: 1
       shootEffect: none
       drawFlare: false
-            shootStatus: unmoving 
-      shootCone: 45
+            shootStatus: slow 
+      shootCone: 5
       shoot: {
                  shots: 15
           shotDelay: 2.25

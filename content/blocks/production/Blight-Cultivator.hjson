@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Blight Cultivator
-description: Creates Blight using Bloodgrit and Marble
+description: Creates Blight using Bloodgrit and Marble. 
 size: 2
 health: 235
 buildCostMultiplier: 0.35

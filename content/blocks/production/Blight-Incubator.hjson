@@ -1,20 +1,20 @@
 type: GenericCrafter
 name: Blight Incubator
-description: Incubates Blight with the help of Marble and Bloodgrit
+description: Incubates Blight with the help of Marble, Bloodgrit and Jet. Produces a highly reactive substance as a waste product.
 size: 3
 health: 835
 buildCostMultiplier: 0.35
 squareSprite: false
 itemCapacity: 25
 outputItems: [
-  Blight/7
+  Blight/6
   Corium/2
 ]
 consumes: {
 items: [
  Bloodgrit/8
  Marble/6
- Blight/2
+ Jet/2
 ]
   power: 5.25
 }

@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Bronze Factory
-description: Melts, Mixes, and Solidifies Copper and Tin, to mass produce Bronze. Needs the extra heat from some jet to function.
+description: Melts, Mixes, and Solidifies Copper and Tin, to mass produce Bronze. Needs the extra heat from some jet to function. Produces a highly reactive substance as a waste product.
 size: 4
 health: 875
 hasLiquids: false
