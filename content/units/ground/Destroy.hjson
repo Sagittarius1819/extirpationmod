@@ -29,13 +29,13 @@ parts: [
     color2: ffd8d6
     spinSpeed: -0.5
     radius: 8.5
-    sides: 6
+    sides: 3
     followRotation: true
   }
     {
     type: FlarePart
     x: 0
-    y: -6
+    y: -3
     color1: ff7570
     color2: ffd8d6
     spinSpeed: 1
@@ -107,7 +107,7 @@ soundPitchMin: 1.2
             colorFrom: ff7570
             colorTo: bf3e39
             sizeTo: 0
-            lifetime: 45
+            lifetime: 40
           }
           {
             type: ParticleEffect
@@ -119,7 +119,7 @@ soundPitchMin: 1.2
             colorFrom: ff7570
             colorTo: bf3e39
             sizeTo: 0
-            lifetime: 45
+            lifetime: 40
           }
          
            { 
