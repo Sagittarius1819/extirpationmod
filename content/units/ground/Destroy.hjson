@@ -123,8 +123,9 @@ soundPitchMin: 1.2
             sizeTo: 0
             lifetime: 80
           }
-        ]
-            type: ExplosionEffect
+        ]}
+           
+           { type: ExplosionEffect
             length: 48
             baseLength: -48
             cone: 360
@@ -141,7 +142,7 @@ soundPitchMin: 1.2
             lifetime: 75
           }
         ]
-             }
+             
                          homing: true
           type: MissileBulletType
           speed: 6
