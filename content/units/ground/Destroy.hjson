@@ -97,8 +97,6 @@ soundPitchMin: 1.2
              chargeEffect: {
         type: SeqEffect
         effects: [
-          { type: MultiEffect
-          effects: [
           {
             type: WaveEffect
             length: 48
@@ -109,7 +107,7 @@ soundPitchMin: 1.2
             colorFrom: ff7570
             colorTo: bf3e39
             sizeTo: 0
-            lifetime: 80
+            lifetime: 40
           }
           {
             type: ParticleEffect
@@ -120,10 +118,8 @@ soundPitchMin: 1.2
             colorFrom: ff7570
             colorTo: bf3e39
             sizeTo: 0
-            lifetime: 80
+            lifetime: 40
           }
-        
-            ]}
            
            { 
             type: ExplosionEffect
