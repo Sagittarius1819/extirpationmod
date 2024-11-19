@@ -4,7 +4,6 @@ description: Capable of building and automatically repairing damaged structures.
 hitSize: 26
 health: 22500
 outlineRadius: 4
-legPairOffset: 3
 outlineColor: 643b3b
 armor: 13
 abilities: [
