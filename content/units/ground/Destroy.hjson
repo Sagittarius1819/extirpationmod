@@ -24,7 +24,7 @@ parts: [
   {
     type: FlarePart
     x: 0
-    y: 0
+    y: -6
     color1: ff7570
     color2: ffd8d6
     spinSpeed: -0.5
@@ -35,7 +35,7 @@ parts: [
     {
     type: FlarePart
     x: 0
-    y: 0
+    y: -6
     color1: ff7570
     color2: ffd8d6
     spinSpeed: 1
@@ -85,7 +85,7 @@ soundPitchMin: 1.2
           shotDelay: 5
           firstShotDelay: 70
       }
-        y: 6
+        y: 0
         reload: 550
         shootStatusDuration: 70
         rotate: false
@@ -107,7 +107,7 @@ soundPitchMin: 1.2
             colorFrom: ff7570
             colorTo: bf3e39
             sizeTo: 0
-            lifetime: 80
+            lifetime: 45
           }
           {
             type: ParticleEffect
@@ -119,7 +119,7 @@ soundPitchMin: 1.2
             colorFrom: ff7570
             colorTo: bf3e39
             sizeTo: 0
-            lifetime: 60
+            lifetime: 45
           }
          
            { 
