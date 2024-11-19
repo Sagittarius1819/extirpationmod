@@ -82,10 +82,10 @@ soundPitchMin: 1.2
       shootCone: 10
       shoot: {
                  shots: 25
-          shotDelay: 4
+          shotDelay: 5
           firstShotDelay: 80
       }
-        y: 0
+        y: 6
         reload: 550
         shootStatusDuration: 80
         rotate: false
@@ -97,6 +97,8 @@ soundPitchMin: 1.2
              chargeEffect: {
         type: SeqEffect
         effects: [
+          { type: MultiEffect
+          effects: [
           {
             type: WaveEffect
             length: 48
@@ -104,6 +106,35 @@ soundPitchMin: 1.2
             cone: 360
             particles: 22
             sizeFrom: 100
+            colorFrom: ff7570
+            colorTo: bf3e39
+            sizeTo: 0
+            lifetime: 80
+          }
+          {
+            type: ParticleEffect
+            length: 48
+            baseLength: -48
+            cone: 360
+            particles: 25
+            sizeFrom: 50
+            colorFrom: ff7570
+            colorTo: bf3e39
+            sizeTo: 0
+            lifetime: 80
+          }
+        ]
+            type: ExplosionEffect
+            length: 48
+            baseLength: -48
+            cone: 360
+            particles: 22
+            smokeRad: 75
+            smokeColor:ffd8d6
+            waveColor:ffd8d6
+            sparkColor:ffd8d6
+            waveRad: 75
+            sparks: 10
             colorFrom: ff7570
             colorTo: bf3e39
             sizeTo: 0
