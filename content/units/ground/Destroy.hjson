@@ -3,6 +3,8 @@ name: Destroy
 description: Capable of building and automatically repairing damaged structures. Equipped with a double barrel healing launcher, a piercing heal laser array and two missile launchers.
 hitSize: 26
 health: 22500
+outlineRadius: 4
+legPairOffset: 3
 outlineColor: 643b3b
 armor: 13
 abilities: [
