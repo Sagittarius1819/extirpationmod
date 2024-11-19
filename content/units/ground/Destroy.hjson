@@ -8,10 +8,10 @@ armor: 13
 abilities: [
   {
     type: UnitSpawnAbility
-    spawnTime: 950
+    spawnTime: 1200
     unit: Ruin
     spawnX: 0
-    spawnY: -35
+    spawnY: -25
   }
 ]
 research: Decimate
@@ -44,21 +44,20 @@ parts: [
     followRotation: true
   }
 ]
-legLength: 50
-legExtension: -17
-legBaseOffset: 8
-stepShake: 1
-legLengthScl: 0.93
-buildSpeed: 2.2
+legLength: 22
+legExtension: -10
+legBaseOffset: 5
+stepShake: 0.8
+legLengthScl: 0.8
 rippleScale: 3
 legSpeed: 0.19
 drag: 0.1
-speed: 0.41
+speed: 0.42
 rotateSpeed: 1.95
 hovering: false
 drownTimeMultiplier: 2
-legSplashDamage: 20
-legSplashRange: 32
+legSplashDamage: 18
+legSplashRange: 16
 itemCapacity: 200
 weapons: [
   {
