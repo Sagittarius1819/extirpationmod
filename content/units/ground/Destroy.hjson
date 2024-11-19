@@ -44,7 +44,7 @@ parts: [
   }
 ]
 legLength: 30
-legExtension: -20
+legExtension: -2.5
 legBaseOffset: 10
 stepShake: 0.8
 legLengthScl: 0.8
