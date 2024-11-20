@@ -162,7 +162,7 @@ soundPitchMin: 1.2
           collides: true
           collidesGround: true
           pierce: false
-          damage: 48
+          damage: 60
                     homingDelay: 7
           width: 12
           height: 30
@@ -215,7 +215,7 @@ trailColor: ffb29a
           despawnSound: spark
           lifetime: 1
         }
-                  splashDamage: 27
+                  splashDamage: 47
     splashDamageRadius: 32
         }}
       ]
