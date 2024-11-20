@@ -1,5 +1,5 @@
 name: extirpation
-displayName: EXTIRPATION [BETA]
+displayName: EXTIRPATION BETA
 author: Orion & Roj
 description: 
 '''
@@ -12,5 +12,5 @@ https://discord.gg/N6Ux5K9fR2
 
 We encourage you to test out the mod in sandbox first. Thank you, and have fun!
 '''
-version: "1.05"
+version: "1.06"
 minGameVersion: "146"
