@@ -173,7 +173,7 @@ soundPitchMin: 1.2
         shootY: 25
       x: -20.35
       top: false
-      name: DestroyNuker
+      name: magicshot
       recoil: 5
       shootCone: 45
         y: 0.85
