@@ -175,7 +175,7 @@ soundPitchMin: 1.2
       name: DestroyNuker
       recoil: 2
       shootCone: 45
-        y: 1.25
+        y: 1.175
         reload: 111
         rotate: false
         mirror: true
@@ -201,12 +201,13 @@ trailColor: ffb29a
           width: 20
           height: 20
            fragBullets: 5
+           fragOffsetMin: 1.2
            fragLifeMin: 0.5
            fragLifeMax: 1.5
         fragBullet: {
           type: LightningBulletType
           lightningColor: ff5b54
-          lightningLength: 10
+          lightningLength: 7.5
           lightningDamage: 65
           hitSound: spark
           despawnSound: spark
