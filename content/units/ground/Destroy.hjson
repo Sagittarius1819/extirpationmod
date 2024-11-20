@@ -170,7 +170,8 @@ soundPitchMin: 1.2
 
 
       {
-      x: -20.5
+        shooyY: 20
+      x: -20.3
       top: false
       name: DestroyNuker
       recoil: 5
