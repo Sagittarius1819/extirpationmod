@@ -12,7 +12,7 @@ legCount: 6
 legGroupSide: 2
 lockLegBase: true
 legContinuousMove: true
-legLength: 9
+legLength: 10.5
 legSpeed: 0.45
 legBaseOffset: 5
 legForwardScl: 0.56
