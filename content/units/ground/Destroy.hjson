@@ -146,7 +146,7 @@ soundPitchMin: 1.2
                          homing: true
           type: MissileBulletType
           speed: 6
-              trailWidth: 2
+              trailWidth: 4
           frontColor: ffb8b5
           weaveMag: 5
                     weaveScale: 6
@@ -170,7 +170,7 @@ soundPitchMin: 1.2
 
 
       {
-      x: -21
+      x: -20.9
       top: false
       name: DestroyNuker
       recoil: 5
