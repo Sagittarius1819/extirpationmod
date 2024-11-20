@@ -9,11 +9,12 @@ legExtension: -2.5
 legMoveSpace: 3
 hovering: false
 legCount: 4
+legGroupSide: 1
 lockLegBase: true
 legContinuousMove: true
-legLength: 8
-legSpeed: 0.4
-legBaseOffset: 0
+legLength: 13
+legSpeed: 0.45
+legBaseOffset: 5
 legForwardScl: 0.56
 itemCapacity: 10
 outlineColor: 824b4b
