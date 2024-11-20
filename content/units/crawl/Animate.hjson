@@ -33,30 +33,45 @@ weapons: [
     rotate: false
     inaccuracy: 3
     shoot: {
-      shots: 2
+      shots: 1
       shotDelay: 24
     }
     bullet: {
-      type: LiquidBulletType
-      weaveScale: 2
-      weaveMag: 2
-      width: 6
-      height: 8
-      speed: 2
-      liquid: slag
-      lifetime: 90
-      damage: 18
-      pierce: true
-      pierceBuilding: true
-      pierceCap: 2
-      collidesTeam: true
-      healPercent: 2
-      trailChance: -1
-      trailLength: 12
-      trailWidth: 1.4
-      lightColor: f5b192
-      hitSound: dullExplosion
-      despawnSound: dullExplosion
+     status: Status-Paralyzed
+    trailColor: a6cc54
+    trailRotation: true
+    trailLength: 10
+    trailWidth: 1.25
+    type: BasicBulletType
+    layer: 111
+    width: 6
+    height: 72
+    speed: 6.5
+    lifetime: 20
+    frontColor: aed197
+    backColor: 8aa36d
+    pierce: true
+    pierceBuilding: false
+    pierceCap: 3
+    damage: 75
+    despawnSound: Dripshot
+    }
+  }
+    {
+    type: RepairBeamWeapon
+    x: 0
+    y: 8
+    mirror: false
+    shootCone: 90
+    repairSpeed: 0.12
+    targetBuildings: false
+    targetUnits: true
+    controllable: false
+    aiControllable: true
+    autoTarget: true
+    rotate: true
+    bullet: {
+      maxRange: 70
     }
   }
 ]
