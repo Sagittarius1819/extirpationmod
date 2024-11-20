@@ -170,7 +170,7 @@ soundPitchMin: 1.2
 
 
       {
-        shootY: 25
+        shootY: 18
       x: -20.35
       top: false
       name: DestroyNuker
@@ -182,7 +182,7 @@ soundPitchMin: 1.2
         mirror: true
         alternate: true
         inaccuracy: 7
-        shootSound: magicshot
+        shootSound: largeCannon
         shootSoundVolume: 0.6
         hitSound: bang
         bullet: {
