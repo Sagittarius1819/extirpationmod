@@ -149,6 +149,19 @@ soundPitchMin: 1.2
               trailWidth: 4
           frontColor: ffb8b5
           weaveMag: 5
+            fragBullets: 5
+           fragOffsetMin: 1.2
+           fragLifeMin: 0.5
+           fragLifeMax: 1.5
+        fragBullet: {
+          type: LightningBulletType
+          lightningColor: ff5b54
+          lightningLength: 7.5
+          lightningDamage: 45
+          hitSound: spark
+          despawnSound: spark
+          lifetime: 1
+        }
                     weaveScale: 6
           backColor: ff8c87
           lifetime: 55
