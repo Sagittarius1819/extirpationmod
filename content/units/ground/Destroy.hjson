@@ -197,20 +197,22 @@ trailColor: ffb29a
           collides: true
           collidesGround: true
           pierce: false
-          damage: 125
+          damage: 135
           width: 20
           height: 20
            fragBullets: 5
+           fragLifeMin: 0.8
+           fragLifeMin: 1.2
         fragBullet: {
           type: LightningBulletType
           lightningColor: ff5b54
-          lightningLength: 7
-          lightningDamage: 45
+          lightningLength: 10
+          lightningDamage: 65
           hitSound: spark
           despawnSound: spark
           lifetime: 1
         }
-                  splashDamage: 17
+                  splashDamage: 27
     splashDamageRadius: 32
         }}
       ]
