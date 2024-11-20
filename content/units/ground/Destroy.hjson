@@ -170,12 +170,12 @@ soundPitchMin: 1.2
 
 
       {
-      x: -20.9
+      x: -20.85
       top: false
       name: DestroyNuker
       recoil: 5
       shootCone: 45
-        y: 1.17
+        y: 1.1675
         reload: 111
         rotate: false
         mirror: true
@@ -187,6 +187,7 @@ soundPitchMin: 1.2
         bullet: {
 trailColor: ffb29a
     trailInterval: 6
+    trailWidth: 2.5
     TrailRotation: true
     trailLength: 50
         trailEffect: missileTrail
