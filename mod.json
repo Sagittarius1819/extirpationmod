@@ -2,6 +2,7 @@ name: extirpation
 displayName: EXTIRPATION BETA
 author: Orion & Roj
 description: 
+Do you smell something burning?
 '''
 An Upcoming mod that adds units, blocks, and a new, rusted planet.
 Contributors: Sh1p for minor bases and Roj for ideas.
@@ -12,5 +13,5 @@ https://discord.gg/N6Ux5K9fR2
 
 We encourage you to test out the mod in sandbox first. Thank you, and have fun!
 '''
-version: "1.06"
+version: "1.07"
 minGameVersion: "146"
