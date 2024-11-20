@@ -6,7 +6,7 @@ flying: false
 health: 525
 hitSize: 15
 alwaysUnlocked: false
-outlineColor: 643b3b
+outlineColor: 6e4548
 mechLegColor: 513030
 researchCostMultiplier: 1.5
  research: {

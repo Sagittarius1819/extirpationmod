@@ -7,7 +7,7 @@ health: 1000
 hitSize: 10
 armor: 4
 alwaysUnlocked: false
-outlineColor: 643b3b
+outlineColor: 6e4548
 mechLegColor: 513030
 researchCostMultiplier: 1.5
  research: {
