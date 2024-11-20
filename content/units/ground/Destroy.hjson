@@ -83,11 +83,11 @@ soundPitchMin: 1.2
       shoot: {
                  shots: 25
           shotDelay: 5
-          firstShotDelay: 70
+          firstShotDelay: 65
       }
         y: 0
-        reload: 550
-        shootStatusDuration: 70
+        reload: 555
+        shootStatusDuration: 65
         rotate: false
         inaccuracy: 35
                 alternate: true
@@ -103,11 +103,11 @@ soundPitchMin: 1.2
             baseLength: -48
             cone: 360
             particles: 22
-            sizeFrom: 100
+            sizeFrom: 125
             colorFrom: ff7570
-            colorTo: bf3e39
+            colorTo: ffffffff
             sizeTo: 0
-            lifetime: 37
+            lifetime: 35
           }
           {
             type: ParticleEffect
@@ -119,7 +119,7 @@ soundPitchMin: 1.2
             colorFrom: ff7570
             colorTo: bf3e39
             sizeTo: 0
-            lifetime: 37
+            lifetime: 35
           }
          
            { 
