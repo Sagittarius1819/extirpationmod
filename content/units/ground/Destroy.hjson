@@ -188,7 +188,7 @@ soundPitchMin: 1.2
 trailColor: ffb29a
     trailInterval: 6
     TrailRotation: true
-    trailLength: 5
+    trailLength: 50
         trailEffect: missileTrail
           type: ArtilleryBulletType
           speed: 2.5
