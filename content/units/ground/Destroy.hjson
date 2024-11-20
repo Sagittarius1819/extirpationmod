@@ -201,8 +201,8 @@ trailColor: ffb29a
           width: 20
           height: 20
            fragBullets: 5
-           fragLifeMin: 0.8
-           fragLifeMin: 1.2
+           fragLifeMin: 0.5
+           fragLifeMax: 1.5
         fragBullet: {
           type: LightningBulletType
           lightningColor: ff5b54
