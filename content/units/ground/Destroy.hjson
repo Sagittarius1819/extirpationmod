@@ -170,12 +170,12 @@ soundPitchMin: 1.2
 
 
       {
-      x: -21.5
+      x: -20
       top: false
       name: DestroyNuker
       recoil: 2
       shootCone: 45
-        y: 1.175
+        y: 1.17
         reload: 111
         rotate: false
         mirror: true
