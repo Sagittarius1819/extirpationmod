@@ -18,7 +18,7 @@ items: [
 ]
   power: 5.25
 }
-craftTime: 70
+craftTime: 85
 craftEffect: {
   type: RadialEffect
   rotationSpacing: 45

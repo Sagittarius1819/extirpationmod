@@ -4,8 +4,6 @@ description: Creates a large amount of power from Slag and Jet
 size: 3
 hasLiquids: true
 hasItems: true
-craftTime: 75
-outputItems: Corium/1
 category: power
 squareSprite: false
 buildCostMultiplier: 0.5

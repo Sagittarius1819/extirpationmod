@@ -16,21 +16,26 @@ consumes: {
       slag/0.325
       Oxygen/0.15
   ]
-  power: 1.25
+        items: [
+Plutonium/1
+  ]
+  power: 1.35
 }
-craftTime: 65
+craftTime: 60
 category: crafting
 research: {
   parent: Bronze-Solidifier
 requirements: [
- CopperAlt/700
-  Tin/850
+ CopperAlt/7000
+  Tin/8500
+  Plutonium/50
 ]
 researchCostMultiplier: 0.5
 }
 requirements: [
  CopperAlt/60
   Tin/105
+  Plutonium/35
 ]
 
 drawer: {
