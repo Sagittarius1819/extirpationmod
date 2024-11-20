@@ -1,6 +1,16 @@
 name: extirpation
-displayName: EXTIRPATION
+displayName: EXTIRPATION [BETA]
 author: Orion & Roj
-description: Upcoming mod that adds units, blocks, and possibly a planet. Contributors: Sh1p for minor bases
-version: "1.0"
+description: 
+'''
+An Upcoming mod that adds units, blocks, and a new, rusted planet.
+Contributors: Sh1p for minor bases and Roj for ideas.
+Warning, mod is extremely rough, unpolished, and NOT COMPLETED.
+Any suggestions, feedback, changes, or ideas you have for the mod,
+please send it in our official discord server! 
+https://discord.gg/N6Ux5K9fR2
+
+We encourage you to test out the mod in sandbox first. Thank you, and have fun!
+'''
+version: "1.05"
 minGameVersion: "146"
