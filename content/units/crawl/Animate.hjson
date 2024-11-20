@@ -6,7 +6,7 @@ health: 700
 armor: 2.5
 flying: false
 legExtension: -2.5
-legMoveSpace: 3
+legMoveSpace: 2
 hovering: false
 legCount: 6
 legGroupSide: 2
@@ -21,9 +21,9 @@ outlineColor: 824b4b
 hitSize: 6
 weapons: [
   {
-    x: 8.25
+    x: 8.2
     name: Animate-weapon
-    y: 0
+    y: 0.5
     reload: 72
           drawFlare: false
     shootSound: FireShot
