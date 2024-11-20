@@ -173,7 +173,7 @@ soundPitchMin: 1.2
         shootY: 25
       x: -20.35
       top: false
-      name: magicshot
+      name: DestroyNuker
       recoil: 5
       shootCone: 45
         y: 0.85
@@ -182,7 +182,7 @@ soundPitchMin: 1.2
         mirror: true
         alternate: true
         inaccuracy: 7
-        shootSound: artillery
+        shootSound: magicshot
         shootSoundVolume: 0.6
         hitSound: bang
         bullet: {
