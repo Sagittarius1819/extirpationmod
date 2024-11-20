@@ -8,11 +8,11 @@ flying: false
 legExtension: -2.5
 legMoveSpace: 3
 hovering: false
-legCount: 4
-legGroupSide: 1
+legCount: 6
+legGroupSide: 2
 lockLegBase: true
 legContinuousMove: true
-legLength: 13
+legLength: 12
 legSpeed: 0.45
 legBaseOffset: 5
 legForwardScl: 0.56
@@ -21,9 +21,9 @@ outlineColor: 824b4b
 hitSize: 6
 weapons: [
   {
-    x: -5.2
+    x: 8.25
     name: Animate-weapon
-    y: 8.25
+    y: 0
     reload: 72
           drawFlare: false
     shootSound: FireShot
