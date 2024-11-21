@@ -22,20 +22,6 @@ research: {
 
 
 researchCostMultiplier: 0.05
-      smokeEffect: {
-        type: ParticleEffect
-          particles: 25
-          length: 95
-          lifetime: 36
-          interp: circleOut
-          cone: 3
-          colorFrom: ffffff
-          rotWithParent: false
-          followParent: false
-          colorTo: 50007a
-          sizeFrom: 4
-          sizeTo: 0.6
-        }
 shootSound: flame
 requirements: [
     Tin/650
@@ -52,11 +38,11 @@ coolant: {
 consumes: {
   power: 2.5
 }
-outlineColor: 342222
-liquidConsumed: 0.85
+outlineColor: 11.67
+liquidConsumed: 1.2
 targetInterval: 5
 targetUnderBlocks: false
-range: 144
+range: 125
 targetAir: false
 shootY: 4
 loopSound: PlasmaLoop
@@ -64,7 +50,7 @@ loopSoundVolume: 1
  solid: true
 drawer: {
   type: DrawTurret
-  basePrefix: Rusted-
+  basePrefix: Dark-
   parts: [
   ]
 }
@@ -75,9 +61,23 @@ slag: {
     hitColor: ffffffCC
     type: BasicBulletType
     damage: 4.5
+    speed: 6
     length: 0
     knockback: 0.4
     pierceCap: 3
-    colors: [ff9456, ffb68c, fde1d1, fff8f4]
     lightColor: ffffffCC
+          smokeEffect: {
+        type: ParticleEffect
+          particles: 25
+          length: 125
+          lifetime: 36
+          interp: circleOut
+          cone: 3
+          colorFrom: ffffff
+          rotWithParent: false
+          followParent: false
+          colorTo: 50007a
+          sizeFrom: 4
+          sizeTo: 0.6
+        }
   }}
