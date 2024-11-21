@@ -36,9 +36,9 @@ coolant: {
   amount: 0.1
 }
 consumes: {
-  power: 2.5
+  power: 11.67
 }
-outlineColor: 11.67
+outlineColor: 100d0d
 liquidConsumed: 1.2
 targetInterval: 5
 targetUnderBlocks: false
@@ -48,7 +48,15 @@ shootY: 4
 loopSound: PlasmaLoop
 loopSoundVolume: 1
  solid: true
- smokeEffect: {
+drawer: {
+  type: DrawTurret
+  basePrefix: Dark-
+  parts: [
+  ]
+}
+ammoTypes: {
+slag: {
+     smokeEffect: {
         type: ParticleEffect
           particles: 25
           length: 125
@@ -62,14 +70,7 @@ loopSoundVolume: 1
           sizeFrom: 4
           sizeTo: 0.6
         }
-drawer: {
-  type: DrawTurret
-  basePrefix: Dark-
-  parts: [
-  ]
-}
-ammoTypes: {
-slag: {
+        despawnEffect: none
     width: 0
     drawFlare: false
     hitColor: ffffffCC
