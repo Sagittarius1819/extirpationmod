@@ -2,7 +2,6 @@ type: LiquidTurret
 name: Prowess
 description: Fires a stream of manipulated liquid at targets
 size: 3
-shootY: 30
 health: 1080
 category: turret
 research: {
@@ -53,6 +52,7 @@ loopSoundVolume: 1
         type: ParticleEffect
           particles: 25
           length: 125
+          y: 16
           lifetime: 36
           interp: circleOut
           cone: 4.5
