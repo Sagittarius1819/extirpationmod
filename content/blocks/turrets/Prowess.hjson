@@ -1,0 +1,83 @@
+type: LiquidTurret
+name: Prowess
+description: Fires a stream of manipulated liquid at targets
+size: 1080
+health: 560
+category: turret
+research: {
+  parent: Splatter
+  requirements: [
+    Tin/1250
+    CopperAlt/1000
+    Blackplate/750
+  ]
+  objectives: [
+    {
+      type: SectorComplete
+      preset: Inception
+    }
+  ]
+}
+
+
+
+researchCostMultiplier: 0.05
+      smokeEffect: {
+        type: ParticleEffect
+          particles: 25
+          length: 95
+          lifetime: 36
+          interp: circleOut
+          cone: 3
+          colorFrom: ffffff
+          rotWithParent: false
+          followParent: false
+          colorTo: 50007a
+          sizeFrom: 4
+          sizeTo: 0.6
+        }
+shootSound: flame
+requirements: [
+    Tin/650
+    CopperAlt/550
+    Blackplate/750
+    Bronze/355
+]
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.1
+}
+consumes: {
+  power: 2.5
+}
+outlineColor: 342222
+liquidConsumed: 0.85
+targetInterval: 5
+targetUnderBlocks: false
+range: 144
+targetAir: false
+shootY: 4
+loopSound: PlasmaLoop
+loopSoundVolume: 1
+ solid: true
+drawer: {
+  type: DrawTurret
+  basePrefix: Rusted-
+  parts: [
+  ]
+}
+ammoTypes: {
+slag: {
+    width: 0
+    drawFlare: false
+    hitColor: ffffffCC
+    type: BasicBulletType
+    damage: 4.5
+    length: 0
+    knockback: 0.4
+    pierceCap: 3
+    colors: [ff9456, ffb68c, fde1d1, fff8f4]
+    lightColor: ffffffCC
+  }}
