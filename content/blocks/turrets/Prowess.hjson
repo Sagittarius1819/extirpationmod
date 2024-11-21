@@ -48,15 +48,7 @@ shootY: 4
 loopSound: PlasmaLoop
 loopSoundVolume: 1
  solid: true
-drawer: {
-  type: DrawTurret
-  basePrefix: Dark-
-  parts: [
-  ]
-}
-ammoTypes: {
-slag: {
-     smokeEffect: {
+      smokeEffect: {
         type: ParticleEffect
           particles: 25
           length: 125
@@ -70,6 +62,14 @@ slag: {
           sizeFrom: 4
           sizeTo: 0.6
         }
+drawer: {
+  type: DrawTurret
+  basePrefix: Dark-
+  parts: [
+  ]
+}
+ammoTypes: {
+slag: {
         despawnEffect: none
     width: 0
     drawFlare: false
