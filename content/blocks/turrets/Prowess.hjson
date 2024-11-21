@@ -59,7 +59,7 @@ loopSoundVolume: 1
           colorFrom: ffffff
           rotWithParent: false
           followParent: false
-          colorTo: 50007a
+          colorTo: 666666
           sizeFrom: 4
           sizeTo: 0.8
         }
