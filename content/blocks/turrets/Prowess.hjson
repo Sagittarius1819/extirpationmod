@@ -2,7 +2,7 @@ type: LiquidTurret
 name: Prowess
 description: Fires a stream of manipulated liquid at targets
 size: 3
-shootY: 23.5
+shootY: 30
 health: 1080
 category: turret
 research: {
