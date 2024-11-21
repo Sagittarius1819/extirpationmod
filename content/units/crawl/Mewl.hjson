@@ -108,6 +108,7 @@ weapons: [
           cone: 3
           colorFrom: ffffff
           rotWithParent: false
+          followParent: false
           colorTo: 50007a
           sizeFrom: 4
           sizeTo: 0.6
