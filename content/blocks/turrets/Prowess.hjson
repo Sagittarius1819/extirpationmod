@@ -48,6 +48,20 @@ shootY: 4
 loopSound: PlasmaLoop
 loopSoundVolume: 1
  solid: true
+ smokeEffect: {
+        type: ParticleEffect
+          particles: 25
+          length: 125
+          lifetime: 36
+          interp: circleOut
+          cone: 3
+          colorFrom: ffffff
+          rotWithParent: false
+          followParent: false
+          colorTo: 50007a
+          sizeFrom: 4
+          sizeTo: 0.6
+        }
 drawer: {
   type: DrawTurret
   basePrefix: Dark-
@@ -66,18 +80,4 @@ slag: {
     knockback: 0.4
     pierceCap: 3
     lightColor: ffffffCC
-          smokeEffect: {
-        type: ParticleEffect
-          particles: 25
-          length: 125
-          lifetime: 36
-          interp: circleOut
-          cone: 3
-          colorFrom: ffffff
-          rotWithParent: false
-          followParent: false
-          colorTo: 50007a
-          sizeFrom: 4
-          sizeTo: 0.6
-        }
   }}
