@@ -77,7 +77,7 @@ slag: {
     hitColor: ffffffCC
     type: BasicBulletType
     lifetime: 45
-    damage: 4.5
+    damage: 20
     speed: 6
     length: 0
     knockback: 0.4
