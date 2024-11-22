@@ -2,14 +2,14 @@ type: legs
 name: Destroy
 description: Capable of building and automatically repairing damaged structures. Equipped with a double barrel healing launcher, a piercing heal laser array and two missile launchers.
 hitSize: 26
-health: 23000
+health: 26000
 outlineRadius: 4
 outlineColor: 6e4548
 armor: 18.5
 abilities: [
   {
     type: UnitSpawnAbility
-    spawnTime: 1200
+    spawnTime: 900
     unit: Ruin
     spawnX: 0
     spawnY: -22.75
@@ -128,17 +128,17 @@ soundPitchMin: 1.2
             length: 48
             baseLength: -48
             cone: 360
-            particles: 22
-            smokeRad: 75
+            particles: 28
+            smokeRad: 175
             smokeColor:ffd8d6
             waveColor:ffd8d6
             sparkColor:ffd8d6
             waveRad: 75
-            sparks: 10
+            sparks: 20
             colorFrom: ff7570
             colorTo: bf3e39
             sizeTo: 0
-            lifetime: 75
+            lifetime: 150
           }
         ]
       }
@@ -157,7 +157,7 @@ soundPitchMin: 1.2
           type: LightningBulletType
           lightningColor: ff5b54
           lightningLength: 7.5
-          lightningDamage: 45
+          damage: 55
           hitSound: spark
           despawnSound: spark
           lifetime: 1
@@ -175,7 +175,7 @@ soundPitchMin: 1.2
           collides: true
           collidesGround: true
           pierce: false
-          damage: 60
+          damage: 75
                     homingDelay: 7
           width: 12
           height: 30
@@ -212,7 +212,7 @@ trailColor: ffb29a
           collides: true
           collidesGround: true
           pierce: false
-          damage: 135
+          damage: 235
           width: 20
           height: 20
            fragBullets: 5
@@ -223,12 +223,12 @@ trailColor: ffb29a
           type: LightningBulletType
           lightningColor: ff5b54
           lightningLength: 7.5
-          lightningDamage: 65
+          damage: 35
           hitSound: spark
           despawnSound: spark
           lifetime: 1
         }
-                  splashDamage: 47
-    splashDamageRadius: 32
+                  splashDamage: 80
+    splashDamageRadius: 64
         }}
       ]

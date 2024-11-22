@@ -2,7 +2,7 @@ type: Wall
 name: Large Hematite Wall
 description: A large, harder, more durable wall to protect your structures.
 size: 2
-health: 2000
+health: 1800
 squareSprite: false
 requirements: [
   Hematite/20
