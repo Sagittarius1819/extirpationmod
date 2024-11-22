@@ -5,12 +5,12 @@ size: 3
 customShadow: true
 placeablePlayer: false
 requirements: [
-  Tin/150
+  scrap/225
   Plutonium/60
   Blackplate/210
   Bronze/60
-  CopperAlt/75
   Hematite/90
+  Ignea/90
 ]
 research: Ground-Developer
 researchCostMultiplier: 0.25

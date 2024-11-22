@@ -1,0 +1,16 @@
+type: Wall
+name: Destroy Chunk
+description: A large base section of the Destroy Mech.
+size: 3
+customShadow: true
+placeablePlayer: false
+requirements: [
+  scrap/250
+  Blackplate/125
+  Hematite/78
+  Ignea/120
+  Plutonium/125
+    Bronze/110
+]
+research: Destroy
+researchCostMultiplier: 0.25

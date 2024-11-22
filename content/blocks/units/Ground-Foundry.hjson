@@ -28,6 +28,18 @@ plans: [
     ]
     time: 4500
   }
+  {
+    type: AssemblerUnitPlan
+    unit: Destroy
+    requirements: [
+    extirpation-DestroyNukerUnit/2
+    extirpation-DestroyCore/1
+    extirpation-DestroyChunk/4
+    extirpation-DestroyCoils/8
+    extirpation-Raze/2
+    ]
+    time: 14500
+  }
 ]
 //We dont know why you have to put extirpation-, It just is that way.
 squareSprite: false

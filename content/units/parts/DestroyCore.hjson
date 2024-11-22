@@ -1,0 +1,16 @@
+type: Wall
+name: Destructive Core
+description: Fires a spread of giant missiles.
+size: 3
+customShadow: true
+placeablePlayer: false
+requirements: [
+  scrap/190
+  Blackplate/125
+  Hematite/75
+  Ignea/120
+  Bronze/125
+  Plutonium/100
+]
+research: Destroy
+researchCostMultiplier: 0.25

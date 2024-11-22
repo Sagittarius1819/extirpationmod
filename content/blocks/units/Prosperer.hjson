@@ -2,6 +2,7 @@ type: Constructor
 name: Prosperer
 description: Constructs a larger variety of high tier weaponry and components for bigger units.
 size: 4
+itemCapacity: 6500
 category: units
 requirements: [
   Tin/175
@@ -18,6 +19,9 @@ filter: [
 CellSectionUnit,
 Cellsegment,
 Organellebaseunit,
+DestroyChunk,
+DestroyCore,
+DestroyNukerUnit,
 ]
 research: Ground-Foundry
 squareSprite: false

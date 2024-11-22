@@ -2,6 +2,7 @@ type: Constructor
 name: Developer
 description: Constructs weaponry and components for large units.
 size: 3
+itemCapacity: 4500
 category: units
 requirements: [
   Tin/175
@@ -13,7 +14,7 @@ hasPower: true
 consumes: {
   power: 2
 }
-buildSpeed: 8.5
+buildSpeed: 11.5
 filter: [
 DecimateGunUnit,
 DecimateBaseUnit,
@@ -22,6 +23,7 @@ CellGunUnit1,
 CellGunUnit2,
 OrganelleGunUnit1,
 OrganelleGunUnit2,
+DestroyCoils,
 ]
 research: Rubblemaker
 squareSprite: false

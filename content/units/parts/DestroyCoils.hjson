@@ -1,0 +1,14 @@
+type: Wall
+name: Mech Coils
+description: A superheated set of coils to charge the core and Detonators.
+size: 3
+customShadow: true
+placeablePlayer: false
+requirements: [
+  scrap/45
+  Blackplate/20
+  Hematite/25
+  CopperAlt/15
+]
+research: Destroy
+researchCostMultiplier: 0.25

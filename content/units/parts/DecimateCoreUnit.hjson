@@ -1,14 +1,14 @@
 type: Wall
-name: Organelle Decimator
-description: Fires a barrage of homing missiles at targets.
-size: 3
+name: Decimation Core
+description: Creates a flurry of heat-seeking missiles.
+size: 2
 customShadow: true
 placeablePlayer: false
 requirements: [
-  Tin/65
+  scrap/175
+  Blackplate/125
   Plutonium/45
-  Blackplate/75
-  Bronze/45
+  Ignea/90
 ]
 research: Ground-Developer
 researchCostMultiplier: 0.25

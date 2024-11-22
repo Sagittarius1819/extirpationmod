@@ -5,9 +5,10 @@ size: 2
 customShadow: true
 placeablePlayer: false
 requirements: [
-  Tin/70
-  CopperAlt/60
+  scrap/130
   Blackplate/45
+  Ignea/35
+  Bronze/20
 ]
-research: Prosperer
+research: Cell
 researchCostMultiplier: 0.25

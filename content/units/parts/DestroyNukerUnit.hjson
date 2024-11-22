@@ -1,0 +1,16 @@
+type: Wall
+name: Destructive Detonator
+description: Fires a giant bomb at far away enemies.
+size: 3
+customShadow: true
+placeablePlayer: false
+requirements: [
+  scrap/165
+  Blackplate/110
+  Hematite/85
+  Ignea/75
+  Plutonium/70
+  Bronze/65
+]
+research: Destroy
+researchCostMultiplier: 0.25
