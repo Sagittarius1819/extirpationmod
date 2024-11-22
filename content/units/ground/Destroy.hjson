@@ -95,6 +95,7 @@ soundPitchMin: 1.2
    shootSound: missileshot
         hitSound: bang
     bullet: {
+          buildingDamageMultiplier: 3
       chargeEffect: {
         type: SeqEffect
         effects: [
@@ -175,10 +176,11 @@ soundPitchMin: 1.2
           collides: true
           collidesGround: true
           pierce: false
-          damage: 75
+          damage: 35
                     homingDelay: 7
           width: 12
           height: 30
+             buildingDamageMultiplier: 3
       }}
 
 
@@ -208,11 +210,12 @@ trailColor: ffb29a
           type: ArtilleryBulletType
           speed: 2.5
           lifetime: 100
+              buildingDamageMultiplier: 3
           collidesAir: true
           collides: true
           collidesGround: true
           pierce: false
-          damage: 235
+          damage: 210
           width: 35
           height: 35
            fragBullets: 0
@@ -228,7 +231,7 @@ trailColor: ffb29a
           despawnSound: spark
           lifetime: 1
         }
-                  splashDamage: 80
+                  splashDamage: 120
     splashDamageRadius: 64
         }}
       ]
