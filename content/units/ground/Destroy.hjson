@@ -95,7 +95,7 @@ soundPitchMin: 1.2
    shootSound: missileshot
         hitSound: bang
     bullet: {
-          buildingDamageMultiplier: 3
+          buildingDamageMultiplier: 4.5
       chargeEffect: {
         type: SeqEffect
         effects: [
@@ -158,7 +158,7 @@ soundPitchMin: 1.2
           type: LightningBulletType
           lightningColor: ff5b54
           lightningLength: 7.5
-          damage: 16
+          damage: 12
           hitSound: spark
           despawnSound: spark
           lifetime: 1
@@ -176,7 +176,7 @@ soundPitchMin: 1.2
           collides: true
           collidesGround: true
           pierce: false
-          damage: 32
+          damage: 18
                     homingDelay: 7
           width: 12
           height: 30
