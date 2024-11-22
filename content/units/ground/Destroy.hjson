@@ -157,7 +157,7 @@ soundPitchMin: 1.2
           type: LightningBulletType
           lightningColor: ff5b54
           lightningLength: 7.5
-          damage: 55
+          damage: 20
           hitSound: spark
           despawnSound: spark
           lifetime: 1
@@ -201,9 +201,9 @@ soundPitchMin: 1.2
         bullet: {
 trailColor: ffb29a
     trailInterval: 6
-    trailWidth: 3.25
+    trailWidth: 4.25
     TrailRotation: true
-    trailLength: 50
+    trailLength: 75
         trailEffect: missileTrail
           type: ArtilleryBulletType
           speed: 2.5
@@ -213,9 +213,9 @@ trailColor: ffb29a
           collidesGround: true
           pierce: false
           damage: 235
-          width: 20
-          height: 20
-           fragBullets: 5
+          width: 35
+          height: 35
+           fragBullets: 0
            fragOffsetMin: 1.2
            fragLifeMin: 0.5
            fragLifeMax: 1.5
