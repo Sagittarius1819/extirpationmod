@@ -4,7 +4,7 @@ boilPoint: 0.2
 color: f2fafc
 heatCapacity: 0.2
 research: {
-  parent: Bronze-Solidifier
+  parent: Liquid-Bronze
     objectives: [
       extirpation-Oxygen-Ventilator
     ]

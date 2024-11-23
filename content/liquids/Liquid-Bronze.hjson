@@ -6,13 +6,10 @@ color: ffc73a
 heatCapacity: 0.35
 gasColor: d9fff3da
 research: {
-    parent: CapillaryCore
+  parent: CapillaryCore
     objectives: [
-    {
-      type: Produce
-      content: Liquid-Bronze
-    }
-  ]
+      extirpation-Bronze-Mixer
+    ]
 }
 coolant: false
 alwaysUnlocked: false
