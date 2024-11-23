@@ -10,7 +10,7 @@ research: {
     objectives: [
     {
       type: Produce 
-      content = Liquid-Bronze
+      content: Liquid-Bronze
     }
   ]
 }
