@@ -5,14 +5,14 @@ noiseColor: f0adad
 drawNoise: true
 particleRegion: particle
 useWindVector: true
-sizeMax: 140
+sizeMax: 900
 sizeMin: 70
 minAlpha: 0
-maxAlpha: 0.7
+maxAlpha: 0.4
 density: 1500
 baseSpeed: 3
 opacityMultiplier: 0.35
 force: 0.1
 sound: wind
-soundVol: 0.4
+soundVol: 0.35
 duration: 4200

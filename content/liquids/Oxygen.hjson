@@ -6,3 +6,4 @@ heatCapacity: 0.2
 research: Liquid-Bronze
 coolant: true
 temperature: 0.2
+alwaysUnlocked: false
