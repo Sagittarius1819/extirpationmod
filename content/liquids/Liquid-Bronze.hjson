@@ -9,8 +9,7 @@ research: {
     parent: CapillaryCore
     objectives: [
     {
-      type: Produce 
-      content: Liquid-Bronze
+      Bronze-Mixer
     }
   ]
 }

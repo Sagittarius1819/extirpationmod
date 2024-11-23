@@ -3,7 +3,13 @@ description: A supercooled liquid, made for cooling turrets and boosting drills.
 boilPoint: 0.2
 color: f2fafc
 heatCapacity: 0.2
-research: Liquid-Bronze
+research: { 
+    parent: Liquid-Bronze
+        objectives: [
+    {
+      Oxygen-Ventilator
+    }]
+}
 coolant: true
 temperature: 0.2
 alwaysUnlocked: false
