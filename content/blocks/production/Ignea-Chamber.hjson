@@ -26,10 +26,7 @@ category: crafting
 research: {
   parent: Bronze-Solidifier
     objectives: [
-        {
-            type: Research
-            content: Plutonium
-        }
+      Plutonium
     ]
 requirements: [
  CopperAlt/7000

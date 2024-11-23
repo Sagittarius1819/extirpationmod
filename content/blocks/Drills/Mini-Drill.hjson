@@ -16,10 +16,7 @@ CopperAlt/5
 research: {
     parent: Rusty-Drill
     objectives: [
-        {
-            type: Research
-            content = Bronze
-        }
+    Bronze
     ]
 }
 researchCost: [
