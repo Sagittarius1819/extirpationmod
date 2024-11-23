@@ -5,4 +5,9 @@ difficulty: 1
 alwaysUnlocked: false
 research: {
   parent: prologue
+   objectives: [
+    {
+      type: SectorComplete
+      preset: prologue
+    }
 }
