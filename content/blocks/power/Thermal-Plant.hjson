@@ -13,6 +13,10 @@ research: {
       preset: crimsoncanyon
     }
   ]
+  requirements: [
+ Tin/175
+ CopperAlt/155
+]
 }
  solid: true
 requirements: [
