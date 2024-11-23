@@ -25,6 +25,12 @@ craftTime: 60
 category: crafting
 research: {
   parent: Bronze-Solidifier
+    objectives: [
+        {
+            type: Research
+            preset: Plutonium
+        }
+    ]
 requirements: [
  CopperAlt/7000
   Tin/8500

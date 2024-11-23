@@ -17,8 +17,8 @@ research: {
     parent: Rusty-Drill
     objectives: [
         {
-            type: OnSector
-            preset: bouncer
+            type: Research
+            preset: Bronze
         }
     ]
 }
