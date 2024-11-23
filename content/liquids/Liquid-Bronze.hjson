@@ -5,6 +5,14 @@ boilPoint: 0.5
 color: ffc73a
 heatCapacity: 0.35
 gasColor: d9fff3da
-research: CapillaryCore
+research: {
+    parent: CapillaryCore
+    objectives: [
+    {
+      type: Produce 
+      preset:  Liquid-Bronze
+    }
+  ]
+}
 coolant: false
 alwaysUnlocked: false
