@@ -28,7 +28,7 @@ research: {
     objectives: [
         {
             type: Research
-            preset: Plutonium
+            content: Plutonium
         }
     ]
 requirements: [
