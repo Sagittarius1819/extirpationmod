@@ -40,7 +40,7 @@ weapons: [
     speed: 3
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    damage: 5
+    damage: 12
     width: 9
     height: 12
     buildingDamageMultiplier: 0.01

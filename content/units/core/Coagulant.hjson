@@ -41,7 +41,7 @@ weapons: [
     speed: 3.5
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    damage: 7.5
+    damage: 14
     width: 9
     height: 12
     buildingDamageMultiplier: 0.01
@@ -67,7 +67,7 @@ shootSound: shootBig
     type: ArtilleryBulletType
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
-    damage: 30
+    damage: 35
     shootSound: shootBig
     width: 16
     height: 20
