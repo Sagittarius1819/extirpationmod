@@ -9,5 +9,5 @@ research: {
     {
       type: SectorComplete
       preset: prologue
-    }
+    }]
 }
