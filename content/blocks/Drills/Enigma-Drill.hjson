@@ -29,9 +29,9 @@
 	research: {
   parent: Mini-Drill
       objectives: [
-    Bronze,
-    Blackplate,
-    Mini-Drill,
+    Bronze
+    Blackplate
+    Mini-Drill
   objectives: [
     Bronze
     Blackplate

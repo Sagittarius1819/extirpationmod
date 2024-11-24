@@ -11,7 +11,7 @@ Tin/45
 CopperAlt/25
 Hematite/30
   objectives: [
-    Bronze
+    Bronze,
   ]
 ]
 squareSprite: false
