@@ -42,18 +42,16 @@ outlineColor: 100d0d
 liquidConsumed: 1.2
 targetInterval: 5
 targetUnderBlocks: false
-range: 125
+range: 130
 targetAir: false
-shootY: 4
-loopSound: PlasmaLoop
-loopSoundVolume: 1
+shootY: 6.5
  solid: true
       smokeEffect: {
         type: ParticleEffect
           particles: 25
           length: 150
           y: 28
-          lifetime: 36
+          lifetime: 45
           interp: circleOut
           cone: 4.5
           colorFrom: ffffff
