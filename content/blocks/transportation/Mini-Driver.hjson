@@ -17,7 +17,7 @@ consumes: {
 }
 category: distribution
 requirements: [
- Tin/120
+ Tin/100
  CopperAlt/75
 ]
 

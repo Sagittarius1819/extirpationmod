@@ -17,8 +17,10 @@ consumes: {
 }
 category: distribution
 requirements: [
- Tin/120
- CopperAlt/75
+ Tin/240
+ CopperAlt/135
+ Blackplate/50
+ Bronze/85
 ]
 
  research: {
@@ -41,7 +43,7 @@ drawer: {
   drawers: [
     {
       type: DrawRegion
-      suffix: -bottom
+      suffix: -base
     }
     {
       type: DrawDefault
