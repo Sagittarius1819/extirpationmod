@@ -10,6 +10,7 @@ mineTier: 1
 build: true
 rotateSpeed: 8
 health: 175
+fogRadius: 0
 engineOffset: 7.5
 itemCapacity: 30
 alwaysUnlocked: true
