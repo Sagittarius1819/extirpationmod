@@ -16,9 +16,10 @@ research: {
     Hematite/2500
   ]
     objectives: [
+      Blackplate
     {
-      type: OnSector 
-      preset: Inception
+      type: SectorComplete 
+      preset: solitude
     }
   ]
  }

@@ -1,14 +1,14 @@
 
 planet: Varelin
-sector: 22
+sector: 25
 difficulty: 2
 alwaysUnlocked: false
 research: {
-  parent: sightlines
+  parent: crimsoncanyon
     objectives: [
     {
       type: SectorComplete
-      preset: sightlines
+      preset: crimsoncanyon
     }
   ]
 }

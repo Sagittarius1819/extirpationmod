@@ -16,5 +16,11 @@ research: {
     Hematite/630
     Blackplate/200
   ]
+      objectives: [
+        {
+            type: OnSector
+            preset: sightlines
+        }
+    ]
 }
 buildCostMultiplier: 3.3
