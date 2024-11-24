@@ -15,9 +15,11 @@ consumes: {
     Bronze/1500
   ]
   objectives: [
+    Bronze
+    Blackplate
     {
       type: OnSector 
-      preset: crimsoncanyon
+      preset: bouncer
     }
   ]
  }

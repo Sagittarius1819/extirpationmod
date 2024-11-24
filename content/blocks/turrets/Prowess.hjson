@@ -44,7 +44,7 @@ targetInterval: 5
 targetUnderBlocks: false
 range: 130
 targetAir: false
-shootY: 7.25
+shootY: 8
  solid: true
       smokeEffect: {
         type: ParticleEffect
