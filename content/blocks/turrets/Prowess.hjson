@@ -51,7 +51,7 @@ loopSoundVolume: 1
       smokeEffect: {
         type: ParticleEffect
           particles: 25
-          length: 125
+          length: 150
           y: 28
           lifetime: 36
           interp: circleOut
