@@ -5,14 +5,15 @@ name: Repository
 description: A simple container unit that stores up to 150 items.
 itemCapacity: 250
 category: effect
-research: tin-conveyor
+research: {
+    parent: tin-conveyor
+      objectives: [
+    Bronze,
+  ]}
 requirements: [
 Tin/45
 CopperAlt/25
 Hematite/30
-  objectives: [
-    Bronze,
-  ]
 ]
 squareSprite: false
 researchCostMultiplier: 0.5

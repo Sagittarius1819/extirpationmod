@@ -32,15 +32,12 @@
     Bronze
     Blackplate
     Mini-Drill
-  objectives: [
-    Bronze
-    Blackplate
     {
       type: SectorComplete 
       preset: solitude
     }
   ]
-    ]
+
   requirements: [
     Tin/10000
     CopperAlt/7500
