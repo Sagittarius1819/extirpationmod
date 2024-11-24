@@ -83,5 +83,5 @@ slag: {
     knockback: 0.4
     pierceCap: 3
     lightColor: ffffffCC
-    knockback: 1..25
+    knockback: 1.25
   }}
