@@ -52,7 +52,7 @@ loopSoundVolume: 1
         type: ParticleEffect
           particles: 25
           length: 125
-          y: 16
+          y: 28
           lifetime: 36
           interp: circleOut
           cone: 4.5
@@ -83,4 +83,5 @@ slag: {
     knockback: 0.4
     pierceCap: 3
     lightColor: ffffffCC
+    knockback: 1..25
   }}
