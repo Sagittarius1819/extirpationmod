@@ -20,6 +20,12 @@ category: effect
 hiddenOnPlanets: [serpulo, erekir]
 research: {
   parent: Clot
+    objectives: [
+    {
+      type: SectorComplete 
+      preset: solitude
+    }
+  ]
 requirements: [
 Tin/25000
 CopperAlt/12000

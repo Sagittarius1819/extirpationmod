@@ -34,7 +34,7 @@ requirements: [
   objectives: [
     {
       type: SectorComplete 
-      preset: bouncer
+      preset: unsightly
     }
   ]
 }

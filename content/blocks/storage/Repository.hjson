@@ -10,6 +10,9 @@ requirements: [
 Tin/45
 CopperAlt/25
 Hematite/30
+  objectives: [
+    Bronze
+  ]
 ]
 squareSprite: false
 researchCostMultiplier: 0.5

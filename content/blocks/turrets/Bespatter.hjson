@@ -16,8 +16,8 @@ research: {
   ]
     objectives: [
     {
-      type: OnSector 
-      preset: crimsoncanyon
+      type: SectorComplete 
+      preset: unsightly
     }
   ]
 }

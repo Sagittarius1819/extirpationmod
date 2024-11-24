@@ -9,7 +9,7 @@ category: effect
 controller: RepairAI
 commands: [move, repair]
 research: {
-  parent: Oxygen
+  parent: CapillaryCore
   requirements: [
     Tin/1350
     CopperAlt/750
@@ -18,7 +18,7 @@ research: {
   objectives: [
     {
       type: SectorComplete
-      preset: crimsoncanyon
+      preset: sightlines
     }
   ]
 }

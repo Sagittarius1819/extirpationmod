@@ -18,8 +18,8 @@ consumes: {
     Bronze
     Blackplate
     {
-      type: OnSector 
-      preset: bouncer
+      type: SectorComplete 
+      preset: sightlines
     }
   ]
  }
