@@ -1,19 +1,19 @@
 type: MassDriver
-name: Mini-Driver
-description: Fires batches of items over tiny distances. Connects to other Mini-Drivers. Requires power.
-size: 1
+name: Mega-Driver
+description: Fires packets of items over medium distances. Connects to other Mega-Drivers. Requires power.
+size: 2
 squareSprite: false
  solid: true
 outlineColor: 4c3939
-itemCapacity: 10
-reload: 10
-rotateSpeed: 7
-range: 50
-shake: 0.5
-health: 60
+itemCapacity: 55
+reload: 30
+rotateSpeed: 5
+range: 125
+shake: 1.25
+health: 1200
 buildCostMultiplier: 0.2
 consumes: {
-  power: 0.1
+  power: 1.25
 }
 category: distribution
 requirements: [
@@ -22,15 +22,17 @@ requirements: [
 ]
 
  research: {
-  parent: tin-conveyor
+  parent: Mini-Driver
   requirements: [
-    Tin/400
-    CopperAlt/350
+    Tin/4000
+    CopperAlt/3500
+    Bronze/3000
+    Blackplate/1000
   ]
   objectives: [
     {
-      type: OnSector 
-      preset: crimsoncanyon
+      type: SectorComplete 
+      preset: bouncer
     }
   ]
 }
@@ -46,8 +48,8 @@ drawer: {
     }
   ]
 }
-knockback: 1.5
-bulletSpeed: 4
+knockback: 2.5
+bulletSpeed: 6
 shootEffect: shootSmall
 smokeEffect: shootSmallSmoke 
 receiveEffect: mineSmall
