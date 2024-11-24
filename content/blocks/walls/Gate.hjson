@@ -2,7 +2,7 @@ type: door
 name: Gate
 description: A door-like structure to let your units in and out of areas 
 size: 1
-health: 750
+health: 250
     squareSprite: false
     requirements: [
         Blackplate/20

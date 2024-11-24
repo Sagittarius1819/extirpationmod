@@ -55,7 +55,7 @@ shootType: {    width: 1.7
     trailLength: 1
     trailSinScl: 1
     trailSinMag: 1
-    healPercent: 0.333
+    healPercent: 0.25
     homingPower: 0.05
     healAmount: 3.5
     drawFlare: false
@@ -72,5 +72,5 @@ shootType: {    width: 1.7
     type: MissileBulletType
     damage: 0
     knockback: 0.5}
-    reload: 20
+    reload: 30
     buildCostMultiplier: 0.4
