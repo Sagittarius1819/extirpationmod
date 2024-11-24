@@ -4,11 +4,11 @@ sector: 25
 difficulty: 2
 alwaysUnlocked: false
 research: {
-  parent: crimsoncanyon
+  parent: bouncer
     objectives: [
     {
       type: SectorComplete
-      preset: crimsoncanyon
+      preset: bouncer
     }
   ]
 }
