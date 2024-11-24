@@ -129,7 +129,7 @@ ammoTypes: {
     width: 8
     height: 8
     lifetime: 35
-    pierce: true
+    pierce: false
     damage: 10
     splashDamage: 15
     splashDamageRadius: 16

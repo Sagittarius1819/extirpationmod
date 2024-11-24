@@ -48,7 +48,7 @@ shoot: {
 ammoTypes: {
   Tin: {
     type: BasicBulletType
-    damage: 32
+    damage: 28
     width: 7
     collidesGround: true
     height: 9
@@ -60,7 +60,7 @@ ammoTypes: {
     width: 7
     height: 9
         lifetime: 60
-    damage: 58
+    damage: 48
     speed: 3.25
         reloadMultiplier: 1.2
     collidesGround: true
