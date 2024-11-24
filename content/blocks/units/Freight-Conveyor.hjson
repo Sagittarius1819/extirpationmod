@@ -17,7 +17,7 @@ research: {
     objectives: [
         {
             type: SectorComplete
-            preset: bouncer
+            preset: Unsightly
         }
     ]
 }
