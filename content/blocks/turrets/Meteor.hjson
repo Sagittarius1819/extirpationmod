@@ -20,11 +20,11 @@ smokeEffect: {
           followParent: false
           colorTo: 666666
           sizeFrom: 4
-          sizeTo: 0.8
+          sizeTo: 0.2
         }
 ammoPerShot: 1
 maxAmmo: 25
-shootY: 15
+shootY: 6
 research: {
   parent: Prowess
   requirements: [
@@ -73,10 +73,17 @@ shoot: {
 ammoTypes: {
 Plutonium: {
      status: Status-Paralyzed
-    trailColor: c8f0fa
     trailRotation: true
     trailLength: 20
-    trailEffect: artilleryTrail
+    trailEffect: {
+  type: ParticleEffect
+  length: 0
+  particles: 1
+  sizeFrom: 1
+  sizeTo: 0
+  colorFrom: c8f0fa
+  colorTo: 6c9fab
+}
     trailWidth: 3
     trailInterval: 3
     type: MissileBulletType
@@ -95,7 +102,6 @@ Plutonium: {
   }
   Ignea: {
      status: blasted
-    trailColor: fcb3b3
     trailRotation: true
     trailLength: 20
     trailWidth: 3
@@ -106,7 +112,7 @@ Plutonium: {
   particles: 1
   sizeFrom: 1
   sizeTo: 0
-  colorFrom: de8c8c
+  colorFrom: fcb3b3
   colorTo: c26b6b
 }
     type: MissileBulletType
@@ -135,7 +141,7 @@ drawer: {
       progress: recoil
       under: false
       moveY: -12
-      growX: 0.1
+      growX: -0.15
       growY: 0.1
       mirror: false
       recoilIndex: 0
