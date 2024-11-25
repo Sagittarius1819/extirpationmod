@@ -133,7 +133,7 @@ drawer: {
       type: RegionPart
       suffix: -barrel
       progress: recoil
-      under: true
+      under: false
       moveY: -12
       growX: 0.1
       growY: 0.1
