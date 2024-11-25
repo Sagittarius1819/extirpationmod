@@ -88,7 +88,7 @@ Plutonium: {
     frontColor: b3eefc
     backColor: b3eefc
     damage: 65
-    despawnSound: magicshot
+    despawnSound: missileshot
           weaveScale: 4
       weaveMag: 3
     ammoMultiplier: 2
