@@ -4,12 +4,27 @@ description: Launches a barrage of missiles at targets.
 size: 4
  solid: true
 category: turret
-recoil: 2.75
+recoil: 3.5
+hasLiquids: true
 shootEffect: none
-smokeEffect: none
+smokeEffect: {
+        type: ParticleEffect
+          particles: 25
+          length: -150
+          y: 28
+          lifetime: 45
+          interp: circleOut
+          cone: 4.5
+          colorFrom: ffffff
+          rotWithParent: false
+          followParent: false
+          colorTo: 666666
+          sizeFrom: 4
+          sizeTo: 0.8
+        }
 ammoPerShot: 1
 maxAmmo: 25
-shootY: 30
+shootY: 15
 research: {
   parent: Prowess
   requirements: [
@@ -36,29 +51,25 @@ requirements: [
     Ignea/325
     Plutonium/400
 ]
-coolant: {
-  type: ConsumeCoolant
-  allowGas: true
-  allowLiquid: true
-  amount: 0.1
-}
+consumes: Oxygen/1.25
+coolant: false
 hiddenOnPlanets: [serpulo, erekir]
-outlineColor: 4e3737
+outlineColor: 100d0d
 damage: 70
-health: 1460
+health: 2750
 targetAir: false
 targetGround: true
 collidesGround: true
 collidesAir: false
-reload: 45
+reload: 12
     hitSound: dullExplosion
 range: 180
 velocityRnd: 0.25
 inaccuracy: 7.5
 scaleLife: true
 shoot: {
-  shots: 1
-  shotDelay: 0.4
+  shots: 2
+  shotDelay: 3.5
 }
 ammoTypes: {
 Plutonium: {
@@ -66,13 +77,14 @@ Plutonium: {
     trailColor: c8f0fa
     trailRotation: true
     trailLength: 20
-    trailWidth: 1.25
+    trailWidth: 3
+    trailInterval: 3
     type: MissileBulletType
     layer: 111
     width: 12
     height: 12
     speed: 7
-    lifetime: 30
+    lifetime: 25
     frontColor: b3eefc
     backColor: b3eefc
     damage: 65
@@ -86,13 +98,14 @@ Plutonium: {
     trailColor: fcb3b3
     trailRotation: true
     trailLength: 20
-    trailWidth: 1.25
+    trailWidth: 3
+    trailInterval: 3
     type: MissileBulletType
     layer: 111
     width: 9
     height: 12
     speed: 7.5
-    lifetime: 30
+    lifetime: 25
     frontColor: f57676
     backColor: f57676
     damage: 70
