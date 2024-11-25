@@ -12,13 +12,32 @@ recipes:
         scrap/1
       ]
       icon: scrap,
-      iconColor: "baac9b"
   }
   craftTime: 45
 }
+{
+  input: extirpation-Plutonium/1
+  output: {
+      items: [
+        scrap/3
+      ]
+      icon: scrap,
+  }
+  craftTime: 55
+}
+{
+  input: extirpation-Hematite/1
+  output: {
+      items: [
+        scrap/2
+      ]
+      icon: scrap,
+  }
+  craftTime: 50
+}
 ]
 research: {
-  parent: Bronze-Mixer
+  parent: Scrap-Solidifier
 requirements: [
  CopperAlt/5000
   Tin/7000
