@@ -110,8 +110,8 @@ Plutonium: {
     trailWidth: 3
     trailInterval: 3
     type: MissileBulletType
-    layer: 111
     width: 12
+        homing: false
     height: 12
     speed: 7
     lifetime: 25
@@ -143,8 +143,8 @@ Plutonium: {
   colorTo: c26b6b
 }
     type: MissileBulletType
-    layer: 111
     width: 9
+    homing: false
     height: 12
     speed: 7.5
     lifetime: 25
