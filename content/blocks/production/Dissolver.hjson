@@ -1,0 +1,40 @@
+type: multicraft.MultiCrafter
+size: 2
+name: Dissolver
+desctription: Dissolves items into Scrap using heat. Has multiple recipes. (Multicraft my beloved)
+category: crafting
+recipes:
+[
+{
+  input: Tin/1
+  output: {
+      items: [
+        scrap/1
+      ]
+      icon: scrap,
+      iconColor: "baac9b"
+  }
+  craftTime: 45
+}
+]
+research: {
+  parent: Bronze-Mixer
+requirements: [
+ CopperAlt/5000
+  Tin/7000
+  Bronze/3500
+  Blackplate/5
+]
+  objectives: [
+    {
+      type: SectorComplete 
+      preset:  unsightly
+    }
+  ]
+}
+requirements: [
+ CopperAlt/80
+  Tin/100
+  Marble/80
+]
+researchCostMultiplier: 0.5

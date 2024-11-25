@@ -13,5 +13,6 @@ Also be sure to check out our (unfinished) EXTIRPATION music mod.
 
 We encourage you to test out the mod in sandbox first. Thank you, and have fun!
 '''
-version: "1.0"
+version: "1.01"
 minGameVersion: "146"
+dependencies: [multicrafterlib]

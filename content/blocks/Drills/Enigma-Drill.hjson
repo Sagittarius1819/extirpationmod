@@ -4,7 +4,7 @@
 	"type": "Drill",
     "squareSprite": "false",
 	"size": 3,
-	"tier": 3,
+	"tier": 4,
 	"drillTime": 220,
 	"rotateSpeed": 4.5,
 	"warmupSpeed": 0.1,
