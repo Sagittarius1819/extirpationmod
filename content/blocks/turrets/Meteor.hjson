@@ -52,6 +52,7 @@ requirements: [
     Plutonium/400
 ]
 consumes: Oxygen/1.25
+coolant: false
 hiddenOnPlanets: [serpulo, erekir]
 outlineColor: 100d0d
 damage: 70
@@ -73,7 +74,7 @@ shoot: {
 ammoTypes: {
 Plutonium: {
      status: Status-Paralyzed
-    trailColor: ed4c4c
+    trailColor: c8f0fa
     trailRotation: true
     trailLength: 20
     trailWidth: 3
