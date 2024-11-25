@@ -73,7 +73,7 @@ shoot: {
 ammoTypes: {
 Plutonium: {
      status: Status-Paralyzed
-    trailColor: c8f0fa
+    trailColor: ed4c4c
     trailRotation: true
     trailLength: 20
     trailWidth: 3
