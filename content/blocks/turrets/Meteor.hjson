@@ -86,7 +86,7 @@ Plutonium: {
     speed: 7
     lifetime: 25
     frontColor: b3eefc
-    backColor: b3eefc
+    backColor: ffffff
     damage: 65
     despawnSound: missileshot
           weaveScale: 4
@@ -107,7 +107,7 @@ Plutonium: {
     speed: 7.5
     lifetime: 25
     frontColor: f57676
-    backColor: f57676
+    backColor: ffffff
     damage: 70
     despawnSound: FireShot
           weaveScale: 4
