@@ -75,10 +75,8 @@ hiddenOnPlanets: [serpulo, erekir]
 outlineColor: 100d0d
 damage: 70
 health: 2750
-targetAir: false
+targetAir: true
 targetGround: true
-collidesGround: true
-collidesAir: false
 reload: 12
     hitSound: dullExplosion
 range: 180

@@ -1,9 +1,9 @@
 type: legs
 name: Animate
-description: A small, organic unit that shoots streams of bile at enemies.
-speed: 0.65
-health: 700
-armor: 2
+description: A large, organic unit that shoots explosive projectiles at enemies.
+speed: 0.5
+health: 8500
+armor: 5.75
 flying: false
 legExtension: -1.5
 legMoveSpace: 1
@@ -12,7 +12,7 @@ legCount: 6
 legGroupSide: 2
 lockLegBase: true
 legContinuousMove: true
-legLength: 10.5
+legLength: 15.5
 legSpeed: 0.45
 legBaseOffset: 5
 legForwardScl: 0.56
