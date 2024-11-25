@@ -27,7 +27,7 @@ smokeEffect: {
           particles: 15
           length: -75
           y: -28
-          lifetime: 20
+          lifetime: 60
           interp: circleOut
           cone: 4.5
           colorFrom: ffffff
