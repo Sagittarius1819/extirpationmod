@@ -119,6 +119,7 @@ drawer: {
   basePrefix: Dark-
   parts: [
     {
+    top: true
       type: RegionPart
       suffix: -barrel
       progress: recoil
