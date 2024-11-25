@@ -6,7 +6,12 @@ category: crafting
 recipes:
 [
 {
-  input: extirpation-Tin/1
+  input: {
+         items: [
+        extirpation-Tin/1
+      ]
+     power : 0.5
+  }
   output: {
       items: [
         scrap/1
@@ -16,7 +21,12 @@ recipes:
   craftTime: 45
 }
 {
-  input: extirpation-Plutonium/1
+  input: {
+         items: [
+        extirpation-Plutonium/1
+      ]
+     power: 0.75
+  }
   output: {
       items: [
         scrap/3
@@ -26,7 +36,12 @@ recipes:
   craftTime: 55
 }
 {
-  input: extirpation-Hematite/1
+  input: {
+         items: [
+        extirpation-Hematite/1
+      ]
+     power: 0.65
+  }
   output: {
       items: [
         scrap/2
@@ -34,6 +49,21 @@ recipes:
       icon: scrap,
   }
   craftTime: 50
+}
+{
+  input: {
+         items: [
+        extirpation-Corium/1
+      ]
+     power: 1
+  }
+  output: {
+      items: [
+        scrap/5
+      ]
+      icon: scrap,
+  }
+  craftTime: 65
 }
 ]
 research: {
