@@ -68,7 +68,7 @@ requirements: [
 ]
 consumes: {
   liquids: [
- Oxygen/1.25
+ Oxygen/0.6
   ]
 }
 hiddenOnPlanets: [serpulo, erekir]
@@ -116,6 +116,7 @@ Plutonium: {
     speed: 7
     lifetime: 25
     frontColor: bff3ff
+    backColor: acebfa
     damage: 65
     despawnSound: dullExplosion
           weaveScale: 2
