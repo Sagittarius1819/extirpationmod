@@ -20,7 +20,7 @@ CellSectionUnit,
 Cellsegment,
 Organellebaseunit,
 DestroyChunk,
-DestroyCore,
+DestroyCoreUnit,
 DestroyNukerUnit,
 ]
 research: Ground-Foundry

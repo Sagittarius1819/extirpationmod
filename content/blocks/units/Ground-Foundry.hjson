@@ -33,7 +33,7 @@ plans: [
     unit: Destroy
     requirements: [
     extirpation-DestroyNukerUnit/2
-    extirpation-DestroyCore/1
+    extirpation-DestroyCoreUnit/1
     extirpation-DestroyChunk/4
     extirpation-DestroyCoils/8
     extirpation-Raze/2
