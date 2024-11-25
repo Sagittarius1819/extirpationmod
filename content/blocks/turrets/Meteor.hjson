@@ -113,7 +113,7 @@ Plutonium: {
     lifetime: 25
     frontColor: bff3ff
     damage: 65
-    despawnSound: missileshot
+    despawnSound: dullExplosion
           weaveScale: 2
       weaveMag: 3
     ammoMultiplier: 2
