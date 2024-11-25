@@ -61,8 +61,8 @@ weapons: [
   }
     {
     type: RepairBeamWeapon
-    x: 3.5
-    y: -20
+    x: 3
+    y: -23
     mirror: true
     shootCone: 90
     repairSpeed: 0.4
