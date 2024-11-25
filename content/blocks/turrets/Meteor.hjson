@@ -14,7 +14,7 @@ shootEffect: {
             line: true
             particles: 12
             sizeFrom: 10
-            colorFrom: ff7570
+            colorFrom: dca1ff
             colorTo: ffffff
             sizeTo: 0
             smokes: 0
@@ -30,7 +30,7 @@ smokeEffect: {
           lifetime: 60
           interp: circleOut
           cone: 10
-          colorFrom: ffffff
+          colorFrom: dca1ff
           rotWithParent: false
           followParent: false
           colorTo: 666666
@@ -66,7 +66,11 @@ requirements: [
     Ignea/325
     Plutonium/400
 ]
-consumes: Oxygen/1.25
+consumes: {
+  liquids: [
+ Oxygen/1.25
+  ]
+}
 hiddenOnPlanets: [serpulo, erekir]
 outlineColor: 100d0d
 damage: 70
