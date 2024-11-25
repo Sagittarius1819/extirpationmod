@@ -30,7 +30,7 @@ smokeEffect: {
           lifetime: 60
           interp: circleOut
           cone: 10
-          colorFrom: dca1ff
+          colorFrom: fcb3b3
           rotWithParent: false
           followParent: false
           colorTo: 666666
