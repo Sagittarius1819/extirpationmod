@@ -24,7 +24,7 @@ smokeEffect: {
         }
 ammoPerShot: 1
 maxAmmo: 25
-shootY: 6
+shootY: 7.5
 research: {
   parent: Prowess
   requirements: [
@@ -92,11 +92,10 @@ Plutonium: {
     height: 12
     speed: 7
     lifetime: 25
-    frontColor: 90c5d1
-    backColor: 6c9fab
+    frontColor: bff3ff
     damage: 65
     despawnSound: missileshot
-          weaveScale: 4
+          weaveScale: 2
       weaveMag: 3
     ammoMultiplier: 2
   }
@@ -121,11 +120,10 @@ Plutonium: {
     height: 12
     speed: 7.5
     lifetime: 25
-    frontColor: de8c8c
-    backColor: c26b6b
+    frontColor: facea7
     damage: 70
     despawnSound: FireShot
-          weaveScale: 4
+          weaveScale: 2
       weaveMag: 5
     ammoMultiplier: 3
   }
