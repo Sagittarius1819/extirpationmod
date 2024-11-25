@@ -237,7 +237,7 @@ trailColor: ffb29a
           despawnSound: spark
           lifetime: 1
         }
-                  splashDamage: 75
-    splashDamageRadius: 64
+                  splashDamage: 80
+    splashDamageRadius: 32
         }}
       ]

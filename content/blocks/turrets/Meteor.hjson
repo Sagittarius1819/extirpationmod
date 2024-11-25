@@ -1,0 +1,141 @@
+type: ItemTurret
+name: Meteor
+description: Launches a barrage of missiles at targets.
+size: 4
+ solid: true
+category: turret
+recoil: 2.75
+shootEffect: none
+smokeEffect: none
+ammoPerShot: 1
+maxAmmo: 25
+shootY: 30
+research: {
+  parent: Prowess
+  requirements: [
+    Tin/12150
+    Plutonium/6800
+    Hematite/9000
+    Ignea/4500
+    Blackplate/7000
+    CopperAlt/10000
+  ]
+    objectives: [
+    {
+      type: OnSector 
+      preset: unsightly
+    }
+  ]
+ }
+researchCostMultiplier: 0.05
+shootSound: MeteorShot
+requirements: [
+    Tin/1050
+    CopperAlt/800
+    Blackplate/650
+    Ignea/325
+    Plutonium/400
+]
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.1
+}
+hiddenOnPlanets: [serpulo, erekir]
+outlineColor: 4e3737
+damage: 70
+health: 1460
+targetAir: false
+targetGround: true
+collidesGround: true
+collidesAir: false
+reload: 45
+    hitSound: dullExplosion
+range: 180
+velocityRnd: 0.25
+inaccuracy: 7.5
+scaleLife: true
+shoot: {
+  shots: 1
+  shotDelay: 0.4
+}
+ammoTypes: {
+Plutonium: {
+     status: Status-Paralyzed
+    trailColor: c8f0fa
+    trailRotation: true
+    trailLength: 20
+    trailWidth: 1.25
+    type: MissileBulletType
+    layer: 111
+    width: 12
+    height: 12
+    speed: 7
+    lifetime: 30
+    frontColor: b3eefc
+    backColor: b3eefc
+    damage: 65
+    despawnSound: magicshot
+          weaveScale: 4
+      weaveMag: 3
+    ammoMultiplier: 2
+  }
+  Ignea: {
+     status: blasted
+    trailColor: fcb3b3
+    trailRotation: true
+    trailLength: 20
+    trailWidth: 1.25
+    type: MissileBulletType
+    layer: 111
+    width: 9
+    height: 12
+    speed: 7.5
+    lifetime: 30
+    frontColor: f57676
+    backColor: f57676
+    damage: 70
+    despawnSound: FireShot
+          weaveScale: 4
+      weaveMag: 5
+    ammoMultiplier: 3
+  }
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: Dark-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -barrel
+      progress: recoil
+      under: true
+      moveY: -12
+      growX: 0.1
+      growY: 0.1
+      mirror: false
+      recoilIndex: 0
+    }
+        {
+      type: RegionPart
+      mirror: false
+      suffix: -part1
+      under: false
+      progress: warmup
+      moveRot: -23
+      moveX: 1
+      moveY: 1
+    }
+            {
+      type: RegionPart
+      mirror: false
+      suffix: -part2
+      under: false
+      progress: warmup
+      moveRot: 23
+      moveX: 1
+      moveY: 1
+    }
+  ]
+}
