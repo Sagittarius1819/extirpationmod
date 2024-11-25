@@ -23,9 +23,10 @@ outlineColor: 824b4b
 hitSize: 16
 weapons: [
   {
-    x: 10
+    x: 14.5
     name: HideousArm
-    y: 16
+    y: 15.75
+    shootY: 7.5
     reload: 85
           drawFlare: true
     shootSound: artillery
@@ -40,16 +41,15 @@ weapons: [
       shotDelay: 24
     }
     bullet: {
-     status: Status-Paralyzed
     trailColor: FAE040
     trailRotation: true
     trailLength: 10
     trailWidth: 1.25
     type: ArtilleryBulletType
-    width: 6
-    height: 72
-    speed: 4
-    lifetime: 55
+    width: 12
+    height: 12
+    speed: 4.7
+    lifetime: 60
     frontColor: FCF249
     backColor: F6D855
     damage: 125
@@ -62,7 +62,7 @@ weapons: [
     y: -17
     mirror: true
     shootCone: 90
-    repairSpeed: 0.175
+    repairSpeed: 0.4
     targetBuildings: false
     targetUnits: true
     controllable: false
@@ -73,7 +73,7 @@ weapons: [
     healColor: d11800
     laserTopColor: ffb7ad
     bullet: {
-      maxRange: 70
+      maxRange: 80
       
     }
   }
