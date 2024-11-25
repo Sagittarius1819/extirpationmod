@@ -76,6 +76,7 @@ Plutonium: {
     trailColor: c8f0fa
     trailRotation: true
     trailLength: 20
+    trailEffect: artilleryTrail
     trailWidth: 3
     trailInterval: 3
     type: MissileBulletType
@@ -99,6 +100,7 @@ Plutonium: {
     trailLength: 20
     trailWidth: 3
     trailInterval: 3
+    trailEffect: artilleryTrail
     type: MissileBulletType
     layer: 111
     width: 9
