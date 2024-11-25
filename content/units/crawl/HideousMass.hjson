@@ -45,9 +45,11 @@ weapons: [
     trailRotation: true
     trailLength: 10
     trailWidth: 1.25
-    type: ArtilleryBulletType
+    type: MissileBulletType
     width: 12
     height: 12
+    splashDamage: 28
+    SplashDamageRadius: 16
     speed: 4.7
     lifetime: 60
     frontColor: FCF249
