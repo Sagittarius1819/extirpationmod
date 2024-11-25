@@ -6,7 +6,7 @@ category: crafting
 recipes:
 [
 {
-  input: copper/1
+  input: extirpation-Tin/1
   output: {
       items: [
         scrap/1
