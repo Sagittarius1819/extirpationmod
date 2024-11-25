@@ -85,8 +85,8 @@ Plutonium: {
     height: 12
     speed: 7
     lifetime: 25
-    frontColor: b3eefc
-    backColor: ffffff
+    frontColor: 90c5d1
+    backColor: 6c9fab
     damage: 65
     despawnSound: missileshot
           weaveScale: 4
@@ -100,15 +100,23 @@ Plutonium: {
     trailLength: 20
     trailWidth: 3
     trailInterval: 3
-    trailEffect: artilleryTrail
+    trailEffect: {
+  type: ParticleEffect
+  length: 0
+  particles: 1
+  sizeFrom: 1
+  sizeTo: 0
+  colorFrom: de8c8c
+  colorTo: c26b6b
+}
     type: MissileBulletType
     layer: 111
     width: 9
     height: 12
     speed: 7.5
     lifetime: 25
-    frontColor: f57676
-    backColor: ffffff
+    frontColor: de8c8c
+    backColor: c26b6b
     damage: 70
     despawnSound: FireShot
           weaveScale: 4
