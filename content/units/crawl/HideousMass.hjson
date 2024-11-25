@@ -1,5 +1,5 @@
 type: legs
-name: Animate
+name: Concious
 description: A large, organic unit that shoots explosive projectiles at enemies.
 speed: 0.5
 layer: 1
@@ -27,6 +27,7 @@ weapons: [
     name: HideousArm
     y: 15.5
     shootY: 7.5
+    recoil: 2.5
     reload: 85
           drawFlare: true
     shootSound: artillery
@@ -60,8 +61,8 @@ weapons: [
   }
     {
     type: RepairBeamWeapon
-    x: 2.5
-    y: -17
+    x: 3.5
+    y: -20
     mirror: true
     shootCone: 90
     repairSpeed: 0.4
