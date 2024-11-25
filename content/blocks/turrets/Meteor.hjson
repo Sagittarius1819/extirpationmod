@@ -9,10 +9,10 @@ hasLiquids: true
 shootEffect: none
 smokeEffect: {
         type: ParticleEffect
-          particles: 25
-          length: -150
-          y: 28
-          lifetime: 45
+          particles: 15
+          length: -75
+          y: -28
+          lifetime: 20
           interp: circleOut
           cone: 4.5
           colorFrom: ffffff
@@ -52,7 +52,6 @@ requirements: [
     Plutonium/400
 ]
 consumes: Oxygen/1.25
-coolant: false
 hiddenOnPlanets: [serpulo, erekir]
 outlineColor: 100d0d
 damage: 70
