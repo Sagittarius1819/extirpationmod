@@ -8,17 +8,17 @@ category: turret
 recoil: 7.5
 hasLiquids: true
 shootEffect: {
-                type: ExplosionEffect
-            length: 48
+            type: ExplosionEffect
+            length: 25
             rotWithParent: false
             followParent: false
             sparkLen: 6.5
-            sparkRad: 125
-            smokeSize: 11
+            sparkRad: 75
+            smokeSize: 7
             baseLength: -48
             cone: 360
             particles: 28
-            smokeRad: 175
+            smokeRad: 90
             smokeColor:ffd8d6
             waveColor:ffd8d6
             sparkColor:ffd8d6
