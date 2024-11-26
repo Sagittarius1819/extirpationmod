@@ -5,7 +5,7 @@ size: 4
 ammoPerShot: 5
  solid: true
 category: turret
-recoil: 3.5
+recoil: 7.5
 hasLiquids: true
 shootEffect: {
                 type: ExplosionEffect
@@ -48,16 +48,12 @@ smokeEffect: {
 maxAmmo: 35
 shootY: 3
 research: {
-  parent: Prowess
-  requirements: [
-    Tin/12150
-    Plutonium/6800
-    Hematite/9000
-    Ignea/4500
-    Blackplate/7000
-    CopperAlt/10000
-  ]
+  parent: Meteor
     objectives: [
+    Plutonium
+    Ignea
+    Meteor
+    Carnage
     {
       type: OnSector 
       preset: unsightly
@@ -84,14 +80,14 @@ damage: 1480
 health: 2750
 targetAir: true
 targetGround: true
-reload: 150
+reload: 180
     hitSound: dullExplosion
 range: 325
 velocityRnd: 0.25
 inaccuracy: 3
 scaleLife: true
 shoot: {
-    firstShotDelay: 125
+    firstShotDelay: 110
 }
 chargeSound: lasercharge
 ammoTypes: {
@@ -100,64 +96,32 @@ ammoTypes: {
 
 Plutonium: {
     trailRotation: true
-    trailColor: c8f0fa
-    trailLength: 20
+    trailColor: 7be37b
+    trailLength: 45
     trailEffect: {
   type: ParticleEffect
   length: 0
-  particles: 1
+  particles: 3
   sizeFrom: 1
   sizeTo: 0
-  colorFrom: c8f0fa
-  colorTo: 6c9fab
+  colorFrom: 7be37b
+  colorTo: 52bf52
 }
     trailWidth: 3
     trailInterval: 3
     type: MissileBulletType
-    width: 12
-        homing: false
-    height: 12
-    speed: 7
-    lifetime: 25
-    frontColor: bff3ff
-    backColor: acebfa
+    width: 50
+    homing: false
+    height: 40
+    speed: 8.75
+    lifetime: 75
+    frontColor: 8bf08b
+    backColor: 7be37b
     damage: 1480
     despawnSound: dullExplosion
-          weaveScale: 2
-      weaveMag: 3
-    ammoMultiplier: 2
-  }
-
-
-
-
-  Corium: {
-     status: blasted
-    trailRotation: true
-    trailLength: 20
-    trailWidth: 3
-    trailInterval: 3
-    trailEffect: {
-  type: ParticleEffect
-  length: 0
-  particles: 1
-  sizeFrom: 1
-  sizeTo: 0
-  colorFrom: fcb3b3
-  colorTo: c26b6b
-}
-    type: MissileBulletType
-    width: 9
-    homing: false
-    height: 12
-    speed: 7.5
-    lifetime: 25
-    frontColor: facea7
-    damage: 55
-    despawnSound: FireShot
-          weaveScale: 2
-      weaveMag: 5
-    ammoMultiplier: 3
+          weaveScale: 4
+      weaveMag: 6
+    ammoMultiplier: 1
   }
 }
 drawer: {
@@ -192,7 +156,7 @@ drawer: {
       progress: warmup
       moveRot: -7
       moveX: 1
-      moveY: 1
+      moveY: -3.5
     }
             {
       type: RegionPart
@@ -202,7 +166,7 @@ drawer: {
       progress: warmup
       moveRot: 7
       moveX: 1
-      moveY: 1
+      moveY: -3.5
     }
   ]
 }
