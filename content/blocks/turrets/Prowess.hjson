@@ -54,7 +54,7 @@ shootY: 8
           lifetime: 45
           interp: circleOut
           cone: 4.5
-          colorFrom: ffffff
+          colorFrom: fcb3b3
           rotWithParent: false
           followParent: false
           colorTo: 666666

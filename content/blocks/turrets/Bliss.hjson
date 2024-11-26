@@ -7,6 +7,21 @@ buildCostMultiplier: 0.2
 reload: 6
 health: 465
 range: 200
+smokeEffect: {
+        type: ParticleEffect
+          particles: 8
+          length: -20
+          y: -28
+          lifetime: 30
+          interp: circleOut
+          cone: 10
+          colorFrom: fcb3b3
+          rotWithParent: false
+          followParent: false
+          colorTo: 666666
+          sizeFrom: 2.25
+          sizeTo: 0.2
+        }
 outlineColor: 100d0d
 coolantMultiplier: 0.5
 researchCostMultiplier: 0.5
