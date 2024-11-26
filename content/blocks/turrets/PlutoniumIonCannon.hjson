@@ -123,7 +123,7 @@ Plutonium: {
   colorFrom: 7be37b
   colorTo: 52bf52
 }
-    trailWidth: 3
+    trailWidth: 4.5
     trailInterval: 3
     type: MissileBulletType
     width: 25
@@ -137,6 +137,36 @@ Plutonium: {
     despawnSound: dullExplosion
           weaveScale: 4
       weaveMag: 2
+    ammoMultiplier: 1
+  }
+  Corium: {
+    status: blasted
+    trailRotation: true
+    trailColor: de9076
+    trailLength: 45
+    trailEffect: {
+  type: ParticleEffect
+  length: 0
+  particles: 3
+  sizeFrom: 1
+  sizeTo: 0
+  colorFrom: de9076
+  colorTo: e8af9b
+}
+    trailWidth: 4.5
+    trailInterval: 3
+    type: MissileBulletType
+    width: 25
+    homing: false
+    height: 45
+    speed: 8.75
+    lifetime: 50
+    frontColor: e8af9b
+    backColor: de9076
+    damage: 1675
+    despawnSound: dullExplosion
+          weaveScale: 4
+      weaveMag: 4.5
     ammoMultiplier: 1
   }
 }
