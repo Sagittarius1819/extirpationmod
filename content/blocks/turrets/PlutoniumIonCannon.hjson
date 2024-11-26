@@ -2,7 +2,7 @@ type: ItemTurret
 name: Plutonium Ion Cannon
 description: Fires a giant radioactive projectile at enemies
 size: 4
-ammoPerShot: 5
+ammoPerShot: 8
 moveWhileCharging: false
  solid: true
 category: turret
@@ -86,9 +86,9 @@ requirements: [
 ]
 consumes: {
   liquids: [
- Oxygen/0.83333333334
+ Oxygen/1
   ]
-  power: 10.8333333334
+  power: 16
 }
 hiddenOnPlanets: [serpulo, erekir]
 outlineColor: 100d0d
@@ -133,7 +133,7 @@ Plutonium: {
     lifetime: 50
     frontColor: 8bf08b
     backColor: 7be37b
-    damage: 1480
+    damage: 1200
     despawnSound: dullExplosion
           weaveScale: 4
       weaveMag: 2
@@ -163,7 +163,7 @@ Plutonium: {
     lifetime: 50
     frontColor: e8af9b
     backColor: de9076
-    damage: 1675
+    damage: 1400
     despawnSound: dullExplosion
           weaveScale: 4
       weaveMag: 4.5
