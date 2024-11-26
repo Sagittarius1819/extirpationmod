@@ -49,7 +49,7 @@ shootY: 8
       smokeEffect: {
         type: ParticleEffect
           particles: 25
-          length: 145w
+          length: 145
           y: 28
           lifetime: 45
           interp: circleOut

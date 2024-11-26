@@ -90,4 +90,4 @@ drawer: {
   type: DrawTurret
   basePrefix: Rusted-
 }
-buildCostMultiplier: 0.25sa
+buildCostMultiplier: 0.25

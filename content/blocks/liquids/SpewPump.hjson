@@ -30,4 +30,4 @@ requirements: [
 ]
 pumpAmount: 0.25
 researchCostMultiplier: 0.5
-  buildCostMultiplier: 0.75s
+  buildCostMultiplier: 0.75
