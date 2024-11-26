@@ -23,6 +23,10 @@ requirements: [
 ]
 }
  solid: true
+requirements: [
+ Tin/60
+ CopperAlt/35
+]
 generateEffect: steam 
 powerProduction: 1
 consumes: {
