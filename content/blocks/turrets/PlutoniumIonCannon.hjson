@@ -6,6 +6,30 @@ size: 4
 category: turret
 recoil: 3.5
 hasLiquids: true
+ parts: [
+  {
+    type: FlarePart
+    x: 0
+    y: -5
+    color1: ff7570
+    color2: ffd8d6
+    spinSpeed: -1
+    radius: 9
+    sides: 3
+    followRotation: true
+  }
+  {
+    type: FlarePart
+    x: 0
+    y: -5
+    color1: ff7570
+    color2: ffd8d6
+    spinSpeed: 0.5
+    radius: 7
+    sides: 5
+    followRotation: true
+  }
+]
 shootEffect: {
             type: ExplosionEffect
             length: 48
@@ -24,17 +48,17 @@ shootEffect: {
              }
 smokeEffect: {
         type: ParticleEffect
-          particles: 15
-          length: -75
+          particles: 20
+          length: -90
           y: -28
-          lifetime: 60
+          lifetime: 120
           interp: circleOut
           cone: 10
           colorFrom: fcb3b3
           rotWithParent: false
           followParent: false
           colorTo: 666666
-          sizeFrom: 4
+          sizeFrom: 5
           sizeTo: 0.2
         }
 ammoPerShot: 1
@@ -92,7 +116,6 @@ ammoTypes: {
 
 
 Plutonium: {
-     status: Status-Paralyzed
     trailRotation: true
     trailColor: c8f0fa
     trailLength: 20
@@ -125,7 +148,7 @@ Plutonium: {
 
 
 
-  Ignea: {
+  Corium: {
      status: blasted
     trailRotation: true
     trailLength: 20
@@ -159,18 +182,6 @@ drawer: {
   basePrefix: Dark-
   parts: [
     {
-    top: true
-      type: RegionPart
-      suffix: -barrel
-      progress: recoil
-      under: false
-      moveY: -12
-      growX: -0.15
-      growY: 0.1
-      mirror: false
-      recoilIndex: 0
-    }
-        {
       type: RegionPart
       mirror: false
       suffix: -bottomwing-l
@@ -187,6 +198,26 @@ drawer: {
       under: false
       progress: warmup
       moveRot: 23
+      moveX: 1
+      moveY: 1
+    }
+        {
+      type: RegionPart
+      mirror: false
+      suffix: -topwing-l
+      under: false
+      progress: warmup
+      moveRot: -7
+      moveX: 1
+      moveY: 1
+    }
+            {
+      type: RegionPart
+      mirror: false
+      suffix: -topwing-r
+      under: false
+      progress: warmup
+      moveRot: 7
       moveX: 1
       moveY: 1
     }
