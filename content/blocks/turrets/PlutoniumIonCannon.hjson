@@ -88,7 +88,7 @@ consumes: {
   liquids: [
  Oxygen/0.83333333334
   ]
-  power/10.8333333334
+  power: 10.8333333334
 }
 hiddenOnPlanets: [serpulo, erekir]
 outlineColor: 100d0d
