@@ -8,16 +8,18 @@ category: turret
 recoil: 7.5
 hasLiquids: true
 chargeEffect: {
-            type: WaveEffect
-            length: 48
+        type: WaveEffect
+        length: 48
             baseLength: -48
             cone: 360
             particles: 22
-            sizeFrom: 125
+            sizeFrom: 35
             colorFrom: ff7570
-            colorTo: ffffffff
+            colorTo: ffffff
+            rotWithParent: true
             sizeTo: 0
-            lifetime: 100  
+            Y: 3
+            lifetime: 100
             }  
 shootEffect: {
             type: ExplosionEffect
