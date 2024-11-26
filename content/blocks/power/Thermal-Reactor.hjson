@@ -28,7 +28,7 @@ generateEffect: steam
 powerProduction: 7.41667
 consumes: {
   liquids: [
- slag/2
+ slag/1
   ]
    items: [
    Jet/2
