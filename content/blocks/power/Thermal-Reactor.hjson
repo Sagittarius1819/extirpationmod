@@ -24,7 +24,7 @@ requirements: [
 }
  solid: true
 generateEffect: steam 
-powerProduction: 1
+powerProduction: 7.41667
 consumes: {
   liquids: [
  slag/3.5
