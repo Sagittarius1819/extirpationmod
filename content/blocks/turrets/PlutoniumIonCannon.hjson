@@ -7,8 +7,7 @@ ammoPerShot: 5
 category: turret
 recoil: 7.5
 hasLiquids: true
-chargeEffect:
-            {
+chargeEffect: {
             type: WaveEffect
             length: 48
             baseLength: -48
@@ -123,9 +122,9 @@ Plutonium: {
     trailWidth: 3
     trailInterval: 3
     type: MissileBulletType
-    width: 12
+    width: 25
     homing: false
-    height: 30
+    height: 45
     speed: 8.75
     lifetime: 50
     frontColor: 8bf08b
