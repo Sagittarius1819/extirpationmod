@@ -18,6 +18,7 @@ consumes: {
   ]
   power: 1.35
 }
+craftTime: 60
 category: crafting
 research: {
   parent: Bronze-Solidifier
