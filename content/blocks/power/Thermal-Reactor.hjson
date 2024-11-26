@@ -13,6 +13,7 @@ research: {
       preset: crimsoncanyon
     }
   ]
+}
 requirements: [
  Tin/100
  CopperAlt/75
@@ -21,7 +22,6 @@ requirements: [
  Blackplate/30
  Ignea/25
 ]
-}
  solid: true
 generateEffect: steam 
 powerProduction: 7.41667
