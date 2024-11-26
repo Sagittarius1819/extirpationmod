@@ -88,6 +88,7 @@ consumes: {
   liquids: [
  Oxygen/0.83333333334
   ]
+  power/10.8333333334
 }
 hiddenOnPlanets: [serpulo, erekir]
 outlineColor: 100d0d
@@ -160,7 +161,7 @@ drawer: {
       under: false
       progress: warmup
       moveRot: 23
-      moveX: 1
+      moveX: -1
       moveY: 1
     }
         {
@@ -180,7 +181,7 @@ drawer: {
       under: false
       progress: warmup
       moveRot: 7
-      moveX: 1
+      moveX: -1
       moveY: -3.5
     }
   ]
