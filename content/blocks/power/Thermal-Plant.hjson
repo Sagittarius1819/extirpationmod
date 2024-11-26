@@ -20,7 +20,7 @@ research: {
 }
  solid: true
 requirements: [
- Tin/60
+ Tin/40
  CopperAlt/35
 ]
 generateEffect: steam 
