@@ -7,6 +7,19 @@ ammoPerShot: 5
 category: turret
 recoil: 7.5
 hasLiquids: true
+chargeEffect:
+            {
+            type: WaveEffect
+            length: 48
+            baseLength: -48
+            cone: 360
+            particles: 22
+            sizeFrom: 125
+            colorFrom: ff7570
+            colorTo: ffffffff
+            sizeTo: 0
+            lifetime: 100  
+            }  
 shootEffect: {
             type: ExplosionEffect
             length: 25
@@ -14,7 +27,7 @@ shootEffect: {
             followParent: false
             sparkLen: 6.5
             sparkRad: 75
-            smokeSize: 7
+            smokeSize: 0
             baseLength: -48
             cone: 360
             particles: 28
@@ -24,7 +37,7 @@ shootEffect: {
             sparkColor:ffd8d6
             waveRad: 75
             sparks: 20
-            smokes: 10
+            smokes: 0
             colorFrom: ff7570
             colorTo: bf3e39
             sizeTo: 0
@@ -71,23 +84,23 @@ requirements: [
 ]
 consumes: {
   liquids: [
- Oxygen/0.834
+ Oxygen/0.83333333334
   ]
 }
 hiddenOnPlanets: [serpulo, erekir]
 outlineColor: 100d0d
 damage: 1480
-health: 2750
+health: 3800
 targetAir: true
 targetGround: true
-reload: 180
+reload: 225
     hitSound: dullExplosion
-range: 325
+range: 400
 velocityRnd: 0.25
 inaccuracy: 3
 scaleLife: true
 shoot: {
-    firstShotDelay: 110
+    firstShotDelay: 100
 }
 chargeSound: lasercharge
 ammoTypes: {
@@ -110,17 +123,17 @@ Plutonium: {
     trailWidth: 3
     trailInterval: 3
     type: MissileBulletType
-    width: 50
+    width: 12
     homing: false
-    height: 40
+    height: 30
     speed: 8.75
-    lifetime: 75
+    lifetime: 50
     frontColor: 8bf08b
     backColor: 7be37b
     damage: 1480
     despawnSound: dullExplosion
           weaveScale: 4
-      weaveMag: 6
+      weaveMag: 2
     ammoMultiplier: 1
   }
 }
