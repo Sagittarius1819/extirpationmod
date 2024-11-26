@@ -72,7 +72,7 @@ requirements: [
  CopperAlt/5000
   Tin/7000
   Bronze/3500
-  Blackplate/5
+  Blackplate/500
 ]
   objectives: [
     {
@@ -84,6 +84,6 @@ requirements: [
 requirements: [
  CopperAlt/80
   Tin/100
-  Marble/80
+  Blackplate/80
 ]
 researchCostMultiplier: 0.5

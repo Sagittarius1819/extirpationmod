@@ -28,3 +28,4 @@ squareSprite: false
 conductivePower: true
 researchCostMultiplier: 0.35
 maxBlockSize: 4
+  buildCostMultiplier: 0.6

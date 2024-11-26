@@ -15,3 +15,4 @@ consumes: {
 }
 researchCostMultiplier: 0.3
 tier: 1
+  buildCostMultiplier: 0.6

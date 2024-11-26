@@ -47,3 +47,4 @@ researchCost: [
     Hematite/3000
     Plutonium/200
   ]
+  buildCostMultiplier: 0.2
