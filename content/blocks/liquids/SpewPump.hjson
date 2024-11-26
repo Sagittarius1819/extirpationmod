@@ -15,8 +15,8 @@ consumes: {
     Bronze/1500
   ]
   objectives: [
-    Bronze
-    Blackplate
+    extirpation-Bronze
+    extirpation-Blackplate
     {
       type: SectorComplete 
       preset: sightlines

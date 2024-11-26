@@ -12,6 +12,7 @@ research: {
     Tin/550
   ]
     objectives: [
+      extirpation-Jet
     {
       type: OnSector 
       preset:  bouncer

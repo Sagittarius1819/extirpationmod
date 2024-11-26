@@ -29,9 +29,9 @@
 	research: {
   parent: Mini-Drill
       objectives: [
-    Bronze
-    Blackplate
-    Mini-Drill
+    extirpation-Bronze
+    extirpation-Blackplate
+    extirpation-Mini-Drill
     {
       type: SectorComplete 
       preset: solitude

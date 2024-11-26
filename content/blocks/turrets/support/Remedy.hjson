@@ -16,9 +16,10 @@ research: {
     Hematite/2000
   ]
   objectives: [
+    extirpation-Oxygen-Ventilator
     {
       type: SectorComplete
-      preset: bouncer
+      preset: solitude
     }
   ]
 }
