@@ -13,11 +13,8 @@ outputItems: [
 ]
 consumes: {
       liquids: [
-      slag/0.325
+      slag/0.35
       Oxygen/0.15
-  ]
-        items: [
-Plutonium/1
   ]
   power: 1.35
 }
