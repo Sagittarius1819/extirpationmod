@@ -159,7 +159,7 @@ Plutonium: {
     width: 25
     homing: false
     height: 45
-    speed: 8.75
+    speed: 9
     lifetime: 50
     frontColor: e8af9b
     backColor: de9076
