@@ -42,3 +42,4 @@ requirements: [
  Hematite/105
  Bronze/175
 ]
+  buildCostMultiplier: 0.4

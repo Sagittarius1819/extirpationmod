@@ -87,3 +87,4 @@ requirements: [
   Blackplate/80
 ]
 researchCostMultiplier: 0.5
+  buildCostMultiplier: 0.85

@@ -50,4 +50,4 @@ consumes: {
   ]
 }
 areaSize: 13
-  buildCostMultiplier: 0.2
+  buildCostMultiplier: 0.03

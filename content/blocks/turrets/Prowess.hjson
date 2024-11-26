@@ -83,3 +83,4 @@ slag: {
     lightColor: ffffffCC
     knockback: 0.66
   }}
+  buildCostMultiplier: 0.12

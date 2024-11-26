@@ -88,3 +88,4 @@ drawer: {
   type: DrawTurret
   basePrefix: Organic-
 }
+buildCostMultiplier: 0.6

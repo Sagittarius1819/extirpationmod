@@ -38,3 +38,4 @@ researchCost: [
     Marble/1200
     Blight/1000
   ]
+    buildCostMultiplier: 0.8

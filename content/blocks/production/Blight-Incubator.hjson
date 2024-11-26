@@ -3,7 +3,6 @@ name: Blight Incubator
 description: Incubates Blight with the help of Marble, Bloodgrit and Jet. Produces a highly reactive substance as a waste product.
 size: 3
 health: 835
-buildCostMultiplier: 0.35
 squareSprite: false
 itemCapacity: 25
 outputItems: [
@@ -72,3 +71,4 @@ requirements: [
   Blight/170
 ]
 researchCostMultiplier: 0.5
+  buildCostMultiplier: 0.1
