@@ -8,6 +8,7 @@ moveWhileCharging: false
 category: turret
 recoil: 7.5
 hasLiquids: true
+LiquidCapacity: 120
 chargeEffect: {
         type: WaveEffect
         length: 48
@@ -78,11 +79,11 @@ research: {
 researchCostMultiplier: 0.05
 shootSound: laserblast
 requirements: [
-    Tin/1050
-    CopperAlt/800
-    Blackplate/650
-    Ignea/325
-    Plutonium/400
+    Tin/2500
+    CopperAlt/1750
+    Blackplate/1450
+    Ignea/1500
+    Plutonium/1280
 ]
 consumes: {
   liquids: [
