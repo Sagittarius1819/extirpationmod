@@ -9,17 +9,17 @@ health: 465
 range: 200
 smokeEffect: {
         type: ParticleEffect
-          particles: 8
-          length: -20
+          particles: 16
+          length: -35
           y: -28
-          lifetime: 30
+          lifetime: 45
           interp: circleOut
           cone: 10
           colorFrom: fcb3b3
           rotWithParent: false
           followParent: false
           colorTo: 666666
-          sizeFrom: 2.25
+          sizeFrom: 3.25
           sizeTo: 0.2
         }
 outlineColor: 100d0d
