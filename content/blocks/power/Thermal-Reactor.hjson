@@ -23,6 +23,7 @@ requirements: [
  Ignea/25
 ]
  solid: true
+ warmupSpeed: 2
 generateEffect: steam 
 powerProduction: 7.41667
 consumes: {
@@ -32,7 +33,6 @@ consumes: {
    items: [
    Jet/2
   ]
-  power: 2
 }
 ambientSound: hum
 ambientSoundVolume: 0.5
