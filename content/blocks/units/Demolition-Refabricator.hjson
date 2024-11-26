@@ -31,7 +31,7 @@ research: {
     parent: Demolition-Fabricator
     objectives: [
         {
-            type: SectorComplete
+            type: OnSector
             preset: solitude
         }
     ]
