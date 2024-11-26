@@ -4,6 +4,7 @@ description: Creates a large amount of power from Slag and Jet
 size: 3
 hasLiquids: true
 hasItems: true
+hasPower: true
 category: power
 squareSprite: false
 buildCostMultiplier: 0.5
