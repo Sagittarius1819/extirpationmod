@@ -1,0 +1,13 @@
+type: Floor
+name: Bile
+speedMultiplier: 0.5
+variants: 3
+status: Status-Paralyzed
+statusDuration: 40
+drownTime: 1200
+liquidDrop: Bile
+liquidMultiplier: 2
+isLiquid: true
+cacheLayer: water
+albedo: 0.8
+supportsOverlay: true

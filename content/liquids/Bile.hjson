@@ -1,0 +1,15 @@
+name: Bile
+description: A liquid made by melting Copper and Tin.
+effect: Status-Paralyzed
+boilPoint: 0.5
+color: 478231
+heatCapacity: 0.35
+gasColor: d9fff3da
+research: {
+  parent: Liquid-Bronze
+    objectives: [
+      extirpation-Paralysis
+    ]
+}
+coolant: false
+alwaysUnlocked: false
