@@ -36,20 +36,20 @@ coolant: {
   amount: 0.1
 }
 consumes: {
-  power: 11.67
+  power: 5.5
 }
 outlineColor: 100d0d
 liquidConsumed: 1.2
 targetInterval: 5
 targetUnderBlocks: false
-range: 130
+range: 145
 targetAir: false
 shootY: 8
  solid: true
       smokeEffect: {
         type: ParticleEffect
           particles: 25
-          length: 150
+          length: 145w
           y: 28
           lifetime: 45
           interp: circleOut
@@ -75,12 +75,11 @@ slag: {
     hitColor: ffffffCC
     type: BasicBulletType
     lifetime: 45
-    damage: 20
-    speed: 6
+    damage: 32
+    speed: 5
     length: 0
-    knockback: 0.4
+    knockback: 1.6
     pierceCap: 3
     lightColor: ffffffCC
-    knockback: 0.66
   }}
   buildCostMultiplier: 0.12
