@@ -3,6 +3,7 @@ name: Plutonium Ion Cannon
 description: Fires a giant laser at enemies
 size: 4
 ammoPerShot: 5
+moveWhileCharging: false
  solid: true
 category: turret
 recoil: 7.5
