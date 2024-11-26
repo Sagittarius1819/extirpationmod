@@ -2,49 +2,33 @@ type: ItemTurret
 name: Plutonium Ion Cannon
 description: Fires a giant laser at enemies
 size: 4
+ammoPerShot: 5
  solid: true
 category: turret
 recoil: 3.5
 hasLiquids: true
- parts: [
-  {
-    type: FlarePart
-    x: 0
-    y: -5
-    color1: ff7570
-    color2: ffd8d6
-    spinSpeed: -1
-    radius: 9
-    sides: 3
-    followRotation: true
-  }
-  {
-    type: FlarePart
-    x: 0
-    y: -5
-    color1: ff7570
-    color2: ffd8d6
-    spinSpeed: 0.5
-    radius: 7
-    sides: 5
-    followRotation: true
-  }
-]
 shootEffect: {
-            type: ExplosionEffect
+                type: ExplosionEffect
             length: 48
+            rotWithParent: false
+            followParent: false
+            sparkLen: 6.5
+            sparkRad: 125
+            smokeSize: 11
             baseLength: -48
             cone: 360
-            line: true
-            particles: 12
-            sizeFrom: 10
-            colorFrom: dca1ff
-            colorTo: ffffff
+            particles: 28
+            smokeRad: 175
+            smokeColor:ffd8d6
+            waveColor:ffd8d6
+            sparkColor:ffd8d6
+            waveRad: 75
+            sparks: 20
+            smokes: 10
+            colorFrom: ff7570
+            colorTo: bf3e39
             sizeTo: 0
-            smokes: 0
-            sparks: 0
-            Y: 15.5
-            lifetime: 25
+            lifetime: 100
              }
 smokeEffect: {
         type: ParticleEffect
@@ -61,9 +45,8 @@ smokeEffect: {
           sizeFrom: 5
           sizeTo: 0.2
         }
-ammoPerShot: 1
-maxAmmo: 25
-shootY: 7.5
+maxAmmo: 35
+shootY: 3
 research: {
   parent: Prowess
   requirements: [
@@ -82,7 +65,7 @@ research: {
   ]
  }
 researchCostMultiplier: 0.05
-shootSound: MeteorShot
+shootSound: laserblast
 requirements: [
     Tin/1050
     CopperAlt/800
@@ -92,25 +75,25 @@ requirements: [
 ]
 consumes: {
   liquids: [
- Oxygen/0.6
+ Oxygen/0.834
   ]
 }
 hiddenOnPlanets: [serpulo, erekir]
 outlineColor: 100d0d
-damage: 70
+damage: 1480
 health: 2750
 targetAir: true
 targetGround: true
-reload: 12
+reload: 150
     hitSound: dullExplosion
-range: 180
+range: 325
 velocityRnd: 0.25
-inaccuracy: 7.5
+inaccuracy: 3
 scaleLife: true
 shoot: {
-  shots: 2
-  shotDelay: 4.5
+    firstShotDelay: 125
 }
+chargeSound: lasercharge
 ammoTypes: {
 
 
@@ -138,7 +121,7 @@ Plutonium: {
     lifetime: 25
     frontColor: bff3ff
     backColor: acebfa
-    damage: 40
+    damage: 1480
     despawnSound: dullExplosion
           weaveScale: 2
       weaveMag: 3
