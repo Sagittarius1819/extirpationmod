@@ -96,7 +96,6 @@ drawer: {
     }
     {
       type: DrawSoftParticles
-      region: circle
     }
   ]
 }
