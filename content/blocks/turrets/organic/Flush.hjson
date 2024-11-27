@@ -50,7 +50,6 @@ ammoTypes: {
             particles: 10
             colorFrom: e89437
             colorTo: 666666
-            
         }
             trailColor: f2fafc
     trailRotation: true
@@ -76,6 +75,13 @@ ammoTypes: {
     lightColor: ffffffCC
     }
         Bile: {
+        shootEffect: {
+            type: ParticleEffect
+            length: 7
+            particles: 10
+            colorFrom: d6ec56
+            colorTo: 666666
+        }
         despawnEffect: none
     width: 7
     drawFlare: false
