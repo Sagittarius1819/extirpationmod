@@ -2,7 +2,7 @@ type: material
 name: Zirconia
 description: A strong, flexible plate. Made for Organic units and Turrets.
 cost: 3
-color: f09148
+color: e2d8ac
 hiddenOnPlanets: [serpulo, erekir]
 research: {
   parent: Jet

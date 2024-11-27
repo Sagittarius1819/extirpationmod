@@ -2,7 +2,7 @@ type: material
 name: Sulfur
 description: A particularly fragrant chunk of sulfur.
 cost: 5
-color: 56c474
+color: 978e3b
 hiddenOnPlanets: [serpulo, erekir]
 hardness: 4
 charge: 0.4
