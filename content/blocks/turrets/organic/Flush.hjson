@@ -60,6 +60,7 @@ ammoTypes: {
         Bile: {
         despawnEffect: none
     width: 7
+    layer: 0
     drawFlare: false
     hitColor: ffffffCC
     type: LiquidBulletType
