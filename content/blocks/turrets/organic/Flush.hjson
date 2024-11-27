@@ -1,13 +1,13 @@
 name: Flush
 type: LiquidTurret
 health: 315
-reload: 12
+reload: 8
 size: 2
 targetAir: true
 targetGround: true
 collidesGround: true
 collidesAir: true
-range: 85
+range: 100
 inaccuracy: 10
 outlineColor: 7f4444
 drawFlare: false
@@ -50,8 +50,8 @@ ammoTypes: {
     type: LiquidBulletType
     liquid: slag
     lifetime: 45
-    damage: 30
-    speed: 5
+    damage: 23
+    speed: 2.5
     length: 9
     knockback: 1.6
     pierceCap: 2
@@ -65,8 +65,8 @@ ammoTypes: {
     type: LiquidBulletType
     liquid: Bile
     lifetime: 45
-    damage: 28
-    speed: 5
+    damage: 19
+    speed: 2.5
     length: 9
     knockback: 1.6
     pierceCap: 3
@@ -80,8 +80,8 @@ ammoTypes: {
     type: LiquidBulletType
     liquid: Oxygen
     lifetime: 45
-    damage: 32
-    speed: 5
+    damage: 21
+    speed: 2.5
     length: 9
     knockback: 1.6
     pierceCap: 3
