@@ -9,7 +9,7 @@ hasLiquids: true
 shootEffect: {
             type: ExplosionEffect
             length: 48
-            baseLength: -100
+            baseLength: -48
             cone: 360
             
             line: true
@@ -29,7 +29,6 @@ smokeEffect: {
           length: -75
           y: -28
           lifetime: 60
-          baseLength: -25
           interp: circleOut
           cone: 10
           colorFrom: fcb3b3

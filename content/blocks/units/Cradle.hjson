@@ -1,43 +1,44 @@
 type: Reconstructor
 size: 3
-name: Demolition Refabricator
+name: Cradle
 health: 1200
-constructTime: 990
+constructTime: 850
 liquidCapacity: 60
 consumes: {
   power: 2
     items: {
       items: [
         Blackplate/20
-        Bronze/30
+        Zirconia/30
       ]
     }
   liquid: {
-    liquid: slag
+    liquid: Bile
     amount: 1
   }
 }
 upgrades: [
-  [Ruin, Wreck]
-    [Squeal, Mewl]
+  [Alert, Animate]
 ]
 requirements: [
-  Tin/120
+  Marble/55
   Blackplate/40
-  Bronze/50
+  Zirconia/50
+  Blight/120
 ]
 category: units
 research: {
-    parent: Demolition-Fabricator
+    parent: Atomic-Fabricator
     objectives: [
-        {
-            type: OnSector
-            preset: solitude
+     {
+            type: SectorComplete
+            preset: unsightly
         }
     ]
 }
 researchCost: [
-    Tin/1000
-    CopperAlt/500
-    Blackplate/150
+    Blight/1000
+    Marble/475
+    Zirconia/200
+    Blackplate/5500
   ]
