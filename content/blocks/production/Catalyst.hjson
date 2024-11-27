@@ -16,7 +16,7 @@ recipes:
 {
   input: {
          items: [
-        extirpation-Blight/1
+        extirpation-Blight/2
       ]
       liquid: Bile/0.6
       power: 0.75
@@ -31,7 +31,8 @@ recipes:
 {
   input: {
          items: [
-        extirpation-Marble/1
+        extirpation-Marble/2
+        extirpation-Bloodgrit/3
       ]
       liquid: Bile/0.6
       power: 0.75
