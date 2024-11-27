@@ -13,7 +13,7 @@ size: 5
 squareSprite: false
 alwaysUnlocked: false
 unitType: Coagulant
-health: 3650
+health: 6650
 itemCapacity: 11000
 unitCapModifier: 14
 category: effect
