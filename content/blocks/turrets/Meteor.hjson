@@ -9,7 +9,7 @@ hasLiquids: true
 shootEffect: {
             type: ExplosionEffect
             length: 48
-            baseLength: -48
+            baseLength: -100
             cone: 360
             
             line: true
