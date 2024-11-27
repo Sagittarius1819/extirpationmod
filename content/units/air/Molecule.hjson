@@ -15,6 +15,15 @@ alwaysUnlocked: false
 outlineColor: 342222
 lowAltitude: true
 range: 160
+ research: {
+  parent: Atom
+  requirements: [
+    CopperAlt/7000
+    Blackplate/1200
+    Bronze/6000
+    Tin/8000
+  ]
+ }
 weapons: [
   {
   name: MolecSmallgun

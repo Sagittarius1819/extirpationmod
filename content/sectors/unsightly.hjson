@@ -1,7 +1,7 @@
 
 planet: Varelin
 sector: 9
-captureWave: 35
+captureWave: 25
 difficulty: 2
 alwaysUnlocked: false
 research: {

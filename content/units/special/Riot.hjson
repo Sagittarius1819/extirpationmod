@@ -1,0 +1,56 @@
+type: tank
+name: Riot
+description:
+'''
+insert lore here
+'''
+hitSize: 29
+crushDamage: 2
+treadPullOffset: 4
+singleTarget: false
+omniMovement: false
+faceTarget: false
+health: 10620
+armor: 10
+speed: 0.25
+rotateSpeed: 0.5
+itemCapacity: 0
+outlineColor: 824b4b
+treadRects: [
+  {
+    x: -50
+    y: -67
+    width: 29
+    height: 134
+  }
+]
+forceMultiTarget: true
+weapons: [
+{
+x: 0
+    y: 1
+    name: Riot-head
+    reload: 100
+    recoil: 5
+    inaccuracy: 20
+    rotate: true
+    mirror: false
+    shootSound: Shotgun
+        shoot: {
+          shots: 7
+          shotDelay: 2
+        }
+        shootSound: Shotgun
+        bullet: {
+          type: BasicBulletType
+          speed: 4
+          lifetime: 32
+          pierce: true
+          pierceCap: 2
+          damage: 48
+          width: 8
+          height: 14
+        }
+  }
+]
+researchCostMultiplier: 2.25

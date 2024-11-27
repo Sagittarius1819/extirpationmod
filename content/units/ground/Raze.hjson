@@ -15,10 +15,11 @@ researchCostMultiplier: 1.5
   parent: Wreck
   requirements: [
     Tin/15000
-    CopperAlt/10000
+    CopperAlt/1000
     Blackplate/2500
-    Hematite/3000
-    Bronze/2000
+    Hematite/30000
+    Bronze/5000
+    Plutonium/2000
   ]
  }
 weapons: [

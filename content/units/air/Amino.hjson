@@ -15,6 +15,16 @@ alwaysUnlocked: false
 outlineColor: 342222
 lowAltitude: true
 range: 160
+ research: {
+  parent: Molecule
+  requirements: [
+    CopperAlt/8000
+    Blackplate/2800
+    Bronze/7000
+    Tin/12000
+    Plutonium/3000
+  ]
+ }
 weapons: [
   {
   name: Amino-gun
