@@ -1,6 +1,6 @@
-type: GenericCrafter
+type: multicraft.MultiCrafter
 name: Catalyst
-description: Uses power to forge Zirconia from Bile and Blight
+description: Uses power to forge Zirconia from Bile and Blight/Marble
 size: 2
 health: 225
 hasLiquids: true
@@ -14,11 +14,36 @@ outputItems: [
 consumes: {
   liquid: Bile/0.6
   power: 0.75
-  items: {
-    Blight/1
-    }
 }
-craftTime: 60
+recipes:
+[
+{
+  input: {
+         items: [
+        extirpation-Blight/1
+      ]
+  }
+  output: {
+      items: [
+        extirpation-Zirconia/1
+      ]
+  }
+  craftTime: 60
+}
+{
+  input: {
+         items: [
+        extirpation-Marble/1
+      ]
+  }
+  output: {
+      items: [
+        extirpation-Zirconia/1
+      ]
+  }
+  craftTime: 60
+}
+]
 craftEffect: smoke
 category: crafting
 research: {
