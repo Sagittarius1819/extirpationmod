@@ -29,7 +29,7 @@ forceMultiTarget: true
 weapons: [
 {
 x: 0
-    y: 1
+    y: 4.5
     name: Riot-head
     reload: 100
     recoil: 5
@@ -55,5 +55,34 @@ x: 0
           height: 14
         }
   }
+{
+x: 7
+    y: 2
+    name: Riot-bliss
+    reload: 10
+    recoil: 3
+    rotateSpeed: 1
+    inaccuracy: 7
+    rotate: false
+    mirror: true
+    alternate: true
+    shootSound: MetalShot
+        shootSound: Shotgun
+        bullet: {
+    pierceArmor: true
+    hitEffect: flakExplosion
+    type: BasicBulletType
+    speed: 7
+    width: 8
+    height: 8
+    lifetime: 35
+    pierce: false
+    damage: 15
+    splashDamage: 15
+    splashDamageRadius: 16
+    ammoMultiplier: 2
+        reloadMultiplier: 1.25
+    }
+}
 ]
 researchCostMultiplier: 2.25
