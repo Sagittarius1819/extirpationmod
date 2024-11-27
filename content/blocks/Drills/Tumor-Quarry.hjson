@@ -24,8 +24,6 @@ outputItems: [
 ]
 consumes: {
   power: 2.25
-}
-	consumes: {
 		liquid: {
 			liquid: Oxygen
 			amount: 0.035
