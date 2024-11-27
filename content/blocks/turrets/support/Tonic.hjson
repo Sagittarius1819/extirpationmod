@@ -59,7 +59,7 @@ shootType: {    width: 1.7
     homingPower: 0.05
     healAmount: 3.5
     drawFlare: false
-    homingRange: 50
+    homingRange: 10
     collidesGround: true
     width: 5
     height: 7
