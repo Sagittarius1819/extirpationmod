@@ -11,6 +11,7 @@ shootEffect: {
             length: 48
             baseLength: -48
             cone: 360
+            
             line: true
             particles: 12
             sizeFrom: 10
@@ -28,7 +29,7 @@ smokeEffect: {
           length: -75
           y: -28
           lifetime: 60
-          baseLength: 60
+          baseLength: -25
           interp: circleOut
           cone: 10
           colorFrom: fcb3b3
@@ -170,6 +171,7 @@ drawer: {
       growY: 0.1
       mirror: false
       recoilIndex: 0
+      layer: 0
     }
         {
       type: RegionPart
