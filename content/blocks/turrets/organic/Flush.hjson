@@ -69,6 +69,21 @@ ammoTypes: {
     lifetime: 40
     damage: 23
     speed: 2.5
+    smokeEffect: {
+        type: ParticleEffect
+          particles: 16
+          length: 14
+          y: -28
+          lifetime: 32
+          interp: circleOut
+          cone: 10
+          colorFrom: fcb3b3
+          rotWithParent: false
+          followParent: false
+          colorTo: 666666
+          sizeFrom: 3.25
+          sizeTo: 0.2
+        }
     length: 9
     knockback: 1.6
     pierceCap: 2

@@ -100,5 +100,9 @@ drawer: {
       rotateScl: 1.9
       particleRad: 13
     }
+    {
+        type: DrawCrucibleFlame
+        
+    }
   ]
 }
