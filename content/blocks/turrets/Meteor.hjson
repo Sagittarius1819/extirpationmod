@@ -28,6 +28,7 @@ smokeEffect: {
           length: -75
           y: -28
           lifetime: 60
+          baseLength: 60
           interp: circleOut
           cone: 10
           colorFrom: fcb3b3
