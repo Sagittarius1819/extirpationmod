@@ -11,10 +11,6 @@ buildCostMultiplier: 0.6
 outputItems: [
   Zirconia/1
 ]
-consumes: {
-  liquid: Bile/0.6
-  power: 0.75
-}
 recipes:
 [
 {
@@ -22,6 +18,8 @@ recipes:
          items: [
         extirpation-Blight/1
       ]
+      liquid: Bile/0.6
+      power: 0.75
   }
   output: {
       items: [
@@ -35,6 +33,8 @@ recipes:
          items: [
         extirpation-Marble/1
       ]
+      liquid: Bile/0.6
+      power: 0.75
   }
   output: {
       items: [
