@@ -3,12 +3,21 @@ type: LiquidTurret
 health: 315
 reload: 12
 size: 2
+targetAir: true
+targetGround: true
+collidesGround: true
+collidesAir: true
+range: 85
+inaccuracy: 10
 outlineColor: 7f4444
 drawFlare: false
 extinguish: true
+hasLiquids: true
+researchCostMultiplier: 0.05
 shootSound: Dripshot
 soundPitchMin: 0.5
 soundPitchMax: 1.5
+solid: true
 requirements: [
     Blight/40
     Marble/45
@@ -71,7 +80,7 @@ ammoTypes: {
     type: LiquidBulletType
     liquid: Oxygen
     lifetime: 45
-    damage: 28
+    damage: 32
     speed: 5
     length: 9
     knockback: 1.6
