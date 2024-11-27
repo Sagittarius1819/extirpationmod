@@ -27,9 +27,9 @@ consumes: {
 }
 	consumes: {
 		liquid: {
-			liquid: Oxygen, 
-			amount: 0.035,
-			optional: true,
+			liquid: Oxygen
+			amount: 0.035
+			optional: true
 			booster: true
       power: 2.25
 		}
