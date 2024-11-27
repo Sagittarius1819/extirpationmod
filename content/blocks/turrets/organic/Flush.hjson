@@ -8,6 +8,7 @@ targetGround: true
 collidesGround: true
 collidesAir: true
 range: 100
+category: turret
 inaccuracy: 5
 outlineColor: 361b1b
 drawFlare: false
@@ -43,6 +44,14 @@ research: {
  
 ammoTypes: {
     slag: {
+        shootEffect: {
+            type: ParticleEffect
+            length: 7
+            particles: 10
+            colorFrom: e89437
+            colorTo: 666666
+            
+        }
             trailColor: f2fafc
     trailRotation: true
     trailLength: 6
