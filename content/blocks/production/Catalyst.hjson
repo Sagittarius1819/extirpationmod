@@ -72,11 +72,6 @@ drawer: {
       suffix: -bottom
     }
     {
-      type: DrawLiquidTile
-      drawLiquid: Bile
-      padding: 1.5
-    }
-    {
       type: DrawDefault
     }
   ]
