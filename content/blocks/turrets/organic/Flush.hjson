@@ -20,7 +20,7 @@ research: {
     Blight/2000
     Zirconia/750
     Marble/1500
-    Scrap/1000
+    scrap/1000
   ]
     objectives: [
     {
