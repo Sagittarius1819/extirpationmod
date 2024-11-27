@@ -5,8 +5,8 @@ size: 3
 shootX: -2.5
 squareSprite: false
 buildCostMultiplier: 0.2
-reload: 7
-health: 450
+reload: 4.5
+health: 475
 range: 210
 smokeEffect: {
         type: ParticleEffect
