@@ -1,0 +1,16 @@
+type: material
+name: Sulfur
+description: A particularly fragrant chunk of sulfur.
+cost: 5
+color: 56c474
+hiddenOnPlanets: [serpulo, erekir]
+hardness: 4
+charge: 0.4
+radioactivity: 1
+research: {
+  parent: Marble
+  requirements: [
+    Sulfur/1
+  ]
+}
+alwaysUnlocked: false

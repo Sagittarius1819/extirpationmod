@@ -6,6 +6,7 @@ color: 141313
 lowPriority: true
 hiddenOnPlanets: [serpulo, erekir]
 hardness: 2
+flammability: 0.75
 explosiveness: 0.45
 research: {
   parent: Tin

@@ -1,12 +1,9 @@
 type: material
-name: Ignea
-description: A supercooled chunk of magma.
-cost: 4
+name: Zirconia
+description: A strong, flexible plate. Made for Organic units and Turrets.
+cost: 3
 color: f09148
 hiddenOnPlanets: [serpulo, erekir]
-explosiveness: 0.45
-flammability: 0.6
-charge: 0.25
 research: {
   parent: Jet
   requirements: [

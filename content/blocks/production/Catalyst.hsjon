@@ -1,0 +1,50 @@
+type: GenericCrafter
+name: Bronze Solidifier
+description: Uses power to cool Liquid bronze into a solid form.
+size: 2
+health: 225
+hasLiquids: true
+squareSprite: false
+liquidCapacity: 80
+itemCapacity: 15
+buildCostMultiplier: 0.6
+outputItems: [
+  Bronze/1
+]
+consumes: {
+  liquid: Bile/0.6
+  power: 0.75
+}
+craftTime: 60
+craftEffect: smoke
+category: crafting
+research: {
+  parent: Blight-Cultivator
+requirements: [
+ Blight/700
+  Marble/850
+]
+researchCostMultiplier: 0.5
+}
+requirements: [
+ Blight/60
+  Marble/105
+]
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: Bile
+      padding: 1.5
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
