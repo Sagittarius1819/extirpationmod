@@ -1,6 +1,6 @@
 type: GenericCrafter
-name: Bronze Solidifier
-description: Uses power to cool Liquid bronze into a solid form.
+name: Catalyst
+description: Uses power to forge Zirconia from Bile and Blight
 size: 2
 health: 225
 hasLiquids: true
@@ -9,11 +9,12 @@ liquidCapacity: 80
 itemCapacity: 15
 buildCostMultiplier: 0.6
 outputItems: [
-  Bronze/1
+  Zirconia/1
 ]
 consumes: {
   liquid: Bile/0.6
   power: 0.75
+  item: Blight/1
 }
 craftTime: 60
 craftEffect: smoke
@@ -28,7 +29,7 @@ researchCostMultiplier: 0.5
 }
 requirements: [
  Blight/60
-  Marble/105
+Marble/105
 ]
 
 drawer: {
