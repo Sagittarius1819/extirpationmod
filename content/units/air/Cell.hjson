@@ -10,7 +10,7 @@ hitSize: 45
 drag: 0.07
 rotateSpeed: 1.5
     layerOffset: 1
-health: 24500
+health: 30000
 trailScl: 1
 trailLength: 10
 engineOffset: 25.5

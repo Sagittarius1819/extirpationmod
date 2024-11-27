@@ -4,7 +4,7 @@ stepShake: 1.15
 description: Fires two miniguns and a barrage of bullets at enemies
 speed: 0.325
 flying: false
-health: 10000
+health: 17500
 mechStepParticles: true
 rotateSpeed: 3
 hitSize: 25

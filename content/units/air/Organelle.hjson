@@ -7,7 +7,7 @@ flying: true
 rotateSpeed: 2
 outlineRadius: 4
 hitSize: 32
-health: 9350
+health: 13500
 trailScl: 1
 trailLength: 7.5
 engineOffset: 16
