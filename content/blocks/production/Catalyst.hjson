@@ -62,7 +62,6 @@ craftEffect: {
         baseLength: 2.5
     cone: 90
     useRotation: false
-    baseRotation: 45
     sizeFrom: 2
     sizeTo: 0.1
     colorFrom: ffb3c6
