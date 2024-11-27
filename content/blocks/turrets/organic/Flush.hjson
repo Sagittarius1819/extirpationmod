@@ -1,0 +1,67 @@
+name: Flush
+type: LiquidTurret
+health: 315
+reload: 12
+drawFlare: false
+extinguish: true
+shootSound: Dripshot
+soundPitchMin: 0.5
+soundPitchMax: 1.5
+requirements: {
+    Blight/40
+    Marble/45
+    Zirconia/30
+    scrap/30
+}
+ammoTypes: {
+    slag: {
+        despawnEffect: none
+    width: 7
+    drawFlare: false
+    hitColor: ffffffCC
+    effect: burning
+    type: LiquidBulletType
+    liquid: slag
+    lifetime: 45
+    damage: 30
+    speed: 5
+    length: 9
+    knockback: 1.6
+    pierceCap: 2
+    lightColor: ffffffCC
+    }
+        Bile: {
+        despawnEffect: none
+    width: 7
+    drawFlare: false
+    hitColor: ffffffCC
+    type: LiquidBulletType
+    liquid: Bile
+    lifetime: 45
+    damage: 28
+    speed: 5
+    length: 9
+    knockback: 1.6
+    pierceCap: 3
+    lightColor: ffffffCC
+    }
+            Oxygen: {
+        despawnEffect: none
+    width: 7
+    drawFlare: false
+    hitColor: ffffffCC
+    type: LiquidBulletType
+    liquid: Oxygen
+    lifetime: 45
+    damage: 28
+    speed: 5
+    length: 9
+    knockback: 1.6
+    pierceCap: 3
+    lightColor: ffffffCC
+    }
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: Organic-
+}

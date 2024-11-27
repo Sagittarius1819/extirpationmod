@@ -85,10 +85,10 @@ research: {
 }
 shootSound: Organicshoot
 requirements: [
- Tin/320
- CopperAlt/260
- Bronze/150
- Hematite/250
+ Blight/330
+ Marble/270
+ Zirconia/175
+ scrap/100
 ]
 ammoTypes: {
   Marble: {

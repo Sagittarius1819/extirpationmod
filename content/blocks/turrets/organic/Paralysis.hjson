@@ -29,10 +29,10 @@ research: {
 researchCostMultiplier: 0.05
 shootSound: OrganicLaunch
 requirements: [
-    Blight/150
-    Marble/80
+    Blight/175
+    Marble/125
     Blackplate/45
-    Tin/200
+    scrap/200
 ]
 coolant: {
   type: ConsumeCoolant
@@ -87,4 +87,4 @@ drawer: {
   type: DrawTurret
   basePrefix: Organic-
 }
-buildCostMultiplier: 0.6
+buildCostMultiplier: 0.5

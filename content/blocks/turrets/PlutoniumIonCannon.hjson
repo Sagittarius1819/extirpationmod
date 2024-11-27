@@ -97,7 +97,7 @@ damage: 1480
 health: 3800
 targetAir: true
 targetGround: true
-reload: 225
+reload: 285
     hitSound: dullExplosion
 range: 400
 velocityRnd: 0.25
