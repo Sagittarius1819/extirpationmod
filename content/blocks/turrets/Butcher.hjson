@@ -2,6 +2,7 @@ type: ItemTurret
 name: Butcher
 description: Rapidly fires bullets at enemies. Organic alternative to Bliss.
 size: 3
+shootX: -2.5
 squareSprite: false
 buildCostMultiplier: 0.2
 reload: 7
@@ -12,7 +13,7 @@ smokeEffect: {
           particles: 8
           length: -75
           y: -28
-          lifetime: 45
+          lifetime: 60
           interp: circleOut
           cone: 10
           colorFrom: fcb3b3
