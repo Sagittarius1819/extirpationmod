@@ -40,16 +40,25 @@ research: {
     }
   ]
  }
+ 
 ammoTypes: {
     slag: {
-        despawnEffect: none
+            trailColor: f2fafc
+    trailRotation: true
+    trailLength: 6
+    trailWidth: 1.25
+    despawnEffect: none
     width: 7
+    trailColor: e89437
+    trailRotation: true
+    trailLength: 5
+    trailWidth: 1.25
     drawFlare: false
     hitColor: ffffffCC
     effect: burning
     type: LiquidBulletType
     liquid: slag
-    lifetime: 45
+    lifetime: 40
     damage: 23
     speed: 2.5
     length: 9
@@ -63,8 +72,12 @@ ammoTypes: {
     drawFlare: false
     hitColor: ffffffCC
     type: LiquidBulletType
+    trailColor: a6cc54
+    trailRotation: true
+    trailLength: 10
+    trailWidth: 1.25
     liquid: Bile
-    lifetime: 45
+    lifetime: 40
     damage: 19
     speed: 2.5
     length: 9
@@ -79,9 +92,13 @@ ammoTypes: {
     hitColor: ffffffCC
     type: LiquidBulletType
     liquid: Oxygen
-    lifetime: 45
+    lifetime: 40
     damage: 21
     speed: 2.5
+    trailColor: f2fafc
+    trailRotation: true
+    trailLength: 6
+    trailWidth: 1.25
     length: 9
     knockback: 1.6
     pierceCap: 3
