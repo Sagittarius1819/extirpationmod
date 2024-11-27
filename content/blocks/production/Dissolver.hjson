@@ -96,6 +96,9 @@ drawer: {
     }
     {
       type: DrawSoftParticles
+      alpha: 1
+      rotateScl: 0.2
+      particleRad: 13
     }
   ]
 }
