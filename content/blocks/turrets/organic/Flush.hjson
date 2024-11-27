@@ -3,7 +3,7 @@ type: LiquidTurret
 health: 315
 reload: 12
 size: 2
-outlineColor: 4e3737
+outlineColor: 7f4444
 drawFlare: false
 extinguish: true
 shootSound: Dripshot
