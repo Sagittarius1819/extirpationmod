@@ -55,12 +55,12 @@ craftEffect: {
   baseLength: 16
   effect: {
     type: ParticleEffect
-    particles: 5
+    particles: 12
         useRotation: false
     length: 12
     lifetime: 135
         baseLength: 2.5
-    cone: 10
+    cone: 90
     useRotation: false
     baseRotation: 45
     sizeFrom: 2
