@@ -49,7 +49,28 @@ recipes:
   craftTime: 45
 }
 ]
-craftEffect: smoke
+craftEffect: {
+  type: ParticleEffect
+  amount: 8
+  baseLength: 16
+  effect: {
+    type: ParticleEffect
+    particles: 5
+        useRotation: false
+    length: 12
+    lifetime: 135
+        baseLength: 2.5
+    cone: 10
+    useRotation: false
+    baseRotation: 45
+    sizeFrom: 2
+    sizeTo: 0.1
+    colorFrom: ffb3c6
+    colorTo: ffffff00
+    interp: pow2
+    sizeInterp: pow3In
+  }
+}
 category: crafting
 research: {
   parent: Blight-Cultivator
