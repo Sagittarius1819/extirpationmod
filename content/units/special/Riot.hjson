@@ -86,7 +86,8 @@ x: 5.5
     reload: 5
     recoil: 2
     inaccuracy: 12
-    rotate: false
+    rotate: true
+    rotateSpeed: 1.5
     mirror: true
     alternate: true
     shootSound: shootAlt
