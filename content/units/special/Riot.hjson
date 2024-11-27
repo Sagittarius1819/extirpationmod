@@ -10,8 +10,8 @@ omniMovement: false
 treadPullOffset: 4
 singleTarget: false
 faceTarget: true
-health: 4655
-armor: 10
+health: 7850
+armor: 12
 speed: 0.5
 rotateSpeed: 1
 itemCapacity: 0
