@@ -59,6 +59,7 @@ x: 12
     y: 2
     name: Riot-bliss
     reload: 10
+    shootCone: 100
     recoil: 3
     inaccuracy: 7
     rotate: false
