@@ -9,7 +9,7 @@ baseEfficiency: 0
 squareSprite: false
 minEfficiency: 1
 researchCostMultiplier: 0.5
-category: crafting
+category: production
 research: { 
     parent: Mini-Drill
     objectives: [
@@ -25,6 +25,15 @@ outputItems: [
 consumes: {
   power: 2.25
 }
+	consumes: {
+		liquid: {
+			liquid: Oxygen, 
+			amount: 0.035,
+			optional: true,
+			booster: true
+      power: 2.25
+		}
+	}
 requirements: [
  CopperAlt/80
  Tin/110
