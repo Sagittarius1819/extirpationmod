@@ -12,8 +12,16 @@ requirements: {
     Marble/45
     Zirconia/30
     scrap/30
+
+
+
 }
+
+
+
 ammoTypes: {
+
+    
     slag: {
         despawnEffect: none
     width: 7
