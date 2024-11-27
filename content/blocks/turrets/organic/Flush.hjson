@@ -2,6 +2,8 @@ name: Flush
 type: LiquidTurret
 health: 315
 reload: 12
+size: 2
+outlineColor: 4e3737
 drawFlare: false
 extinguish: true
 shootSound: Dripshot
