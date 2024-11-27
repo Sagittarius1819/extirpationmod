@@ -2,3 +2,4 @@ type: TreeBlock
 name: Growth
 variants: 2
 shadowAlpha: 0.5
+layer: 79
