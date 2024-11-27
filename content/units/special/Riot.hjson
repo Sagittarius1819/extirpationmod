@@ -9,8 +9,7 @@ crushDamage: 2
 omniMovement: false
 treadPullOffset: 4
 singleTarget: false
-omniMovement: false
-faceTarget: false
+faceTarget: true
 health: 10620
 armor: 10
 speed: 0.5
@@ -29,12 +28,12 @@ forceMultiTarget: true
 weapons: [
 {
 x: 0
-    y: 4.5
+    y: 4
     name: Riot-head
     reload: 100
     recoil: 5
     shootY: 9
-    rotateSpeed: 0.75
+    rotateSpeed: 0.6
     inaccuracy: 20
     rotate: true
     mirror: false
@@ -61,13 +60,11 @@ x: 7
     name: Riot-bliss
     reload: 10
     recoil: 3
-    rotateSpeed: 1
     inaccuracy: 7
     rotate: false
     mirror: true
     alternate: true
     shootSound: MetalShot
-        shootSound: Shotgun
         bullet: {
     pierceArmor: true
     hitEffect: flakExplosion
@@ -79,9 +76,31 @@ x: 7
     pierce: false
     damage: 15
     splashDamage: 15
-    splashDamageRadius: 16
-    ammoMultiplier: 2
-        reloadMultiplier: 1.25
+    splashDamageRadius: 1
+    }
+}
+{
+x: 5.5
+    y: -7
+    name: Riot-splatter
+    reload: 5
+    recoil: 2
+    inaccuracy: 12
+    rotate: false
+    mirror: true
+    alternate: true
+    shootSound: shootAlt
+        bullet: {
+    trailColor: ed4c4c
+    trailInterval: 2
+    TrailRotation: true
+    trailLength: 5
+    type: FlakBulletType
+    width: 5
+    height: 8
+    damage: 8
+    collidesAir: true
+    speed: 5
     }
 }
 ]
