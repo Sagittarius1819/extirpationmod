@@ -2,7 +2,7 @@ name: Bile
 description: A liquid made by melting Copper and Tin.
 effect: Status-Paralyzed
 boilPoint: 0.5
-color: 8c9940
+color: d6ec56
 heatCapacity: 0.35
 gasColor: d9fff3da
 research: {
