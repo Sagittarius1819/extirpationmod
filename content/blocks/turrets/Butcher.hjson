@@ -105,9 +105,8 @@ ammoTypes: {
     splashDamageRadius: 16
     ammoMultiplier: 3
   }
-    Jet: {
+    Blight: {
           trailColor: ffefcf
-    trailInterval: 2
     TrailRotation: true
     trailLength: 5
     pierceArmor: true

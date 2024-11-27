@@ -45,6 +45,7 @@ weapons: [
     trailColor: FAE040
     trailRotation: true
     trailLength: 10
+    trailInterval: 2.5
     trailWidth: 1.25
     type: MissileBulletType
     width: 12
