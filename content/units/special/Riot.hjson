@@ -55,7 +55,7 @@ x: 0
         }
   }
 {
-x: 7
+x: 12
     y: 2
     name: Riot-bliss
     reload: 10
@@ -80,20 +80,21 @@ x: 7
     }
 }
 {
-x: 5.5
-    y: -7
+x: 8
+    y: -9
     name: Riot-splatter
     reload: 5
     recoil: 2
     inaccuracy: 12
     rotate: true
+    rotationLimit: 100
     rotateSpeed: 1.5
     mirror: true
     alternate: true
     shootSound: shootAlt
         bullet: {
     trailColor: ed4c4c
-    trailInterval: 2
+    trailInterval: 0
     TrailRotation: true
     trailLength: 5
     type: FlakBulletType
