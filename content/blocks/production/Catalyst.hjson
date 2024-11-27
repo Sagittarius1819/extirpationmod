@@ -18,7 +18,9 @@ recipes:
          items: [
         extirpation-Blight/2
       ]
-      fluid: Bile/0.6
+       fluids:[
+         Bile/0.6
+       ]
       power: 0.75
   }
   output: {
@@ -30,11 +32,13 @@ recipes:
 }
 {
   input: {
-         items: [
+       items: [
         extirpation-Marble/2
         extirpation-Bloodgrit/3
       ]
-      fluid: Bile/0.6
+      fluids:[
+         Bile/0.6
+       ]
       power: 0.75
   }
   output: {
