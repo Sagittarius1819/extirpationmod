@@ -23,7 +23,7 @@ smokeEffect: {
           sizeFrom: 3.25
           sizeTo: 0.2
         }
-outlineColor: 7f4444
+outlineColor: 361b1b
 coolantMultiplier: 0.5
 researchCostMultiplier: 0.5
 coolant: {

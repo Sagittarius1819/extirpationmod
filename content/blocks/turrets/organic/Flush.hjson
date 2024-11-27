@@ -9,7 +9,7 @@ collidesGround: true
 collidesAir: true
 range: 100
 inaccuracy: 5
-outlineColor: 7f4444
+outlineColor: 361b1b
 drawFlare: false
 extinguish: true
 hasLiquids: true
