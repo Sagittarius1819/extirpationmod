@@ -7,21 +7,29 @@ extinguish: true
 shootSound: Dripshot
 soundPitchMin: 0.5
 soundPitchMax: 1.5
-requirements: {
+requirements: [
     Blight/40
     Marble/45
     Zirconia/30
     scrap/30
+]
 
-
-
-}
-
-
-
+research: {
+  parent: Prowess
+  requirements: [
+    Blight/2000
+    Zirconia/750
+    Marble/1500
+    Scrap/1000
+  ]
+    objectives: [
+    {
+      type: SectorComplete 
+      preset: unsightly
+    }
+  ]
+ }
 ammoTypes: {
-
-    
     slag: {
         despawnEffect: none
     width: 7
