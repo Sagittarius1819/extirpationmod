@@ -6,14 +6,15 @@ insert lore here
 '''
 hitSize: 29
 crushDamage: 2
+omniMovement: false
 treadPullOffset: 4
 singleTarget: false
 omniMovement: false
 faceTarget: false
 health: 10620
 armor: 10
-speed: 0.25
-rotateSpeed: 0.5
+speed: 0.5
+rotateSpeed: 1
 itemCapacity: 0
 outlineColor: 824b4b
 treadRects: [
@@ -32,6 +33,8 @@ x: 0
     name: Riot-head
     reload: 100
     recoil: 5
+    shootY: 9
+    rotateSpeed: 0.75
     inaccuracy: 20
     rotate: true
     mirror: false
