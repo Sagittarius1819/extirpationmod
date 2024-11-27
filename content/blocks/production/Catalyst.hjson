@@ -14,7 +14,7 @@ outputItems: [
 consumes: {
   liquid: Bile/0.6
   power: 0.75
-  item: Blight/1
+  items: {Blight/1}
 }
 craftTime: 60
 craftEffect: smoke
