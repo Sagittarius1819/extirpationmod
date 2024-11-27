@@ -10,7 +10,7 @@ omniMovement: false
 treadPullOffset: 4
 singleTarget: false
 faceTarget: true
-health: 7850
+health: 1480
 armor: 12
 speed: 0.5
 rotateSpeed: 1
