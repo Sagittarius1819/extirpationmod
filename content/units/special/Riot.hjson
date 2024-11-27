@@ -10,8 +10,8 @@ omniMovement: false
 treadPullOffset: 4
 singleTarget: false
 faceTarget: true
-health: 10620
-armor: 10
+health: 4255
+armor: 8
 speed: 0.5
 rotateSpeed: 1
 itemCapacity: 0
@@ -46,10 +46,10 @@ x: 0
         bullet: {
           type: BasicBulletType
           speed: 4
-          lifetime: 32
+          lifetime: 26
           pierce: true
           pierceCap: 2
-          damage: 56
+          damage: 37
           width: 8
           height: 14
         }
@@ -75,7 +75,7 @@ x: 14
     height: 8
     lifetime: 35
     pierce: false
-    damage: 36
+    damage: 32
     splashDamage: 15
     splashDamageRadius: 1
     }
@@ -101,7 +101,7 @@ x: 8
     type: FlakBulletType
     width: 5
     height: 8
-    damage: 20
+    damage: 18
     collidesGround: true
     collidesAir: true
     speed: 5
