@@ -88,3 +88,15 @@ requirements: [
 ]
 researchCostMultiplier: 0.5
   buildCostMultiplier: 0.85
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawSoftParticles
+      region: particle
+    }
+  ]
+}
