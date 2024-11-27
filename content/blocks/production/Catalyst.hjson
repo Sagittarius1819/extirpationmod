@@ -95,16 +95,16 @@ drawer: {
       color: 8c9940
       alpha: 0.85
       particleSize: 0.6
-      particles: 34
+      particles: 40
       particleRad: 7
       particleLife: 60
     }
              {
       type: DrawParticles
-      color: 8c9940
+      color: e2d8ac
       alpha: 0.85
-      particleSize: 0.6
-      particles: 34
+      particleSize: 0.8
+      particles: 28
       particleRad: -7
       particleLife: 60
     }
