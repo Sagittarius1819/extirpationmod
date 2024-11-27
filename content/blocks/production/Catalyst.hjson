@@ -71,10 +71,14 @@ drawer: {
       type: DrawRegion
       suffix: -bottom
     }
-        {
-      type: DrawLiquidTile
-      drawLiquid: extirpation-Bile
-      padding: 1.5
+         {
+      type: DrawParticles
+      color: 8c9940
+      alpha: 0.85
+      particleSize: 0.6
+      particles: 34
+      particleRad: 7
+      particleLife: 60
     }
     {
       type: DrawDefault
