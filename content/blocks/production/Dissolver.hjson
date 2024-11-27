@@ -101,8 +101,8 @@ drawer: {
       particleRad: 13
     }
     {
-        type: DrawCrucibleFlame
-        
+        type: DrawWeave
+        weave: 'circle'
     }
   ]
 }
