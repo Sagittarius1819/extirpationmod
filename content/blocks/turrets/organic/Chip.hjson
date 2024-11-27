@@ -23,7 +23,8 @@ research: {
 researchCostMultiplier: 0.05
 shootSound: Organicshoot
 requirements: [
-  Tin/35
+  Marble/25
+  Blight/15
 ]
 coolant: {
   type: ConsumeCoolant

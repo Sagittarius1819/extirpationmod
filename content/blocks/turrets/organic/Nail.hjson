@@ -25,7 +25,8 @@ shootSound: Organicshoot-dull
 loopSound: distantnoise
 loopSoundVolume: 0.7
 requirements: [
-  Tin/35
+  Marble/35
+  Blight/25
 ]
 coolant: {
   type: ConsumeCoolant
