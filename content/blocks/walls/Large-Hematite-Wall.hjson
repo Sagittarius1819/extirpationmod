@@ -10,7 +10,7 @@ requirements: [
 category: defense
 researchCostMultiplier: 0.25
 research: {
-  parent: Sulphurous-Wall
+  parent: Hematite-Wall
   requirements: [
     Hematite/1630
   ]

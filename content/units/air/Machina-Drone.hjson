@@ -4,6 +4,11 @@ flying: true
 description: A tiny, stupid, weak ship. Its only purpose is to slowly heal blocks.
 speed: 2.25
 range: 60
+mineFloor: true
+mineWalls: true
+mineSpeed: 0.7
+buildSpeed: 0.1
+mineTier: 1
 omniMovement: false
 rotateSpeed: 3.5
 drag: 1.25
