@@ -1,10 +1,18 @@
-name: Nexus- "Forces of Spoliation"
-type: block
-research: {
-parent: CapillaryCore
-requirements: Tin/100
-}
+type: Wall
+name: Nexus- Forces of Spoliation
 description:
 '''
 [#c7202b] An enigmatic interstellar organization that travels planet to planet looking for any way to make profit from selling weaponry, riches, and minerals to any organization that is willing to purchase. They don't care if they have to raze entire ecosystems as long as it brings them their paychecks. Nexus' current focuses have been on churning out as much material as possible from the planet Varelin.[]
 '''
+size: 3
+customShadow: true
+placeablePlayer: false
+requirements: [
+  Tin/100
+]
+research: {
+parent: CapillaryCore
+requirements: Tin/100
+}
+
+researchCostMultiplier: 0.25
