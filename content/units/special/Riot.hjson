@@ -36,6 +36,7 @@ x: 0
         type: ParticleEffect
           particles: 8
           length: -30
+          baseLength: 30
           y: -28
           lifetime: 60
           interp: circleOut
