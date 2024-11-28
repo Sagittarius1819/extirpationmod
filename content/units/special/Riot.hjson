@@ -11,7 +11,7 @@ omniMovement: false
 treadPullOffset: 4
 singleTarget: false
 faceTarget: true
-health: 32000
+health: 31500
 armor: 12
 speed: 0.5
 rotateSpeed: 1
@@ -32,7 +32,7 @@ x: 0
     y: 4
     name: Riot-head
     reload: 100
-        smokeEffect: {
+        ejectEffect: {
         type: ParticleEffect
           particles: 8
           length: -30
@@ -76,7 +76,7 @@ x: 14
     y: 2
     name: Riot-bliss
     reload: 7
-    smokeEffect: {
+    ejectEffect: {
         type: ParticleEffect
           particles: 9
           length: -25
