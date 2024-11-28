@@ -10,6 +10,12 @@ requirements: [
 research: {
 parent: CapillaryCore
 requirements: Tin/100
+    objectives: [
+        {
+            type: OnSector
+            preset: Inception
+        }
+    ]
 }
 
 researchCostMultiplier: 0.25
