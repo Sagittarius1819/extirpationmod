@@ -8,8 +8,10 @@ requirements: [
   Tin/100
 ]
 research: {
-parent: CapillaryCore
-requirements: Tin/100
+parent: Inception
+requirements:  [
+  Tin/100
+]
     objectives: [
         {
             type: OnSector
