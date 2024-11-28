@@ -1,4 +1,6 @@
 name: Nexus- "Forces of Spoliation"
+type: block
+placeablePlayer: false
 research: {
 parent: CapillaryCore
 }
