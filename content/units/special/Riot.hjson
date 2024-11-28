@@ -39,7 +39,7 @@ x: 0
             cone: 360
             particles: 12
             sizeFrom: 25
-            colorFrom: ff7570
+            colorFrom: fcb3b3
             colorTo: ffffff
             sizeTo: 0
                         smokes: 10
