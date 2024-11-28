@@ -32,6 +32,22 @@ x: 0
     y: 4
     name: Riot-head
     reload: 100
+        smokeEffect: {
+        type: ParticleEffect
+          particles: 8
+          length: -30
+          y: -28
+          lifetime: 60
+          interp: circleOut
+          cone: 10
+          colorFrom: fcb3b3
+          rotWithParent: false
+          followParent: false
+          colorTo: 666666
+          sizeFrom: 3.25
+          sizeTo: 0.2
+        }
+    shake: 1.5
     recoil: 5
     shootY: 9
     rotateSpeed: 0.6
@@ -46,8 +62,8 @@ x: 0
         shootSound: Shotgun
         bullet: {
           type: BasicBulletType
-          speed: 4
-          lifetime: 26
+          speed: 5
+          lifetime: 40
           pierce: true
           pierceCap: 2
           damage: 37
@@ -59,9 +75,30 @@ x: 0
 x: 14
     y: 2
     name: Riot-bliss
-    reload: 10
+    reload: 7
+    smokeEffect: {
+        type: ParticleEffect
+          particles: 9
+          length: -25
+          y: -28
+          lifetime: 35
+          interp: circleOut
+          cone: 10
+          colorFrom: fcb3b3
+          rotWithParent: false
+          followParent: false
+          colorTo: 666666
+          sizeFrom: 3.25
+          sizeTo: 0.2
+        }
     shootCone: 100
     recoil: 3
+    shake: 0.8
+        trailColor: a5a5a5
+    trailInterval: 0
+    trailWidth: 2
+    TrailRotation: true
+    trailLength: 5
     inaccuracy: 7
     rotate: false
     mirror: true
@@ -72,11 +109,11 @@ x: 14
     hitEffect: flakExplosion
     type: BasicBulletType
     speed: 7
-    width: 8
-    height: 8
+    width: 10
+    height: 14
     lifetime: 35
     pierce: false
-    damage: 32
+    damage: 28
     splashDamage: 15
     splashDamageRadius: 1
     }
@@ -85,7 +122,7 @@ x: 14
 x: 8
     y: -9
     name: Riot-splatter
-    reload: 5
+    reload: 3
     recoil: 2
     inaccuracy: 12
     rotate: true
@@ -97,12 +134,13 @@ x: 8
         bullet: {
     trailColor: ed4c4c
     trailInterval: 0
+    trailWidth: 2
     TrailRotation: true
     trailLength: 5
     type: FlakBulletType
-    width: 5
-    height: 8
-    damage: 18
+    width: 8
+    height: 13
+    damage: 14
     collidesGround: true
     collidesAir: true
     speed: 5
