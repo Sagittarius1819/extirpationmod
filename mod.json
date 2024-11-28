@@ -1,8 +1,9 @@
 name: extirpation
-displayName: EXTIRPATION BETA
+displayName: EXTIRPATION BETA (English)
 author: Orion & Roj
 description:
 '''
+REQUIRES MULTICRAFTER LIBRARY.
 An Upcoming mod that adds units, blocks, and a new, rusted planet.
 Contributors: Sh1p for minor bases and Roj for ideas.
 Warning, mod is extremely rough, unpolished, and NOT COMPLETED.
@@ -13,6 +14,6 @@ Also be sure to check out our (unfinished) EXTIRPATION music mod.
 
 We encourage you to test out the mod in sandbox first. Thank you, and have fun!
 '''
-version: "1.05"
+version: "1.06"
 minGameVersion: "146"
 dependencies: [multi-crafter]

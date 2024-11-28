@@ -1,0 +1,18 @@
+type: Wall
+name: Large Sulphurous Wall
+description: A large, thick, acidic wall to protect your structures.
+size: 2
+health: 2700
+squareSprite: false
+requirements: [
+  Sulfur/20
+]
+category: defense
+researchCostMultiplier: 0.5
+research: {
+  parent: Hematite-Wall
+  requirements: [
+    Sulfur/1000
+  ]
+}
+buildCostMultiplier: 1.6

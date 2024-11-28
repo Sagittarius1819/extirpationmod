@@ -69,7 +69,7 @@ ammoTypes: {
     lifetime: 40
     damage: 23
     speed: 2.5
-    smokeEffect: {
+    shootEffect: {
         type: ParticleEffect
           particles: 16
           length: 14

@@ -1,0 +1,18 @@
+type: Wall
+name: Huge Plutonium Wall
+description: A huge, very hard, radioactive wall to protect your structures.
+size: 3
+health: 6975
+squareSprite: false
+requirements: [
+  Plutonium/45
+]
+category: defense
+researchCostMultiplier: 0.5
+research: {
+  parent: Hematite-Wall
+  requirements: [
+    Plutonium/7000
+  ]
+}
+buildCostMultiplier: 1.6

@@ -1,18 +1,18 @@
 type: Wall
-name: Hematite Wall
-description: A harder, more durable wall to protect your structures.
+name: Sulphurous Wall
+description: A thick, acidic wall to protect your structures.
 size: 1
-health: 450
+health: 675
 squareSprite: false
 requirements: [
-  Hematite/5
+  Plutonium/5
 ]
 category: defense
 researchCostMultiplier: 0.5
 research: {
-  parent: Tin-Wall
+  parent: Hematite-Wall
   requirements: [
-    Hematite/630
+    Sulfur/775
   ]
 }
 buildCostMultiplier: 1.6
