@@ -1,0 +1,27 @@
+type: Wall
+name: Xeras - ''Hideous Biomass''
+description:
+'''
+A type of "biomass" originating from deep within Varelin's crust, it is composed of a flesh and bone like substance and seemingly holds some sort of sentience & intelligence. Xeras remained inactive until the Nexus made their arrival on Varelin, upon which the biomass started making structures and arachnid-like "infantry" in order to combat the invaders.
+'''
+size: 3
+customShadow: true
+placeablePlayer: false
+requirements: [
+  CopperAlt/100
+  Blight/50
+]
+research: {
+parent: unsightly
+requirements:  [
+  Tin/100
+]
+    objectives: [
+        {
+            type: SectorComplete
+            preset: unsightly
+        }
+    ]
+}
+
+researchCostMultiplier: 0.25

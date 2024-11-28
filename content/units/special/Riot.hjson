@@ -149,10 +149,16 @@ x: 8
 ]
 researchCostMultiplier: 2.25
 research: {
-    parent: CapillaryCore
+    parent: unsightly
     requirements: [
         Blight/25
         Blackplate/5000
         Tin/12000
         CopperAlt/9000]
+            objectives: [
+        {
+            type: SectorComplete
+            preset: unsightly
+        }
+    ]
 }
