@@ -2,17 +2,7 @@ type: tank
 name: Riot
 description:
 '''
-[#99262e]Riot - "A Horrid Prototype"
-When Nexus forces came across the first instance of Xeras and its technology they immediately
-began working towards making their discovery a financial endeavor. Extraction and research operations
-immediately started, they began taking apart and studying their weaponry. This abomination of 
-machinery and crude biomass is a prototype weapon that came as a result of the Nexus' experimentation
- with creating so called "sentient weaponry", it has been nicknamed "Riot" for its violent and 
-destructive nature. The Riot boasts a large shotgun shell firing cannon, two machine guns, and two
-relatively small anti air turrets upon its hull composed entirely of Xeras biomass armor plating. 
-Its armor and heavy weaponry makes it an extremely formidable opponent but it's complicated 
-locomotion system severely slows it down and makes the manual operation of a pilot required
- in order to function.[]
+[#99262e]Riot - "A Horrid Prototype." When Nexus forces came across the first instance of Xeras and its technology they immediately began working towards making their discovery another financial endeavor. Extraction and research operations immediately started, they began taking apart and studying their weaponry. This abomination of machinery and crude biomass is a prototype weapon that came as a result of the Nexus' experimentation with creating so called "sentient weaponry", it has been nicknamed "Riot" for its violent and destructive nature. The Riot boasts a large shotgun shell firing cannon, two machine guns, and two relatively small anti air turrets upon its hull which is composed entirely of Xeras biomass armor plating. Its armor and heavy weaponry makes it an extremely formidable opponent but it's complicated locomotion system severely slows it down and makes the manual operation of a pilot required in order to function. []
 '''
 hitSize: 29
 crushDamage: 2
