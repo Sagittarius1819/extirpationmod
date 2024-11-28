@@ -92,4 +92,4 @@ drawer: {
     }
     ]
 }
-buildCostMultiplier: 0.5
+buildCostMultiplier: 0.3

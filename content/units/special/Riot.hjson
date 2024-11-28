@@ -2,8 +2,8 @@ type: tank
 name: Riot
 description:
 '''
-[#afafaf]test[]
-test test
+[#afafaf]test
+test test[]
 '''
 hitSize: 29
 crushDamage: 2
