@@ -10,7 +10,7 @@ requirements: [
 category: defense
 researchCostMultiplier: 0.5
 research: {
-  parent: Hematite-Wall
+  parent: Plutonium-Wall
   requirements: [
     Plutonium/1000
   ]
