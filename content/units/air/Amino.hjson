@@ -27,6 +27,7 @@ range: 160
     objectives: [
     extirpation-Plutonium
     extirpation-Blight
+    extirpation-Rubblebreaker
   ]
  }
 weapons: [

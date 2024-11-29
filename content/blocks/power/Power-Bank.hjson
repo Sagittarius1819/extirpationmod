@@ -11,6 +11,6 @@ requirements: [
  CopperAlt/60
  Tin/90
 ]
+research: TransmissionTower
 category: power
-research: UtilityPoly
 researchCostMultiplier: 0.5
