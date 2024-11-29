@@ -49,18 +49,44 @@ weapons: [
     trailInterval: 2.5
     trailWidth: 1.25
     type: MissileBulletType
-    width: 12
-    height: 12
+    width: 20
+    height: 20
     splashDamage: 28
     SplashDamageRadius: 16
-    speed: 4.7
-    lifetime: 60
+    speed: 4
+    lifetime: 52
     frontColor: FCF249
     backColor: F6D855
     damage: 125
     despawnSound: dullExplosion
     }
   }
+   {
+  name: HideousWeapon
+  x: 7.5
+  top: true
+  y: 4
+  reload: 17
+  inaccuracy: 6
+  shoot: {
+  type: ShootBarrel
+  shots: 2
+  recoils: 2
+  shotDelay: 3
+}
+  ejectEffect: casing1
+  rotate: true
+  bullet: {
+    lifetime: 75
+    homingPower: 3
+    homingRange: 50
+    speed: 3.5
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    damage: 25
+    width: 9
+    height: 12
+}}
     {
     type: RepairBeamWeapon
     x: 3
