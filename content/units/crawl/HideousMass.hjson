@@ -66,13 +66,44 @@ weapons: [
   x: 7.5
   top: true
   y: 4
+  alternate: true
   reload: 17
   inaccuracy: 6
+  shootSound: shoot
   shoot: {
   type: ShootBarrel
   shots: 2
   recoils: 2
-  shotDelay: 3
+  shotDelay: 6
+}
+  ejectEffect: casing1
+  rotate: true
+  bullet: {
+    lifetime: 75
+    homingPower: 3
+    homingRange: 50
+    speed: 3.5
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    damage: 25
+    width: 9
+    height: 12
+}}
+{
+  name: HideousWeapon
+  x: 5.7
+  top: true
+  y: -4
+  alternate: true
+  reload: 17
+  inaccuracy: 6
+  shootSound: shoot
+  shoot: {
+  type: ShootBarrel
+  shots: 2
+  recoils: 2
+  firstShotDelay: 12
+  shotDelay: 6
 }
   ejectEffect: casing1
   rotate: true
