@@ -22,9 +22,9 @@ research: ArteryCore
 weapons: [
   {
   name: Vessel
-  x: 6
+  x: 7.5
   top: true
-  y: 5.65
+  y: 5.5
   reload: 17
   inaccuracy: 6
   shoot: {
@@ -49,15 +49,16 @@ weapons: [
 }}
 {
   name: Capper
-  x: 0
+  x: -5.65
   top: true
-  y: -5.65
+  y: 0
 shootSound: shootBig
   reload: 50
   inaccuracy: 2.5
   ejectEffect: casing1
   rotate: false
-  mirror: false
+  alternate: true
+  mirror: true
   bullet: {
     lifetime: 130
     speed: 2
