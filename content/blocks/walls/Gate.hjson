@@ -1,4 +1,4 @@
-type: door
+type: AutoDoor
 name: Gate
 description: A door-like structure to let your units in and out of areas 
 size: 1
