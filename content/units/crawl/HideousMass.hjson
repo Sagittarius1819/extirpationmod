@@ -19,7 +19,7 @@ legSpeed: 0.3
 legBaseOffset: 6.75
 legForwardScl: 1
 itemCapacity: 10
-outlineColor: 824b4b
+outlineColor: 524242
 hitSize: 16
 weapons: [
   {
