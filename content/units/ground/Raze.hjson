@@ -21,6 +21,10 @@ researchCostMultiplier: 1.5
     Bronze/5000
     Plutonium/2000
   ]
+  objectives: [
+    extirpation-Plutonium
+    extirpation-Blight
+  ]
  }
 weapons: [
     {

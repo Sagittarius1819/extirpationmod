@@ -24,6 +24,10 @@ range: 160
     Tin/12000
     Plutonium/3000
   ]
+    objectives: [
+    extirpation-Plutonium
+    extirpation-Blight
+  ]
  }
 weapons: [
   {
