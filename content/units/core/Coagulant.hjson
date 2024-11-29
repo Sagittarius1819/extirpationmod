@@ -49,9 +49,9 @@ weapons: [
 }}
 {
   name: Capper
-  x: -5.65
+  x: -6.5
   top: true
-  y: 0
+  y: -2
 shootSound: shootBig
   reload: 50
   inaccuracy: 2.5
