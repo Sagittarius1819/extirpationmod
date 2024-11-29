@@ -69,7 +69,7 @@ weapons: [
   alternate: true
   reload: 17
   inaccuracy: 6
-  shootSound: shoot
+  shootSound: shootAlt
   shoot: {
   type: ShootBarrel
   shots: 2
@@ -97,7 +97,7 @@ weapons: [
   alternate: true
   reload: 17
   inaccuracy: 6
-  shootSound: shoot
+  shootSound: shootAlt
   shoot: {
   type: ShootBarrel
   shots: 2
