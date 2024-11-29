@@ -73,7 +73,7 @@ shootSound: shootBig
     shootSound: shootBig
     width: 16
     splashDamage: 45
-    splashDamage: 20
+    splashDamageRadius: 20
     height: 20
     buildingDamageMultiplier: 0.01
 }}
