@@ -10,7 +10,15 @@ consumes: {
 requirements: [
  CopperAlt/60
  Tin/90
+ Bronze/20
 ]
-research: TransmissionTower
+research: {
+  parent: TransmissionTower
+requirements: [
+ CopperAlt/6000
+ Tin/9000
+ Bronze/2000
+]
+}
 category: power
 researchCostMultiplier: 0.5
