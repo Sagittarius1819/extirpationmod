@@ -15,7 +15,7 @@ research: {
         extirpation-Ignea
     ]
 }
-speed: 45
+speed: 5
 health: 170
 bridgeReplacement: Mini-Driver
 requirements: [
