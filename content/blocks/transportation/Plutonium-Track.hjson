@@ -1,0 +1,26 @@
+type: Duct
+name: Plutonium Track
+description: Quickly transports items Via suction.
+category: distribution
+alwaysUnlocked: true
+research: {
+    parent: hema-conveyor
+
+    requirements: [
+        Plutonium/1000
+        Ignea/500
+    ]
+    objectives: [
+        extirpation-Plutonium
+        extirpation-Ignea
+    ]
+}
+speed: 45
+health: 170
+bridgeReplacement: Mini-Driver
+requirements: [
+  Plutonium/1
+  Ignea/1
+  Hematite/2
+  Tin/2
+]

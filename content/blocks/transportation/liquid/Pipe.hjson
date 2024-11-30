@@ -9,6 +9,6 @@ requirements: [
 health: 75
 leaks: true
 junctionReplacement: Pipe-Junction
-bridgeReplacement: Pipe-Router
+bridgeReplacement: Pipe-Bridge
 underBullets: true
 researchCostMultiplier: 0.5

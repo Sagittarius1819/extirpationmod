@@ -8,7 +8,7 @@ requirements: [
 category: distribution
 speed: 0.08
   health: 130
-bridgeReplacement: nuhuh
+bridgeReplacement: Mini-Driver
 junctionReplacement: Tin-Junction
 research: {
   parent: tin-conveyor
