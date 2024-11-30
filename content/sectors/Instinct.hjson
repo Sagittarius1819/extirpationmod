@@ -1,0 +1,15 @@
+captureWave: 15
+planet: Varelin
+sector: 17
+difficulty: 1
+alwaysUnlocked: false
+research: {
+  parent: unsightly
+    objectives: [
+    extirpation-ArteryCore
+    {
+      type: SectorComplete
+      preset: unsightly
+    }
+  ]
+}
