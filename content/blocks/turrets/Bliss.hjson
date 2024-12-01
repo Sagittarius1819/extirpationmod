@@ -2,6 +2,7 @@ type: ItemTurret
 name: Bliss
 description: Rapidly fires bullets at enemies. More effective against single targets.
 size: 3
+inaccuracy: 2.5
 squareSprite: false
 buildCostMultiplier: 0.2
 reload: 6
