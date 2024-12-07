@@ -1,0 +1,90 @@
+type: legs
+name: Awareness
+description: A large, organic unit that shoots a multitude of weapons at enemies
+speed: 0.65
+health: 550
+armor: 1
+flying: false
+legExtension: -1.5
+legMoveSpace: 1
+hovering: false
+legCount: 8
+legGroupSide: 2
+lockLegBase: true
+legContinuousMove: true
+legLength: 15.5
+legSpeed: 0.45
+legBaseOffset: 10
+legForwardScl: 0.56
+itemCapacity: 10
+outlineColor: 524242
+hitSize: 12
+weapons: [
+  {
+    x: 8.3
+    name: HideousWeapon
+    y: 1
+    reload: 72
+          drawFlare: false
+    shootSound: Eject
+    mirror: true
+    alternate: true
+    top: false
+    rotate: false
+    inaccuracy: 3
+    shoot: {
+      shots: 1
+      shotDelay: 24
+    }
+    bullet: {
+     status: Status-Paralyzed
+    trailColor: a6cc54
+    trailRotation: true
+    trailLength: 10
+    trailWidth: 1.25
+    type: BasicBulletType
+    width: 6
+    height: 72
+    speed: 4
+    lifetime: 55
+    frontColor: aed197
+    backColor: 8aa36d
+    pierce: true
+    pierceBuilding: false
+    pierceCap: 3
+    damage: 75
+    despawnSound: Dripshot
+    }
+  }
+    {
+    type: RepairBeamWeapon
+    x: 0
+    y: 7
+    mirror: false
+    shootCone: 90
+    repairSpeed: 0.15
+    targetBuildings: false
+    targetUnits: true
+    controllable: false
+    aiControllable: true
+    autoTarget: true
+    rotate: true
+    laserColor: d11800
+    healColor: d11800
+    laserTopColor: ffb7ad
+    bullet: {
+      maxRange: 70
+      
+    }
+  }
+]
+ research: {
+  parent: Alert
+  requirements: [
+Hematite/1660
+    Marble/4120
+    Blight/2000
+    Tin/7500
+  ]
+ }
+researchCostMultiplier: 0.75
