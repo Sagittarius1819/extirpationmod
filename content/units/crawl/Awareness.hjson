@@ -9,7 +9,7 @@ legExtension: -1.5
 legMoveSpace: 1
 hovering: false
 legCount: 6
-legGroupSide: 2
+legGroupSide: 3
 lockLegBase: true
 legContinuousMove: true
 legLength: 10
