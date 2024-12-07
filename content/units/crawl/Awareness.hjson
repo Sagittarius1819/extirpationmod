@@ -8,11 +8,11 @@ flying: false
 legExtension: -1.5
 legMoveSpace: 1
 hovering: false
-legCount: 8
+legCount: 6
 legGroupSide: 2
 lockLegBase: true
 legContinuousMove: true
-legLength: 15.5
+legLength: 10
 legSpeed: 0.45
 legBaseOffset: 10
 legForwardScl: 0.56
