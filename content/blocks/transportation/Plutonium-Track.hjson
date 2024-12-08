@@ -13,6 +13,8 @@ research: {
     objectives: [
         extirpation-Plutonium
         extirpation-Ignea
+        Plutonium
+        Ignea
     ]
 }
 speed: 5
