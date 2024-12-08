@@ -39,7 +39,7 @@ weapons: [
     width: 6
     height: 72
     sprite: extirpation-Glob
-    speed: 8.25
+    speed: 6.25
     lifetime: 70
     pierce: true
     pierceBuilding: false
