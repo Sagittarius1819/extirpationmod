@@ -20,6 +20,40 @@ itemCapacity: 10
 outlineColor: 524242
 hitSize: 12
 weapons: [
+    {
+    x: 8.3
+    name: AwareCannon
+    y: -6
+    layer: -1
+    reload: 128
+          drawFlare: false
+    shootSound: Eject
+    mirror: true
+    alternate: true
+    top: false
+    rotate: false
+    inaccuracy: 3
+    bullet: {
+     status: Status-Paralyzed
+    trailColor: a6cc54
+    trailRotation: true
+    trailLength: 10
+    trailWidth: 1.25
+    type: BasicBulletType
+    width: 6
+    height: 72
+    sprite: extirpation-Glob
+    speed: 4
+    lifetime: 55
+    frontColor: aed197
+    backColor: 8aa36d
+    pierce: true
+    pierceBuilding: false
+    pierceCap: 3
+    damage: 75
+    despawnSound: Dripshot
+    }
+  }
   {
     x: 8.3
     name: HideousWeapon
@@ -38,10 +72,41 @@ weapons: [
     }
     bullet: {
      status: Status-Paralyzed
-    trailColor: a6cc54
     trailRotation: true
-    trailLength: 10
-    trailWidth: 1.25
+    type: BasicBulletType
+    width: 6
+    height: 72
+    speed: 4
+    lifetime: 55
+    frontColor: aed197
+    backColor: 8aa36d
+    pierce: true
+    pierceBuilding: false
+    pierceCap: 3
+    damage: 75
+    despawnSound: Dripshot
+    }
+  }
+    {
+    x: 8.75
+    name: HideousWeapon
+    y: 7
+    reload: 72
+          drawFlare: false
+    shootSound: Eject
+    mirror: true
+    alternate: true
+    top: false
+    rotate: false
+    inaccuracy: 3
+    shoot: {
+      shots: 1
+      shotDelay: 24
+      firstShotDelay: 24
+    }
+    bullet: {
+     status: Status-Paralyzed
+    trailRotation: true
     type: BasicBulletType
     width: 6
     height: 72
