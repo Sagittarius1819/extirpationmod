@@ -4,7 +4,7 @@ description: A large, organic unit that shoots a multitude of weapons at enemies
 speed: 0.65
 health: 550
 armor: 1
-rotateSpeed: 0.6
+rotateSpeed: 1
 flying: false
 legExtension: -1.5
 legMoveSpace: 1
@@ -24,8 +24,8 @@ weapons: [
     {
     name: AwareCannon
     y: -6
-    rotateSpeed: 1
-    layer: -1
+    x: 0
+    rotateSpeed: 1.25
     reload: 128
     shootSound: Eject
     mirror: false
@@ -44,6 +44,7 @@ weapons: [
     pierce: true
     pierceBuilding: false
     pierceCap: 3
+    spin: 20
           fragBullets: 3
       fragLifeMin: 1
       fragLifeMax: 1
