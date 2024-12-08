@@ -4,6 +4,7 @@ description: A large, organic unit that shoots a multitude of weapons at enemies
 speed: 0.65
 health: 550
 armor: 1
+rotateSpeed: 0.6
 flying: false
 legExtension: -1.5
 legMoveSpace: 1
@@ -21,9 +22,9 @@ outlineColor: 524242
 hitSize: 12
 weapons: [
     {
-    x: 8.3
     name: AwareCannon
     y: -6
+    rotateSpeed: 1
     layer: -1
     reload: 128
     shootSound: Eject
