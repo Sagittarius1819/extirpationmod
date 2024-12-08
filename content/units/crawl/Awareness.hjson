@@ -27,26 +27,19 @@ weapons: [
     layer: -1
     reload: 128
     shootSound: Eject
-    mirror: true
-    alternate: true
-    top: false
-    rotate: false
+    mirror: false
+    top: true
+    rotate: true
     inaccuracy: 3
     bullet: {
      status: Status-Paralyzed
-    trailColor: a6cc54
     hitEffect: hitMeltdown
-    trailRotation: true
-    trailLength: 10
-    trailWidth: 1.25
     type: BasicBulletType
     width: 6
     height: 72
     sprite: extirpation-Glob
-    speed: 4
-    lifetime: 55
-    frontColor: aed197
-    backColor: 8aa36d
+    speed: 8.25
+    lifetime: 70
     pierce: true
     pierceBuilding: false
     pierceCap: 3
@@ -59,9 +52,6 @@ weapons: [
       fragSpread: 120 
       fragBullet: {
             trailColor: f2fafc
-    trailRotation: true
-    trailLength: 6
-    trailWidth: 2.5
     despawnEffect: none
     width: 7
     trailColor: e89437
@@ -102,15 +92,12 @@ weapons: [
       shotDelay: 24
     }
     bullet: {
-     status: Status-Paralyzed
     trailRotation: true
     type: BasicBulletType
     width: 6
     height: 72
     speed: 4
     lifetime: 55
-    frontColor: aed197
-    backColor: 8aa36d
     pierce: true
     pierceBuilding: false
     pierceCap: 3
@@ -121,7 +108,7 @@ weapons: [
     {
     x: 8.75
     name: HideousWeapon
-    y: 7
+    y: 10.5
     reload: 72
           drawFlare: false
     shootSound: shootAlt
@@ -136,15 +123,12 @@ weapons: [
       firstShotDelay: 24
     }
     bullet: {
-     status: Status-Paralyzed
     trailRotation: true
     type: BasicBulletType
     width: 6
     height: 72
     speed: 4
     lifetime: 55
-    frontColor: aed197
-    backColor: 8aa36d
     pierce: true
     pierceBuilding: false
     pierceCap: 3
