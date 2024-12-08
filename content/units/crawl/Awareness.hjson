@@ -29,8 +29,8 @@ weapons: [
     reload: 128
     shootSound: Eject
     mirror: false
-    frontColor: f2fafc
-    backColor: f2fafc
+    frontColor: e89437
+    backColor: e89437
     top: true
     rotate: true
     inaccuracy: 3
@@ -44,7 +44,7 @@ weapons: [
     speed: 5.5
     lifetime: 70
     pierce: true
-        trailColor: f2fafc
+        trailColor: ffbe3d
     trailRotation: true
     trailLength: 12
     trailWidth: 2.5
@@ -60,7 +60,7 @@ weapons: [
       fragSpread: 120 
       
       fragBullet: {
-            trailColor: f2fafc
+            trailColor: e89437
     despawnEffect: none
     width: 7
     trailColor: e89437
