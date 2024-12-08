@@ -2,7 +2,7 @@ type: legs
 name: Awareness
 description: A large, organic unit that shoots a multitude of weapons at enemies
 speed: 0.65
-health: 550
+health: 3550
 armor: 1
 rotateSpeed: 1
 flying: false
