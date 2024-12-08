@@ -26,7 +26,6 @@ weapons: [
     y: -6
     layer: -1
     reload: 128
-          drawFlare: false
     shootSound: Eject
     mirror: true
     alternate: true
@@ -36,6 +35,7 @@ weapons: [
     bullet: {
      status: Status-Paralyzed
     trailColor: a6cc54
+    hitEffect: hitMeltdown
     trailRotation: true
     trailLength: 10
     trailWidth: 1.25
@@ -50,6 +50,37 @@ weapons: [
     pierce: true
     pierceBuilding: false
     pierceCap: 3
+          fragBullets: 3
+      fragLifeMin: 1
+      fragLifeMax: 1
+      fragVelocityMin: 1
+      fragVelocityMax: 1
+      fragRandomSpread: 0
+      fragSpread: 120 
+      fragBullet: {
+            trailColor: f2fafc
+    trailRotation: true
+    trailLength: 6
+    trailWidth: 2.5
+    despawnEffect: none
+    width: 7
+    trailColor: e89437
+    trailRotation: true
+    trailLength: 5
+    trailWidth: 2.5
+    drawFlare: false
+    hitColor: ffffffCC
+    effect: burning
+    type: LiquidBulletType
+    liquid: slag
+    lifetime: 20
+    damage: 23
+    speed: 2.5
+    length: 9
+    knockback: 1.6
+    pierceCap: 2
+    lightColor: ffffffCC
+      }
     damage: 75
     despawnSound: Dripshot
     }
@@ -60,7 +91,7 @@ weapons: [
     y: 1
     reload: 72
           drawFlare: false
-    shootSound: Eject
+    shootSound: shootAlt
     mirror: true
     alternate: true
     top: false
@@ -93,7 +124,7 @@ weapons: [
     y: 7
     reload: 72
           drawFlare: false
-    shootSound: Eject
+    shootSound: shootAlt
     mirror: true
     alternate: true
     top: false
