@@ -43,8 +43,8 @@ shoot: {
   barrels: [
     -15, 0, 0
     15, 0, 0,
-     12, -20, 0,
-    -12, -20, 0
+     12, -17, 0,
+    -12, -17, 0
   ]
 }
 
@@ -64,7 +64,7 @@ drawer: {
       growY: 0.1
       mirror: false
       recoilIndex: 0
-            recoilIndex: 0
+            recoilIndex: 3
     }
         {
       type: RegionPart
@@ -100,7 +100,7 @@ drawer: {
       growX: 0.1
       growY: 0.1
       mirror: false
-      recoilIndex: 3
+      recoilIndex: 1
     }
   ]
 }
@@ -134,10 +134,10 @@ ammoTypes: {
     type: BasicBulletType
     speed: 5.25
     width: 11
-    height: 14
-    lifetime: 50
+    height: 17
+    lifetime: 65
     pierce: false
-    damage: 20
+    damage: 45
     splashDamage: 17
     splashDamageRadius: 16
     ammoMultiplier: 3
