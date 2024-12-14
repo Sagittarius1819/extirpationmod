@@ -1,0 +1,128 @@
+type: PowerTurret
+name: Boson
+description: Launches a large, radioactive projectile at enemies.
+size: 4
+ solid: true
+category: turret
+research: {
+  parent: Anarchy
+  requirements: [
+    Tin/1500
+    CopperAlt/950
+    Hematite/1000
+    Blackplate/250
+  ]
+    objectives: [
+    {
+      type: SectorComplete 
+      preset: solitude
+    }
+  ]
+ }
+ consumes: {
+  power: 12.5
+}
+researchCostMultiplier: 0.05
+shootSound: magicshot
+  requirements: [
+    Tin/150
+    CopperAlt/95
+    Hematite/100
+    Blackplate/25
+  ]
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.35
+  coolantMultiplier: 45
+}
+hiddenOnPlanets: [serpulo, erekir]
+outlineColor: 342222
+health: 1550
+shootY: 7
+targetAir: false
+targetGround: true
+collidesGround: true
+collidesAir: false
+reload: 180
+range: 320
+velocityRnd: 0.15
+inaccuracy: 3
+scaleLife: true
+drawer: {
+  type: DrawTurret
+  basePrefix: Rusted-
+    parts: [
+    {
+      type: RegionPart
+      suffix: -mouth
+      progress: recoil
+      heatProgress: recoil
+      under: true
+      moveY: -7.5
+      growX: -0.2
+      growY: 0.2
+    }
+    ]
+}
+shootType: {    width: 1.7
+    trailColor: ffb0fa
+    trailInterval: 4
+    trailRotation: trues
+    sprite: extirpation-Glob
+    trailLength: 15
+    trailChance: 0.75
+    trailParam: 40
+    homing: true
+    trailEffect: thoriumShoot     
+    drawFlare: false
+    collidesGround: true
+    width: 200
+    height: 250
+    backColor: ffb0fa
+    frontColor: ffb0fa
+    speed: 4
+    lifetime: 57.5
+    type: ArtilleryBulletType
+    damage: 258
+    fragBullets: 5
+    fragRandomSpread: 360
+    fragVelocityMax: 5
+    fragVelocityMin: 2
+    fragBullet: {
+    type: BasicBulletType
+    lifetime: 55
+        trailColor: 993db3
+    trailInterval: 2
+    TrailRotation: true
+    trailLength: 5
+    speed: 2
+    shootSound: shootBig 
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    damage: 20
+              width: 12
+          height: 12
+    bulletWidth: 9
+    damage: 50
+    bulletHeight: 12
+    buildingDamageMultiplier: 1
+        splashDamageRadius: 20
+            splashDamage: 30
+                        fragBullets: 2
+           fragOffsetMin: 1.2
+           fragLifeMin: 0.5
+           fragLifeMax: 1.5
+        fragBullet: {
+          type: LightningBulletType
+          lightningColor: ff5b54
+          lightningLength: 7.5
+          damage: 10
+          hitSound: spark
+          despawnSound: spark
+          lifetime: 1
+        }
+    }
+    knockback: 1}
+    buildCostMultiplier: 0.55
