@@ -41,10 +41,10 @@ shoot: {
   shots: 1
   barrelOffset: 1
   barrels: [
-    0, 0, 0
-    -2, 0, 0,
-     -2, 0, 0,
-    2, 0, 0
+    -16, 0, 0
+    16, 0, 0,
+     16, -20, 0,
+    -16, -20, 0
   ]
 }
 
@@ -64,6 +64,7 @@ drawer: {
       growY: 0.1
       mirror: false
       recoilIndex: 0
+            recoilIndex: 0
     }
         {
       type: RegionPart
@@ -87,7 +88,7 @@ drawer: {
       growX: 0.1
       growY: 0.1
       mirror: false
-      recoilIndex: 1
+      recoilIndex: 2
     }
                 {
       type: RegionPart
@@ -99,7 +100,7 @@ drawer: {
       growX: 0.1
       growY: 0.1
       mirror: false
-      recoilIndex: 1
+      recoilIndex: 3
     }
   ]
 }
