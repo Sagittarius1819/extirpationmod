@@ -90,12 +90,10 @@ shootType: {    width: 1.7
     fragBullets: 6
     fragRandomSpread: 360
     fragVelocityMax: 0.8
-    fragLifeMax: 40
-    fragLifeMin: 20
     fragVelocityMin: 0.4
     fragBullet: {
     type: BasicBulletType
-    lifetime: 55
+    lifetime: 10
         trailColor: 993db3
     trailInterval: 2
     TrailRotation: true
