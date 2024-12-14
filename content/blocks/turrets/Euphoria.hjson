@@ -135,7 +135,7 @@ ammoTypes: {
     hitEffect: flakExplosion
     type: BasicBulletType
     speed: 5.25
-    width: 11
+    width: 6
     height: 17
     lifetime: 65
     pierce: false
@@ -145,8 +145,8 @@ ammoTypes: {
     splashDamageRadius: 16
     ammoMultiplier: 3
     homing: true
-    weaveMag: 1.5
-    weaveScale: 10
+    weaveMag: 1.25
+    weaveScale: 7
     homingPower: 0.1
   }
     }
