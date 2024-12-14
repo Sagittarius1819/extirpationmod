@@ -1,13 +1,13 @@
 type: ItemTurret
-name: Bliss
-description: Rapidly fires bullets at enemies. More effective against single targets.
-size: 3
-inaccuracy: 2.5
+name: Euphoria
+description: Rapidly blasts a barrage of bullets at enemies.
+size: 5
+inaccuracy: 1
 squareSprite: false
 buildCostMultiplier: 0.2
 reload: 6
-health: 465
-range: 200
+health: 1640
+range: 350
 smokeEffect: {
         type: ParticleEffect
           particles: 16
@@ -33,22 +33,33 @@ coolant: {
   amount: 0.5
 }
 shoot: {
-  type: ShootAlternate
   spread: 10
   shotDelay: 4
- recoils: 2
+ recoils: 4
+  type: ShootBarrel
+  barrels: 4
+  shots: 1
+  barrelOffset: 1
+  barrels: [
+    0, 0, 0
+    -2, 0, 0,
+     -2, 0, 0,
+    2, 0, 0
+  ]
 }
-recoils: 2
+
+recoils: 4
 drawer: {
   type: DrawTurret
   basePrefix: Blissful-
   parts: [
     {
       type: RegionPart
-      suffix: -barrel-l
+      suffix: -topl
       progress: recoil
       under: false
       moveY: -5
+     moveX: 2
       growX: 0.1
       growY: 0.1
       mirror: false
@@ -56,10 +67,35 @@ drawer: {
     }
         {
       type: RegionPart
-      suffix: -barrel-r
+      suffix: -topr
       progress: recoil
       under: false
       moveY: -5
+      moveX: -2
+      growX: 0.1
+      growY: 0.1
+      mirror: false
+      recoilIndex: 1
+    }
+            {
+      type: RegionPart
+      suffix: -bottomr
+      progress: recoil
+      under: false
+      moveY: -6
+      moveX: -2
+      growX: 0.1
+      growY: 0.1
+      mirror: false
+      recoilIndex: 1
+    }
+                {
+      type: RegionPart
+      suffix: -bottoml
+      progress: recoil
+      under: false
+      moveY: -6
+      moveX: 2
       growX: 0.1
       growY: 0.1
       mirror: false
