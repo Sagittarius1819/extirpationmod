@@ -87,10 +87,12 @@ shootType: {    width: 1.7
     lifetime: 57.5
     type: ArtilleryBulletType
     damage: 258
-    fragBullets: 6
+    fragBullets: 8
     fragRandomSpread: 360
     fragVelocityMax: 0.8
     fragVelocityMin: 0.4
+    fragLifeMin: 0
+        fragLifeMax: 1
     fragBullet: {
     type: BasicBulletType
     lifetime: 10
@@ -102,11 +104,10 @@ shootType: {    width: 1.7
     shootSound: shootBig 
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
-    damage: 20
+    damage: 25
               width: 12
           height: 12
     bulletWidth: 9
-    damage: 50
     bulletHeight: 12
     buildingDamageMultiplier: 1
         splashDamageRadius: 20
