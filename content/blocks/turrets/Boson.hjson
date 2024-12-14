@@ -20,7 +20,7 @@ research: {
   ]
  }
  consumes: {
-  power: 12.5
+  power: 29.5
 }
 researchCostMultiplier: 0.05
 shootSound: magicshot
