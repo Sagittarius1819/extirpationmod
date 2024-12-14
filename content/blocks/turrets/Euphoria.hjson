@@ -120,7 +120,9 @@ research: {
     }
   ]
 }
-shootSound: MetalShot
+shootSound: MachineGun
+soundPitchMin: 0.5
+soundPitchMax: 2
 requirements: [
  Tin/320
  CopperAlt/260
@@ -137,13 +139,14 @@ ammoTypes: {
     height: 17
     lifetime: 65
     pierce: false
+    sprite: JoyBullet
     damage: 45
     splashDamage: 17
     splashDamageRadius: 16
     ammoMultiplier: 3
     homing: true
-    weaveMag: 10
-    weaveScale: 2
+    weaveMag: 1.5
+    weaveScale: 10
     homingPower: 0.1
   }
     }
