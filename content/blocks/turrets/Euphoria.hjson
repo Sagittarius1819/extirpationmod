@@ -5,7 +5,7 @@ size: 5
 inaccuracy: 1
 squareSprite: false
 buildCostMultiplier: 0.2
-reload: 6
+reload: 4
 health: 1640
 range: 350
 smokeEffect: {
@@ -43,8 +43,8 @@ shoot: {
   barrels: [
     -15, 0, 0
     15, 0, 0,
-     6, -22, 0,
-    -6, -22, 0
+     12, -20, 0,
+    -12, -20, 0
   ]
 }
 
@@ -89,7 +89,6 @@ drawer: {
       growY: 0.1
       mirror: false
       recoilIndex: 2
-     moveRot: -20
     }
                 {
       type: RegionPart
@@ -101,7 +100,6 @@ drawer: {
       growX: 0.1
       growY: 0.1
       mirror: false
-       moveRot: 20
       recoilIndex: 3
     }
   ]
@@ -130,11 +128,11 @@ requirements: [
  Hematite/250
 ]
 ammoTypes: {
-  Hematite: {
+  Bronze: {
     pierceArmor: true
     hitEffect: flakExplosion
     type: BasicBulletType
-    speed: 4
+    speed: 5.25
     width: 11
     height: 14
     lifetime: 50
@@ -143,5 +141,9 @@ ammoTypes: {
     splashDamage: 17
     splashDamageRadius: 16
     ammoMultiplier: 3
+    homing: true
+    weaveMag: 1
+    weaveScale: 2
+    homingPower: 0.1
   }
     }
