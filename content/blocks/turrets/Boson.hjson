@@ -102,6 +102,8 @@ shootType: {    width: 1.7
     sprite: extirpation-Glob
     spin: 10
     trailLength: 5
+        backColor: ffb0fa
+    frontColor: ffb0fa
     speed: 2
     shootSound: shootBig 
     shootEffect: shootBig
