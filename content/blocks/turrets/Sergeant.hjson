@@ -65,7 +65,7 @@ ammoTypes: {
     speed: 3.25
   }
   Bronze: {
-        sprite: JoyBullet
+        sprite: extirpation-JoyBullet
     type: BasicBulletType
     width: 10
     height: 13

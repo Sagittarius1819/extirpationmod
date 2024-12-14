@@ -5,7 +5,7 @@ size: 5
 inaccuracy: 1
 squareSprite: false
 buildCostMultiplier: 0.2
-reload: 4
+reload: 4.25
 health: 1640
 range: 350
 smokeEffect: {
@@ -120,7 +120,7 @@ research: {
     }
   ]
 }
-shootSound: MachineGun
+shootSound: shoot
 soundPitchMin: 0.5
 soundPitchMax: 2
 requirements: [
@@ -139,7 +139,7 @@ ammoTypes: {
     height: 17
     lifetime: 65
     pierce: false
-    sprite: JoyBullet
+    sprite: extirpation-JoyBullet
     damage: 45
     splashDamage: 17
     splashDamageRadius: 16
