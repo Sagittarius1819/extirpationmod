@@ -99,6 +99,8 @@ shootType: {    width: 1.7
         trailColor: 993db3
     trailInterval: 2
     TrailRotation: true
+    sprite: extirpation-Glob
+    spin: 10
     trailLength: 5
     speed: 2
     shootSound: shootBig 
