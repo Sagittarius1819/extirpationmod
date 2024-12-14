@@ -54,20 +54,22 @@ targetAir: false
 targetGround: true
 collidesGround: true
 collidesAir: false
-reload: 16
-range: 40
+reload: 64
+range: 150
 velocityRnd: 0.2
 inaccuracy: 9
 scaleLife: true
 shoot: {
-  shots: 1
-  shotDelay: 0.4
+  shots: 4
+  shotDelay: 3
 }
 ammoTypes: {
   Jet: {
     type: BasicBulletType
     damage: 30
     effect: burning
+    weaveMag: 3
+    weaveScale: 1
     width: 7
     collidesGround: true
     height: 9
