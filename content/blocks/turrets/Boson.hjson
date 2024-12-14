@@ -105,6 +105,9 @@ shootType: {    width: 1.7
         backColor: ffb0fa
     frontColor: ffb0fa
     speed: 2
+    homing: true
+    homingPower: 0.25
+    homingRange: 60
     shootSound: shootBig 
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
