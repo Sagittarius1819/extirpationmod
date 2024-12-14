@@ -104,7 +104,7 @@ shootType: {    width: 1.7
     trailLength: 5
         backColor: ffb0fa
     frontColor: ffb0fa
-    speed: 2
+    speed: 5
     homing: true
     homingPower: 0.25
     homingRange: 60
