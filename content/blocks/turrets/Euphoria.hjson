@@ -41,10 +41,10 @@ shoot: {
   shots: 1
   barrelOffset: 1
   barrels: [
-    -16, 0, 0
-    16, 0, 0,
-     16, -20, 0,
-    -16, -20, 0
+    -15, 0, 0
+    15, 0, 0,
+     6, -22, 0,
+    -6, -22, 0
   ]
 }
 
@@ -89,6 +89,7 @@ drawer: {
       growY: 0.1
       mirror: false
       recoilIndex: 2
+     moveRot: -10
     }
                 {
       type: RegionPart
@@ -100,6 +101,7 @@ drawer: {
       growX: 0.1
       growY: 0.1
       mirror: false
+       moveRot: 10
       recoilIndex: 3
     }
   ]
@@ -128,7 +130,7 @@ requirements: [
  Hematite/250
 ]
 ammoTypes: {
-  Bronze: {
+  Hematite: {
     pierceArmor: true
     hitEffect: flakExplosion
     type: BasicBulletType
@@ -142,51 +144,4 @@ ammoTypes: {
     splashDamageRadius: 16
     ammoMultiplier: 3
   }
-    Jet: {
-          trailColor: ffefcf
-    trailInterval: 2
-    TrailRotation: true
-    trailLength: 5
-    pierceArmor: true
-    hitEffect: flakExplosion
-    type: BasicBulletType
-    speed: 5
-    width: 11
-    height: 14
-    lifetime: 40
-    pierce: false
-    damage: 10
-    status: blasted
-    ammoMultiplier: 3
-  }
-    Blackplate: {
-    pierceArmor: true
-    hitEffect: flakExplosion
-    type: BasicBulletType
-    speed: 6
-    width: 11
-    height: 14
-    lifetime: 40
-    pierce: false
-    damage: 26
-    splashDamage: 25
-    splashDamageRadius: 16
-    ammoMultiplier: 3
-        reloadMultiplier: 1.15
-  }
-      Hematite: {
-    pierceArmor: true
-    hitEffect: flakExplosion
-    type: BasicBulletType
-    speed: 7
-    width: 8
-    height: 8
-    lifetime: 35
-    pierce: false
-    damage: 10
-    splashDamage: 15
-    splashDamageRadius: 16
-    ammoMultiplier: 2
-        reloadMultiplier: 1.25
-}
     }
