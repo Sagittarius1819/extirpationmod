@@ -92,9 +92,9 @@ shootType: {    width: 1.7
     fragVelocityMax: 0.8
     fragVelocityMin: 0.4
            fragLifeMin: 0.5
-           fragLifeMax: 3.5
+           fragLifeMax: 2
     fragBullet: {
-    type: BasicBulletType
+    type: ArtilleryBulletType
     lifetime: 35
         trailColor: 993db3
     trailInterval: 2
@@ -112,15 +112,15 @@ shootType: {    width: 1.7
     buildingDamageMultiplier: 1
         splashDamageRadius: 20
             splashDamage: 30
-                        fragBullets: 4
-           fragOffsetMin: 1.2
+                        fragBullets: 3
+           fragOffsetMin: 1.4
            fragLifeMin: 0.5
-           fragLifeMax: 1.5
+           fragLifeMax: 2
         fragBullet: {
           type: LightningBulletType
           lightningColor: ffb0fa
-          lightningLength: 13.5
-          damage: 12
+          lightningLength: 9.5
+          damage: 30
           hitSound: spark
           despawnSound: spark
           lifetime: 1
