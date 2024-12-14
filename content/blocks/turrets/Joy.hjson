@@ -1,0 +1,78 @@
+type: ItemTurret
+name: Joy
+description: Launches large chunks of scrap metal at enemies.
+size: 1
+ solid: true
+category: turret
+research: {
+  parent: CapillaryCore
+  requirements: [
+    Tin/150
+    CopperAlt/80
+    Bronze/35
+  ]
+    objectives: [
+    {
+      type: OnSector 
+      preset: Inception
+    }
+  ]
+ }
+researchCostMultiplier: 0.05
+shootSound: shoot
+  requirements: [
+    Tin/75
+    CopperAlt/60
+    Bronze/45
+  ]
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.1
+}
+hiddenOnPlanets: [serpulo, erekir]
+outlineColor: 100d0d
+damage: 7
+health: 260
+targetAir: false
+targetGround: true
+collidesGround: true
+collidesAir: false
+reload: 7
+range: 70
+velocityRnd: 0.2
+inaccuracy: 9
+scaleLife: true
+shoot: {
+  shots: 1
+  shotDelay: 0.4
+}
+ammoTypes: {
+  Jet: {
+    type: BasicBulletType
+    damage: 30
+    effect: burning
+    width: 7
+    collidesGround: true
+    height: 9
+        lifetime: 60
+    speed: 3
+  }
+  Bronze: {
+    type: BasicBulletType
+    width: 7
+    height: 9
+        lifetime: 60
+    damage: 58
+    speed: 3.25
+        reloadMultiplier: 1.33
+    collidesGround: true
+    splashDamage: 5
+    splashDamageRadius: 10
+  }
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: Blissful-
+}

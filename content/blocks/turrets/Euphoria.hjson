@@ -7,6 +7,7 @@ squareSprite: false
 buildCostMultiplier: 0.2
 reload: 4.25
 health: 1640
+recoil: 6
 range: 350
 smokeEffect: {
         type: ParticleEffect
