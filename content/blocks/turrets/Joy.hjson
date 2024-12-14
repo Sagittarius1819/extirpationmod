@@ -4,6 +4,21 @@ description: Launches large chunks of scrap metal at enemies.
 size: 1
  solid: true
 category: turret
+smokeEffect: {
+        type: ParticleEffect
+          particles: 8
+          length: -20
+          y: -28
+          lifetime: 45
+          interp: circleOut
+          cone: 10
+          colorFrom: fcb3b3
+          rotWithParent: false
+          followParent: false
+          colorTo: 666666
+          sizeFrom: 3.25
+          sizeTo: 0.2
+        }
 research: {
   parent: CapillaryCore
   requirements: [
@@ -39,8 +54,8 @@ targetAir: false
 targetGround: true
 collidesGround: true
 collidesAir: false
-reload: 7
-range: 70
+reload: 16
+range: 40
 velocityRnd: 0.2
 inaccuracy: 9
 scaleLife: true
@@ -56,14 +71,16 @@ ammoTypes: {
     width: 7
     collidesGround: true
     height: 9
-        lifetime: 60
+    spin: 10
+        lifetime: 30
     speed: 3
   }
   Bronze: {
     type: BasicBulletType
     width: 7
     height: 9
-        lifetime: 60
+    spin: 10
+        lifetime: 30
     damage: 58
     speed: 3.25
         reloadMultiplier: 1.33
