@@ -64,7 +64,7 @@ drawer: {
       growY: 0.1
       mirror: false
       recoilIndex: 0
-            recoilIndex: 3
+            recoilIndex: 1
     }
         {
       type: RegionPart
@@ -76,7 +76,7 @@ drawer: {
       growX: 0.1
       growY: 0.1
       mirror: false
-      recoilIndex: 1
+      recoilIndex: 3
     }
             {
       type: RegionPart
@@ -142,7 +142,7 @@ ammoTypes: {
     splashDamageRadius: 16
     ammoMultiplier: 3
     homing: true
-    weaveMag: 1
+    weaveMag: 10
     weaveScale: 2
     homingPower: 0.1
   }
